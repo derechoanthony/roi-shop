@@ -1,0 +1,12 @@
+.advancedmd-background{
+	background-color: rgb(250,141,41);
+	color: white;
+}
+.profile-element {
+	background-color:white;
+	margin: 5px;
+	padding: 8px;
+}
+p.caption-text {
+	font-size: 18px;
+}

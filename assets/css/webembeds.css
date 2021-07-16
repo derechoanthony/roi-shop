@@ -1,0 +1,10 @@
+.jumbotron { color: #6d295a; height: 100%; font-weight: 100; font-family: Arial; }
+.jumbotron h1 { letter-spacing: 1px; font-size: 6em; padding-bottom: 15px; border-bottom: 8px solid rgb(181, 189, 0); margin-bottom: 35px; }
+.jumbotron h2 { font-size: 42px; line-height: 46px; color: #53565a; }
+.jumbotron p{ margin-top: 28px; font-size: 28px; color: #53565a; line-height: 32px; }
+.jumbotron p a.btn-lg { padding: 15px 35px; }
+.align-right { text-align: right; }
+.form-group div.col-lg-4 { padding-top: 7px; }
+.control-label { color: #53565a; font-size: 18px; }
+.well legend { font-size: 20px; }
+.navigation { position: absolute; bottom: 0; width: 100%; }

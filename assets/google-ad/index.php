@@ -1,0 +1,1 @@
+<?php header("Location: https://theroishop.hubspotpagebuilder.com/no-decisions-0"); ?>

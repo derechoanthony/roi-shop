@@ -1,0 +1,44 @@
+[
+    {
+        "name": "stillat/numeral.php",
+        "version": "1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Stillat/numeral.php.git",
+            "reference": "29d61e3983b7c6096176a08a6692f500e649824b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Stillat/numeral.php/zipball/29d61e3983b7c6096176a08a6692f500e649824b",
+            "reference": "29d61e3983b7c6096176a08a6692f500e649824b",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.9"
+        },
+        "require-dev": {
+            "mockery/mockery": "~0.9.2",
+            "phpunit/phpunit": "~4.0"
+        },
+        "time": "2016-04-13T17:59:57+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Stillat\\Numeral\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Johnathon Koster",
+                "email": "john@stillat.com"
+            }
+        ],
+        "description": "A PHP port of adamwdraper/Numeral-js"
+    }
+]

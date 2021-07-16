@@ -1,0 +1,839 @@
+.loading {
+    border: 6px solid #ccc;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border-top-color: #1ecd97;
+    border-left-color: #1ecd97;
+    animation: spin 1s infinite ease-in-out;
+}
+@keyframes spin {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(720deg);
+    }
+}.favorite {
+	min-height: 23px;
+	font-size: 23px;
+}
+.fa-star-o {
+	color: #8B8982;
+}
+.fa-star {
+	color: #F47321;
+}
+.rsmodal-icon {
+    width: 80px;
+    height: 80px;
+    border: 4px solid transparent;
+    border-radius: 50%;
+    margin: 20px auto 30px;
+    padding: 0;
+    position: relative;
+    box-sizing: content-box;
+    cursor: default;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.rsmodal-warning {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color: #f8bb86;
+	border-color: #facea8;
+	font-size: 60px;
+	line-height: 80px;
+	text-align: center;
+}
+.rsmodal .rsmodal-title {
+    color: #595959;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+    text-transform: none;
+    position: relative;
+    margin: 0 0 .4em;
+    padding: 0;
+    display: block;
+    word-wrap: break-word;
+}
+.rsmodal .rsmodal-content {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 300;
+    position: relative;
+    float: none;
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+    color: #545454;
+    word-wrap: break-word;
+}
+.rsmodal-button {
+    border: 0;
+    border-radius: 3px;
+    box-shadow: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 10px 32px;	
+}
+.rsmodal-confirm {
+	background-color: rgb(48, 133, 214);
+    border-left-color: rgb(48, 133, 214);
+    border-right-color: rgb(48, 133, 214);
+}
+.rsmodal-confirm:hover {
+	background-color: rgb(43, 120, 193);
+	color: #eee;
+}
+.rsmodal-confirm:focus {
+	background-color: rgb(43, 120, 193);
+	color: #eee;
+}
+.rsmodal-cancel {
+	background-color: rgb(221, 51, 51);
+}
+.rsmodal-cancel:hover {
+	background-color: rgb(199, 46, 46);
+	color: #eee;
+}
+
+.rs-check {
+    height: 25px;
+    line-height: 25px;
+    margin-bottom: 15px;
+    display: inline-block
+}
+
+.rs-check label {
+    height: inherit;
+    display: block
+}
+
+.rs-check input[type=radio],
+.rs-check input[type=checkbox] {
+    display: none
+}
+
+.rs-check i {
+    float: left;
+    width: 55px;
+    height: 25px;
+    margin-right: 5px;
+    font-style: normal;
+    position: relative;
+    display: inline-block;
+    background: rgba(0, 0, 0, .3)
+}
+
+.rs-check[data-style=radio] i,
+.rs-check[data-style=check] i {
+    width: 25px
+}
+
+.rs-check i:after,
+.rs-check i:before {
+    content: '';
+    position: absolute
+}
+
+.rs-check i:before {
+    top: 2px;
+    left: 2px;
+    z-index: 1;
+    width: 21px;
+    height: 21px;
+    background: #eee;
+    transition: all .2s ease-in-out 0s
+}
+
+.rs-check input:checked+label i {
+    background: #2196f3
+}
+
+.rs-check input:checked+label i:before {
+    left: 32px
+}
+
+.rs-check[data-style=radio] i:before {
+    background: #ddd;
+    border: 2px solid transparent
+}
+
+.rs-check[data-style=radio] input:checked+label i:before {
+    border-color: #fff;
+    background: #2196f3;
+    left: 2px!important
+}
+
+.rs-check[data-style=check] i {
+    background: #ddd;
+    border: 2px solid #7f8c8d;
+    border: 2px solid rgba(0, 0, 0, .2)
+}
+
+.rs-check[data-style=check] i:after,
+.rs-check[data-style=check] i:before {
+    width: 0;
+    background: 0 0;
+    border-right: 2px solid transparent
+}
+
+.rs-check[data-style=check] i:before {
+    top: 10px;
+    left: 7px;
+    height: 6px;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg)
+}
+
+.rs-check[data-style=check] i:after {
+    top: 5px;
+    padding: 0!important;
+    left: 12px!important;
+    height: 12px!important;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    transition: all .2s ease-in-out 0s
+}
+
+.rs-check[data-style=check] input:checked+label i:after,
+.rs-check[data-style=check] input:checked+label i:before {
+    border-color: #fff
+}
+
+.rs-check[data-style=check] input:checked+label i:before {
+    left: 7px
+}
+
+.rs-check[data-align=right] i {
+    float: right;
+    margin-right: 0;
+    margin-left: 5px
+}
+
+.rs-check[data-text=true] i:after {
+    left: 22px;
+    color: #eee;
+    height: 25px;
+    content: 'Off';
+    padding: 0 4px;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, .8);
+    transition: all .2s ease-in-out 0s
+}
+
+.rs-check[data-text=true] input:checked+label i:after {
+    left: 0;
+    content: 'On'
+}
+
+.rs-check[data-style=radio] i:after,
+.rs-check[data-style=radio] input:checked+label i:after,
+.rs-check[data-style=check] i:after,
+.rs-check[data-style=check] input:checked+label i:after {
+    content: ''
+}
+
+.rs-check[data-radius=true] i {
+    border-radius: 25px
+}
+
+.rs-check[data-radius=true] i:before {
+    border-radius: inherit
+}
+
+.rs-check input:disabled+label {
+    color: #888;
+    cursor: not-allowed
+}
+
+.rs-check input:disabled+label i {
+    background: #ccc
+}
+
+.rs-check input:disabled+label i:after {
+    color: #ddd
+}
+
+.rs-check[data-style=check] input:disabled+label i {
+    background: #ddd;
+    border-color: #ccc
+}
+
+.rs-check[data-size="2"] {
+    height: 30px;
+    line-height: 30px
+}
+
+.rs-check[data-size="2"] label i {
+    width: 60px;
+    height: inherit
+}
+
+.rs-check[data-size="2"][data-style=radio] label i,
+.rs-check[data-size="2"][data-style=check] label i {
+    width: 30px
+}
+
+.rs-check[data-size="2"] label i:after {
+    left: 28px;
+    height: inherit;
+    line-height: 30px
+}
+
+.rs-check[data-size="2"] label i:before {
+    width: 26px;
+    height: 26px
+}
+
+.rs-check[data-size="2"][data-style=check] label i:before {
+    width: 0;
+    height: 7px
+}
+
+.rs-check[data-size="2"][data-style=check] label i:after {
+    top: 5px;
+    left: 15px!important;
+    height: 15px!important
+}
+
+.rs-check[data-size="2"][data-style=check] input:checked+label i:before,
+.rs-check[data-size="2"][data-style=check] label i:before {
+    top: 12px;
+    left: 8px;
+    border-radius: 0
+}
+
+.rs-check[data-size="2"] label i[data-after-check]:before,
+.rs-check[data-size="2"] label i[data-before-check]:before {
+    line-height: 26px
+}
+
+.rs-check[data-size="2"][data-style=radio] input:checked+label i[data-after-check]:before,
+.rs-check[data-size="2"][data-style=radio] input:checked+label i[data-before-check]:before,
+.rs-check[data-size="2"][data-style=check] input:checked+label i[data-after-check]:before,
+.rs-check[data-size="2"][data-style=check] input:checked+label i[data-before-check]:before {
+    left: 2px
+}
+
+.rs-check[data-size="2"][data-style=check] label i[data-after-check]:before,
+.rs-check[data-size="2"][data-style=check] label i[data-before-check]:before {
+    width: inherit
+}
+
+.rs-check[data-size="3"] {
+    height: 40px;
+    line-height: 40px
+}
+
+.rs-check[data-size="3"] label i {
+    width: 80px;
+    height: inherit
+}
+
+.rs-check[data-size="3"][data-style=radio] label i,
+.rs-check[data-size="3"][data-style=check] label i {
+    width: 40px
+}
+
+.rs-check[data-size="3"] input:checked+label i:before {
+    left: 42px
+}
+
+.rs-check[data-size="3"] label i:after {
+    left: 42px;
+    font-size: 16px;
+    height: inherit;
+    line-height: 40px
+}
+
+.rs-check[data-size="3"] label i:before {
+    width: 36px;
+    height: 36px
+}
+
+.rs-check[data-size="3"][data-style=check] label i:before {
+    width: 0;
+    height: 7px
+}
+
+.rs-check[data-size="3"][data-style=check] label i:after {
+    top: 10px;
+    left: 21px!important;
+    height: 20px!important
+}
+
+.rs-check[data-size="3"][data-style=check] input:checked+label i:before,
+.rs-check[data-size="3"][data-style=check] label i:before {
+    top: 20px;
+    left: 12px;
+    border-radius: 0
+}
+
+.rs-check[data-size="3"] label i[data-after-check]:before,
+.rs-check[data-size="3"] label i[data-before-check]:before {
+    font-size: 24px;
+    line-height: 36px
+}
+
+.rs-check[data-size="3"][data-style=radio] input:checked+label i[data-after-check]:before,
+.rs-check[data-size="3"][data-style=radio] input:checked+label i[data-before-check]:before,
+.rs-check[data-size="3"][data-style=check] input:checked+label i[data-after-check]:before,
+.rs-check[data-size="3"][data-style=check] input:checked+label i[data-before-check]:before {
+    left: 2px
+}
+
+.rs-check[data-size="3"][data-style=check] label i[data-after-check]:before,
+.rs-check[data-size="3"][data-style=check] label i[data-before-check]:before {
+    width: inherit
+}
+
+.rs-check i[data-after-check]:after,
+.rs-check i[data-after-check]:before,
+.rs-check i[data-before-check]:after,
+.rs-check i[data-before-check]:before {
+    border: none
+}
+
+.rs-check i[data-before-check]:before {
+    color: #7f8c8d;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+    font-family: FontAwesome;
+    content: attr(data-before-check)
+}
+
+.rs-check input:checked+label i[data-after-check]:before {
+    color: #fff;
+    background: rgba(0, 0, 0, .1);
+    content: attr(data-after-check)
+}
+
+.rs-check[data-style=check] input:checked+label i[data-after-check]:before {
+    height: 100%;
+    background: 0 0!important
+}
+
+.rs-check[data-style=check] i[data-before-check]:before {
+    width: inherit;
+    height: inherit;
+    line-height: 25px;
+    top: -2px!important;
+    left: -2px!important
+}
+
+.rs-check[data-color] input:disabled+label i:after {
+    color: rgba(0, 0, 0, .3)
+}
+
+.rs-check[data-color] i[data-before-check]:before {
+    color: #fff;
+    background: rgba(255, 255, 255, .2)
+}
+
+.rs-check[data-color=red] i {
+    background: rgba(243, 66, 53, .6)
+}
+
+.rs-check[data-color=red] input:checked+label i,
+.rs-check[data-style=radio][data-color=red] input:checked+label i:before {
+    background: rgba(243, 66, 53, 1)
+}
+
+.rs-check[data-color=red] input:disabled+label i {
+    background: rgba(243, 66, 53, .4)
+}
+
+.rs-check[data-color=pink] i {
+    background: rgba(233, 30, 99, .6)
+}
+
+.rs-check[data-color=pink] input:checked+label i,
+.rs-check[data-style=radio][data-color=pink] input:checked+label i:before {
+    background: rgba(233, 30, 99, 1)
+}
+
+.rs-check[data-color=pink] input:disabled+label i {
+    background: rgba(233, 30, 99, .4)
+}
+
+.rs-check[data-color=black] i {
+    background: rgba(54, 63, 69, .6)
+}
+
+.rs-check[data-color=black] input:checked+label i,
+.rs-check[data-style=radio][data-color=black] input:checked+label i:before {
+    background: rgba(54, 63, 69, 1)
+}
+
+.rs-check[data-color=black] input:disabled+label i {
+    background: rgba(54, 63, 69, .4)
+}
+
+.rs-check[data-color=purple] i {
+    background: rgba(156, 39, 176, .6)
+}
+
+.rs-check[data-color=purple] input:checked+label i,
+.rs-check[data-style=radio][data-color=purple] input:checked+label i:before {
+    background: rgba(156, 39, 176, 1)
+}
+
+.rs-check[data-color=purple] input:disabled+label i {
+    background: rgba(156, 39, 176, .4)
+}
+
+.rs-check[data-color=deep-purple] i {
+    background: rgba(103, 58, 183, .6)
+}
+
+.rs-check[data-color=deep-purple] input:checked+label i,
+.rs-check[data-style=radio][data-color=deep-purple] input:checked+label i:before {
+    background: rgba(103, 58, 183, 1)
+}
+
+.rs-check[data-color=deep-purple] input:disabled+label i {
+    background: rgba(103, 58, 183, .4)
+}
+
+.rs-check[data-color=indigo] i {
+    background: rgba(63, 81, 181, .6)
+}
+
+.rs-check[data-color=indigo] input:checked+label i,
+.rs-check[data-style=radio][data-color=indigo] input:checked+label i:before {
+    background: rgba(63, 81, 181, 1)
+}
+
+.rs-check[data-color=indigo] input:disabled+label i {
+    background: rgba(63, 81, 181, .4)
+}
+
+.rs-check[data-color=blue] i {
+    background: rgba(32, 149, 242, .6)
+}
+
+.rs-check[data-color=blue] input:checked+label i,
+.rs-check[data-style=radio][data-color=blue] input:checked+label i:before {
+    background: rgba(32, 149, 242, 1)
+}
+
+.rs-check[data-color=blue] input:disabled+label i {
+    background: rgba(32, 149, 242, .4)
+}
+
+.rs-check[data-color=light-blue] i {
+    background: rgba(3, 169, 244, .6)
+}
+
+.rs-check[data-color=light-blue] input:checked+label i,
+.rs-check[data-style=radio][data-color=light-blue] input:checked+label i:before {
+    background: rgba(3, 169, 244, 1)
+}
+
+.rs-check[data-color=light-blue] input:disabled+label i {
+    background: rgba(3, 169, 244, .4)
+}
+
+.rs-check[data-color=cyan] i {
+    background: rgba(0, 188, 212, .6)
+}
+
+.rs-check[data-color=cyan] input:checked+label i,
+.rs-check[data-style=radio][data-color=cyan] input:checked+label i:before {
+    background: rgba(0, 188, 212, 1)
+}
+
+.rs-check[data-color=cyan] input:disabled+label i {
+    background: rgba(0, 188, 212, .4)
+}
+
+.rs-check[data-color=teal] i {
+    background: rgba(0, 149, 135, .6)
+}
+
+.rs-check[data-color=teal] input:checked+label i,
+.rs-check[data-style=radio][data-color=teal] input:checked+label i:before {
+    background: rgba(0, 149, 135, 1)
+}
+
+.rs-check[data-color=teal] input:disabled+label i {
+    background: rgba(0, 149, 135, .4)
+}
+
+.rs-check[data-color=green] i {
+    background: rgba(76, 175, 80, .6)
+}
+
+.rs-check[data-color=green] input:checked+label i,
+.rs-check[data-style=radio][data-color=green] input:checked+label i:before {
+    background: rgba(76, 175, 80, 1)
+}
+
+.rs-check[data-color=green] input:disabled+label i {
+    background: rgba(76, 175, 80, .4)
+}
+
+.rs-check[data-color=light-green] i {
+    background: rgba(139, 195, 74, .6)
+}
+
+.rs-check[data-color=light-green] input:checked+label i,
+.rs-check[data-style=radio][data-color=light-green] input:checked+label i:before {
+    background: rgba(139, 195, 74, 1)
+}
+
+.rs-check[data-color=light-green] input:disabled+label i {
+    background: rgba(139, 195, 74, .4)
+}
+
+.rs-check[data-color=lime] i {
+    background: rgba(205, 220, 57, .6)
+}
+
+.rs-check[data-color=lime] input:checked+label i,
+.rs-check[data-style=radio][data-color=lime] input:checked+label i:before {
+    background: rgba(205, 220, 57, 1)
+}
+
+.rs-check[data-color=lime] input:disabled+label i {
+    background: rgba(205, 220, 57, .4)
+}
+
+.rs-check[data-color=yellow] i {
+    background: rgba(255, 235, 59, .6)
+}
+
+.rs-check[data-color=yellow] input:checked+label i,
+.rs-check[data-style=radio][data-color=yellow] input:checked+label i:before {
+    background: rgba(255, 235, 59, 1)
+}
+
+.rs-check[data-color=yellow] input:disabled+label i {
+    background: rgba(255, 235, 59, .4)
+}
+
+.rs-check[data-color=amber] i {
+    background: rgba(255, 193, 7, .6)
+}
+
+.rs-check[data-color=amber] input:checked+label i,
+.rs-check[data-style=radio][data-color=amber] input:checked+label i:before {
+    background: rgba(255, 193, 7, 1)
+}
+
+.rs-check[data-color=amber] input:disabled+label i {
+    background: rgba(255, 193, 7, .4)
+}
+
+.rs-check[data-color=orange] i {
+    background: rgba(255, 152, 0, .6)
+}
+
+.rs-check[data-color=orange] input:checked+label i,
+.rs-check[data-style=radio][data-color=orange] input:checked+label i:before {
+    background: rgba(255, 152, 0, 1)
+}
+
+.rs-check[data-color=orange] input:disabled+label i {
+    background: rgba(255, 152, 0, .4)
+}
+
+.rs-check[data-color=deep-orange] i {
+    background: rgba(255, 87, 34, .6)
+}
+
+.rs-check[data-color=deep-orange] input:checked+label i,
+.rs-check[data-style=radio][data-color=deep-orange] input:checked+label i:before {
+    background: rgba(255, 87, 34, 1)
+}
+
+.rs-check[data-color=deep-orange] input:disabled+label i {
+    background: rgba(255, 87, 34, .4)
+}
+
+.rs-check[data-color=brown] i {
+    background: rgba(121, 85, 72, .6)
+}
+
+.rs-check[data-color=brown] input:checked+label i,
+.rs-check[data-style=radio][data-color=brown] input:checked+label i:before {
+    background: rgba(121, 85, 72, 1)
+}
+
+.rs-check[data-color=brown] input:disabled+label i {
+    background: rgba(121, 85, 72, .4)
+}
+
+.rs-check[data-color=grey] i {
+    background: rgba(158, 158, 158, .6)
+}
+
+.rs-check[data-color=grey] input:checked+label i,
+.rs-check[data-style=radio][data-color=grey] input:checked+label i:before {
+    background: rgba(158, 158, 158, 1)
+}
+
+.rs-check[data-color=grey] input:disabled+label i {
+    background: rgba(158, 158, 158, .4)
+}
+
+.rs-check[data-color=blue-grey] i {
+    background: rgba(96, 125, 139, .6)
+}
+
+.rs-check[data-color=blue-grey] input:checked+label i,
+.rs-check[data-style=radio][data-color=blue-grey] input:checked+label i:before {
+    background: rgba(96, 125, 139, 1)
+}
+
+.rs-check[data-color=blue-grey] input:disabled+label i {
+    background: rgba(96, 125, 139, .4)
+}
+.rs-check label:hover {
+	cursor: pointer;
+}
+/**
+ * @author zhixin wen <wenzhixin2010@gmail.com>
+ * version: 1.11.1
+ * https://github.com/wenzhixin/roi-table/
+ */
+
+.roi-table .table {
+    margin-bottom: 0 !important;
+    border-bottom: 1px solid #dddddd;
+    border-collapse: collapse !important;
+    border-radius: 1px;
+}
+
+.roi-table .table:not(.table-condensed),
+.roi-table .table:not(.table-condensed) > tbody > tr > th,
+.roi-table .table:not(.table-condensed) > tfoot > tr > th,
+.roi-table .table:not(.table-condensed) > thead > tr > td,
+.roi-table .table:not(.table-condensed) > tbody > tr > td,
+.roi-table .table:not(.table-condensed) > tfoot > tr > td {
+    padding: 8px;
+}
+
+.roi-table .table.table-no-bordered > thead > tr > th,
+.roi-table .table.table-no-bordered > tbody > tr > td {
+    border-right: 2px solid transparent;
+}
+
+.roi-table .table.table-no-bordered > tbody > tr > td:last-child {
+    border-right: none;
+}
+
+/* support bootstrap 3 */
+.roi-table .table thead > tr > th {
+    padding: 0;
+    margin: 0;
+}
+
+.roi-table .fixed-table-footer tbody > tr > td {
+    padding: 0 !important;
+}
+
+.roi-table .fixed-table-footer .table {
+    border-bottom: none;
+    border-radius: 0;
+    padding: 0 !important;
+}
+
+.roi-table .pull-right .dropdown-menu {
+    right: 0;
+    left: auto;
+}
+.btn-group>.btn {
+    position: static;
+}
+
+/* calculate scrollbar width */
+p.fixed-table-scroll-inner {
+    width: 100%;
+    height: 200px;
+}
+
+div.fixed-table-scroll-outer {
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    width: 200px;
+    height: 150px;
+    overflow: hidden;
+}
+
+/* for get correct heights  */
+.fixed-table-toolbar:after, .fixed-table-pagination:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+/* NEW STYLE BY THEMEON */
+.fixed-table-container tbody .selected td {
+    background-color: #fffab4;
+}
+.bs-checkbox input[type="checkbox"],
+.bs-checkbox input[type="radio"]{
+    cursor: pointer
+}
+
+.fixed-table-container{
+    border-radius: 0;
+    border: 0
+}
+
+.roi-table .table{
+    border: 1px solid rgba(0,0,0,0.05)
+}
+.fixed-table-container tbody td,
+.roi-table .table>thead>tr>th{
+    border-color: rgba(0,0,0,0.04)
+}
+.search input {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;	
+}
+.table tbody > tr > td.vert-aligned {
+    vertical-align: middle;
+}
+.template-search {
+    border-box: box-sizing;
+    background-image: url('searchicon.png');
+    background-position: 14px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 6px 10px 4px 25px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+	width: 100%;
+}

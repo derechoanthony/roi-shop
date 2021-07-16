@@ -1,0 +1,20 @@
+<table style="font-size: 18px; bottom:0;">
+	<tbody>
+		<tr>
+			<td style="text-align:right;">Prepared by:</td><td>&nbsp;</td>
+			<td>Jacob Achorn</td>
+		</tr>
+		<tr>
+			<td style="text-align:right;">Email:</td><td>&nbsp;</td>
+			<td>jachorn@theroishop.com</td>
+		</tr>
+		<tr>
+			<td style="text-align:right;">Phone Number:</td><td>&nbsp;</td>
+			<td>404-787-9000</td>
+		</tr>
+		<tr>
+			<td style="text-align:right;">Date Created:</td><td>&nbsp;</td>
+			<td>May 15th, 2015</td>
+		</tr>
+	</tbody>
+</table>

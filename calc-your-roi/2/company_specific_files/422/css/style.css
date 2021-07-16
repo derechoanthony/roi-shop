@@ -1,0 +1,53 @@
+.content-bubble, .pdf-page-header, .pdf-section-header, .pdf-page-header {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #1B49A0;
+}
+
+.right {
+	background-color: #FFC820;
+}
+
+.point-highlight {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: rgb(91, 155, 213);
+	border-radius: 5px;
+	width: 315px;
+	font-size: 16px;
+	border-radius: 5px !important;
+}
+
+.point-highlight h3 {
+	font-size: 18px !important;
+}
+
+.grandtotal, .pdf-section-total {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 68px;
+}
+
+.savingsTable {
+	background-color: rgb(203,203,196);
+}
+
+.company-name {
+	font-weight: 900;
+	text-align:center;
+	font-size:36px;
+	font-family: Arial;
+	line-height: 40px;
+	margin-bottom: 5px;
+	font-variant: none;
+}
+
+.return-on-investment-title {
+	text-align:center;
+	font-size:36px;
+	font-family: Arial;
+	line-height: 40px;
+	font-weight: 900;
+	margin-top: 0px;
+}
+
+blockquote {
+	font-style: italic;
+}

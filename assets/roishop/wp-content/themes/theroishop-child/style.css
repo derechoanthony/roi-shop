@@ -1,0 +1,111 @@
+body, body h1, body h2, body h3, body h4, body h5, body h6, .masonry.material .masonry-blog-item .grav-wrap .text {color: #162d5a;}
+.font-m, .font-m h3 {font-weight: 400 !important;}
+.font-l {font-weight: 300 !important;}
+.font-size-m p {font-size: 20px;line-height: 30px;}
+h3 {color: #162d5a;}
+.no-margin-right, .no-margin-right .aio-icon {margin-right: 0px !important;}
+.no-margin-right .aio-icon {margin-top: 15px !important;}
+.rev_slider .tp-caption.bullet i {font-size: 15px !important;margin-right: 5px !important;position: relative;top: 0px;color: #7ec249;}
+body #header-outer.transparent #top nav .sf-menu > .current-menu-item > a, body #header-outer.transparent[data-lhe="default"] #top nav .sf-menu > .current-menu-item > a, body #header-outer.transparent[data-lhe="default"] #top nav .sf-menu > .current_page_item > a {color: #f47321 !important;}
+body #header-outer[data-transparent-header="true"].transparent {border-bottom: 1px solid #ccd4d1;}
+.custom-btn {padding-left: 50px !important;padding-right: 50px !important;}
+.nectar-button.regular-button.default-btn:hover {background: #7ec249 !important;}
+.center-btn {margin: 0 auto !important;display: table;}
+body .nectar-button.large.see-through, body .nectar-button.large.see-through-2, body .nectar-button.large.see-through-3 {border-width: 1px !important;}
+.page  #header-outer.transparent #top nav > ul > li > a, .page  #header-outer.transparent #top nav > .sf-menu > li > a, .page  #header-outer.transparent #top nav ul #search-btn a .icon-salient-search, .page  #header-outer.transparent #top nav ul #nectar-user-account a span, .page  #header-outer.transparent #top nav > ul > li > a > .sf-sub-indicator i, .page  #header-outer.transparent .cart-menu .cart-icon-wrap .icon-salient-cart, .page  .ascend #boxed #header-outer.transparent .cart-menu .cart-icon-wrap .icon-salient-cart {color: #162d5a !important;opacity: 1 !important;}
+.page  #header-outer.transparent[data-lhe="default"] #top nav > ul > li > a:hover, .page  #header-outer.transparent #top nav ul #nectar-user-account a:hover span {color: #f47321 !important;}
+.service-box .aio-icon-description {padding: 0 25px;}
+.feature-box h4 {margin: 0px !important;}
+.feature-box .aio-icon-description strong {font-weight: 400;color: #f47321;}
+.feature-box .aio-icon-description .aio-icon-read {color: #f47321;font-size: 14px;margin-top: 15px;cursor: pointer;}
+.feature-box .aio-icon-description .aio-icon-read:hover {color: #fff;}
+.testimonial-sec .testimonial_slider[data-style="minimal"] .slides {max-width: 100%;margin: 0 auto;height: 540px !important;}
+.testimonial-sec .testimonial_slider[data-style="minimal"] .testimonial-next-prev .prev {left: -4%;}
+.testimonial-sec .testimonial_slider[data-style="minimal"] .testimonial-next-prev .next {right: -60px;}
+.testimonial-sec .testimonial_slider .image-icon.has-bg {width: 380px;height: 380px;border-radius: 0;left: -175px;position: absolute;background-size: inherit;background-repeat: no-repeat;}
+.testimonial_slider .slides {overflow: visible;}
+.testimonial-sec .testimonial_slider[data-style="minimal"] blockquote {padding: 40px 80px 50px 220px;background: #f9fafb;width: 85%;right: 0px;text-align: left;height: 470px;}
+.testimonial-sec .testimonial_slider[data-style="minimal"] blockquote p {font-size: 24px;line-height: normal;text-align: left;color: #162d5a;margin-top: 50px;}
+.testimonial-sec .testimonial_slider[data-style="minimal"] blockquote span:not(.title), .testimonial-sec .testimonial_slider[data-style="minimal"] blockquote .title {transform: none;margin-bottom: 5px;font-size: 18px;color: #162d5a;font-weight: 400;font-style: normal;}
+.testimonial-sec .testimonial_slider[data-style="minimal"] .controls {display: none;}
+.testimonial-sec .testimonial_slider[data-style="minimal"] .testimonial-next-prev .prev:before, .testimonial_slider[data-style="minimal"] .testimonial-next-prev .next:before {color: #bdc2c8;}
+.testimonial-sec .testimonial_slider[data-style="minimal"] .testimonial-next-prev .next:after, .testimonial-sec  .testimonial_slider[data-style="minimal"] .testimonial-next-prev .prev:after {background-color: #bdc2c8;}
+.testimonial-sec .testimonial_slider[data-style="minimal"] .testimonial-next-prev .prev, .testimonial-sec .testimonial_slider[data-style="minimal"] .testimonial-next-prev .next {font-size: 30px;}
+.uavc-list-icon ul li span {font-size: 15px !important;}
+.uavc-list-icon ul li {margin: 10px 0px !important;line-height: 20px;}
+.high-performer-rated .rated p {font-size: 24px;color: #fff;font-family: Poppins;font-weight: 300;margin-bottom: 15px !important;}
+.high-performer-rated .stars p {font-size: 38px;color: #fff;font-family: Poppins;font-weight: 600;margin-bottom: 15px !important;}
+.high-performer-rated .reviews p a {font-size: 24px;color: #ff492c;font-family: Poppins;font-weight: 300;}
+.high-performer-rated .reviews p a:hover {color: #fff;}
+.arm-your-champion-white-box .wpb_wrapper {padding: 50px 40px;}
+.our-interactive-box {border: 1px solid #e7e7e7;padding: 40px 30px;min-height: 250px !important;}
+.font-sixteen h6 {font-size: 16px !important;margin-bottom: 10px;}
+.sales-leadership-box {border: 1px solid #e7e7e7;padding: 55px 40px;}
+.sales-leadership-box .aio-icon-default {margin: 0 auto 25px;width: 100%;display: block !important;}
+.sales-leadership-box p {font-size: 20px !important;}
+.sales-leadership-box {border: 1px solid #e7e7e7;padding: 55px 40px 55px !important;min-height: 300px !important;}
+.quantify-the-problem {background-color: #f9f7f8;border: 1px solid #f00;padding: 60px 40px;}
+.quantify-the-problem:before {content: url("//theroishop.com/assets/roishop/wp-content/uploads/2019/08/red-line.png");right: -76px;position: absolute;top: 50%;}
+.value-your-solution-lives {background-color: #fff;border: 1px solid #7ac142;padding: 80px 40px;border-radius: 500px;height: 275px;width: 275px !important;margin-left: 85px !important;}
+.value-your-solution-lives:before {content: url("//theroishop.com/assets/roishop/wp-content/uploads/2019/08/green-line.png");position: absolute;right: -68px;top: 50%;}
+.value-your-solution-lives .aio-icon-default {margin: 0 auto;display: block !important;}
+.future-state {background-color: #162d5a;padding: 60px 30px !important;margin-left: 85px !important;}
+.contact-us .left-icon .aio-ibd-block {display: table-cell;vertical-align: top;width: 200px;}
+.contact-us .aio-icon-img, .website-calculators .aio-icon-img {margin: 0 !important;}
+.light-bold h2 {font-weight: 400;}
+.website-calculators .left-icon .aio-ibd-block {display: table-cell;vertical-align: top;}
+.wpcf7-recaptcha, .wpcf7-recaptcha div {padding: 0px !important;}
+.wpcf7-recaptcha {margin-bottom: -65px;position: relative;z-index: 999;}
+.footer-contact-form .col-2 {width: 50%;float: left;}
+.footer-contact-form .row div {padding-left: 10px;padding-right: 10px;}
+.footer-contact-form .col.text-right {text-align: right;}
+.footer-contact-form .col.text-right input.wpcf7-form-control.wpcf7-submit {background-color: #f47321;width: 190px;}
+.footer-contact-form .col.text-right input.wpcf7-form-control.wpcf7-submit:hover {background-color: #7ec249;}
+.footer-contact-form input, .footer-contact-form textarea {background-color: #f5f5f5;resize: none;border-radius: 5px;padding: 20px 20px;}
+#footer-outer #footer-widgets .widget h4 {color: #162d5a !important;font-size: 17px !important;font-weight: 500 !important;}
+#footer-outer #footer-widgets .widget.widget_nav_menu h4, #footer-outer #footer-widgets .widget.widget_text h4 {color: #162d5a !important;}
+#footer-outer .widget.widget_nav_menu li {border: none !important;}
+#footer-outer .widget.widget_pages li a, #footer-outer .widget.widget_nav_menu li a {padding: 5px 0;display: block;border-bottom: none !important;color: #667591 !important;font-size: 14px;}
+#footer-outer .widget.widget_nav_menu li a:hover, #footer-outer  ul.contact-info li a:hover {color: #f47321 !important;}
+#footer-outer .row {padding: 80px 0;margin-bottom: 0;}
+#footer-outer #nav_menu-3 {margin-top: 35px;}
+#footer-outer .widget.widget_text p {color: #667591;font-size: 14px;}
+#footer-outer .widget.widget_media_image {margin-bottom: 20px;}
+#footer-outer #copyright {border-top: 1px solid #eee !important;color: #667591 !important;font-size: 14px;font-weight: 400 !important;}
+#footer-outer  ul.contact-info li {padding-left: 15px !important;border: none !important;margin: 0px 0px 10px 0px !important;}
+#footer-outer  ul.contact-info li img {display: inline-block;vertical-align: text-bottom;margin: 0px !important;position: absolute;left: 0px;}
+#footer-outer #copyright p {line-height: 22px;margin-top: 3px;font-weight: 400;}
+#footer-outer #copyright span a {color: #f47321 !important;}
+#footer-outer #copyright span {position: absolute;right: -145%;}
+.page #header-outer.transparent #top nav > ul > li.login-page  a, #header-outer #top nav > ul > li.login-page  a {border-left: 1px solid #afb0b1;margin-left: 25px;padding-left: 35px !important;color: #f47321 !important;}
+.lets-start-sec h6 {font-weight: 600 !important;}
+.lets-start-sec h6 span {display: inline-block;width: 18px;}
+.opportunities-sec h6 {margin-bottom: 14px !important;font-weight: 400 !important;}
+.opportunities-sec h6 span {display: inline-block;width: 15px;}
+.opportunities-sec h6 strong {color: #7ac142;}
+.opportunities-sec ul.uavc-list li {margin: 0px !important;}
+.opportunities-sec ul.uavc-list li .ult-responsive {font-size: 15px !important;}
+.opportunities-sec ul.uavc-list li .uavc-list-content {margin-bottom: 0px;}
+.selling-steps {margin-left: -26px !important;padding-left: 78px !important;}
+.selling-steps:before {content: url("//theroishop.com/assets/roishop/wp-content/uploads/2019/08/arrow-left.png");left: -6px;position: absolute;top: 37%;}
+.shake-animation {animation: shake .7s;animation-iteration-count: 1;}
+@keyframes shake {0% {transform: translate(1px,1px) rotate(0deg);}
+	10% {transform: translate(-1px,-2px) rotate(-1deg);}
+	20% {transform: translate(-3px,0px) rotate(1deg);}
+	30% {transform: translate(3px,2px) rotate(0deg);}
+	40% {transform: translate(1px,-1px) rotate(1deg);}
+	50% {transform: translate(-1px,2px) rotate(-1deg);}
+	60% {transform: translate(-3px,1px) rotate(0deg);}
+	70% {transform: translate(3px,1px) rotate(-1deg);}
+	80% {transform: translate(-1px,-1px) rotate(1deg);}
+	90% {transform: translate(1px,2px) rotate(0deg);}
+	100% {transform: translate(1px,-2px) rotate(-1deg);}}
+.states .stats-top .stats-number {padding: 8px 0;font-size: 40px !important;}
+.states .stats-block.stats-top {display: inline-block !important;margin: 25px 58px -11px 0px !important;position: relative;}
+.states .stats-block:first-child:after {content: "-";position: absolute;top: 16px;right: -36px;font-size: 32px;}
+#reduce-sec5 .vc_custom_heading strong {font-size: 46px;border-bottom: 2px solid #2f58a9;font-weight: 900;color: #2f58a9;}
+@media only screen and (max-width: 1423px) {.selling-steps:before {top: 33%;}}
+@media only screen and (max-width: 1400px) {.selling-steps:before {left: 12px;}}
+@media only screen and (max-width: 1370px) {.selling-steps:before {left: -6px;top: 86px;}}
+@media only screen and (max-width: 1370px) {.selling-steps:before {left: -6px;top: 86px;}}
+@media only screen and (max-width: 1115px) {.selling-steps:before {top: 108px;}}

@@ -1,0 +1,5178 @@
+[{
+	"tag":"nav",
+	"attributes":{
+		"role":"navigation",
+		"class":"navbar-default navbar-static-side"
+	},
+	"children":[{
+		"attributes":{
+			"style":"overflow: hidden; width: auto; height: 100%;",
+			"class":"sidebar-collapse sidebar-navigation"
+		},
+		"children":[{
+			"tag":"ul",
+			"attributes":{
+				"id":"side-menu",
+				"class":"nav"
+			},
+			"children": [{
+				"tag":"li",
+				"attributes":{
+					"class":"nav-header"
+				},
+				"children":[{
+					"attributes":{
+						"class":"dropdown profile-element"
+					},
+					"children":[{
+						"tag":"span",
+						"children":[{
+							"html":"<img id=\"company_logo\" alt=\"image\" src=\"https://www.theroishop.com/company_specific_files/666/logo/logo.png\">"
+						}]
+					}]
+				}]
+			},{
+				"tag":"li",
+				"attributes":{
+					"class":"smooth-scroll"
+				},
+				"children":[{
+					"html":"<a href=\"#\"><i class=\"fa fa-calculator\"></i> <span class=\"nav-label\">ROI Sections</span><span class=\"fa arrow\"></span></a>"
+				},{
+					"tag":"ul",
+					"attributes":{
+						"class":"nav nav-second-level collapse in"
+					},
+					"children":[{
+						"html":"<li><a href=\"#section1\" class=\"section-navigator\">Dashboard</a></li>"
+					},{
+						"html":"<li><a href=\"#section2\" class=\"section-navigator\">Data Protection Efficiency</a></li>"
+					},{
+						"html":"<li id=\"FILESHARE1\"><a href=\"#section7\" class=\"section-navigator\">File Shares</a></li>"
+					},{
+						"html":"<li><a href=\"#section3\" class=\"section-navigator\">Operational Efficiency</a></li>"
+					},{
+						"html":"<li><a href=\"#section4\" class=\"section-navigator\">Risk & Compliance</a></li>"
+					},{
+						"html":"<li><a href=\"#section6\" class=\"section-navigator\">Data Lookup</a></li>"
+					},{
+						"html":"<li><a href=\"#section5\" class=\"section-navigator\">Savings Summary</a></li>"
+					}]
+				}]
+			},{
+				"tag":"li",
+				"children":[{
+					"html":"<a href=\"../../dashboard\"><i class=\"fa fa-globe\"></i> <span class=\"nav-label\">My ROIs</span></a>"
+				}]
+			}]
+		}]
+	}]
+},{
+	"attributes": {
+		"class": "white-bg",
+		"id":"page-wrapper"
+	},
+	"children":[{
+		"attributes":{
+			"class":"row border-bottom white-bg dashboard-header",
+			"id":"section1"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"html": "<h1 style=\"margin-bottom: 20px\">Dashboard</h1>"
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom gray-bg dashboard-header"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12",
+				"style":"padding-bottom: 25px;"
+			},
+			"children":[{
+				"attributes":{
+					"class":"ibox-content"
+				},
+				"children":[{
+					"html":"<h3 style=\"font-size: 18px; font-weight: 700;\">Questions before you start the ROI</h3><hr>"
+				},{
+					"attributes":{
+						"class":"form-group",
+						"style":"display: none;"
+					},
+					"children":[{
+						"tag":"label",
+						"attributes":{
+							"class":"control-label col-lg-8 col-md-8 col-sm-8"
+						},
+						"children":[{
+							"html":"Include File Shares?"
+						}]
+					},{
+						"attributes":{
+							"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+						},
+						"children":[{
+							"tag":"select",
+							"type":"select",
+							"attributes":{
+								"class":"form-control",
+								"calc-id":"A1"
+							},
+							"choices":[{
+								"text":"Select an Option",
+								"value":0
+							},{
+								"text":"Yes",
+								"value":1
+							},{
+								"text":"No",
+								"value":2
+							}]
+						}]
+					}]
+				},{
+					"attributes":{
+						"class":"form-group"
+					},
+					"children":[{
+						"tag":"label",
+						"attributes":{
+							"class":"control-label col-lg-8 col-md-8 col-sm-8"
+						},
+						"children":[{
+							"html":"Notes"
+						}]
+					},{
+						"attributes":{
+							"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+						},
+						"children":[{
+							"tag":"textarea",
+							"attributes":{
+								"class":"form-control",
+								"style":"width: 100%; resize: vertical",
+								"rows":"4",
+								"calc-id":"A2"
+							}
+						}]
+					}]
+				},{
+					"html":"<hr><h3 style=\"font-size: 18px; font-weight: 700;\">Select a section below to begin your calculation</h3><p style=\"font-size: 16px;\">To calculate the impact of an investmnet in Cohesity, begin with the first section below. The information entered therein will automatically populate corresponding fields in the other sections. You will be able to move from section to section to add and/or adjust values to best reflect your organization and process. To return to this screen, click the ROI Dashboard button to the left.</p>"
+				}]
+			}]
+		},{
+			"attributes":{
+				"class":"col-lg-4"
+			},
+			"children":[{
+				"attributes":{
+					"class":"ibox float-e-margins"
+				},
+				"children":[{
+					"attributes":{
+						"class":"ibox-content equalize-1"
+					},
+					"children":[{
+						"attributes":{
+							"class":"row equalize-2"
+						},
+						"children": [{
+							"attributes":{
+								"class":"col-lg-10"
+							},
+							"children":[{
+								"html":"<h5><a class=\"smooth-scroll section-navigator\" href=\"#section2\">Data Protection Efficiency</a></h5>"
+							}]
+						},{
+							"attributes": {
+								"class":"col-lg-2"
+							},
+							"children":[{
+								"html":"<span class=\"label label-success pull-right\"><span calc-id=\"A3\"></span> Year</span>"
+							}]
+						}]
+					},{
+						"html":"<h1 class=\"txt-right pod-total section-total\" style=\"font-weight: 700; color: #216C2A;\" calc-id=\"D49\" data-format=\"$0,0\">$0</h1><hr><div style=\"font-size: 14px;\"><span class=\"stat-percent font-bold text-success\" calc-id=\"B116\">4.72</span>Data Protection Efficiency stat 1:</div><div style=\"font-size: 14px;\"><span class=\"stat-percent font-bold text-success\" calc-id=\"B116\">4.72</span>Data Protection Efficiency stat 2:</div>"
+					}]
+				}]
+			}]
+		},{
+			"attributes":{
+				"class":"col-lg-4",
+				"id":"FILESHARE2"
+			},
+			"children":[{
+				"attributes":{
+					"class":"ibox float-e-margins"
+				},
+				"children":[{
+					"attributes":{
+						"class":"ibox-content equalize-1"
+					},
+					"children":[{
+						"attributes":{
+							"class":"row equalize-2"
+						},
+						"children": [{
+							"attributes":{
+								"class":"col-lg-10"
+							},
+							"children":[{
+								"html":"<h5><a class=\"smooth-scroll section-navigator\" href=\"#section7\">File Shares</a></h5>"
+							}]
+						},{
+							"attributes": {
+								"class":"col-lg-2"
+							},
+							"children":[{
+								"html":"<span class=\"label label-success pull-right\"><span calc-id=\"A3\"></span> Year</span>"
+							}]
+						}]
+					},{
+						"html":"<h1 class=\"txt-right pod-total section-total\" style=\"font-weight: 700; color: #216C2A;\" calc-id=\"D49\" data-format=\"$0,0\">$0</h1><hr><div style=\"font-size: 14px;\"><span class=\"stat-percent font-bold text-success\" calc-id=\"B116\">4.72</span>File Shares stat 1:</div><div style=\"font-size: 14px;\"><span class=\"stat-percent font-bold text-success\" calc-id=\"B116\">4.72</span>File Shares stat 2:</div>"
+					}]
+				}]
+			}]
+		},{
+			"attributes":{
+				"class":"col-lg-4"
+			},
+			"children":[{
+				"attributes":{
+					"class":"ibox float-e-margins"
+				},
+				"children":[{
+					"attributes":{
+						"class":"ibox-content equalize-1"
+					},
+					"children":[{
+						"attributes":{
+							"class":"row equalize-2"
+						},
+						"children": [{
+							"attributes":{
+								"class":"col-lg-10"
+							},
+							"children":[{
+								"html":"<h5><a class=\"smooth-scroll section-navigator\" href=\"#section3\">Operational Efficiency</a></h5>"
+							}]
+						},{
+							"attributes": {
+								"class":"col-lg-2"
+							},
+							"children":[{
+								"html":"<span class=\"label label-success pull-right\"><span calc-id=\"A3\"></span> Year</span>"
+							}]
+						}]
+					},{
+						"html":"<h1 class=\"txt-right pod-total section-total\" style=\"font-weight: 700; color: #216C2A;\" calc-id=\"D49\" data-format=\"$0,0\">$0</h1><hr><div style=\"font-size: 14px;\"><span class=\"stat-percent font-bold text-success\" calc-id=\"B116\">4.72</span>Operational Efficiency stat 1:</div><div style=\"font-size: 14px;\"><span class=\"stat-percent font-bold text-success\" calc-id=\"B116\">4.72</span>Operational Efficiency stat 2:</div>"
+					}]
+				}]
+			}]
+		},{
+			"attributes":{
+				"class":"col-lg-4"
+			},
+			"children":[{
+				"attributes":{
+					"class":"ibox float-e-margins"
+				},
+				"children":[{
+					"attributes":{
+						"class":"ibox-content equalize-1"
+					},
+					"children":[{
+						"attributes":{
+							"class":"row equalize-2"
+						},
+						"children": [{
+							"attributes":{
+								"class":"col-lg-10"
+							},
+							"children":[{
+								"html":"<h5><a class=\"smooth-scroll section-navigator\" href=\"#section4\">Risk & Compliance</a></h5>"
+							}]
+						},{
+							"attributes": {
+								"class":"col-lg-2"
+							},
+							"children":[{
+								"html":"<span class=\"label label-success pull-right\"><span calc-id=\"A3\"></span> Year</span>"
+							}]
+						}]
+					},{
+						"html":"<h1 class=\"txt-right pod-total section-total\" style=\"font-weight: 700; color: #216C2A;\" calc-id=\"D49\" data-format=\"$0,0\">$0</h1><hr><div style=\"font-size: 14px;\"><span class=\"stat-percent font-bold text-success\" calc-id=\"B116\">4.72</span>Risk & Compliance stat 1:</div><div style=\"font-size: 14px;\"><span class=\"stat-percent font-bold text-success\" calc-id=\"B116\">4.72</span>Risk & Compliance stat 2:</div>"
+					}]
+				}]
+			}]
+		},{
+			"attributes":{
+				"class":"col-lg-4"
+			},
+			"children":[{
+				"attributes":{
+					"class":"ibox float-e-margins"
+				},
+				"children":[{
+					"attributes":{
+						"class":"ibox-content equalize-1"
+					},
+					"children":[{
+						"attributes":{
+							"class":"row equalize-2"
+						},
+						"children": [{
+							"attributes":{
+								"class":"col-lg-10"
+							},
+							"children":[{
+								"html":"<h5><a class=\"smooth-scroll section-navigator\" href=\"#section5\">Savings Summary</a></h5>"
+							}]
+						},{
+							"attributes": {
+								"class":"col-lg-2"
+							},
+							"children":[{
+								"html":"<span class=\"label label-success pull-right\"><span calc-id=\"A3\"></span> Year</span>"
+							}]
+						}]
+					},{
+						"html":"<h1 class=\"txt-right pod-total section-total\" style=\"font-weight: 700; color: #216C2A;\" calc-id=\"D49\" data-format=\"$0,0\">$0</h1><hr><div style=\"font-size: 14px;\"><span class=\"stat-percent font-bold text-success\" calc-id=\"B116\">4.72</span>Savings Summary stat 1:</div><div style=\"font-size: 14px;\"><span class=\"stat-percent font-bold text-success\" calc-id=\"B116\">4.72</span>Savings Summary stat 2:</div>"
+					}]
+				}]
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom white-bg dashboard-header",
+			"id":"section2"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"html":"<h1 style=\"margin-bottom: 20px;\">Data Protection Efficiency</h1>"
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom gray-bg dashboard-header",
+			"id":"AE2"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-md-12 col-sm-12 col-xs-12"
+			},
+			"children":[{
+				"attributes":{
+					"class":"row"
+				},
+				"children":[{
+					"attributes":{
+						"class":"col-lg-12 col-md-12 col-sm-12 col-xs-12"
+					},
+					"children":[{
+						"attributes":{
+							"class": "ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"ibox-content",
+								"style":"padding-left: 30px;"
+							},
+							"children":[{
+								"attributes":{
+									"class":"row"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-md-12 section-writeup"
+									},
+									"children":[{
+										"html":"<p class=\"caption-text\">Cohesity enables customers to store more data on physical disks through data reduction technologies such as variable length Global deduplication and compression resulting in less storage or consider Tools such as deduplication and compression have helped organizations consume less space. Cohesity builds on these tools and implements the technology differently than traditional vendors. As a result, the same amount of data requires less space to be stored on Cohesity DataPlatform.</p>"
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]
+			}]
+		},{
+			"attributes":{
+				"class":"col-md-12 col-sm-12 col-xs-12"
+			},
+			"children":[{
+				"attributes":{
+					"class":"row"
+				},
+				"children":[{
+					"attributes":{
+						"class":"col-lg-12 col-md-12 col-sm-12 col-xs-12"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"ibox-content",
+								"style":"border-top: none;"
+							},
+							"children":[{
+								"attributes":{
+									"class":"form-horizontal"
+								},
+								"children":[{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"attributes":{
+											"class":"subsection-header underlined"
+										},
+										"children":[{
+											"html":"<h2 class=\"subsection\"><strong>Current Environment</strong></h2>"
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"How many frontend TBs are you currently protecting?"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"calc-id":"A3"
+											}
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"How many backend TBs are in your current solution?"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"calc-id":"A4"
+											}
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"Annual Growth Rate %"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"calc-id":"A5"
+											}
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"Number of Years under analysis"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"calc-id":"A6"
+											}
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"What % of your data is VMs and Home Directories"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"calc-id":"A7"
+											}
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"What % of your data is compressed video and image files"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"calc-id":"A8"
+											}
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"attributes":{
+											"class":"subsection-header underlined"
+										},
+										"children":[{
+											"html":"<h2 class=\"subsection\"><strong>Backup Environment</strong></h2>"
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"well",
+										"style":"border: 1px solid rgb(137, 183, 66); background-color: rgb(197, 225, 136);"
+									},
+									"children":[{
+										"html":"<h2 style=\"font-size: 16px;\">** Cohesity DataProtect is a backup and recovery application that requires DataPlatform as the target storage solution</h2>"
+									}]	
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4",
+											"style":"padding-right: 0;"
+										},
+										"children":[{
+											"html":"<div style=\"border: 1px solid #ccc; padding: 8px;\"><h2 style=\"margin: 0; line-height: 24px; font-size: 1.25em; font-weight: 600; color: #4d627b\">BACKUP SOFTWARE</h2></div>"
+										},{
+											"html":"<div style=\"border: 1px solid #ccc; border-top: 0; padding: 8px;\"><p style=\"margin: 0;\">Software cost for number of years under analysis</p></div>"
+										},{
+											"html":"<div style=\"border: 1px solid #ccc; border-top: 0; padding: 8px;\"><p style=\"margin: 0;\">Backup software cost net of above savings</p></div>"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-2 col-md-2 col-sm-2",
+											"style":"padding-left: 0; padding-right: 0;"
+										},
+										"children":[{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-left: 0; padding: 8px;"
+											},
+											"children":[{
+												"tag":"select",
+												"type":"select",
+												"attributes":{
+													"class":"form-control",
+													"calc-id":"A9"
+												},
+												"customClass":"chosen-no-border",
+												"choices":[{
+													"text":"Select current solution",
+													"value":0
+												},{
+													"text":"Avamar",
+													"value":1
+												},{
+													"text":"Commvault",
+													"value":2
+												},{
+													"text":"IDPA",
+													"value":3
+												},{
+													"text":"Networker",
+													"value":4
+												},{
+													"text":"Rubrik",
+													"value":5
+												},{
+													"text":"TSM",
+													"value":6
+												},{
+													"text":"Veeam",
+													"value":7
+												},{
+													"text":"Veritas",
+													"value":8
+												}]
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"A10"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"A11"
+												}
+											}]
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-2 col-md-2 col-sm-2",
+											"style":"padding-left: 0; padding-right: 0;"
+										},
+										"children":[{
+											"html":"<div style=\"border: 1px solid #ccc; border-left: 0; padding: 8px;\"><h2 style=\"margin: 0; line-height: 24px; font-size: 1.25em; font-weight: 600; color: #4d627b\"><center>Cohesity DataProtect</center></h2></div>"
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"B9"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"disabled":"disabled",
+													"calc-id":"B20"
+												}
+											}]
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-2 col-md-2 col-sm-2",
+											"style":"padding-left: 0; padding-right: 0;"
+										},
+										"children":[{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-left: 0; padding: 8px;"
+											},
+											"children":[{
+												"tag":"select",
+												"type":"select",
+												"attributes":{
+													"class":"form-control",
+													"calc-id":"A24"
+												},
+												"customClass":"chosen-no-border",
+												"choices":[{
+													"text":"Select an Option",
+													"value":0
+												},{
+													"text":"Veritas NetBackup",
+													"value":1
+												},{
+													"text":"Networker",
+													"value":2
+												},{
+													"text":"Avamar",
+													"value":3
+												},{
+													"text":"TSM",
+													"value":4
+												},{
+													"text":"Commvault",
+													"value":5
+												},{
+													"text":"Veeam",
+													"value":6
+												},{
+													"text":"Rubrik",
+													"value":7
+												},{
+													"text":"Other",
+													"value":8
+												}]
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"C9"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"C20"
+												}
+											}]
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-2 col-md-2 col-sm-2",
+											"style":"padding-left: 0;"
+										},
+										"children":[{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-left: 0; padding: 8px;"
+											},
+											"children":[{
+												"tag":"select",
+												"type":"select",
+												"attributes":{
+													"class":"form-control",
+													"calc-id":"A42"
+												},
+												"customClass":"chosen-no-border",
+												"choices":[{
+													"text":"Select an Option",
+													"value":0
+												},{
+													"text":"Veritas NetBackup",
+													"value":1
+												},{
+													"text":"Networker",
+													"value":2
+												},{
+													"text":"Avamar",
+													"value":3
+												},{
+													"text":"TSM",
+													"value":4
+												},{
+													"text":"Commvault",
+													"value":5
+												},{
+													"text":"Veeam",
+													"value":6
+												},{
+													"text":"Rubrik",
+													"value":7
+												},{
+													"text":"Other",
+													"value":8
+												}]
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"D9"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"D20"
+												}
+											}]
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4",
+											"style":"padding-right: 0;"
+										},
+										"children":[{
+											"html":"<div style=\"border: 1px solid #ccc; padding: 8px;\"><h2 style=\"margin: 0; line-height: 24px; font-size: 1.25em; font-weight: 600; color: #4d627b\">TARGET STORAGE</h2></div>"
+										},{
+											"html":"<div style=\"border: 1px solid #ccc; border-top: 0; padding: 8px;\"><p style=\"margin: 0;\">Annual Software Cost</p></div>"
+										},{
+											"html":"<div style=\"border: 1px solid #ccc; border-top: 0; padding: 8px;\"><p style=\"margin: 0;\">Current Backend TBs</p></div>"
+										},{
+											"html":"<div style=\"border: 1px solid #ccc; border-top: 0; padding: 8px;\"><p style=\"margin: 0;\">Cost per TB of Hardware</p></div>"
+										},{
+											"html":"<div style=\"border: 1px solid #ccc; border-top: 0; padding: 8px;\"><p style=\"margin: 0; text-align: right;\">Annual Hardware Cost</p></div>"
+										},{
+											"html":"<div style=\"border: 1px solid #ccc; border-top: 0; padding: 8px;\"><p style=\"margin: 0; text-align: right;\">Total Annual Cost for Backup Solution</p></div>"
+										},{
+											"html":"<div style=\"border: 1px solid #ccc; border-top: 0; padding: 8px;\"><p style=\"margin: 0; text-align: right;\">Annual Cost per TB</p></div>"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-2 col-md-2 col-sm-2",
+											"style":"padding-left: 0; padding-right: 0;"
+										},
+										"children":[{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-left: 0; padding: 8px;"
+											},
+											"children":[{
+												"tag":"select",
+												"type":"select",
+												"attributes":{
+													"class":"form-control",
+													"calc-id":"A100"
+												},
+												"customClass":"chosen-no-border",
+												"choices":[{
+													"text":"Select current solution",
+													"value":0
+												},{
+													"text":"Avamar",
+													"value":1
+												},{
+													"text":"Commvault",
+													"value":2
+												},{
+													"text":"IDPA",
+													"value":3
+												},{
+													"text":"Networker",
+													"value":4
+												},{
+													"text":"Rubrik",
+													"value":5
+												},{
+													"text":"TSM",
+													"value":6
+												},{
+													"text":"Veeam",
+													"value":7
+												},{
+													"text":"Veritas",
+													"value":8
+												}]
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"A101"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"A1"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"A102"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"disabled":"disabled",
+													"calc-id":"A103"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"disabled":"disabled",
+													"calc-id":"A104"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"disabled":"disabled",
+													"calc-id":"A105"
+												}
+											}]
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-2 col-md-2 col-sm-2",
+											"style":"padding-left: 0; padding-right: 0;"
+										},
+										"children":[{
+											"html":"<div style=\"border: 1px solid #ccc; border-left: 0; padding: 8px;\"><h2 style=\"margin: 0; line-height: 24px; font-size: 1.25em; font-weight: 600; color: #4d627b\"><center>Cohesity DataPlatform</center></h2></div>"
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"B11"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"disabled":"disabled",
+													"calc-id":"A106"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"B13"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"disabled":"disabled",
+													"calc-id":"B14"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"disabled":"disabled",
+													"calc-id":"B15"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"disabled":"disabled",
+													"calc-id":"A108"
+												}
+											}]
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-2 col-md-2 col-sm-2",
+											"style":"padding-left: 0; padding-right: 0;"
+										},
+										"children":[{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-left: 0; padding: 8px;"
+											},
+											"children":[{
+												"tag":"select",
+												"type":"select",
+												"attributes":{
+													"class":"form-control",
+													"calc-id":"A43"
+												},
+												"customClass":"chosen-no-border",
+												"choices":[{
+													"text":"Select an Option",
+													"value":0
+												},{
+													"text":"DataDomain",
+													"value":1
+												},{
+													"text":"Veritas Appliance",
+													"value":2
+												},{
+													"text":"Rubrik",
+													"value":3
+												},{
+													"text":"Other",
+													"value":4
+												}]
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"C11"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"disabled":"disabled",
+													"calc-id":"C12"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"C13"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"disabled":"disabled",
+													"calc-id":"C14"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"disabled":"disabled",
+													"calc-id":"C15"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"disabled":"disabled",
+													"calc-id":"C16"
+												}
+											}]
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-2 col-md-2 col-sm-2",
+											"style":"padding-left: 0;"
+										},
+										"children":[{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-left: 0; padding: 8px;"
+											},
+											"children":[{
+												"tag":"select",
+												"type":"select",
+												"attributes":{
+													"class":"form-control",
+													"calc-id":"A44"
+												},
+												"customClass":"chosen-no-border",
+												"choices":[{
+													"text":"Select an Option",
+													"value":0
+												},{
+													"text":"DataDomain",
+													"value":1
+												},{
+													"text":"Veritas Appliance",
+													"value":2
+												},{
+													"text":"Rubrik",
+													"value":3
+												},{
+													"text":"Other",
+													"value":4
+												}]
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"D11"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"disabled":"disabled",
+													"calc-id":"D12"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"disabled":"disabled",
+													"calc-id":"D13"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"disabled":"disabled",
+													"calc-id":"D14"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"disabled":"disabled",
+													"calc-id":"D15"
+												}
+											}]
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"attributes":{
+											"class":"subsection-header underlined"
+										},
+										"children":[{
+											"html":"<h2 class=\"subsection\"><strong>Disaster Recovery</strong></h2>"
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"attributes":{
+											"class":"col-lg-6 col-md-6 col-sm-6",
+											"style":"padding-right: 0;"
+										},
+										"children":[{
+											"html":"<div style=\"border: 1px solid #ccc; padding: 8px;\"><h2 style=\"margin: 0; line-height: 24px; font-size: 1.25em; font-weight: 600; color: #4d627b\">DR SOFTWARE</h2></div>"
+										},{
+											"html":"<div style=\"border: 1px solid #ccc; border-top: 0; padding: 8px;\"><p style=\"margin: 0;\">Software cost for number of years under analysis</p></div>"
+										},{
+											"html":"<div style=\"border: 1px solid #ccc; border-top: 0; padding: 8px;\"><p style=\"margin: 0;\">Number of TBs</p></div>"
+										},{
+											"html":"<div style=\"border: 1px solid #ccc; border-top: 0; padding: 8px;\"><p style=\"margin: 0;\">Hardware cost (media/master servers and proxies)</p></div>"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-2 col-md-2 col-sm-2",
+											"style":"padding-left: 0; padding-right: 0;"
+										},
+										"children":[{
+											"html":"<div style=\"border: 1px solid #ccc; border-left: 0; padding: 8px;\"><h2 style=\"margin: 0; line-height: 24px; font-size: 1.25em; font-weight: 600; color: #4d627b\"><center>Cohesity</center></h2></div>"
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"B16"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"B17"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"B24"
+												}
+											}]
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-2 col-md-2 col-sm-2",
+											"style":"padding-left: 0; padding-right: 0;"
+										},
+										"children":[{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-left: 0; padding: 8px;"
+											},
+											"children":[{
+												"tag":"select",
+												"type":"select",
+												"attributes":{
+													"class":"form-control",
+													"calc-id":"A47"
+												},
+												"customClass":"chosen-no-border",
+												"choices":[{
+													"text":"Select an Option",
+													"value":0
+												},{
+													"text":"Veritas NetBackup",
+													"value":1
+												},{
+													"text":"Networker",
+													"value":2
+												},{
+													"text":"Avamar",
+													"value":3
+												},{
+													"text":"TSM",
+													"value":4
+												},{
+													"text":"Commvault",
+													"value":5
+												},{
+													"text":"Veeam",
+													"value":6
+												},{
+													"text":"Rubrik",
+													"value":7
+												},{
+													"text":"Other",
+													"value":8
+												}]
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"C16"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"C17"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"C24"
+												}
+											}]
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-2 col-md-2 col-sm-2",
+											"style":"padding-left: 0;"
+										},
+										"children":[{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-left: 0; padding: 8px;"
+											},
+											"children":[{
+												"tag":"select",
+												"type":"select",
+												"attributes":{
+													"class":"form-control",
+													"calc-id":"A48"
+												},
+												"customClass":"chosen-no-border",
+												"choices":[{
+													"text":"Select an Option",
+													"value":0
+												},{
+													"text":"Veritas NetBackup",
+													"value":1
+												},{
+													"text":"Networker",
+													"value":2
+												},{
+													"text":"Avamar",
+													"value":3
+												},{
+													"text":"TSM",
+													"value":4
+												},{
+													"text":"Commvault",
+													"value":5
+												},{
+													"text":"Veeam",
+													"value":6
+												},{
+													"text":"Rubrik",
+													"value":7
+												},{
+													"text":"Other",
+													"value":8
+												}]
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"D16"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"D17"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"C24"
+												}
+											}]
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"attributes":{
+											"class":"col-lg-6 col-md-6 col-sm-6",
+											"style":"padding-right: 0;"
+										},
+										"children":[{
+											"html":"<div style=\"border: 1px solid #ccc; padding: 8px;\"><h2 style=\"margin: 0; line-height: 24px; font-size: 1.25em; font-weight: 600; color: #4d627b\">TARGET STORAGE</h2></div>"
+										},{
+											"html":"<div style=\"border: 1px solid #ccc; border-top: 0; padding: 8px;\"><p style=\"margin: 0;\">Software cost for number of years under analysis</p></div>"
+										},{
+											"html":"<div style=\"border: 1px solid #ccc; border-top: 0; padding: 8px;\"><p style=\"margin: 0;\">Number of TBs</p></div>"
+										},{
+											"html":"<div style=\"border: 1px solid #ccc; border-top: 0; padding: 8px;\"><p style=\"margin: 0;\">Hardware cost</p></div>"
+										},{
+											"html":"<div style=\"border: 1px solid #ccc; border-top: 0; padding: 8px;\"><p style=\"margin: 0; text-align: right;\">Total Cost for DR</p></div>"
+										},{
+											"html":"<div style=\"border: 1px solid #ccc; border-top: 0; padding: 8px;\"><p style=\"margin: 0; text-align: right;\">Cost per TB</p></div>"
+										},{
+											"html":"<div style=\"border: 1px solid #ccc; border-top: 0; padding: 8px;\"><p style=\"margin: 0;\">&nbsp;</p></div>"
+										},{
+											"html":"<div style=\"border: 1px solid #ccc; border-top: 0; padding: 8px;\"><p style=\"margin: 0; text-align: right;\"><strong>Grand Total for Backup & DR</strong></p></div>"
+										},{
+											"html":"<div style=\"border: 1px solid #ccc; border-top: 0; padding: 8px;\"><p style=\"margin: 0; text-align: right;\"><strong>Cost per TB</strong></p></div>"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-2 col-md-2 col-sm-2",
+											"style":"padding-left: 0; padding-right: 0;"
+										},
+										"children":[{
+											"html":"<div style=\"border: 1px solid #ccc; border-left: 0; padding: 8px;\"><h2 style=\"margin: 0; line-height: 24px; font-size: 1.25em; font-weight: 600; color: #4d627b\"><center>Cohesity</center></h2></div>"
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"B18"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"B19"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"B25"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"B26"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"B27"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"html":"<div class=\"form-control\" style=\"border: none;\"></div>"
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"B28"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"B29"
+												}
+											}]
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-2 col-md-2 col-sm-2",
+											"style":"padding-left: 0; padding-right: 0;"
+										},
+										"children":[{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-left: 0; padding: 8px;"
+											},
+											"children":[{
+												"tag":"select",
+												"type":"select",
+												"attributes":{
+													"class":"form-control",
+													"calc-id":"A49"
+												},
+												"customClass":"chosen-no-border",
+												"choices":[{
+													"text":"Select an Option",
+													"value":0
+												},{
+													"text":"DataDomain",
+													"value":1
+												},{
+													"text":"Veritas Appliance",
+													"value":2
+												},{
+													"text":"Rubrik",
+													"value":3
+												},{
+													"text":"Other",
+													"value":4
+												}]
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"C18"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"C19"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"C25"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"C26"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"C27"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"html":"<div class=\"form-control\" style=\"border: none;\"></div>"
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"C28"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"C29"
+												}
+											}]
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-2 col-md-2 col-sm-2",
+											"style":"padding-left: 0;"
+										},
+										"children":[{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-left: 0; padding: 8px;"
+											},
+											"children":[{
+												"tag":"select",
+												"type":"select",
+												"attributes":{
+													"class":"form-control",
+													"calc-id":"A50"
+												},
+												"customClass":"chosen-no-border",
+												"choices":[{
+													"text":"Select an Option",
+													"value":0
+												},{
+													"text":"DataDomain",
+													"value":1
+												},{
+													"text":"Veritas Appliance",
+													"value":2
+												},{
+													"text":"Rubrik",
+													"value":3
+												},{
+													"text":"Other",
+													"value":4
+												}]
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"D18"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"D19"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"D25"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"D26"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"D27"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"html":"<div class=\"form-control\" style=\"border: none;\"></div>"
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"D28"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"D29"
+												}
+											}]
+										}]
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom white-bg dashboard-header",
+			"id":"section7"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"html":"<h1 style=\"margin-bottom: 20px;\">File Shares</h1>"
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom gray-bg dashboard-header",
+			"id":"FILESHARE3"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-md-12 col-sm-12 col-xs-12"
+			},
+			"children":[{
+				"attributes":{
+					"class":"row"
+				},
+				"children":[{
+					"attributes":{
+						"class":"col-lg-12 col-md-12 col-sm-12 col-xs-12"
+					},
+					"children":[{
+						"attributes":{
+							"class": "ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"ibox-content",
+								"style":"padding-left: 30px;"
+							},
+							"children":[{
+								"attributes":{
+									"class":"row"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-md-12 section-writeup"
+									},
+									"children":[{
+										"html":"<p class=\"caption-text\"></p>"
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]
+			}]
+		},{
+			"attributes":{
+				"class":"col-md-12 col-sm-12 col-xs-12"
+			},
+			"children":[{
+				"attributes":{
+					"class":"row"
+				},
+				"children":[{
+					"attributes":{
+						"class":"col-lg-12 col-md-12 col-sm-12 col-xs-12"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"ibox-content",
+								"style":"border-top: none;"
+							},
+							"children":[{
+								"attributes":{
+									"class":"form-horizontal"
+								},
+								"children":[{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"attributes":{
+											"class":"subsection-header underlined"
+										},
+										"children":[{
+											"html":"<h2 class=\"subsection\"><strong>Current Environment</strong></h2>"
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"How many TB of data are protected?"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"calc-id":"A1"
+											}
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"Annual Growth Rate %"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"calc-id":"A2"
+											}
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"Number of Years under analysis"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"calc-id":"A3"
+											}
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"attributes":{
+											"class":"col-lg-6 col-md-6 col-sm-6",
+											"style":"padding-right: 0;"
+										},
+										"children":[{
+											"html":"<div style=\"border: 1px solid #ccc; padding: 8px;\"><h2 style=\"margin: 0; line-height: 24px; font-size: 1.25em; font-weight: 600; color: #4d627b\">FILE SHARES</h2></div>"
+										},{
+											"html":"<div style=\"border: 1px solid #ccc; border-top: 0; padding: 8px;\"><p style=\"margin: 0;\">Existing NAS storage solution cost for number of years under analysis</p></div>"
+										},{
+											"html":"<div style=\"border: 1px solid #ccc; border-top: 0; padding: 8px;\"><p style=\"margin: 0;\">TB capacity stored</p></div>"
+										},{
+											"html":"<div style=\"border: 1px solid #ccc; border-top: 0; padding: 8px;\"><p style=\"margin: 0;\">Hardware</p></div>"
+										},{
+											"html":"<div style=\"border: 1px solid #ccc; border-top: 0; padding: 8px;\"><p style=\"margin: 0;\">Total hardware costs</p></div>"
+										},{
+											"html":"<div style=\"border: 1px solid #ccc; border-top: 0; padding: 8px;\"><p style=\"margin: 0; text-align: right;\">Grand Total for NAS</p></div>"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-2 col-md-2 col-sm-2",
+											"style":"padding-left: 0; padding-right: 0;"
+										},
+										"children":[{
+											"html":"<div style=\"border: 1px solid #ccc; border-left: 0; padding: 8px;\"><h2 style=\"margin: 0; line-height: 24px; font-size: 1.25em; font-weight: 600; color: #4d627b\"><center>Cohesity</center></h2></div>"
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"B11"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"B12"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"B13"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"B14"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"B15"
+												}
+											}]
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-2 col-md-2 col-sm-2",
+											"style":"padding-left: 0; padding-right: 0;"
+										},
+										"children":[{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-left: 0; padding: 8px;"
+											},
+											"children":[{
+												"tag":"select",
+												"type":"select",
+												"attributes":{
+													"class":"form-control",
+													"calc-id":"A43"
+												},
+												"customClass":"chosen-no-border",
+												"choices":[{
+													"text":"Select an Option",
+													"value":0
+												},{
+													"text":"NetApp",
+													"value":1
+												},{
+													"text":"Isilon",
+													"value":2
+												},{
+													"text":"Other",
+													"value":3
+												}]
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"C11"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"C12"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"C13"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"C14"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"C15"
+												}
+											}]
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-2 col-md-2 col-sm-2",
+											"style":"padding-left: 0;"
+										},
+										"children":[{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-left: 0; padding: 8px;"
+											},
+											"children":[{
+												"tag":"select",
+												"type":"select",
+												"attributes":{
+													"class":"form-control",
+													"calc-id":"A43"
+												},
+												"customClass":"chosen-no-border",
+												"choices":[{
+													"text":"Select an Option",
+													"value":0
+												},{
+													"text":"NetApp",
+													"value":1
+												},{
+													"text":"Isilon",
+													"value":2
+												},{
+													"text":"Other",
+													"value":3
+												}]
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"D11"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"D12"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"D13"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"D14"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"D15"
+												}
+											}]
+										}]
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom white-bg dashboard-header",
+			"id":"section3"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"html":"<h1 style=\"margin-bottom: 20px;\">Operational Efficiency</h1>"
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom gray-bg dashboard-header"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-md-12 col-sm-12 col-xs-12"
+			},
+			"children":[{
+				"attributes":{
+					"class":"row"
+				},
+				"children":[{
+					"attributes":{
+						"class":"col-lg-12 col-md-12 col-sm-12 col-xs-12"
+					},
+					"children":[{
+						"attributes":{
+							"class": "ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"ibox-content",
+								"style":"padding-left: 30px;"
+							},
+							"children":[{
+								"attributes":{
+									"class":"row"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-md-12 section-writeup"
+									},
+									"children":[{
+										"html":"<p class=\"caption-text\">Operational efficiency is compromised by the need to manage multiple proprietary systems with different UIs, where each may require specialist administrators. Cohesity simplifies operations through the use of easy and intuitive policy administration through a single pane of glass providing a plug-and-play experience for managing daily operations.</p>"
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]
+			}]
+		},{
+			"attributes":{
+				"class":"col-md-12 col-sm-12 col-xs-12"
+			},
+			"children":[{
+				"attributes":{
+					"class":"row"
+				},
+				"children":[{
+					"attributes":{
+						"class":"col-lg-12 col-md-12 col-sm-12 col-xs-12"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"ibox-content",
+								"style":"border-top: none;"
+							},
+							"children":[{
+								"attributes":{
+									"class":"form-horizontal"
+								},
+								"children":[{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"attributes":{
+											"class":"subsection-header underlined"
+										},
+										"children":[{
+											"html":"<h2 class=\"subsection\"><strong>Labor Cost Metrics</strong></h2>"
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"Number of employees managing your current solution"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"calc-id":"A51"
+											}
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"Average salary per FTE"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"calc-id":"A52"
+											}
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"Salary load factor(%) (Cost of benefits, etc. Typically 30-35%)"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"calc-id":"A53"
+											}
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"<span class=\"pull-right\">Total salary cost of FTEs managing current solution</span>"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"attributes":{
+												"class":"input-group"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"disabled":"disabled",
+													"calc-id":"A55"
+												}
+											},{
+												"attributes":{
+													"class":"input-group-addon right output"
+												},
+												"tag":"span",
+												"children":[{
+													"tag":"i",
+													"attributes":{
+														"class":"fa fa-calculator tooltipstered",
+														"calculation-modal":"A55",
+														"title":"Click here to view the calculation breakdown"
+													}
+												}]
+											}]
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"<span class=\"pull-right\">FTE Total Available Hours (based on 2,080 working hours / year / FTE)</span>"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"attributes":{
+												"class":"input-group"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"disabled":"disabled",
+													"calc-id":"A56"
+												}
+											},{
+												"attributes":{
+													"class":"input-group-addon right output"
+												},
+												"tag":"span",
+												"children":[{
+													"tag":"i",
+													"attributes":{
+														"class":"fa fa-calculator tooltipstered",
+														"calculation-modal":"A56",
+														"title":"Click here to view the calculation breakdown"
+													}
+												}]
+											}]
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"<span class=\"pull-right\">What % of available hours are spent on tasks not related to managing the solution (other projects, corporate activities, other...)</span>"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"calc-id":"A57"
+											}
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"<span class=\"pull-right\">Total hours spent on managing existing solution</span>"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"attributes":{
+												"class":"input-group"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"disabled":"disabled",
+													"calc-id":"A58"
+												}
+											},{
+												"attributes":{
+													"class":"input-group-addon right output"
+												},
+												"tag":"span",
+												"children":[{
+													"tag":"i",
+													"attributes":{
+														"class":"fa fa-calculator tooltipstered",
+														"calculation-modal":"A58",
+														"title":"Click here to view the calculation breakdown"
+													}
+												}]
+											}]
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"attributes":{
+											"class":"subsection-header underlined"
+										},
+										"children":[{
+											"html":"<h2 class=\"subsection\"><strong>Resource Allocation for Operations</strong></h2>"
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"What % of the <span calc-id=\"A58\"></span> hours are spent on Operations"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"calc-id":"A59"
+											}
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"What % of available hours are spent on Troubleshooting"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"calc-id":"A60"
+											}
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"What % of available hours are spent on Reporting & Compliance"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"calc-id":"A61"
+											}
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4",
+											"style":"padding-right: 0;"
+										},
+										"children":[{
+											"html":"<div style=\"border: 1px solid #ccc; padding: 8px;\"><h2 style=\"margin: 0; line-height: 24px; font-size: 1.25em; font-weight: 600; color: #4d627b\">FTE Hours Gained</h2></div>"
+										},{
+											"html":"<div style=\"border: 1px solid #ccc; border-top: 0; padding: 8px;\"><p style=\"margin: 0;\">Total Available Hours</p></div>"
+										},{
+											"html":"<div style=\"border: 1px solid #ccc; border-top: 0; padding: 8px;\"><p style=\"margin: 0;\">Hours Required</p></div>"
+										},{
+											"html":"<div style=\"border: 1px solid #ccc; border-top: 0; padding: 8px;\"><p style=\"margin: 0; text-align: right;\">Hours gained</p></div>"
+										},{
+											"html":"<div style=\"border: 1px solid #ccc; border-top: 0; padding: 8px;\"><p style=\"margin: 0; text-align: right;\">$ saved</p></div>"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-2 col-md-2 col-sm-2",
+											"style":"padding-left: 0; padding-right: 0;"
+										},
+										"children":[{
+											"html":"<div style=\"border: 1px solid #ccc; border-left: 0; padding: 8px;\"><h2 style=\"margin: 0; line-height: 24px; font-size: 1.25em; font-weight: 600; color: #4d627b\"><center>Current</center></h2></div>"
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"disabled":"disabled",
+													"calc-id":"A58"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"disabled":"disabled",
+													"calc-id":"A58"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"disabled":"disabled",
+													"calc-id":"B44"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"disabled":"disabled",
+													"calc-id":"B45"
+												}
+											}]
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-2 col-md-2 col-sm-2",
+											"style":"padding-left: 0; padding-right: 0;"
+										},
+										"children":[{
+											"html":"<div style=\"border: 1px solid #ccc; border-left: 0; padding: 8px;\"><h2 style=\"margin: 0; line-height: 24px; font-size: 1.25em; font-weight: 600; color: #4d627b\"><center>Cohesity</center></h2></div>"
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"disabled":"disabled",
+													"calc-id":"A58"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"C43"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"disabled":"disabled",
+													"calc-id":"C44"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"disabled":"disabled",
+													"calc-id":"C45"
+												}
+											}]
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-2 col-md-2 col-sm-2",
+											"style":"padding-left: 0; padding-right: 0;"
+										},
+										"children":[{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-left: 0; padding: 8px;"
+											},
+											"children":[{
+												"tag":"select",
+												"type":"select",
+												"attributes":{
+													"class":"form-control",
+													"calc-id":"A65"
+												},
+												"customClass":"chosen-no-border",
+												"choices":[{
+													"text":"IDPA/Avamar",
+													"value":0
+												},{
+													"text":"Networker",
+													"value":1
+												},{
+													"text":"Veritas NetBackup",
+													"value":2
+												},{
+													"text":"Commvault applicance",
+													"value":3
+												},{
+													"text":"Rubrik",
+													"value":4
+												},{
+													"text":"TSM",
+													"value":5
+												}]
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"disabled":"disabled",
+													"calc-id":"A58"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"D43"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"disabled":"disabled",
+													"calc-id":"D44"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"disabled":"disabled",
+													"calc-id":"D45"
+												}
+											}]
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-2 col-md-2 col-sm-2",
+											"style":"padding-left: 0;"
+										},
+										"children":[{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-left: 0; padding: 8px;"
+											},
+											"children":[{
+												"tag":"select",
+												"type":"select",
+												"attributes":{
+													"class":"form-control",
+													"calc-id":"A66"
+												},
+												"customClass":"chosen-no-border",
+												"choices":[{
+													"text":"Select an Option",
+													"value":0
+												},{
+													"text":"IDPA/Avamar",
+													"value":1
+												},{
+													"text":"Networker",
+													"value":2
+												},{
+													"text":"Veritas NetBackup",
+													"value":3
+												},{
+													"text":"Commvault applicance",
+													"value":4
+												},{
+													"text":"Rubrik",
+													"value":5
+												},{
+													"text":"TSM",
+													"value":6
+												}]
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"disabled":"disabled",
+													"calc-id":"A58"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"E43"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"disabled":"disabled",
+													"calc-id":"E44"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"disabled":"disabled"
+												}
+											}]
+										}]
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom white-bg dashboard-header",
+			"id":"section4"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"html":"<h1 style=\"margin-bottom: 20px;\">Risk Compliance</h1>"
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom gray-bg dashboard-header"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-md-12 col-sm-12 col-xs-12"
+			},
+			"children":[{
+				"attributes":{
+					"class":"row"
+				},
+				"children":[{
+					"attributes":{
+						"class":"col-lg-12 col-md-12 col-sm-12 col-xs-12"
+					},
+					"children":[{
+						"attributes":{
+							"class": "ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"ibox-title"
+							},
+							"children":[{
+								"html":"<h5>Risk Compliance</h5>"
+							}]
+						},{
+							"attributes":{
+								"class":"ibox-content",
+								"style":"padding-left: 30px;"
+							},
+							"children":[{
+								"attributes":{
+									"class":"row"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-md-7 section-writeup"
+									},
+									"children":[{
+										"html":"<p class=\"caption-text\">Cohesity takes a multi-layered security approach to prevent, detect, and analyze threats. Customers can take advantage of native cybersecurity features such as Immutable file system, software encryption, over the wire encryption, multi-factor authentication, DataLock (WORM) to protect their data. In addition, Cohesity DataPlatform is capable of conducting user and behavior analytics for security and compliance reasons.</p>"
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]
+			}]
+		},{
+			"attributes":{
+				"class":"col-md-12 col-sm-12 col-xs-12"
+			},
+			"children":[{
+				"attributes":{
+					"class":"row"
+				},
+				"children":[{
+					"attributes":{
+						"class":"col-lg-12 col-md-12 col-sm-12 col-xs-12"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"ibox-content",
+								"style":"border-top: none;"
+							},
+							"children":[{
+								"attributes":{
+									"class":"form-horizontal"
+								},
+								"children":[{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"attributes":{
+											"class":"subsection-header underlined"
+										},
+										"children":[{
+											"html":"<h2 class=\"subsection\"><strong>Assess Risk From Known Vulnerabilities</strong></h2>"
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"What industry is your company?"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"tag":"select",
+											"type":"select",
+											"attributes":{
+												"class":"form-control",
+												"calc-id":"A68"
+											},
+											"choices":[{
+												"text":"Select an Option",
+												"value":0
+											},{
+												"text":"Industry 1",
+												"value":1
+											},{
+												"text":"Industry 2",
+												"value":2
+											},{
+												"text":"Industry 3",
+												"value":3
+											}]
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"Does your organization perform vulnerability scanning in your production environment?"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"tag":"select",
+											"type":"select",
+											"attributes":{
+												"class":"form-control",
+												"calc-id":"A69"
+											},
+											"choices":[{
+												"text":"Select an Option",
+												"value":1
+											},{
+												"text":"Yes",
+												"value":1
+											},{
+												"text":"No",
+												"value":2
+											}]
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group",
+										"id":"FREQUENCY1"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"How frequently?"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"tag":"select",
+											"type":"select",
+											"attributes":{
+												"class":"form-control",
+												"calc-id":"A70"
+											},
+											"choices":[{
+												"text":"Select an Option",
+												"value":0
+											},{
+												"text":"Per Day",
+												"value":1
+											},{
+												"text":"Per Month",
+												"value":2
+											},{
+												"text":"Per Year",
+												"value":3
+											}]
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"How often would you scan your environment if performance degradation was not a concern?"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"tag":"select",
+											"type":"select",
+											"attributes":{
+												"class":"form-control",
+												"calc-id":"A71"
+											},
+											"choices":[{
+												"text":"Select an Option",
+												"value":0
+											},{
+												"text":"Per Day",
+												"value":1
+											},{
+												"text":"Per Month",
+												"value":2
+											},{
+												"text":"Per Year",
+												"value":3
+											}]
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"Do you take precautions to ensure vulnerabilities are not reintroduced when restoring from a backup?"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"tag":"select",
+											"type":"select",
+											"attributes":{
+												"class":"form-control",
+												"calc-id":"A72"
+											},
+											"choices":[{
+												"text":"Select an Option",
+												"value":0
+											},{
+												"text":"Yes",
+												"value":1
+											},{
+												"text":"No",
+												"value":2
+											}]
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"Does your backup system have WORM?"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"tag":"select",
+											"type":"select",
+											"attributes":{
+												"class":"form-control",
+												"calc-id":"A73"
+											},
+											"choices":[{
+												"text":"Select an Option",
+												"value":0
+											},{
+												"text":"Yes",
+												"value":1
+											},{
+												"text":"No",
+												"value":2
+											}]
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"Does your backup system have Immutable File System?"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"tag":"select",
+											"type":"select",
+											"attributes":{
+												"class":"form-control",
+												"calc-id":"A74"
+											},
+											"choices":[{
+												"text":"Select an Option",
+												"value":0
+											},{
+												"text":"Yes",
+												"value":1
+											},{
+												"text":"No",
+												"value":2
+											}]
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"Does your backup system support Multifactor Authentication?"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"tag":"select",
+											"type":"select",
+											"attributes":{
+												"class":"form-control",
+												"calc-id":"A75"
+											},
+											"choices":[{
+												"text":"Select an Option",
+												"value":0
+											},{
+												"text":"Yes",
+												"value":1
+											},{
+												"text":"No",
+												"value":2
+											}]
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"attributes":{
+											"class":"subsection-header underlined"
+										},
+										"children":[{
+											"html":"<h2 class=\"subsection\"><strong>Ransomware</strong></h2>"
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"How likely do you think it is that you will be hit with Ransomware"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"calc-id":"A96"
+											}
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"Average Ransom Payment"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"attributes":{
+												"class":"input-group"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"calc-id":"A76"
+												}
+											},{
+												"attributes":{
+													"class":"input-group-addon right"
+												},
+												"tag":"span",
+												"children":[{
+													"tag":"i",
+													"attributes":{
+														"class":"fa fa-question-circle tooltipstered",
+														"title":"<a href=\"https://www.coveware.com/blog/2020/1/22/ransomware-costs-double-in-q4-as-ryuk-sodinokibi-proliferate\" target=\"_blank\">Click Here</a>"
+													}
+												}]
+											}]
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"Average # of Days to Recover (typically between 7.3 - 16.2) *"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"attributes":{
+												"class":"input-group"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"calc-id":"A77"
+												}
+											},{
+												"attributes":{
+													"class":"input-group-addon right"
+												},
+												"tag":"span",
+												"children":[{
+													"tag":"i",
+													"attributes":{
+														"class":"fa fa-question-circle tooltipstered",
+														"title":"<a href=\"https://reprints.forrester.com/#/assets/2/1666/RES154595/reports\" target=\"_blank\">Click Here</a>"
+													}
+												}]
+											}]
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4",
+											"style":"padding-right: 0;"
+										},
+										"children":[{
+											"html":"<div style=\"border: 1px solid #ccc; padding: 8px;\"><h2 style=\"margin: 0; line-height: 24px; font-size: 1.25em; font-weight: 600; color: #4d627b\">Application Downtime after Ransom has been paid</h2></div>"
+										},{
+											"html":"<div style=\"border: 1px solid #ccc; border-top: 0; padding: 8px;\"><p style=\"margin: 0;\">Average Cost of Downtime (per Hour)</p></div>"
+										},{
+											"html":"<div style=\"border: 1px solid #ccc; border-top: 0; padding: 8px;\"><p style=\"margin: 0;\">Approximate Time to Recover critical applications From a Restore</p></div>"
+										},{
+											"html":"<div style=\"border: 1px solid #ccc; border-top: 0; padding: 8px;\"><p style=\"margin: 0;\"><strong>Total</strong></p></div>"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-2 col-md-2 col-sm-2",
+											"style":"padding-left: 0; padding-right: 0;"
+										},
+										"children":[{
+											"html":"<div style=\"border: 1px solid #ccc; border-left: 0; padding: 8px;\"><h2 style=\"margin: 0; line-height: 24px; font-size: 1.25em; font-weight: 600; color: #4d627b\"><center>Inputs</center></h2></div>"
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"A78"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"A79"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"disabled":"disabled",
+													"calc-id":"A80"
+												}
+											}]
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-2 col-md-2 col-sm-2",
+											"style":"padding-left: 0; padding-right: 0;"
+										},
+										"children":[{
+											"html":"<div style=\"border: 1px solid #ccc; border-left: 0; padding: 8px;\"><h2 style=\"margin: 0; line-height: 24px; font-size: 1.25em; font-weight: 600; color: #4d627b\"><center>Cohesity</center></h2></div>"
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"B78"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"B79"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"disabled":"disabled",
+													"calc-id":"B80"
+												}
+											}]
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-2 col-md-2 col-sm-2",
+											"style":"padding-left: 0; padding-right: 0;"
+										},
+										"children":[{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-left: 0; padding: 8px;"
+											},
+											"children":[{
+												"tag":"select",
+												"type":"select",
+												"attributes":{
+													"class":"form-control",
+													"calc-id":"A81"
+												},
+												"customClass":"chosen-no-border",
+												"choices":[{
+													"text":"Select an Option",
+													"value":0
+												},{
+													"text":"IDPA/Avamar",
+													"value":1
+												},{
+													"text":"Networker",
+													"value":2
+												},{
+													"text":"Veritas NetBackup",
+													"value":3
+												},{
+													"text":"Commvault applicance",
+													"value":4
+												},{
+													"text":"Rubrik",
+													"value":5
+												},{
+													"text":"TSM",
+													"value":6
+												}]
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"C78"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"C79"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"disabled":"disabled",
+													"calc-id":"C80"
+												}
+											}]
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-2 col-md-2 col-sm-2",
+											"style":"padding-left: 0;"
+										},
+										"children":[{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-left: 0; padding: 8px;"
+											},
+											"children":[{
+												"tag":"select",
+												"type":"select",
+												"attributes":{
+													"class":"form-control",
+													"calc-id":"A82"
+												},
+												"customClass":"chosen-no-border",
+												"choices":[{
+													"text":"Select an Option",
+													"value":0
+												},{
+													"text":"IDPA/Avamar",
+													"value":1
+												},{
+													"text":"Networker",
+													"value":2
+												},{
+													"text":"Veritas NetBackup",
+													"value":3
+												},{
+													"text":"Commvault applicance",
+													"value":4
+												},{
+													"text":"Rubrik",
+													"value":5
+												},{
+													"text":"TSM",
+													"value":6
+												}]
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"D78"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"D79"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"disabled":"disabled",
+													"calc-id":"D80"
+												}
+											}]
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4",
+											"style":"padding-right: 0;"
+										},
+										"children":[{
+											"html":"<div style=\"border: 1px solid #ccc; padding: 8px;\"><h2 style=\"margin: 0; line-height: 24px; font-size: 1.25em; font-weight: 600; color: #4d627b\">Application Downtime after ransom has been paid</h2></div>"
+										},{
+											"html":"<div style=\"border: 1px solid #ccc; border-top: 0; padding: 8px;\"><p style=\"margin: 0;\">Annual Company Revenue</p></div>"
+										},{
+											"html":"<div style=\"border: 1px solid #ccc; border-top: 0; padding: 8px;\"><p style=\"margin: 0;\">Company Revenue per Day</p></div>"
+										},{
+											"html":"<div style=\"border: 1px solid #ccc; border-top: 0; padding: 8px;\"><p style=\"margin: 0;\">Days to Recover</p></div>"
+										},{
+											"html":"<div style=\"border: 1px solid #ccc; border-top: 0; padding: 8px;\"><p style=\"margin: 0;\"><strong>Total</strong></p></div>"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-2 col-md-2 col-sm-2",
+											"style":"padding-left: 0; padding-right: 0;"
+										},
+										"children":[{
+											"html":"<div style=\"border: 1px solid #ccc; border-left: 0; padding: 8px;\"><h2 style=\"margin: 0; line-height: 24px; font-size: 1.25em; font-weight: 600; color: #4d627b\"><center>Inputs</center></h2></div>"
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"A83"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"A84"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"A85"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"disabled":"disabled",
+													"calc-id":"A86"
+												}
+											}]
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-2 col-md-2 col-sm-2",
+											"style":"padding-left: 0; padding-right: 0;"
+										},
+										"children":[{
+											"html":"<div style=\"border: 1px solid #ccc; border-left: 0; padding: 8px;\"><h2 style=\"margin: 0; line-height: 24px; font-size: 1.25em; font-weight: 600; color: #4d627b\"><center>Cohesity</center></h2></div>"
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"B83"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"B84"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"B85"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"disabled":"disabled",
+													"calc-id":"B86"
+												}
+											}]
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-2 col-md-2 col-sm-2",
+											"style":"padding-left: 0; padding-right: 0;"
+										},
+										"children":[{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-left: 0; padding: 8px;"
+											},
+											"children":[{
+												"tag":"select",
+												"type":"select",
+												"attributes":{
+													"class":"form-control",
+													"calc-id":"A87"
+												},
+												"customClass":"chosen-no-border",
+												"choices":[{
+													"text":"Select an Option",
+													"value":0
+												},{
+													"text":"IDPA/Avamar",
+													"value":1
+												},{
+													"text":"Networker",
+													"value":2
+												},{
+													"text":"Veritas NetBackup",
+													"value":3
+												},{
+													"text":"Commvault applicance",
+													"value":4
+												},{
+													"text":"Rubrik",
+													"value":5
+												},{
+													"text":"TSM",
+													"value":6
+												}]
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"C83"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"C84"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"C85"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"disabled":"disabled",
+													"calc-id":"C86"
+												}
+											}]
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-2 col-md-2 col-sm-2",
+											"style":"padding-left: 0;"
+										},
+										"children":[{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-left: 0; padding: 8px;"
+											},
+											"children":[{
+												"tag":"select",
+												"type":"select",
+												"attributes":{
+													"class":"form-control",
+													"calc-id":"A88"
+												},
+												"customClass":"chosen-no-border",
+												"choices":[{
+													"text":"Select an Option",
+													"value":0
+												},{
+													"text":"IDPA/Avamar",
+													"value":1
+												},{
+													"text":"Networker",
+													"value":2
+												},{
+													"text":"Veritas NetBackup",
+													"value":3
+												},{
+													"text":"Commvault applicance",
+													"value":4
+												},{
+													"text":"Rubrik",
+													"value":5
+												},{
+													"text":"TSM",
+													"value":6
+												}]
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"D83"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"D84"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"calc-id":"D85"
+												}
+											}]
+										},{
+											"attributes":{
+												"style":"border: 1px solid #ccc; border-top: 0; border-left: 0;"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"style":"border: none;",
+													"disabled":"disabled",
+													"calc-id":"D86"
+												}
+											}]
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"attributes":{
+											"class":"subsection-header underlined"
+										},
+										"children":[{
+											"html":"<h2 class=\"subsection\"><strong>Loss of Employee Productivity</strong></h2>"
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"Number of Employees"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"calc-id":"A89"
+											}
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"Average Employee Salary"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"calc-id":"A90"
+											}
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"Salary Load Factor (cost of benefits, etc...)"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"calc-id":"A91"
+											}
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"FTE Total Available Hours"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"attributes":{
+												"class":"input-group"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"disabled":"disabled",
+													"calc-id":"A92"
+												}
+											},{
+												"attributes":{
+													"class":"input-group-addon right output"
+												},
+												"tag":"span",
+												"children":[{
+													"tag":"i",
+													"attributes":{
+														"class":"fa fa-calculator tooltipstered",
+														"calculation-modal":"A92",
+														"title":"Click here to view the calculation breakdown"
+													}
+												}]
+											}]
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"% of FTE Hours Lost Due To Application Outage"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"calc-id":"A93"
+											}
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"Total Available Hours Lost"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"attributes":{
+												"class":"input-group"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"disabled":"disabled",
+													"calc-id":"A94"
+												}
+											},{
+												"attributes":{
+													"class":"input-group-addon right output"
+												},
+												"tag":"span",
+												"children":[{
+													"tag":"i",
+													"attributes":{
+														"class":"fa fa-calculator tooltipstered",
+														"calculation-modal":"A94",
+														"title":"Click here to view the calculation breakdown"
+													}
+												}]
+											}]
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"Total"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"attributes":{
+												"class":"input-group"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"disabled":"disabled",
+													"calc-id":"A95"
+												}
+											},{
+												"attributes":{
+													"class":"input-group-addon right output"
+												},
+												"tag":"span",
+												"children":[{
+													"tag":"i",
+													"attributes":{
+														"class":"fa fa-calculator tooltipstered",
+														"calculation-modal":"A95",
+														"title":"Click here to view the calculation breakdown"
+													}
+												}]
+											}]
+										}]
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom white-bg dashboard-header",
+			"id":"section6"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"html":"<h1 style=\"margin-bottom: 20px;\">Data Lookup</h1>"
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom gray-bg dashboard-header",
+			"id":"AE2"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-md-12 col-sm-12 col-xs-12"
+			},
+			"children":[{
+				"attributes":{
+					"class":"row"
+				},
+				"children":[{
+					"attributes":{
+						"class":"col-lg-12 col-md-12 col-sm-12 col-xs-12"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"ibox-content",
+								"style":"border-top: none;"
+							},
+							"children":[{
+								"attributes":{
+									"class":"form-horizontal"
+								},
+								"children":[{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"attributes":{
+											"class":"subsection-header underlined"
+										},
+										"children":[{
+											"html":"<h2 class=\"subsection\"><strong>Lookup tables</strong></h2>"
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"fusion-table"
+									},
+									"children":[{
+										"type":"table",
+										"data": [
+											["Competitor offset","","","","","",""],
+											["Cohesity dedupe adantage factor","","","","","",""],
+											["Cohesity compression advantage factor","","","","","",""]
+										],
+										"attributes": {
+											"B1": { "calc-id" : "A21" },
+											"B2": { "calc-id" : "A22" },
+											"B3": { "calc-id" : "A23" },
+											"C1": { "calc-id" : "B21" },
+											"C2": { "calc-id" : "B22" },
+											"C3": { "calc-id" : "B23" },
+											"D1": { "calc-id" : "C21" },
+											"D2": { "calc-id" : "C22" },
+											"D3": { "calc-id" : "C23" }	,
+											"E1": { "calc-id" : "D21" },
+											"E2": { "calc-id" : "D22" },
+											"E3": { "calc-id" : "D23" },	
+											"F1": { "calc-id" : "E21" },
+											"F2": { "calc-id" : "E22" },
+											"F3": { "calc-id" : "E23" },	
+											"G1": { "calc-id" : "F21" },
+											"G2": { "calc-id" : "F22" },
+											"G3": { "calc-id" : "F23" }												
+										},
+										"columns": [{
+											"type": "html",
+											"title": "Competing backup target",
+											"width": "40%",
+											"readOnly": true,
+											"align": {
+												"header": "left",
+												"cells": "left"
+											}
+										},{
+											"type": "html",
+											"title": "IDPA",
+											"width": "10%"
+										},{
+											"type": "html",
+											"title": "Data Domain",
+											"width": "10%"
+										},{
+											"type": "html",
+											"title": "Veritas Appliance",
+											"width": "10%"
+										},{
+											"type": "html",
+											"title": "Commvault appliance",
+											"width": "10%"
+										},{
+											"type": "html",
+											"title": "Rubrik",
+											"width": "10%"
+										},{
+											"type": "html",
+											"title": "TSM",
+											"width": "10%"
+										}],
+										"tableWidth": "100%",
+										"showRowNumbering": false	
+									},{
+										"attributes":{
+											"class":"form-group"
+										},
+										"children":[{
+											"tag":"label",
+											"attributes":{
+												"class":"control-label col-lg-8 col-md-8 col-sm-8"
+											},
+											"children":[{
+												"html":"Incumbant storage target offset"
+											}]
+										},{
+											"attributes":{
+												"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+											},
+											"children":[{
+												"tag":"select",
+												"type":"select",
+												"attributes":{
+													"class":"form-control",
+													"calc-id":"A24"
+												},
+												"choices":[{
+													"text":"Select an Option",
+													"value":0
+												},{
+													"text":"IDPA/Avamar",
+													"value":1
+												},{
+													"text":"Networker",
+													"value":2
+												},{
+													"text":"Veritas NetBackup",
+													"value":3
+												},{
+													"text":"Commvault applicance",
+													"value":4
+												},{
+													"text":"Rubrik",
+													"value":5
+												},{
+													"text":"TSM",
+													"value":6
+												}]
+											}]
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"Cohesity dedupe advantage factor"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"attributes":{
+												"class":"input-group"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"disabled":"disabled",
+													"calc-id":"A25"
+												}
+											},{
+												"attributes":{
+													"class":"input-group-addon right output"
+												},
+												"tag":"span",
+												"children":[{
+													"tag":"i",
+													"attributes":{
+														"class":"fa fa-calculator tooltipstered",
+														"calculation-modal":"A25",
+														"title":"Click here to view the calculation breakdown"
+													}
+												}]
+											}]
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"Cohesity compression advantage factor"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"attributes":{
+												"class":"input-group"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"disabled":"disabled",
+													"calc-id":"A26"
+												}
+											},{
+												"attributes":{
+													"class":"input-group-addon right output"
+												},
+												"tag":"span",
+												"children":[{
+													"tag":"i",
+													"attributes":{
+														"class":"fa fa-calculator tooltipstered",
+														"calculation-modal":"A26",
+														"title":"Click here to view the calculation breakdown"
+													}
+												}]
+											}]
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"Average dedupe savings"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"attributes":{
+												"class":"input-group"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"disabled":"disabled",
+													"calc-id":"A27"
+												}
+											},{
+												"attributes":{
+													"class":"input-group-addon right output"
+												},
+												"tag":"span",
+												"children":[{
+													"tag":"i",
+													"attributes":{
+														"class":"fa fa-calculator tooltipstered",
+														"calculation-modal":"A27",
+														"title":"Click here to view the calculation breakdown"
+													}
+												}]
+											}]
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"Average compression savings"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"attributes":{
+												"class":"input-group"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"disabled":"disabled",
+													"calc-id":"A28"
+												}
+											},{
+												"attributes":{
+													"class":"input-group-addon right output"
+												},
+												"tag":"span",
+												"children":[{
+													"tag":"i",
+													"attributes":{
+														"class":"fa fa-calculator tooltipstered",
+														"calculation-modal":"A28",
+														"title":"Click here to view the calculation breakdown"
+													}
+												}]
+											}]
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"Average space savings factor"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"attributes":{
+												"class":"input-group"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"disabled":"disabled",
+													"calc-id":"A29"
+												}
+											},{
+												"attributes":{
+													"class":"input-group-addon right output"
+												},
+												"tag":"span",
+												"children":[{
+													"tag":"i",
+													"attributes":{
+														"class":"fa fa-calculator tooltipstered",
+														"calculation-modal":"A29",
+														"title":"Click here to view the calculation breakdown"
+													}
+												}]
+											}]
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"Space needed by competitor"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"calc-id":"A1"
+											}
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"Space needed by Cohesity"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"attributes":{
+												"class":"input-group"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"disabled":"disabled",
+													"calc-id":"A30"
+												}
+											},{
+												"attributes":{
+													"class":"input-group-addon right output"
+												},
+												"tag":"span",
+												"children":[{
+													"tag":"i",
+													"attributes":{
+														"class":"fa fa-calculator tooltipstered",
+														"calculation-modal":"A30",
+														"title":"Click here to view the calculation breakdown"
+													}
+												}]
+											}]
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"fusion-table"
+									},
+									"children":[{
+										"type":"table",
+										"data": [
+											["Competitor offset","","","","","",""],
+											["Operations: Cohesity savings relative to competitor","","","","","",""],
+											["Troubleshooting: Cohesity savings relative to competitor","","","","","",""],
+											["Reporting and compliance: Cohesity savings relative to competitor","","","","","",""]
+										],
+										"attributes": {
+											"B1": { "calc-id" : "A31" },
+											"B2": { "calc-id" : "A32" },
+											"B3": { "calc-id" : "A33" },
+											"B4": { "calc-id" : "A34" },
+											"C1": { "calc-id" : "B31" },
+											"C2": { "calc-id" : "B32" },
+											"C3": { "calc-id" : "B33" },
+											"C4": { "calc-id" : "B34" },
+											"D1": { "calc-id" : "C31" },
+											"D2": { "calc-id" : "C32" },
+											"D3": { "calc-id" : "C33" },
+											"D4": { "calc-id" : "B34" },
+											"E1": { "calc-id" : "D31" },
+											"E2": { "calc-id" : "D32" },
+											"E3": { "calc-id" : "D33" },
+											"E4": { "calc-id" : "D34" },											
+											"F1": { "calc-id" : "E31" },
+											"F2": { "calc-id" : "E32" },
+											"F3": { "calc-id" : "E33" },
+											"F4": { "calc-id" : "E34" },											
+											"G1": { "calc-id" : "F31" },
+											"G2": { "calc-id" : "F32" },
+											"G3": { "calc-id" : "F33" },
+											"G4": { "calc-id" : "F34" }												
+										},
+										"columns": [{
+											"type": "html",
+											"title": "Competing backup target",
+											"width": "40%",
+											"readOnly": true,
+											"align": {
+												"header": "left",
+												"cells": "left"
+											}
+										},{
+											"type": "html",
+											"title": "IDPA/Avamar",
+											"width": "10%"
+										},{
+											"type": "html",
+											"title": "Networker",
+											"width": "10%"
+										},{
+											"type": "html",
+											"title": "Veritas NetBackup",
+											"width": "10%"
+										},{
+											"type": "html",
+											"title": "Commvault appliance",
+											"width": "10%"
+										},{
+											"type": "html",
+											"title": "Rubrik",
+											"width": "10%"
+										},{
+											"type": "html",
+											"title": "TSM",
+											"width": "10%"
+										}],
+										"tableWidth": "100%",
+										"showRowNumbering": false	
+									},{
+										"attributes":{
+											"class":"form-group"
+										},
+										"children":[{
+											"tag":"label",
+											"attributes":{
+												"class":"control-label col-lg-8 col-md-8 col-sm-8"
+											},
+											"children":[{
+												"html":"Incumbant offset"
+											}]
+										},{
+											"attributes":{
+												"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+											},
+											"children":[{
+												"tag":"select",
+												"type":"select",
+												"attributes":{
+													"class":"form-control",
+													"calc-id":"A35"
+												},
+												"choices":[{
+													"text":"Select an Option",
+													"value":0
+												},{
+													"text":"IDPA/Avamar",
+													"value":1
+												},{
+													"text":"Networker",
+													"value":2
+												},{
+													"text":"Veritas NetBackup",
+													"value":3
+												},{
+													"text":"Commvault applicance",
+													"value":4
+												},{
+													"text":"Rubrik",
+													"value":5
+												},{
+													"text":"TSM",
+													"value":6
+												}]
+											}]
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"fusion-table"
+									},
+									"children":[{
+										"type":"table",
+										"data": [
+											["Labor needed as % of incumbent","","","","","","",""],
+											["&nbsp;","","","","","","",""],
+											["&nbsp;","","","","","","",""]
+										],
+										"attributes": {
+											"B1": { "calc-id" : "A36" },
+											"B2": { "calc-id" : "A37" },
+											"B3": { "calc-id" : "A38" },
+											"C1": { "calc-id" : "B36" },
+											"C2": { "calc-id" : "B37" },
+											"C3": { "calc-id" : "B38" },
+											"D1": { "calc-id" : "C36" },
+											"D2": { "calc-id" : "C37" },
+											"D3": { "calc-id" : "C38" },
+											"E1": { "calc-id" : "D36" },
+											"E2": { "calc-id" : "D37" },
+											"E3": { "calc-id" : "D38" },											
+											"F1": { "calc-id" : "E36" },
+											"F2": { "calc-id" : "E37" },
+											"F3": { "calc-id" : "E38" },											
+											"G1": { "calc-id" : "F36" },
+											"G2": { "calc-id" : "F37" },
+											"G3": { "calc-id" : "F38" },
+											"H1": { "calc-id" : "G36" },
+											"H2": { "calc-id" : "G37" },
+											"H3": { "calc-id" : "G38" }											
+										},
+										"columns": [{
+											"type": "html",
+											"title": "Vendor",
+											"width": "30%",
+											"readOnly": true,
+											"align": {
+												"header": "left",
+												"cells": "left"
+											}
+										},{
+											"type": "html",
+											"title": "Cohesity",
+											"width": "10%"
+										},{
+											"type": "html",
+											"title": "IDPA/Avamar",
+											"width": "10%"
+										},{
+											"type": "html",
+											"title": "Networker",
+											"width": "10%"
+										},{
+											"type": "html",
+											"title": "Veritas NetBackup",
+											"width": "10%"
+										},{
+											"type": "html",
+											"title": "Commvault appliance",
+											"width": "10%"
+										},{
+											"type": "html",
+											"title": "Rubrik",
+											"width": "10%"
+										},{
+											"type": "html",
+											"title": "TSM",
+											"width": "10%"
+										}],
+										"tableWidth": "100%",
+										"showRowNumbering": false	
+									}]
+								},{
+									"attributes":{
+										"class":"fusion-table"
+									},
+									"children":[{
+										"type":"table",
+										"data": [
+											["Operations","","","","","","",""],
+											["Troubleshooting","","","","","","",""],
+											["Reporting and Compliance","","","","","","",""]
+										],
+										"attributes": {
+											"B1": { "calc-id" : "A39" },
+											"B2": { "calc-id" : "A40" },
+											"B3": { "calc-id" : "A41" },
+											"C1": { "calc-id" : "B39" },
+											"C2": { "calc-id" : "B40" },
+											"C3": { "calc-id" : "B41" },
+											"D1": { "calc-id" : "C39" },
+											"D2": { "calc-id" : "C40" },
+											"D3": { "calc-id" : "C41" },
+											"E1": { "calc-id" : "D39" },
+											"E2": { "calc-id" : "D40" },
+											"E3": { "calc-id" : "D41" },											
+											"F1": { "calc-id" : "E39" },
+											"F2": { "calc-id" : "E40" },
+											"F3": { "calc-id" : "E41" },											
+											"G1": { "calc-id" : "F39" },
+											"G2": { "calc-id" : "F40" },
+											"G3": { "calc-id" : "F41" },
+											"H1": { "calc-id" : "G39" },
+											"H2": { "calc-id" : "G40" },
+											"H3": { "calc-id" : "G41" }											
+										},
+										"columns": [{
+											"type": "html",
+											"title": "Savings vs. incumbant",
+											"width": "30%",
+											"readOnly": true,
+											"align": {
+												"header": "left",
+												"cells": "left"
+											}
+										},{
+											"type": "html",
+											"title": "Cohesity",
+											"width": "10%"
+										},{
+											"type": "html",
+											"title": "IDPA/Avamar",
+											"width": "10%"
+										},{
+											"type": "html",
+											"title": "Networker",
+											"width": "10%"
+										},{
+											"type": "html",
+											"title": "Veritas NetBackup",
+											"width": "10%"
+										},{
+											"type": "html",
+											"title": "Commvault appliance",
+											"width": "10%"
+										},{
+											"type": "html",
+											"title": "Rubrik",
+											"width": "10%"
+										},{
+											"type": "html",
+											"title": "TSM",
+											"width": "10%"
+										}],
+										"tableWidth": "100%",
+										"showRowNumbering": false	
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]
+			}]
+		}]
+	}]
+}]

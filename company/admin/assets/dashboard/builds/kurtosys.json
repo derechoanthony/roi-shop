@@ -1,0 +1,4000 @@
+[{
+	"tag":"nav",
+	"attributes":{
+		"role":"navigation",
+		"class":"navbar-default navbar-static-side"
+	},
+	"children":[{
+		"attributes":{
+			"style":"overflow: hidden; width: auto; height: 100%;",
+			"class":"sidebar-collapse sidebar-navigation"
+		},
+		"children":[{
+			"tag":"ul",
+			"attributes":{
+				"id":"side-menu",
+				"class":"nav"
+			},
+			"children": [{
+				"tag":"li",
+				"attributes":{
+					"class":"nav-header"
+				},
+				"children":[{
+					"attributes":{
+						"class":"dropdown profile-element"
+					},
+					"children":[{
+						"tag":"span",
+						"children":[{
+							"html":"<img id=\"company_logo\" alt=\"image\" src=\"https://www.theroishop.com/company_specific_files/632/logo/logo.png\">"
+						}]
+					}]
+				}]
+			},{
+				"tag":"li",
+				"attributes":{
+					"class":"smooth-scroll"
+				},
+				"children":[{
+					"html":"<a href=\"#\"><i class=\"fa fa-calculator\"></i> <span class=\"nav-label\">ROI Sections</span><span class=\"fa arrow\"></span></a>"
+				},{
+					"tag":"ul",
+					"attributes":{
+						"class":"nav nav-second-level collapse in"
+					},
+					"children":[{
+						"html":"<li><a href=\"#section1\" class=\"section-navigator\"> Dashboard</a></li>"
+					},{
+						"html":"<li><a href=\"#section2\" class=\"section-navigator\">Global Websites</a></li>"
+					},{
+						"html":"<li><a href=\"#section3\" class=\"section-navigator\">Secure Communities</a></li>"
+					},{
+						"html":"<li><a href=\"#section4\" class=\"section-navigator\">Document Production</a></li>"
+					},{
+						"html":"<li><a href=\"#section5\" class=\"section-navigator\">Compliance Risk Mitigation</a></li>"
+					},{
+						"html":"<li><a href=\"#section6\" class=\"section-navigator\">Summary</a></li>"
+					}]
+				}]
+			},{
+				"tag":"li",
+				"attributes":{
+					"class":"smooth-scroll"
+				},
+				"children":[{
+					"html":"<a href=\"#\"><i class=\"fa fa-calculator\"></i> <span class=\"nav-label\">Reports</span><span class=\"fa arrow\"></span></a>"
+				},{
+					"tag":"ul",
+					"attributes":{
+						"class":"nav nav-second-level collapse in"
+					},
+					"children":[{
+						"html":"<li class=\"smooth-scroll\"><a class=\"renderPdf\" reportId=\"2\">Create PDF</a></li>"
+					}]
+				}]
+			},{
+				"tag":"li",
+				"children":[{
+					"html":"<a href=\"../../dashboard\"><i class=\"fa fa-globe\"></i> <span class=\"nav-label\">My ROIs</span></a>"
+				}]
+			}]
+		}]
+	}]
+},{
+	"attributes": {
+		"class": "white-bg",
+		"id":"page-wrapper"
+	},
+	"children":[{
+		"attributes":{
+			"class":"row border-bottom white-bg dashboard-header",
+			"id":"section1"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"html": "<h1 style=\"margin-bottom: 20px\">ROI Dashboard | 2 Year Projection <span class=\"pull-right pod-total section-total grand-total txt-money\" calc-id=\"TOTALSAVINGS1\">$0</span></h1>"
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom gray-bg dashboard-header"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"attributes":{
+					"class":"ibox-content"
+				},
+				"children":[{
+					"html":"<h3 style=\"font-size: 18px; font-weight: 700;\">Select a section below to review your ROI</h3><p style=\"font-size: 16px;\">To calculate your return on investment, begin with the first section below. The information entered therein will automatically populate corresponding fields in the other sections. You will be able to move from section to section to add and/or adjust values to best reflect your organization and process. To return to this screen, click the ROI Dashboard button to the left.</p></div>"
+				}]
+			}]
+		},{
+			"attributes":{
+				"class":"col-lg-3"
+			},
+			"children":[{
+				"attributes":{
+					"class":"widget white-bg"
+				},
+				"children":[{
+					"attributes":{
+						"class":"p-m row equalize-pod-height"
+					},
+					"children":[{
+						"attributes":{
+							"class":"row"
+						},
+						"children": [{
+							"html":"<h2 class=\"col-lg-10 font-bold no-margins pod-header\"><a href=\"#section2\" class=\"smooth-scroll section-navigator\">Global Websites</a></h2>"
+						}]
+					},{
+						"html":"<h1 class=\"txt-right pod-total section-total txt-money\" calc-id=\"SECTOT1\">$0</h1>"
+					},{
+						"attributes":{
+							"class":"row conservative-slider"
+						},
+						"children": [{
+							"attributes":{
+								"class":"value-holder"
+							},
+							"children": [{
+								"html":"Conservative Factor: <span class=\"pull-right\" calc-id=\"CON1\"></span>"
+							},{
+								"attributes":{
+									"class":"row slider-padding"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-lg-12"
+									},
+									"children":[{
+										"type":"slider",
+										"step":5,
+										"attributes":{
+											"calc-id":"CON1"
+										}
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]
+			}]
+		},{
+			"attributes":{
+				"class":"col-lg-3"
+			},
+			"children":[{
+				"attributes":{
+					"class":"widget white-bg"
+				},
+				"children":[{
+					"attributes":{
+						"class":"p-m row equalize-pod-height"
+					},
+					"children":[{
+						"attributes":{
+							"class":"row"
+						},
+						"children": [{
+							"html":"<h2 class=\"col-lg-10 font-bold no-margins pod-header\"><a href=\"#section3\" class=\"smooth-scroll section-navigator\">Secure Communities</a></h2>"
+						}]
+					},{
+						"html":"<h1 class=\"txt-right pod-total section-total txt-money\" calc-id=\"SECTOT2\">$0</h1>"
+					},{
+						"attributes":{
+							"class":"row conservative-slider"
+						},
+						"children": [{
+							"attributes":{
+								"class":"value-holder"
+							},
+							"children": [{
+								"html":"Conservative Factor: <span class=\"pull-right\" calc-id=\"CON2\"></span>"
+							},{
+								"attributes":{
+									"class":"row slider-padding"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-lg-12"
+									},
+									"children":[{
+										"type":"slider",
+										"step":5,
+										"attributes":{
+											"calc-id":"CON2"
+										}
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]
+			}]
+		},{
+			"attributes":{
+				"class":"col-lg-3"
+			},
+			"children":[{
+				"attributes":{
+					"class":"widget white-bg"
+				},
+				"children":[{
+					"attributes":{
+						"class":"p-m row equalize-pod-height"
+					},
+					"children":[{
+						"attributes":{
+							"class":"row"
+						},
+						"children": [{
+							"html":"<h2 class=\"col-lg-10 font-bold no-margins pod-header\"><a href=\"#section4\" class=\"smooth-scroll section-navigator\">Document Production</a></h2>"
+						}]
+					},{
+						"html":"<h1 class=\"txt-right pod-total section-total txt-money\" calc-id=\"SECTOT3\">$0</h1>"
+					},{
+						"attributes":{
+							"class":"row conservative-slider"
+						},
+						"children": [{
+							"attributes":{
+								"class":"value-holder"
+							},
+							"children": [{
+								"html":"Conservative Factor: <span class=\"pull-right\" calc-id=\"CON3\"></span>"
+							},{
+								"attributes":{
+									"class":"row slider-padding"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-lg-12"
+									},
+									"children":[{
+										"type":"slider",
+										"step":5,
+										"attributes":{
+											"calc-id":"CON3"
+										}
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]
+			}]
+		},{
+			"attributes":{
+				"class":"col-lg-3"
+			},
+			"children":[{
+				"attributes":{
+					"class":"widget white-bg"
+				},
+				"children":[{
+					"attributes":{
+						"class":"p-m row equalize-pod-height"
+					},
+					"children":[{
+						"attributes":{
+							"class":"row"
+						},
+						"children": [{
+							"html":"<h2 class=\"col-lg-10 font-bold no-margins pod-header\"><a href=\"#section5\" class=\"smooth-scroll section-navigator\">Compliance Risk Mitigation</a></h2>"
+						}]
+					},{
+						"html":"<h1 class=\"txt-right pod-total section-total txt-money\" calc-id=\"SECTOT4\">$0</h1>"
+					},{
+						"attributes":{
+							"class":"row conservative-slider"
+						},
+						"children": [{
+							"attributes":{
+								"class":"value-holder"
+							},
+							"children": [{
+								"html":"Conservative Factor: <span class=\"pull-right\" calc-id=\"CON4\"></span>"
+							},{
+								"attributes":{
+									"class":"row slider-padding"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-lg-12"
+									},
+									"children":[{
+										"type":"slider",
+										"step":5,
+										"attributes":{
+											"calc-id":"CON4"
+										}
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]
+			}]
+		},{
+			"attributes":{
+				"class":"col-lg-3"
+			},
+			"children":[{
+				"attributes":{
+					"class":"widget white-bg"
+				},
+				"children":[{
+					"attributes":{
+						"class":"p-m row equalize-pod-height"
+					},
+					"children":[{
+						"attributes":{
+							"class":"row"
+						},
+						"children": [{
+							"html":"<h2 class=\"col-lg-10 font-bold no-margins pod-header\"><a href=\"#section6\" class=\"smooth-scroll section-navigator\">Summary</a></h2>"
+						}]
+					},{
+						"html":"<h1 class=\"txt-right pod-total section-total txt-money\" calc-id=\"TOTALSAVINGS1\">$0</h1>"
+					}]
+				}]
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom white-bg dashboard-header",
+			"id":"section2"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"html":"<h1 style=\"margin-bottom: 20px;\">Global Websites<span class=\"pull-right pod-total section-total grand-total txt-money\" calc-id=\"SECTOT1\">$0</span></h1>"
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom gray-bg dashboard-header",
+			"id":"AE2"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"attributes":{
+					"class":"row"
+				},
+				"children":[{
+					"attributes":{
+						"class":"col-md-12 col-sm-12 col-xs-12"
+					},
+					"children": [{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"ibox-title"
+							},
+							"children":[{
+								"html":"<h5>Global Websites</h5>"
+							}]
+						},{
+							"attributes":{
+								"class":"ibox-content"
+							},
+							"children":[{
+								"attributes":{
+									"class":"row"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-md-7 section-write-up"
+									},
+									"children":[{
+										"html":"<p class=\"caption-text\" style=\"font-size: 18px;\">Launch financial websites and portals in record time, deliver powerful investor experiences with zero coding, avoid costly compliance breaches, and greatly reduce your total cost of ownership.<br/><br/>Our vast library of apps and modules enrich your website (as well as portals and documents) and deliver automation projects faster than ever before.</p><hr>"
+									},{
+										"type":"revolver",
+										"children":[{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>We wanted a provider who not only had experience in this space, but actually had the full solution of both the CMS and Fund Center.</p><p>- Stewart Conway, Head of Central Marketing, BMOGAM</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>One of the reasons we chose the Kurtosys Platform was because it gave us access to WordPress, an industry-leading Content Management System. WordPress provides not only the power and performance our visitors expect, but also the ability for our Operations and Marketing teams to make real-time updates and enhancements.<p></p>- Carl Hendley, Vice President Strategic Development, Motley Fool Asset Management</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>We've got many funds and investment experts; what we really need to do is ensure our clients can get access to them and their thoughts and views as well as the data and performance of the products in the most timely and efficient manner possible.<p></p>- Ross Duncton, Managing Director, Head of Marketing & Direct, BMOGAM</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>We've seen a steady growth in traffic across all of the Hermes regional sites of around 7% month on month.<p></p>- Pauline Bush, Director, Marketing, Hermes Investment Management</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>There's a tendency to think of a website as a place to share your firm's story with visitors. That's true but we believe our goal should be to provide a thoughtful and robust portal for advisors and investors to access the content and data they need to be successful. In the end it's their site, not ours.<p></p>- Carl Hendley, Vice President Strategic Development, Motley Fool Asset Management</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>Our monthly traffic doubled, which is huge... I never would have guessed that.<p></p>- Anthony Ialeggio, Chief Marketing Officer, Commonfund</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>70% of the website was going to be about data, so it was more pragmatic for us to consider someone who was good at handling data, and then building the wider web experience around that.<p></p>- Pauline Bush, Director, Marketing, Hermes Investment Management</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>We hoped to use a provider who were experts in our field (asset management), and all the solutions that come with it in terms of regulation and reporting.<p></p>- Flora Scott, Marketing, RWC Partners</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>We wanted to leverage on a provider, able to understand our business within the asset management and services industry and assist us with solution and services, end to end. From hosting, to content services, to technology implementation, to data. We needed a provider  to support the full stack. You are the only provider in Europe (that I know), that can provide something like that.<p></p>- Giovanni Ricciolio, Head of Digital Strategy & Implementation, Generali Investments</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>In addition to an excellent technology partner, we wanted to work with a firm that had specific experience in the Finance industry. A partner that could navigate compliance, returns data, and most importantly - provide the best possible experience to advisors and investors.<p></p>- Carl Hendley, Vice President Strategic Development, Motley Fool Asset Management</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>Now, with the site implemented, it's not just a website - but a website platform, with a unified data model. Before, we had to update the data of our products, across three separate sites with three separate teams, at the risk of data quality and inconsistency.<p></p>- Giovanni Ricciolio, Head of Digital Strategy & Implementation, Generali Investments</p>"
+											}]
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"col-md-5"
+									},
+									"children":[{
+										"type":"video",
+										"src":"//www.youtube.com/embed/pQCIDm3KfYk"
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]		
+			}]
+		},{
+			"attributes":{
+				"class":"col-md-12 col-sm-12 col-xs-12"
+			},
+			"children":[{
+				"attributes":{
+					"class":"row"
+				},
+				"children":[{
+					"attributes":{
+						"class":"col-lg-9 col-md-9 col-sm-12 col-xs-12"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox-content"
+						},
+						"children":[{
+							"attributes":{
+								"class":"form-horizontal"
+							},
+							"children":[{
+								"attributes":{
+									"class":"subsection-header underlined"
+								},
+								"children":[{
+									"html":"<h2>Cost of In-house Launch</h2>"
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-7 col-md-7 col-sm-7"
+									},
+									"children":[{
+										"html":"Months to launch (includes design and discovery)"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"input-group"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"calc-id":"A1"
+											}
+										},{
+											"html":"<span class=\"input-group-addon right append\">Months</span>"
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Average monthly headcount cost (client)</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"tag":"input",
+										"attributes":{
+											"class":"form-control",
+											"calc-id":"A2"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Average monthly headcount cost (partner)</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"tag":"input",
+										"attributes":{
+											"class":"form-control",
+											"calc-id":"A3"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Website Cost Launch With Current Environment</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"input-group"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"calc-id":"A4",
+												"class":"form-control",
+												"disabled":"disabled"
+											}
+										},{
+											"attributes":{
+												"class":"input-group-addon right helper"
+											},
+											"tag":"span",
+											"children":[{
+												"tag":"i",
+												"attributes":{
+													"class":"fa fa-calculator tooltipstered",
+													"calculation-modal":"A4",
+													"title":"Click here to view the calculation breakdown"
+												}
+											}]
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"subsection-header underlined"
+								},
+								"children":[{
+									"html":"<h2>Revenue Added from Faster Delivery</h2>"
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">AUM</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"tag":"input",
+										"attributes":{
+											"class":"form-control",
+											"calc-id":"A5"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Management fee (%)</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"tag":"input",
+										"attributes":{
+											"class":"form-control",
+											"calc-id":"A6"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Annual company revenue</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"input-group"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"calc-id":"A7",
+												"class":"form-control",
+												"disabled":"disabled"
+											}
+										},{
+											"attributes":{
+												"class":"input-group-addon right helper"
+											},
+											"tag":"span",
+											"children":[{
+												"tag":"i",
+												"attributes":{
+													"class":"fa fa-calculator tooltipstered",
+													"calculation-modal":"A7",
+													"title":"Click here to view the calculation breakdown"
+												}
+											}]
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Expected annual revenue growth rate (%)</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"tag":"input",
+										"attributes":{
+											"class":"form-control",
+											"calc-id":"A8"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Expected monthly revenue growth</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"input-group"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"calc-id":"A9",
+												"class":"form-control",
+												"disabled":"disabled"
+											}
+										},{
+											"attributes":{
+												"class":"input-group-addon right helper"
+											},
+											"tag":"span",
+											"children":[{
+												"tag":"i",
+												"attributes":{
+													"class":"fa fa-calculator tooltipstered",
+													"calculation-modal":"A9",
+													"title":"Click here to view the calculation breakdown"
+												}
+											}]
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Expected months to launch with Kurtosys (includes design and discovery)</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"input-group"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"calc-id":"A10"
+											}
+										},{
+											"html":"<span class=\"input-group-addon right append\">Months</span>"
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Months saved</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"input-group"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"calc-id":"A11",
+												"class":"form-control",
+												"disabled":"disabled"
+											}
+										},{
+											"attributes":{
+												"class":"input-group-addon right helper"
+											},
+											"tag":"span",
+											"children":[{
+												"tag":"i",
+												"attributes":{
+													"class":"fa fa-calculator tooltipstered",
+													"calculation-modal":"A11",
+													"title":"Click here to view the calculation breakdown"
+												}
+											}]
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Revenue generated during reduced time to launch by <span calc-id=\"A11\"></span> months</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"input-group"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"calc-id":"A12",
+												"class":"form-control",
+												"disabled":"disabled"
+											}
+										},{
+											"attributes":{
+												"class":"input-group-addon right helper"
+											},
+											"tag":"span",
+											"children":[{
+												"tag":"i",
+												"attributes":{
+													"class":"fa fa-calculator tooltipstered",
+													"calculation-modal":"A12",
+													"title":"Click here to view the calculation breakdown"
+												}
+											}]
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">How much of that revenue would you attribute to having a new website</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"tag":"input",
+										"attributes":{
+											"class":"form-control",
+											"calc-id":"A13"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Revenue growth attributed to faster delivery</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"input-group"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"calc-id":"A14",
+												"class":"form-control",
+												"disabled":"disabled"
+											}
+										},{
+											"attributes":{
+												"class":"input-group-addon right helper"
+											},
+											"tag":"span",
+											"children":[{
+												"tag":"i",
+												"attributes":{
+													"class":"fa fa-calculator tooltipstered",
+													"calculation-modal":"A14",
+													"title":"Click here to view the calculation breakdown"
+												}
+											}]
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"subsection-header underlined"
+								},
+								"children":[{
+									"html":"<h2>Annual Technology Cost Savings</h2>"
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">CMS license</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"tag":"input",
+										"attributes":{
+											"class":"form-control",
+											"calc-id":"A15"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Server license</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"tag":"input",
+										"attributes":{
+											"class":"form-control",
+											"calc-id":"A16"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">CDN license</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"tag":"input",
+										"class":"form-control",
+										"attributes":{
+											"calc-id":"A17"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">WAF / DDOS</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"tag":"input",
+										"attributes":{
+											"class":"form-control",
+											"calc-id":"A18"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Ancilary server software license</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"tag":"input",
+										"attributes":{
+											"class":"form-control",
+											"calc-id":"A19"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Disaster recovery server</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"tag":"input",
+										"attributes":{
+											"class":"form-control",
+											"calc-id":"A20"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Total Technology Cost Savings</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"input-group"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"calc-id":"A21",
+												"class":"form-control",
+												"disabled":"disabled"
+											}
+										},{
+											"attributes":{
+												"class":"input-group-addon right helper"
+											},
+											"tag":"span",
+											"children":[{
+												"tag":"i",
+												"attributes":{
+													"class":"fa fa-calculator tooltipstered",
+													"calculation-modal":"A21",
+													"title":"Click here to view the calculation breakdown"
+												}
+											}]
+										}]
+									}]
+								}]
+							}]
+						}]				
+					}]
+				},{
+					"attributes":{
+						"class":"col-lg-3 col-md-3 col-sm-12 col-xs-12"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"ibox-title"
+							},
+							"children":[{
+								"html":"<h5 class=\"col-lg-12\">Baseline Totals</h5>"
+							}]
+						},{
+							"attributes":{
+								"class":"faq-item"
+							},
+							"children":[{
+								"attributes":{
+									"class":"row"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-lg-8 col-md-12"
+									},
+									"children":[{
+										"html":"<a class=\"faq-question collapsed\">Global Websites</a>"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-12"
+									},
+									"children":[{
+										"html":"<div class=\"pull-right\"><span class=\"section-total txt-money\" calc-id=\"SECTOT1\">$0</span></div>"
+									}]
+								},{
+									"attributes":{
+										"class":"row"
+									},
+									"children":[{
+										"attributes":{
+											"class":"col-lg-12 annual-totals"
+										},
+										"children":[{
+											"attributes":{
+												"class":"panel-collapse faq-answer"
+											},
+											"children":[{
+												"html":"<ul><li>Year 1: <span class=\"pull-right section-total txt-money\" calc-id=\"SECA1\">$0</span></li><li>Year 2: <span class=\"pull-right section-total txt-money\" calc-id=\"SECB1\">$0</span></li><hr class=\"calculation-divider\"><li>Section Total:<span class=\"pull-right section-total txt-money\" calc-id=\"SECTOT1\">$0</span></li></ul>"
+											},{
+												"attributes":{
+													"class":"value-holder",
+													"style":"padding-top: 10px;"
+												},
+												"children":[{
+													"html":"Conservative Factor: <span class=\"pull-right\" calc-id=\"CON1\">0%</span>"
+												},{
+													"attributes":{
+														"class":"row",
+														"style":"padding-top: 10px;"
+													},
+													"children":[{
+														"attributes":{
+															"class":"col-lg-12"
+														},
+														"children":[{
+															"type":"slider",
+															"step":5,
+															"attributes":{
+																"calc-id":"CON1"
+															}
+														}]
+													}]
+												}]
+											}]
+										}]
+									}]
+								}]
+							}]
+						}]					
+					},{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"faq-item"
+							},
+							"children":[{
+								"html":"Implementation Period: <span class=\"pull-right\"><span calc-id=\"IMP1\"></span> months</span>"
+							},{
+								"attributes":{
+									"class":"row",
+									"style":"padding-top: 15px;"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-lg-12"
+									},
+									"children":[{
+										"type":"slider",
+										"attributes":{
+											"calc-id":"IMP1"
+										},
+										"min": 0,
+										"max": 24
+									}]
+								}]
+							}]						
+						}]					
+					}]
+				}]
+			},{
+				"attributes":{
+					"class":"row top-padding"
+				},
+				"children":[{
+					"attributes":{
+						"class":"col-lg-12 col-md-12 col-sm-12 col-xs-12"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"ibox-content"
+							},
+							"children":[{
+								"attributes":{
+									"class":"subsection-header underlined"
+								},
+								"children":[{
+									"html":"<h2>OpEx Savings - Technical Headcount Reallocation</h2>"
+								}]
+							},{
+								"type":"table",
+								"data": [
+									["Managing Servers (DevOps)","","","","",""],
+									["Managing Custom Apps (fund tools, etc.)","","","","",""],
+									["Managing Data APIs","","",""],
+									["Site Maintenance (design, structure, etc.)","","","","",""],
+									["<strong>Annual Total</strong>","","","","",""]
+								],
+								"attributes": {
+									"B1": { "calc-id" : "A22" },
+									"B2": { "calc-id" : "A23" },
+									"B3": { "calc-id" : "A24" },
+									"B4": { "calc-id" : "A25" },
+									"C1": { "calc-id" : "B22" },
+									"C2": { "calc-id" : "B23" },
+									"C3": { "calc-id" : "B24" },
+									"C4": { "calc-id" : "B25" },
+									"C5": { "calc-id" : "B26" , "class" : "readonly table-bold" },
+									"D1": { "calc-id" : "C22", "calculation-modal" : "C22", "class" : "readonly" },
+									"D2": { "calc-id" : "C23" , "class" : "readonly" },
+									"D3": { "calc-id" : "C24" , "class" : "readonly" },
+									"D4": { "calc-id" : "C25" , "class" : "readonly" },
+									"D5": { "calc-id" : "C26" , "class" : "readonly table-bold" },
+									"E1": { "calc-id" : "D22" },
+									"E2": { "calc-id" : "D23" },
+									"E3": { "calc-id" : "D24" },
+									"E4": { "calc-id" : "D25" },
+									"E5": { "calc-id" : "D26" , "class" : "readonly table-bold" },
+									"F1": { "calc-id" : "E22" , "class" : "readonly" },
+									"F2": { "calc-id" : "E23" , "class" : "readonly" },
+									"F3": { "calc-id" : "E24" , "class" : "readonly" },
+									"F4": { "calc-id" : "E25" , "class" : "readonly" },
+									"F5": { "calc-id" : "E26" , "class" : "readonly table-bold" }									
+								},
+								"columns": [{
+									"type": "html",
+									"title": "Role/Responsibility",
+									"width": "25%",
+									"readOnly": true,
+									"align": {
+										"header": "center",
+										"cells": "left"
+									}
+								},{
+									"type": "html",
+									"title": "Annual Salary",
+									"width": "15%"
+								},{
+									"type": "html",
+									"title": "In-house FTEs (equivalent)",
+									"width": "15%"
+								},{
+									"type": "html",
+									"title": "In-house cost",
+									"width": "15%"
+								},{
+									"type": "html",
+									"title": "In-house FTEs needed with Kurtosys",
+									"width": "15%"
+								},{
+									"type": "html",
+									"title": "Savings w/ Kurtosys",
+									"width": "15%"
+								}],
+								"tableWidth": "100%",
+								"showRowNumbering": false,
+								"allowManualInsertColumn": false,
+								"allowInsertRow": false,
+								"allowDeleteRow": false
+							}]
+						}]
+					}]
+				}]
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom white-bg dashboard-header",
+			"id":"section3"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"html":"<h1 style=\"margin-bottom: 20px;\">Secure Communities<span class=\"pull-right pod-total section-total grand-total txt-money\" calc-id=\"SECTOT2\">$0</span></h1>"
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom gray-bg dashboard-header"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"attributes":{
+					"class":"row"
+				},
+				"children":[{
+					"attributes":{
+						"class":"col-md-12 col-sm-12 col-xs-12"
+					},
+					"children": [{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"ibox-title"
+							},
+							"children":[{
+								"html":"<h5>Secure Communities</h5>"
+							}]
+						},{
+							"attributes":{
+								"class":"ibox-content"
+							},
+							"children":[{
+								"attributes":{
+									"class":"row"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-md-7 section-write-up"
+									},
+									"children":[{
+										"html":"<p class=\"caption-text\" style=\"font-size: 18px;\">Create secure and personalized portals to enable sales teams, deliver critical reports to partners and share private information with clients, leading to deeper client satisfaction, brand recognition, loyalty and asset retention.</p><hr>"
+									},{
+										"type":"revolver",
+										"children":[{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>We wanted a provider who not only had experience in this space, but actually had the full solution of both the CMS and Fund Center.</p><p>- Stewart Conway, Head of Central Marketing, BMOGAM</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>One of the reasons we chose the Kurtosys Platform was because it gave us access to WordPress, an industry-leading Content Management System. WordPress provides not only the power and performance our visitors expect, but also the ability for our Operations and Marketing teams to make real-time updates and enhancements.<p></p>- Carl Hendley, Vice President Strategic Development, Motley Fool Asset Management</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>We've got many funds and investment experts; what we really need to do is ensure our clients can get access to them and their thoughts and views as well as the data and performance of the products in the most timely and efficient manner possible.<p></p>- Ross Duncton, Managing Director, Head of Marketing & Direct, BMOGAM</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>We've seen a steady growth in traffic across all of the Hermes regional sites of around 7% month on month.<p></p>- Pauline Bush, Director, Marketing, Hermes Investment Management</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>There's a tendency to think of a website as a place to share your firm's story with visitors. That's true but we believe our goal should be to provide a thoughtful and robust portal for advisors and investors to access the content and data they need to be successful. In the end it's their site, not ours.<p></p>- Carl Hendley, Vice President Strategic Development, Motley Fool Asset Management</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>Our monthly traffic doubled, which is huge... I never would have guessed that.<p></p>- Anthony Ialeggio, Chief Marketing Officer, Commonfund</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>70% of the website was going to be about data, so it was more pragmatic for us to consider someone who was good at handling data, and then building the wider web experience around that.<p></p>- Pauline Bush, Director, Marketing, Hermes Investment Management</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>We hoped to use a provider who were experts in our field (asset management), and all the solutions that come with it in terms of regulation and reporting.<p></p>- Flora Scott, Marketing, RWC Partners</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>We wanted to leverage on a provider, able to understand our business within the asset management and services industry and assist us with solution and services, end to end. From hosting, to content services, to technology implementation, to data. We needed a provider  to support the full stack. You are the only provider in Europe (that I know), that can provide something like that.<p></p>- Giovanni Ricciolio, Head of Digital Strategy & Implementation, Generali Investments</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>In addition to an excellent technology partner, we wanted to work with a firm that had specific experience in the Finance industry. A partner that could navigate compliance, returns data, and most importantly - provide the best possible experience to advisors and investors.<p></p>- Carl Hendley, Vice President Strategic Development, Motley Fool Asset Management</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>Now, with the site implemented, it's not just a website - but a website platform, with a unified data model. Before, we had to update the data of our products, across three separate sites with three separate teams, at the risk of data quality and inconsistency.<p></p>- Giovanni Ricciolio, Head of Digital Strategy & Implementation, Generali Investments</p>"
+											}]
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"col-md-5"
+									},
+									"children":[{
+										"type":"video",
+										"src":"//www.youtube.com/embed/x-93_BeyF5Q"
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]		
+			}]
+		},{
+			"attributes":{
+				"class":"col-md-12 col-sm-12 col-xs-12"
+			},
+			"children":[{
+				"attributes":{
+					"class":"row"
+				},
+				"children":[{
+					"attributes":{
+						"class":"col-lg-9 col-md-9 col-sm-12 col-xs-12"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox-content"
+						},
+						"children":[{
+							"attributes":{
+								"class":"form-horizontal"
+							},
+							"children":[{
+								"attributes":{
+									"class":"subsection-header underlined"
+								},
+								"children":[{
+									"html":"<h2>Cost of In-house Portal Launch</h2>"
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-7 col-md-7 col-sm-7"
+									},
+									"children":[{
+										"html":"Months to launch (includes design and discovery)"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"input-group"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"calc-id":"A28"
+											}
+										},{
+											"html":"<span class=\"input-group-addon right append\">Months</span>"
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Average monthly headcount cost (client)</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"tag":"input",
+										"attributes":{
+											"class":"form-control",
+											"calc-id":"A29"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Average monthly headcount cost (partner)</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"tag":"input",
+										"attributes":{
+											"class":"form-control",
+											"calc-id":"A30"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Portal Launch Cost With Current Environment</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"input-group"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"calc-id":"A31",
+												"class":"form-control",
+												"disabled":"disabled"
+											}
+										},{
+											"attributes":{
+												"class":"input-group-addon right helper"
+											},
+											"tag":"span",
+											"children":[{
+												"tag":"i",
+												"attributes":{
+													"class":"fa fa-calculator tooltipstered",
+													"calculation-modal":"A31",
+													"title":"Click here to view the calculation breakdown"
+												}
+											}]
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"subsection-header underlined"
+								},
+								"children":[{
+									"html":"<h2>Growth in Revenue From Better Portal Experience</h2>"
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Include / Exclude</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5"
+									},
+									"children":[{
+										"tag":"select",
+										"type":"select",
+										"attributes":{
+											"class":"form-control",
+											"calc-id":"A32"
+										},
+										"choices":[{
+											"text":"Make Selection",
+											"value":0
+										},{
+											"text":"Yes",
+											"value":1
+										},{
+											"text":"No",
+											"value":2
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group",
+									"id":"A33"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">AUM</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"tag":"input",
+										"attributes":{
+											"class":"form-control",
+											"calc-id":"A33"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group",
+									"id":"A34"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Management fee (%)</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"tag":"input",
+										"attributes":{
+											"class":"form-control",
+											"calc-id":"A34"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group",
+									"id":"A35"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Annual company revenue</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"input-group"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"calc-id":"A35",
+												"class":"form-control",
+												"disabled":"disabled"
+											}
+										},{
+											"attributes":{
+												"class":"input-group-addon right helper"
+											},
+											"tag":"span",
+											"children":[{
+												"tag":"i",
+												"attributes":{
+													"class":"fa fa-calculator tooltipstered",
+													"calculation-modal":"A35",
+													"title":"Click here to view the calculation breakdown"
+												}
+											}]
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group",
+									"id":"A36"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Expected annual revenue growth rate (%)</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"tag":"input",
+										"attributes":{
+											"class":"form-control",
+											"calc-id":"A36"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group",
+									"id":"A37"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Expected monthly revenue growth</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"input-group"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"calc-id":"A37",
+												"class":"form-control",
+												"disabled":"disabled"
+											}
+										},{
+											"attributes":{
+												"class":"input-group-addon right helper"
+											},
+											"tag":"span",
+											"children":[{
+												"tag":"i",
+												"attributes":{
+													"class":"fa fa-calculator tooltipstered",
+													"calculation-modal":"A37",
+													"title":"Click here to view the calculation breakdown"
+												}
+											}]
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group",
+									"id":"A38"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Expected months to launch with Kurtosys (includes design and discovery)</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"input-group"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"calc-id":"A38"
+											}
+										},{
+											"html":"<span class=\"input-group-addon right append\">Months</span>"
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group",
+									"id":"A39"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Months saved</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"input-group"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"calc-id":"A39",
+												"class":"form-control",
+												"disabled":"disabled"
+											}
+										},{
+											"attributes":{
+												"class":"input-group-addon right helper"
+											},
+											"tag":"span",
+											"children":[{
+												"tag":"i",
+												"attributes":{
+													"class":"fa fa-calculator tooltipstered",
+													"calculation-modal":"A39",
+													"title":"Click here to view the calculation breakdown"
+												}
+											}]
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group",
+									"id":"A40"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Revenue generated during reduced time to launch by <span calc-id=\"A39\"></span> months</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"input-group"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"calc-id":"A40",
+												"class":"form-control",
+												"disabled":"disabled"
+											}
+										},{
+											"attributes":{
+												"class":"input-group-addon right helper"
+											},
+											"tag":"span",
+											"children":[{
+												"tag":"i",
+												"attributes":{
+													"class":"fa fa-calculator tooltipstered",
+													"calculation-modal":"A40",
+													"title":"Click here to view the calculation breakdown"
+												}
+											}]
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group",
+									"id":"A41"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">How much of that revenue would you attribute to having a better portal experience</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"tag":"input",
+										"attributes":{
+											"class":"form-control",
+											"calc-id":"A41"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group",
+									"id":"A42"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Revenue growth from better portal experience</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"input-group"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"calc-id":"A42",
+												"class":"form-control",
+												"disabled":"disabled"
+											}
+										},{
+											"attributes":{
+												"class":"input-group-addon right helper"
+											},
+											"tag":"span",
+											"children":[{
+												"tag":"i",
+												"attributes":{
+													"class":"fa fa-calculator tooltipstered",
+													"calculation-modal":"A42",
+													"title":"Click here to view the calculation breakdown"
+												}
+											}]
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"subsection-header underlined"
+								},
+								"children":[{
+									"html":"<h2>Retained Revenue From Better Portal Experience</h2>"
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Include / Exclude</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5"
+									},
+									"children":[{
+										"tag":"select",
+										"type":"select",
+										"attributes":{
+											"class":"form-control",
+											"calc-id":"A43"
+										},
+										"choices":[{
+											"text":"Make Selection",
+											"value":0
+										},{
+											"text":"Yes",
+											"value":1
+										},{
+											"text":"No",
+											"value":2
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group",
+									"id":"A35"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Annual company revenue</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"input-group"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"calc-id":"A35",
+												"class":"form-control",
+												"disabled":"disabled"
+											}
+										},{
+											"attributes":{
+												"class":"input-group-addon right helper"
+											},
+											"tag":"span",
+											"children":[{
+												"tag":"i",
+												"attributes":{
+													"class":"fa fa-calculator tooltipstered",
+													"calculation-modal":"A35",
+													"title":"Click here to view the calculation breakdown"
+												}
+											}]
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group",
+									"id":"A44"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Revenue attrition rate due to current portal experience (%)</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"tag":"input",
+										"attributes":{
+											"class":"form-control",
+											"calc-id":"A44"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group",
+									"id":"A45"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Revenue attrition per month</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"input-group"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"calc-id":"A45",
+												"class":"form-control",
+												"disabled":"disabled"
+											}
+										},{
+											"attributes":{
+												"class":"input-group-addon right helper"
+											},
+											"tag":"span",
+											"children":[{
+												"tag":"i",
+												"attributes":{
+													"class":"fa fa-calculator tooltipstered",
+													"calculation-modal":"A45",
+													"title":"Click here to view the calculation breakdown"
+												}
+											}]
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group",
+									"id":"A50"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Retained revenue from better portal experience</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"input-group"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"calc-id":"A50",
+												"class":"form-control",
+												"disabled":"disabled"
+											}
+										},{
+											"attributes":{
+												"class":"input-group-addon right helper"
+											},
+											"tag":"span",
+											"children":[{
+												"tag":"i",
+												"attributes":{
+													"class":"fa fa-calculator tooltipstered",
+													"calculation-modal":"A50",
+													"title":"Click here to view the calculation breakdown"
+												}
+											}]
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"subsection-header underlined"
+								},
+								"children":[{
+									"html":"<h2>Annual Technology Cost Savings</h2>"
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">CMS license</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"tag":"input",
+										"attributes":{
+											"class":"form-control",
+											"calc-id":"A51"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Server license</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"tag":"input",
+										"attributes":{
+											"class":"form-control",
+											"calc-id":"A52"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">CDN license</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"tag":"input",
+										"class":"form-control",
+										"attributes":{
+											"calc-id":"A53"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">WAF / DDOS</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"tag":"input",
+										"attributes":{
+											"class":"form-control",
+											"calc-id":"A54"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Ancilary server software license</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"tag":"input",
+										"attributes":{
+											"class":"form-control",
+											"calc-id":"A55"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Disaster recovery server</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"tag":"input",
+										"attributes":{
+											"class":"form-control",
+											"calc-id":"A56"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Total CapEx Savings</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"input-group"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"calc-id":"A57",
+												"class":"form-control",
+												"disabled":"disabled"
+											}
+										},{
+											"attributes":{
+												"class":"input-group-addon right helper"
+											},
+											"tag":"span",
+											"children":[{
+												"tag":"i",
+												"attributes":{
+													"class":"fa fa-calculator tooltipstered",
+													"calculation-modal":"A57",
+													"title":"Click here to view the calculation breakdown"
+												}
+											}]
+										}]
+									}]
+								}]
+							}]
+						}]				
+					}]
+				},{
+					"attributes":{
+						"class":"col-lg-3 col-md-3 col-sm-12 col-xs-12"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"ibox-title"
+							},
+							"children":[{
+								"html":"<h5 class=\"col-lg-12\">Baseline Totals</h5>"
+							}]
+						},{
+							"attributes":{
+								"class":"faq-item"
+							},
+							"children":[{
+								"attributes":{
+									"class":"row"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-lg-8 col-md-12"
+									},
+									"children":[{
+										"html":"<a class=\"faq-question collapsed\">Secure Communities</a>"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-12"
+									},
+									"children":[{
+										"html":"<div class=\"pull-right\"><span class=\"section-total txt-money\" calc-id=\"SECTOT2\">$0</span></div>"
+									}]
+								},{
+									"attributes":{
+										"class":"row"
+									},
+									"children":[{
+										"attributes":{
+											"class":"col-lg-12 annual-totals"
+										},
+										"children":[{
+											"attributes":{
+												"class":"panel-collapse faq-answer"
+											},
+											"children":[{
+												"html":"<ul><li>Year 1: <span class=\"pull-right section-total txt-money\" calc-id=\"SECA2\">$0</span></li><li>Year 2: <span class=\"pull-right section-total txt-money\" calc-id=\"SECB2\">$0</span></li><hr class=\"calculation-divider\"><li>Section Total:<span class=\"pull-right section-total txt-money\" calc-id=\"SECTOT2\">$0</span></li></ul>"
+											},{
+												"attributes":{
+													"class":"value-holder",
+													"style":"padding-top: 10px;"
+												},
+												"children":[{
+													"html":"Conservative Factor: <span class=\"pull-right\" calc-id=\"CON2\">0%</span>"
+												},{
+													"attributes":{
+														"class":"row",
+														"style":"padding-top: 10px;"
+													},
+													"children":[{
+														"attributes":{
+															"class":"col-lg-12"
+														},
+														"children":[{
+															"type":"slider",
+															"step":5,
+															"attributes":{
+																"calc-id":"CON2"
+															}
+														}]
+													}]
+												}]
+											}]
+										}]
+									}]
+								}]
+							}]
+						}]					
+					},{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"faq-item"
+							},
+							"children":[{
+								"html":"Implementation Period: <span class=\"pull-right\"><span calc-id=\"IMP1\"></span> months</span>"
+							},{
+								"attributes":{
+									"class":"row",
+									"style":"padding-top: 15px;"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-lg-12"
+									},
+									"children":[{
+										"type":"slider",
+										"attributes":{
+											"calc-id":"IMP1"
+										},
+										"min": 0,
+										"max": 24
+									}]
+								}]
+							}]						
+						}]					
+					}]
+				}]
+			},{
+				"attributes":{
+					"class":"row top-padding"
+				},
+				"children":[{
+					"attributes":{
+						"class":"col-lg-12 col-md-12 col-sm-12 col-xs-12"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"ibox-content"
+							},
+							"children":[{
+								"attributes":{
+									"class":"subsection-header underlined"
+								},
+								"children":[{
+									"html":"<h2>OpEx Savings - Technical Headcount Reallocation</h2>"
+								}]
+							},{
+								"type":"table",
+								"data": [
+									["Managing Servers (DevOps)","","","","",""],
+									["Managing Custom Apps (fund tools, etc.)","","","","",""],
+									["Managing Data APIs","","",""],
+									["Site Maintenance (design, structure, etc.)","","","","",""],
+									["<strong>Annual Total</strong>","","","","",""]
+								],
+								"attributes": {
+									"B1": { "calc-id" : "A58" },
+									"B2": { "calc-id" : "A59" },
+									"B3": { "calc-id" : "A60" },
+									"B4": { "calc-id" : "A61" },
+									"C1": { "calc-id" : "B58" },
+									"C2": { "calc-id" : "B59" },
+									"C3": { "calc-id" : "B60" },
+									"C4": { "calc-id" : "B61" },
+									"C5": { "calc-id" : "B62" , "class" : "readonly table-bold" },
+									"D1": { "calc-id" : "C58" , "class" : "readonly" },
+									"D2": { "calc-id" : "C59" , "class" : "readonly" },
+									"D3": { "calc-id" : "C60" , "class" : "readonly" },
+									"D4": { "calc-id" : "C61" , "class" : "readonly" },
+									"D5": { "calc-id" : "C62" , "class" : "readonly table-bold" },
+									"E1": { "calc-id" : "D58" },
+									"E2": { "calc-id" : "D59" },
+									"E3": { "calc-id" : "D60" },
+									"E4": { "calc-id" : "D61" },
+									"E5": { "calc-id" : "D62" , "class" : "readonly table-bold" },
+									"F1": { "calc-id" : "E58" , "class" : "readonly" },
+									"F2": { "calc-id" : "E59" , "class" : "readonly" },
+									"F3": { "calc-id" : "E60" , "class" : "readonly" },
+									"F4": { "calc-id" : "E61" , "class" : "readonly" },
+									"F5": { "calc-id" : "E62" , "class" : "readonly table-bold" }									
+								},
+								"columns": [{
+									"type": "html",
+									"title": "Role/Responsibility",
+									"width": "25%",
+									"readOnly": true,
+									"align": {
+										"header": "center",
+										"cells": "left"
+									}
+								},{
+									"type": "html",
+									"title": "Annual Salary",
+									"width": "15%"
+								},{
+									"type": "html",
+									"title": "In-house FTEs (equivalent)",
+									"width": "15%"
+								},{
+									"type": "html",
+									"title": "In-house cost",
+									"width": "15%"
+								},{
+									"type": "html",
+									"title": "In-house FTEs needed with Kurtosys",
+									"width": "15%"
+								},{
+									"type": "html",
+									"title": "Savings w/ Kurtosys",
+									"width": "15%"
+								}],
+								"tableWidth": "100%",
+								"showRowNumbering": false,
+								"allowInsertRow": false,
+								"allowDeleteRow": false
+							}]
+						}]
+					}]
+				}]
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom white-bg dashboard-header",
+			"id":"section4"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"html":"<h1 style=\"margin-bottom: 20px;\">Document Production<span class=\"pull-right pod-total section-total grand-total txt-money\" calc-id=\"SECTOT3\">$0</span></h1>"
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom gray-bg dashboard-header"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"attributes":{
+					"class":"row"
+				},
+				"children":[{
+					"attributes":{
+						"class":"col-md-12 col-sm-12 col-xs-12"
+					},
+					"children": [{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"ibox-title"
+							},
+							"children":[{
+								"html":"<h5>Document Production</h5>"
+							}]
+						},{
+							"attributes":{
+								"class":"ibox-content"
+							},
+							"children":[{
+								"attributes":{
+									"class":"row"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-md-7 section-write-up"
+									},
+									"children":[{
+										"html":"<p class=\"caption-text\" style=\"font-size: 18px;\">Build highly agile, industry-compliant sales, marketing and client service organisations by automating your financial reports, marketing materials and sales presentations.</p><hr>"
+									},{
+										"type":"revolver",
+										"children":[{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>We wanted a provider who not only had experience in this space, but actually had the full solution of both the CMS and Fund Center.</p><p>- Stewart Conway, Head of Central Marketing, BMOGAM</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>One of the reasons we chose the Kurtosys Platform was because it gave us access to WordPress, an industry-leading Content Management System. WordPress provides not only the power and performance our visitors expect, but also the ability for our Operations and Marketing teams to make real-time updates and enhancements.<p></p>- Carl Hendley, Vice President Strategic Development, Motley Fool Asset Management</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>We've got many funds and investment experts; what we really need to do is ensure our clients can get access to them and their thoughts and views as well as the data and performance of the products in the most timely and efficient manner possible.<p></p>- Ross Duncton, Managing Director, Head of Marketing & Direct, BMOGAM</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>We've seen a steady growth in traffic across all of the Hermes regional sites of around 7% month on month.<p></p>- Pauline Bush, Director, Marketing, Hermes Investment Management</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>There's a tendency to think of a website as a place to share your firm's story with visitors. That's true but we believe our goal should be to provide a thoughtful and robust portal for advisors and investors to access the content and data they need to be successful. In the end it's their site, not ours.<p></p>- Carl Hendley, Vice President Strategic Development, Motley Fool Asset Management</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>Our monthly traffic doubled, which is huge... I never would have guessed that.<p></p>- Anthony Ialeggio, Chief Marketing Officer, Commonfund</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>70% of the website was going to be about data, so it was more pragmatic for us to consider someone who was good at handling data, and then building the wider web experience around that.<p></p>- Pauline Bush, Director, Marketing, Hermes Investment Management</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>We hoped to use a provider who were experts in our field (asset management), and all the solutions that come with it in terms of regulation and reporting.<p></p>- Flora Scott, Marketing, RWC Partners</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>We wanted to leverage on a provider, able to understand our business within the asset management and services industry and assist us with solution and services, end to end. From hosting, to content services, to technology implementation, to data. We needed a provider  to support the full stack. You are the only provider in Europe (that I know), that can provide something like that.<p></p>- Giovanni Ricciolio, Head of Digital Strategy & Implementation, Generali Investments</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>In addition to an excellent technology partner, we wanted to work with a firm that had specific experience in the Finance industry. A partner that could navigate compliance, returns data, and most importantly - provide the best possible experience to advisors and investors.<p></p>- Carl Hendley, Vice President Strategic Development, Motley Fool Asset Management</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>Now, with the site implemented, it's not just a website - but a website platform, with a unified data model. Before, we had to update the data of our products, across three separate sites with three separate teams, at the risk of data quality and inconsistency.<p></p>- Giovanni Ricciolio, Head of Digital Strategy & Implementation, Generali Investments</p>"
+											}]
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"col-md-5"
+									},
+									"children":[{
+										"type":"video",
+										"src":"//www.youtube.com/embed/DHb5HIOf6M4"
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]		
+			}]
+		},{
+			"attributes":{
+				"class":"col-md-12 col-sm-12 col-xs-12"
+			},
+			"children":[{
+				"attributes":{
+					"class":"row"
+				},
+				"children":[{
+					"attributes":{
+						"class":"col-lg-9 col-md-9 col-sm-12 col-xs-12"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox-content"
+						},
+						"children":[{
+							"attributes":{
+								"class":"form-horizontal"
+							},
+							"children":[{
+								"attributes":{
+									"class":"subsection-header underlined"
+								},
+								"children":[{
+									"html":"<h2>Labor Savings</h2>"
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Number of in-house employees responsible for reports</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"tag":"input",
+										"attributes":{
+											"class":"form-control",
+											"calc-id":"A64"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Average salary of these employees (add 30% to get fully loaded cost)</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"tag":"input",
+										"attributes":{
+											"class":"form-control",
+											"calc-id":"A65"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">In-house cost of these employees</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"input-group"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"calc-id":"A66",
+												"class":"form-control",
+												"disabled":"disabled"
+											}
+										},{
+											"attributes":{
+												"class":"input-group-addon right helper"
+											},
+											"tag":"span",
+											"children":[{
+												"tag":"i",
+												"attributes":{
+													"class":"fa fa-calculator tooltipstered",
+													"calculation-modal":"A66",
+													"title":"Click here to view the calculation breakdown"
+												}
+											}]
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Expected in-house FTEs available for reallocation with Kurtosys (suggested: 40%)</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"tag":"input",
+										"attributes":{
+											"class":"form-control",
+											"calc-id":"A67"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">FTE Reallocation</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"input-group"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"calc-id":"A68",
+												"class":"form-control",
+												"disabled":"disabled"
+											}
+										},{
+											"attributes":{
+												"class":"input-group-addon right helper"
+											},
+											"tag":"span",
+											"children":[{
+												"tag":"i",
+												"attributes":{
+													"class":"fa fa-calculator tooltipstered",
+													"calculation-modal":"A68",
+													"title":"Click here to view the calculation breakdown"
+												}
+											}]
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Labor Savings with Kurtosys</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"input-group"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"calc-id":"A69",
+												"class":"form-control",
+												"disabled":"disabled"
+											}
+										},{
+											"attributes":{
+												"class":"input-group-addon right helper"
+											},
+											"tag":"span",
+											"children":[{
+												"tag":"i",
+												"attributes":{
+													"class":"fa fa-calculator tooltipstered",
+													"calculation-modal":"A69",
+													"title":"Click here to view the calculation breakdown"
+												}
+											}]
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"subsection-header underlined"
+								},
+								"children":[{
+									"html":"<h2>Annual License Savings</h2>"
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Document Production license</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"tag":"input",
+										"attributes":{
+											"class":"form-control",
+											"calc-id":"A70"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Server license</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"tag":"input",
+										"attributes":{
+											"class":"form-control",
+											"calc-id":"A71"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Ancilary server software license</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"tag":"input",
+										"attributes":{
+											"class":"form-control",
+											"calc-id":"A72"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Disaster recovery server</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"tag":"input",
+										"attributes":{
+											"class":"form-control",
+											"calc-id":"A73"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Annual License Savings</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"input-group"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"calc-id":"A74",
+												"class":"form-control",
+												"disabled":"disabled"
+											}
+										},{
+											"attributes":{
+												"class":"input-group-addon right helper"
+											},
+											"tag":"span",
+											"children":[{
+												"tag":"i",
+												"attributes":{
+													"class":"fa fa-calculator tooltipstered",
+													"calculation-modal":"A74",
+													"title":"Click here to view the calculation breakdown"
+												}
+											}]
+										}]
+									}]
+								}]
+							}]
+						}]
+					}]
+				},{
+					"attributes":{
+						"class":"col-lg-3 col-md-3 col-sm-12 col-xs-12"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"ibox-title"
+							},
+							"children":[{
+								"html":"<h5 class=\"col-lg-12\">Baseline Totals</h5>"
+							}]
+						},{
+							"attributes":{
+								"class":"faq-item"
+							},
+							"children":[{
+								"attributes":{
+									"class":"row"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-lg-8 col-md-12"
+									},
+									"children":[{
+										"html":"<a class=\"faq-question collapsed\">Document Production</a>"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-12"
+									},
+									"children":[{
+										"html":"<div class=\"pull-right\"><span class=\"section-total txt-money\" calc-id=\"SECTOT3\">$0</span></div>"
+									}]
+								},{
+									"attributes":{
+										"class":"row"
+									},
+									"children":[{
+										"attributes":{
+											"class":"col-lg-12 annual-totals"
+										},
+										"children":[{
+											"attributes":{
+												"class":"panel-collapse faq-answer"
+											},
+											"children":[{
+												"html":"<ul><li>Year 1: <span class=\"pull-right section-total txt-money\" calc-id=\"SECA3\">$0</span></li><li>Year 2: <span class=\"pull-right section-total txt-money\" calc-id=\"SECB3\">$0</span></li><hr class=\"calculation-divider\"><li>Section Total:<span class=\"pull-right section-total txt-money\" calc-id=\"SECTOT3\">$0</span></li></ul>"
+											},{
+												"attributes":{
+													"class":"value-holder",
+													"style":"padding-top: 10px;"
+												},
+												"children":[{
+													"html":"Conservative Factor: <span class=\"pull-right\" calc-id=\"CON3\">0%</span>"
+												},{
+													"attributes":{
+														"class":"row",
+														"style":"padding-top: 10px;"
+													},
+													"children":[{
+														"attributes":{
+															"class":"col-lg-12"
+														},
+														"children":[{
+															"type":"slider",
+															"step":5,
+															"attributes":{
+																"calc-id":"CON3"
+															}
+														}]
+													}]
+												}]
+											}]
+										}]
+									}]
+								}]
+							}]
+						}]					
+					},{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"faq-item"
+							},
+							"children":[{
+								"html":"Implementation Period: <span class=\"pull-right\"><span calc-id=\"IMP1\"></span> months</span>"
+							},{
+								"attributes":{
+									"class":"row",
+									"style":"padding-top: 15px;"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-lg-12"
+									},
+									"children":[{
+										"type":"slider",
+										"attributes":{
+											"calc-id":"IMP1"
+										},
+										"min": 0,
+										"max": 24
+									}]
+								}]
+							}]						
+						}]					
+					}]
+				}]
+			},{
+				"attributes":{
+					"class":"row top-padding"
+				},
+				"children":[{
+					"attributes":{
+						"class":"col-lg-12 col-md-12 col-sm-12 col-xs-12"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"ibox-content"
+							},
+							"children":[{
+								"attributes":{
+									"class":"subsection-header underlined"
+								},
+								"children":[{
+									"html":"<h2>OpEx Savings - Technical Headcount Reallocation</h2>"
+								}]
+							},{
+								"type":"table",
+								"data": [
+									["Managing Servers (DevOps)","","","","",""],
+									["Managing Custom Apps (fund tools, etc.)","","","","",""],
+									["Managing Data APIs","","",""],
+									["Site Maintenance (design, structure, etc.)","","","","",""],
+									["<strong>Annual Total</strong>","","","","",""]
+								],
+								"attributes": {
+									"B1": { "calc-id" : "A82" },
+									"B2": { "calc-id" : "A83" },
+									"B3": { "calc-id" : "A84" },
+									"B4": { "calc-id" : "A85" },
+									"C1": { "calc-id" : "B82" },
+									"C2": { "calc-id" : "B83" },
+									"C3": { "calc-id" : "B84" },
+									"C4": { "calc-id" : "B85" },
+									"C5": { "calc-id" : "B86" , "class" : "readonly table-bold" },
+									"D1": { "calc-id" : "C82", "calculation-modal" : "C82", "class" : "readonly" },
+									"D2": { "calc-id" : "C83" , "class" : "readonly" },
+									"D3": { "calc-id" : "C84" , "class" : "readonly" },
+									"D4": { "calc-id" : "C85" , "class" : "readonly" },
+									"D5": { "calc-id" : "C86" , "class" : "readonly table-bold" },
+									"E1": { "calc-id" : "D82" },
+									"E2": { "calc-id" : "D83" },
+									"E3": { "calc-id" : "D84" },
+									"E4": { "calc-id" : "D85" },
+									"E5": { "calc-id" : "D86" , "class" : "readonly table-bold" },
+									"F1": { "calc-id" : "E82" , "class" : "readonly" },
+									"F2": { "calc-id" : "E83" , "class" : "readonly" },
+									"F3": { "calc-id" : "E84" , "class" : "readonly" },
+									"F4": { "calc-id" : "E85" , "class" : "readonly" },
+									"F5": { "calc-id" : "E86" , "class" : "readonly table-bold" }									
+								},
+								"columns": [{
+									"type": "html",
+									"title": "Role/Responsibility",
+									"width": "25%",
+									"readOnly": true,
+									"align": {
+										"header": "center",
+										"cells": "left"
+									}
+								},{
+									"type": "html",
+									"title": "Annual Salary",
+									"width": "15%"
+								},{
+									"type": "html",
+									"title": "In-house FTEs (equivalent)",
+									"width": "15%"
+								},{
+									"type": "html",
+									"title": "In-house cost",
+									"width": "15%"
+								},{
+									"type": "html",
+									"title": "In-house FTEs needed with Kurtosys",
+									"width": "15%"
+								},{
+									"type": "html",
+									"title": "Savings w/ Kurtosys",
+									"width": "15%"
+								}],
+								"tableWidth": "100%",
+								"showRowNumbering": false,
+								"allowManualInsertColumn": false,
+								"allowInsertRow": false,
+								"allowDeleteRow": false
+							}]
+						}]
+					}]
+				}]
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom white-bg dashboard-header",
+			"id":"section5"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"html":"<h1 style=\"margin-bottom: 20px;\">Compliance Risk Mitigation<span class=\"pull-right pod-total section-total grand-total txt-money\" calc-id=\"SECTOT4\">$0</span></h1>"
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom gray-bg dashboard-header"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"attributes":{
+					"class":"row"
+				},
+				"children":[{
+					"attributes":{
+						"class":"col-md-12 col-sm-12 col-xs-12"
+					},
+					"children": [{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"ibox-title"
+							},
+							"children":[{
+								"html":"<h5>Compliance Risk Mitigation</h5>"
+							}]
+						},{
+							"attributes":{
+								"class":"ibox-content"
+							},
+							"children":[{
+								"attributes":{
+									"class":"row"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-md-7 section-write-up"
+									},
+									"children":[{
+										"html":"<p class=\"caption-text\" style=\"font-size: 18px;\">A single source of data for all your experiences and documents. Avoid multiple costly integrations, ensure data consistency, and centralize disparate data workflows in a fully audited environment.</p><hr>"
+									},{
+										"type":"revolver",
+										"children":[{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>We wanted a provider who not only had experience in this space, but actually had the full solution of both the CMS and Fund Center.</p><p>- Stewart Conway, Head of Central Marketing, BMOGAM</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>One of the reasons we chose the Kurtosys Platform was because it gave us access to WordPress, an industry-leading Content Management System. WordPress provides not only the power and performance our visitors expect, but also the ability for our Operations and Marketing teams to make real-time updates and enhancements.<p></p>- Carl Hendley, Vice President Strategic Development, Motley Fool Asset Management</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>We've got many funds and investment experts; what we really need to do is ensure our clients can get access to them and their thoughts and views as well as the data and performance of the products in the most timely and efficient manner possible.<p></p>- Ross Duncton, Managing Director, Head of Marketing & Direct, BMOGAM</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>We've seen a steady growth in traffic across all of the Hermes regional sites of around 7% month on month.<p></p>- Pauline Bush, Director, Marketing, Hermes Investment Management</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>There's a tendency to think of a website as a place to share your firm's story with visitors. That's true but we believe our goal should be to provide a thoughtful and robust portal for advisors and investors to access the content and data they need to be successful. In the end it's their site, not ours.<p></p>- Carl Hendley, Vice President Strategic Development, Motley Fool Asset Management</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>Our monthly traffic doubled, which is huge... I never would have guessed that.<p></p>- Anthony Ialeggio, Chief Marketing Officer, Commonfund</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>70% of the website was going to be about data, so it was more pragmatic for us to consider someone who was good at handling data, and then building the wider web experience around that.<p></p>- Pauline Bush, Director, Marketing, Hermes Investment Management</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>We hoped to use a provider who were experts in our field (asset management), and all the solutions that come with it in terms of regulation and reporting.<p></p>- Flora Scott, Marketing, RWC Partners</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>We wanted to leverage on a provider, able to understand our business within the asset management and services industry and assist us with solution and services, end to end. From hosting, to content services, to technology implementation, to data. We needed a provider  to support the full stack. You are the only provider in Europe (that I know), that can provide something like that.<p></p>- Giovanni Ricciolio, Head of Digital Strategy & Implementation, Generali Investments</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>In addition to an excellent technology partner, we wanted to work with a firm that had specific experience in the Finance industry. A partner that could navigate compliance, returns data, and most importantly - provide the best possible experience to advisors and investors.<p></p>- Carl Hendley, Vice President Strategic Development, Motley Fool Asset Management</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>Now, with the site implemented, it's not just a website - but a website platform, with a unified data model. Before, we had to update the data of our products, across three separate sites with three separate teams, at the risk of data quality and inconsistency.<p></p>- Giovanni Ricciolio, Head of Digital Strategy & Implementation, Generali Investments</p>"
+											}]
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"col-md-5"
+									},
+									"children":[{
+										"type":"video",
+										"src":"//www.youtube.com/embed/cU3UK2lSyI0"
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]		
+			}]
+		},{
+			"attributes":{
+				"class":"col-md-12 col-sm-12 col-xs-12"
+			},
+			"children":[{
+				"attributes":{
+					"class":"row"
+				},
+				"children":[{
+					"attributes":{
+						"class":"col-lg-9 col-md-9 col-sm-12 col-xs-12"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox-content"
+						},
+						"children":[{
+							"attributes":{
+								"class":"form-horizontal"
+							},
+							"children":[{
+								"attributes":{
+									"class":"subsection-header underlined"
+								},
+								"children":[{
+									"html":"<h2>Reduce Impact From Negative PR and Fines</h2>"
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Assets under management</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"tag":"input",
+										"attributes":{
+											"class":"form-control",
+											"calc-id":"A75"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Management fee (%)</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"tag":"input",
+										"attributes":{
+											"class":"form-control",
+											"calc-id":"A76"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Annual fee revenue</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"input-group"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"calc-id":"A77",
+												"class":"form-control",
+												"disabled":"disabled"
+											}
+										},{
+											"attributes":{
+												"class":"input-group-addon right helper"
+											},
+											"tag":"span",
+											"children":[{
+												"tag":"i",
+												"attributes":{
+													"class":"fa fa-calculator tooltipstered",
+													"calculation-modal":"A77",
+													"title":"Click here to view the calculation breakdown"
+												}
+											}]
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Customer defection, fine risk and requirement to file regulatory documents</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"tag":"input",
+										"attributes":{
+											"class":"form-control",
+											"calc-id":"A78"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Annual revenue attribution at risk from compliance violations</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"input-group"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"calc-id":"A79",
+												"class":"form-control",
+												"disabled":"disabled"
+											}
+										},{
+											"attributes":{
+												"class":"input-group-addon right helper"
+											},
+											"tag":"span",
+											"children":[{
+												"tag":"i",
+												"attributes":{
+													"class":"fa fa-calculator tooltipstered",
+													"calculation-modal":"A79",
+													"title":"Click here to view the calculation breakdown"
+												}
+											}]
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Risk avoidance with the use of Kurtosys (suggested: 50%)</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"tag":"input",
+										"attributes":{
+											"class":"form-control",
+											"calc-id":"A80"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Projected Risk Savings</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"input-group"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"calc-id":"A81",
+												"class":"form-control",
+												"disabled":"disabled"
+											}
+										},{
+											"attributes":{
+												"class":"input-group-addon right helper"
+											},
+											"tag":"span",
+											"children":[{
+												"tag":"i",
+												"attributes":{
+													"class":"fa fa-calculator tooltipstered",
+													"calculation-modal":"A81",
+													"title":"Click here to view the calculation breakdown"
+												}
+											}]
+										}]
+									}]
+								}]
+							}]
+						}]
+					}]
+				},{
+					"attributes":{
+						"class":"col-lg-3 col-md-3 col-sm-12 col-xs-12"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"ibox-title"
+							},
+							"children":[{
+								"html":"<h5 class=\"col-lg-12\">Baseline Totals</h5>"
+							}]
+						},{
+							"attributes":{
+								"class":"faq-item"
+							},
+							"children":[{
+								"attributes":{
+									"class":"row"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-lg-8 col-md-12"
+									},
+									"children":[{
+										"html":"<a class=\"faq-question collapsed\">Compliance Risk Mitigation</a>"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-12"
+									},
+									"children":[{
+										"html":"<div class=\"pull-right\"><span class=\"section-total txt-money\" calc-id=\"SECTOT4\">$0</span></div>"
+									}]
+								},{
+									"attributes":{
+										"class":"row"
+									},
+									"children":[{
+										"attributes":{
+											"class":"col-lg-12 annual-totals"
+										},
+										"children":[{
+											"attributes":{
+												"class":"panel-collapse faq-answer"
+											},
+											"children":[{
+												"html":"<ul><li>Year 1: <span class=\"pull-right section-total txt-money\" calc-id=\"SECA4\">$0</span></li><li>Year 2: <span class=\"pull-right section-total txt-money\" calc-id=\"SECB4\">$0</span></li><hr class=\"calculation-divider\"><li>Section Total:<span class=\"pull-right section-total txt-money\" calc-id=\"SECTOT4\">$0</span></li></ul>"
+											},{
+												"attributes":{
+													"class":"value-holder",
+													"style":"padding-top: 10px;"
+												},
+												"children":[{
+													"html":"Conservative Factor: <span class=\"pull-right\" calc-id=\"CON4\">0%</span>"
+												},{
+													"attributes":{
+														"class":"row",
+														"style":"padding-top: 10px;"
+													},
+													"children":[{
+														"attributes":{
+															"class":"col-lg-12"
+														},
+														"children":[{
+															"type":"slider",
+															"step":5,
+															"attributes":{
+																"calc-id":"CON4"
+															}
+														}]
+													}]
+												}]
+											}]
+										}]
+									}]
+								}]
+							}]
+						}]					
+					},{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"faq-item"
+							},
+							"children":[{
+								"html":"Implementation Period: <span class=\"pull-right\"><span calc-id=\"IMP1\"></span> months</span>"
+							},{
+								"attributes":{
+									"class":"row",
+									"style":"padding-top: 15px;"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-lg-12"
+									},
+									"children":[{
+										"type":"slider",
+										"attributes":{
+											"calc-id":"IMP1"
+										},
+										"min": 0,
+										"max": 24
+									}]
+								}]
+							}]						
+						}]					
+					}]
+				}]
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom white-bg dashboard-header",
+			"id":"section6"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"html":"<h1 style=\"margin-bottom: 20px;\">Summary<span class=\"pull-right pod-total section-total grand-total txt-money\" calc-id=\"TOTALSAVINGS1\">$0</span></h1>"
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom gray-bg dashboard-header"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"attributes":{
+					"class":"row"
+				},
+				"children":[{
+					"attributes":{
+						"class":"col-md-12 col-sm-12 col-xs-12"
+					},
+					"children": [{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"ibox-title"
+							},
+							"children":[{
+								"html":"<h5>Summary</h5>"
+							}]
+						},{
+							"attributes":{
+								"class":"ibox-content"
+							},
+							"children":[{
+								"attributes":{
+									"class":"row"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-md-7 section-write-up"
+									},
+									"children":[{
+										"html":"<p class=\"caption-text\" style=\"font-size: 18px;\">The table below represents a summary of the possible ROI you can expect by category and by year based on data supplied. You can adjust the ROI output to reflect implementation based on expected timelines. Note the expected Net Present Value, your calculated % return and projected payback period above.<br/><br/>Net Present Value is calculated using a 2% inflation rate. Return on Investment is calculated by dividing the total net profit by the total cost. Payback Period calculates the time in months it takes your savings to equal that of your cost, including the implementation period.<br/><br/>This model is for illustration purposes only and Kurtosys does not guarantee ROI.</p><hr>"
+									}]
+								},{
+									"attributes":{
+										"class":"col-md-5"
+									},
+									"children":[{
+										"type":"video",
+										"src":"//www.youtube.com/embed/Z3vyFmnzku8"
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]		
+			}]
+		},{
+			"attributes":{
+				"class":"col-md-12 col-sm-12 col-xs-12"
+			},
+			"children":[{
+				"attributes":{
+					"class":"row"
+				},
+				"children":[{
+					"attributes":{
+						"class":"col-lg-9 col-md-9 col-sm-12 col-xs-12"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox-content"
+						},
+						"children":[{
+							"attributes":{
+								"class":"form-horizontal"
+							},
+							"children":[{
+								"attributes":{
+									"class":"subsection-header underlined"
+								},
+								"children":[{
+									"html":"<h2>Costs</h2>"
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Implementation Cost</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"tag":"input",
+										"attributes":{
+											"class":"form-control",
+											"calc-id":"COST1"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Subscription - Year 1</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"tag":"input",
+										"attributes":{
+											"class":"form-control",
+											"calc-id":"COST2"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Subscription - Year 2</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"tag":"input",
+										"attributes":{
+											"class":"form-control",
+											"calc-id":"COST3"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"ibox-content"
+								},
+								"children":[{
+									"attributes":{
+										"class":"table-responsive",
+										"style":"border: 2px solid #ddd;"
+									},
+									"children":[{
+										"tag":"table",
+										"attributes":{
+											"class":"table table-hover",
+											"style":"margin-bottom: 0;"
+										},
+										"children":[{
+											"tag":"thead",
+											"children":[{
+												"tag":"tr",
+												"children":[{
+													"html":"<th></th>"
+												},{
+													"html":"<th>Year 1</th>"
+												},{
+													"html":"<th>Year 2</th>"
+												},{
+													"html":"<th>Total</th>"
+												}]
+											}]
+										},{
+											"tag":"tbody",
+											"children":[{
+												"tag":"tr",
+												"attributes":{
+													"class":"value-holder"
+												},
+												"children":[{
+													"html":"<th><a class=\"table-scroll smooth-scroll\" href=\"#section2\">Global Websites</a></th>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"SECA1\"></td>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"SECB1\"></td>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"SECTOT1\"></td>"
+												}]
+											},{
+												"tag":"tr",
+												"attributes":{
+													"class":"value-holder"
+												},
+												"children":[{
+													"html":"<th><a class=\"table-scroll smooth-scroll\" href=\"#section3\">Secure Communities</a></th>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"SECA2\"></td>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"SECB2\"></td>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"SECTOT2\"></td>"
+												}]
+											},{
+												"tag":"tr",
+												"attributes":{
+													"class":"value-holder"
+												},
+												"children":[{
+													"html":"<th><a class=\"table-scroll smooth-scroll\" href=\"#section4\">Document Production</a></th>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"SECA3\"></td>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"SECB3\"></td>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"SECTOT3\"></td>"
+												}]
+											},{
+												"tag":"tr",
+												"attributes":{
+													"class":"value-holder"
+												},
+												"children":[{
+													"html":"<th><a class=\"table-scroll smooth-scroll\" href=\"#section5\">Compliance Risk Mitigation</a></th>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"SECA4\"></td>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"SECB4\"></td>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"SECTOT4\"></td>"
+												}]
+											},{
+												"tag":"tr",
+												"attributes":{
+													"class":"value-holder"
+												},
+												"children":[{
+													"html":"<th>Cost</th>"
+												},{
+													"html":"<td class=\"txt-removed\" calc-id=\"ACOST1\"></td>"
+												},{
+													"html":"<td class=\"txt-removed\" calc-id=\"ACOST2\"></td>"
+												},{
+													"html":"<td class=\"txt-removed\" calc-id=\"TOTALCOST1\"></td>"
+												}]
+											},{
+												"tag":"tr",
+												"attributes":{
+													"class":"value-holder"
+												},
+												"children":[{
+													"html":"<th>Total</th>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"ATOT1\"></td>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"ATOT2\"></td>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"TOTALSAVINGS1\"></td>"
+												}]
+											}]
+										}]
+									}]
+								}]
+							}]
+						}]
+					}]
+				},{
+					"attributes":{
+						"class":"col-lg-3 col-md-3 col-sm-12 col-xs-12"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"ibox-title"
+							},
+							"children":[{
+								"html":"<h5 class=\"col-lg-12\">ROI Statistics</h5>"
+							}]
+						},{
+							"attributes":{
+								"class":"faq-item"
+							},
+							"children":[{
+								"attributes":{
+									"class":"row"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-lg-8 col-md-12"
+									},
+									"children":[{
+										"html":"<a class=\"faq-question collapsed\">Return on Investment</a>"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-12"
+									},
+									"children":[{
+										"html":"<div class=\"pull-right\"><span class=\"section-total txt-money\" calc-id=\"ROI1\">0</span></div>"
+									}]
+								}]
+							}]
+						},{
+							"attributes":{
+								"class":"faq-item"
+							},
+							"children":[{
+								"attributes":{
+									"class":"row"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-lg-8 col-md-12"
+									},
+									"children":[{
+										"html":"<a class=\"faq-question collapsed\">Net Present Value</a>"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-12"
+									},
+									"children":[{
+										"html":"<div class=\"pull-right\"><span class=\"section-total txt-money\" calc-id=\"NPV1\">0</span></div>"
+									}]
+								}]
+							}]
+						},{
+							"attributes":{
+								"class":"faq-item"
+							},
+							"children":[{
+								"attributes":{
+									"class":"row"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-lg-8 col-md-12"
+									},
+									"children":[{
+										"html":"<a class=\"faq-question collapsed\">Payback Period</a>"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-12"
+									},
+									"children":[{
+										"html":"<div class=\"pull-right\"><span class=\"section-total txt-money\"><span calc-id=\"PAY1\">0</span> months</span></div>"
+									}]
+								}]
+							}]
+						}]					
+					},{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"faq-item"
+							},
+							"children":[{
+								"html":"Implementation Period: <span class=\"pull-right\"><span calc-id=\"IMP1\"></span> months</span>"
+							},{
+								"attributes":{
+									"class":"row",
+									"style":"padding-top: 15px;"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-lg-12"
+									},
+									"children":[{
+										"type":"slider",
+										"attributes":{
+											"calc-id":"IMP1"
+										},
+										"min": 0,
+										"max": 24
+									}]
+								}]
+							}]						
+						}]					
+					}]
+				}]
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom gray-bg dashboard-header"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"attributes":{
+					"class": "row"
+				},
+				"children":[{
+					"attributes":{
+						"class":"col-md-12 col-sm-12 col-xs-12"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"ibox-content",
+								"style":"padding-left: 30px;"
+							},
+							"children":[{
+								"attributes":{
+									"class":"row bar-chart-container"
+								},
+								"children":[{
+									"type":"chart",
+									"attributes":{
+										"class":"bar-chart",
+										"style":"width: 100%;"
+									},
+									"chart":{
+										"type":"column",
+										"margin":75,
+										"animation":false
+									},
+									"title":{
+										"text":"Your Potential Return on Investment"
+									},
+									"xAxis":{
+										"categories": ["Year 1","Year 2"]
+									},
+									"yAxis": {
+										"min": 0,
+										"style": {
+											"color": "#333",
+											"fontWeight": "bold",
+											"fontSize": "12px",
+											"fontFamily": "Trebuchet MS, Verdana, sans-serif"
+										},				
+										"title": {
+											"text": "Money"
+										}
+									},
+									"tooltip": {
+										"headerFormat": "<span style=\"font-size:10px\">{point.key}</span><table>",
+										"pointFormat": "<tr><td style=\"color:{series.color};padding:0\">{series.name}: </td><td style=\"color:{series.color};padding:0;padding-left:10px;\"><b> {point.y:,.0f}</b></td></tr>",
+										"footerFormat": "</table>",
+										"shared": true,
+										"useHTML": true
+									},
+									"plotOptions": {
+										"column": {
+											"pointPadding": 0.2,
+											"borderWidth": 0
+										}
+									},
+									"series":[{
+										"name":"Global Websites",
+										"type":"column",
+										"data":[0,0],
+										"color":"#72ABE2",
+										"equations":["SECA1","SECB1"]
+									},{
+										"name":"Secure Communities",
+										"type":"column",
+										"data":[0,0],
+										"color":"#2E8B57",
+										"equations":["SECA2","SECB2"]
+									},{
+										"name":"Document Production",
+										"type":"column",
+										"data":[0,0],
+										"color":"#7DDA6A",
+										"equations":["SECA3","SECB3"]
+									},{
+										"name":"Compliance Risk Mitigation",
+										"type":"column",
+										"data":[0,0],
+										"color":"#EC9851",
+										"equations":["SECA4","SECB4"]
+									},{
+										"name":"Cost",
+										"type":"column",
+										"data":[0,0],
+										"color":"rgb(235, 54, 54)",
+										"equations":["ACOST1","ACOST2"]
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]
+			}]
+		}]
+	}]
+}]

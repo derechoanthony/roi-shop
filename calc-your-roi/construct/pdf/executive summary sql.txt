@@ -1,0 +1,29 @@
+INSERT INTO pdf_specs (`html`, `pageno`,`pos_x`,`pos_y`,`roi`,`width`,`content_type`,`height`)
+VALUES ('<div class="pdf-section-header">
+	<table class="pdf-page-header">
+		<td width="50%" style="color: white;">Executive Summary</td>
+		<td width="50%" class="prepared-for" style="text-align:right;"></td>
+	</table>
+</div>', '2', '0', '0', '4', '0', '', '0'),
+('<div class="section-writeup">With the use of Xactly, your organization could realize a savings of:</div>', '2', '0', '10', '4', '0', '', '0'),
+('<h1 class="grandtotal"><strong><span data-format="($0,0)" data-formula="GRANDTOTAL(\'true\')"></span></strong></h1>', '2', '0', '25', '4', '0', '', '0'),
+('<div class="content-bubble right">
+	<p class="content-header"><strong>ROI Statistics:</strong></p>
+</div>', '2', '0', '60', '4', '0', '', '0'),
+('<div data-chart-type="savings-bar-chart" id="bar-chart2" class="bar-chart pdf-chart" style="width: 190mm; height: 75mm;"></div>', '2', '5', '55', '4', '0', 'chart', '0'),
+('<div class="content-bubble right">
+	<h3> &#9733; Return On Investment: <span class="return-on-investment" data-format="(0,0%)" data-formula="ROI()"></span></h3>
+</div>', '2', '0', '76', '4', '0', '', '0'),
+('<div class="content-bubble right">
+	<h3> &#9733; Net Present Value: <span class="return-on-investment" data-format="($0,0)" data-formula="NETPV()"></span></h3>
+</div>', '2', '0', '90', '4', '0', '', '0'),
+('<div class="content-bubble right">
+	<h3> &#9733; Payback Period: <span data-format="0,0[.]00" data-formula="PAYBACK()"></span> months</h3>
+</div>', '2', '0', '104', '4', '0', '', '0'),
+('<table class="savingsTable" style="width: 180mm;"></table>', '2', '10', '138', '4', '0', '', '0'),
+('<div class="content-bubble right">
+	<p>
+		<h3> &#9733; The table to the left shows your annual savings by category</h3><br/>
+		<h3> &#9733; You can visit the ROI by clicking the link in the bottom left hand corner</h3>
+	</p>
+</div>', '2', '0', '135', '4', '0', '', '0');

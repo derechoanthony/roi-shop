@@ -1,0 +1,26 @@
+.advancedmd-background{
+	background-color: rgb(250,141,41);
+	color: white;
+}
+p.caption-text {
+	font-size: 18px;
+}
+li{
+	list-style: none;
+	display: inline-block;
+}
+.pull-right{
+	right: 0;
+}
+li.value-holder{
+	width: 100%;
+}
+.ibox-content {
+    background-color: #ffffff;
+    color: inherit;
+    padding: 15px 20px 20px 20px;
+    border-color: #e7eaec;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 0;
+}

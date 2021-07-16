@@ -1,0 +1,16 @@
+.content-bubble, .pdf-page-header, .pdf-section-header, .pdf-page-header {
+	background-color: rgb(150,192,231);
+	color: #222;
+}
+
+.point-highlight {
+	background-color: rgb(150,192,231);
+}
+
+.content-bubble h3, .content-paragraph, .content-header {
+	color: #111;
+}
+
+.small h3 {
+	color: #111;
+}

@@ -1,0 +1,199 @@
+.section-writeup {
+	padding: 3mm;
+	padding-top: 6mm;
+	font-size: 5mm;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.grandtotal {
+	color: green;
+	font-size: 24mm;
+	text-align: center;
+	font-weight: 900;
+	margin: 0;
+	line-height: 1;
+}
+
+.right {
+	border-radius: 2mm 0mm 0 2mm;
+	float: right;
+}
+
+.content-bubble {
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 3mm;
+	width: 95mm;
+	background: rgb(1,131,123);
+	color: #fff;
+}
+
+.content-header {
+	color: white;
+	font-size: 6mm;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+	font-variant: small-caps;
+}
+
+.pdf-section-header {
+	width: 100%;
+	line-height: 8mm;
+	font-size: 6mm;
+	background-color: rgb(250,141,41);
+	color: rgb(255,255,255);
+	margin-top: 0;
+	padding: 2mm 4mm;
+	font-variant: small-caps;
+}
+
+.prepared-for {
+	float: right;
+}
+
+.content-paragraph {
+	font-size: 5mm;
+	color: white;
+}
+
+.point-highlight {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	padding: 15px;
+	width: 375px;
+	background: rgb(255,206,0); /* Old browsers */
+	color: #000;
+	border-radius: 0 5px 5px 0;
+}
+
+.content-bubble h3, .point-highlight h3 {
+	font-size: 21px;
+	color: #fff;
+	margin: 0;
+	font-variant: small-caps;
+}
+
+.small h3 {
+	font-size: 5mm;
+	color: #eef;
+	margin-left: 1.5mm;
+	font-variant: none;
+}
+
+.content-list {
+	border-bottom: 1px solid white;
+}
+
+.content-bubble ul li {
+	color: #eef;
+	font-size: 18px;
+	margin: 0;
+	padding: 0;
+	margin-left: 60px;
+}
+
+div.list {
+	margin-left: 10px;
+	padding-top: 0;
+}
+
+
+.savingsTable thead {	
+	font-weight: bold; 
+	vertical-align: bottom;
+}
+
+.savingsTable tfoot {	
+	font-weight: bold; 
+	vertical-align: top;
+}
+
+.savingsTable thead td { 
+	font-weight: bold; 
+}
+
+.savingsTable tfoot td { 
+	font-weight: bold; 
+}
+
+.savingsTable th {
+	font-weight: bold; 
+	vertical-align: top; 
+	text-align:left; 
+	padding-left: 2mm; 
+	padding-right: 2mm; 
+	padding-top: 0.5mm; 
+	padding-bottom: 0.5mm; 
+}
+
+.savingsTable td {
+	padding-left: 2mm; 
+	vertical-align: top; 
+	text-align:left; 
+	padding-right: 2mm; 
+	padding-top: 0.5mm; 
+	padding-bottom: 0.5mm;
+	height: 8mm;
+}
+
+.savingsTable { background-color: #e3ece4; topntail: 0.02cm solid #495b4a;}
+
+.savingsTable td, .savingsTable th  {	border-top: 1px solid #FFFFFF; }
+
+.pdf-page-header {
+	width: 100%;
+	color: white;
+	line-height: 8mm;
+	font-size: 6mm;
+}
+
+.pdf-section-total {
+	color: green;
+	font-size: 72px;
+	text-align: center;
+	font-weight: 900;
+}
+
+.contributor-table {
+	font-size:5mm;
+	font-family: Arial;
+	line-height: 22px;
+	font-weight: 100;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.prepared-header {
+	text-align: center;
+	font-size: 9mm;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 10mm;
+	font-variant: small-caps;
+	font-weight: 100;
+}
+
+.pdf-header {
+	width: 80mm;
+}
+
+.company-name {
+	text-align: center;
+	font-size: 9mm;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 10mm;
+	font-variant: small-caps;
+	font-weight: 100;
+	margin-bottom: 0.5mm;
+}
+
+.cover-user-table {
+	font-size: 5.5mm;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 7mm;
+	font-weight: 100;
+}
+
+p {
+	margin-top: 0;
+}

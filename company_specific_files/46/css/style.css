@@ -1,0 +1,23 @@
+.prepared-for {
+	float: right;
+}
+
+.zenefit-prepared {
+	text-align: right;
+	font-size: 9mm;
+	line-height: 10mm;
+	font-variant: none;
+	font-weight: 100;
+	color: rgb(95,95,95)
+}
+
+.small h3 {
+	color: black;
+	font-weight: 500;
+}
+
+ul li {
+	font-size: 5mm;
+	margin-left: 1mm;
+	padding-left: 1mm;
+}

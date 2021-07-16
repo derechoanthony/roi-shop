@@ -1,0 +1,4716 @@
+[{
+	"tag":"nav",
+	"attributes":{
+		"role":"navigation",
+		"class":"navbar-default navbar-static-side"
+	},
+	"children":[{
+		"attributes":{
+			"style":"overflow: hidden; width: auto; height: 100%;",
+			"class":"sidebar-collapse sidebar-navigation"
+		},
+		"children":[{
+			"tag":"ul",
+			"attributes":{
+				"id":"side-menu",
+				"class":"nav"
+			},
+			"children": [{
+				"tag":"li",
+				"attributes":{
+					"class":"nav-header"
+				},
+				"children":[{
+					"attributes":{
+						"class":"dropdown profile-element"
+					},
+					"children":[{
+						"tag":"span",
+						"children":[{
+							"html":"<img id=\"company_logo\" alt=\"image\" src=\"https://www.theroishop.com/company_specific_files/550/logo/logo.png\">"
+						}]
+					}]
+				}]
+			},{
+				"tag":"li",
+				"attributes":{
+					"class":"smooth-scroll"
+				},
+				"children":[{
+					"html":"<a href=\"#\"><i class=\"fa fa-calculator\"></i> <span class=\"nav-label\">ROI Sections</span><span class=\"fa arrow\"></span></a>"
+				},{
+					"tag":"ul",
+					"attributes":{
+						"class":"nav nav-second-level collapse in"
+					},
+					"children":[{
+						"html":"<li><a href=\"#section1\" class=\"section-navigator\">Dashboard</a></li>"
+					},{
+						"html":"<li><a href=\"#section2\" class=\"section-navigator\">Company Profile</a></li>"
+					},{
+						"html":"<li><a href=\"#section3\" class=\"section-navigator\">Program Efficiency</a></li>"
+					},{
+						"html":"<li><a href=\"#section4\" class=\"section-navigator\">Cost Benefit</a></li>"
+					},{
+						"html":"<li><a href=\"#section5\" class=\"section-navigator\">What's Possible</a></li>"
+					},{
+						"html":"<li><a href=\"#section6\" class=\"section-navigator\">Roadmap / Areas of Growth</a></li>"
+					}]
+				}]
+			},{
+				"tag":"li",
+				"attributes":{
+					"class":"smooth-scroll"
+				},
+				"children":[{
+					"html":"<a href=\"#\"><i class=\"fa fa-calculator\"></i> <span class=\"nav-label\">Reports</span><span class=\"fa arrow\"></span></a>"
+				},{
+					"tag":"ul",
+					"attributes":{
+						"class":"nav nav-second-level collapse in"
+					},
+					"children":[{
+						"html":"<li class=\"smooth-scroll\"><a class=\"renderPdf\" reportId=\"1\">Create PDF</a></li>"
+					}]
+				}]
+			},{
+				"tag":"li",
+				"children":[{
+					"html":"<a href=\"../../dashboard\"><i class=\"fa fa-globe\"></i> <span class=\"nav-label\">My ROIs</span></a>"
+				}]
+			}]
+		}]
+	}]
+},{
+	"attributes": {
+		"class": "white-bg",
+		"id":"page-wrapper"
+	},
+	"children":[{
+		"attributes":{
+			"class":"row border-bottom white-bg dashboard-header",
+			"style":"background-color: rgb(0,61,165); color: white;",
+			"id":"section1"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"html": "<h1 style=\"margin-bottom: 20px\">Dashboard</h1>"
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom gray-bg dashboard-header"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12",
+				"style":"padding-bottom: 25px;"
+			},
+			"children":[{
+				"attributes":{
+					"class":"ibox-content"
+				},
+				"children":[{
+					"html":"<h3 style=\"font-size: 18px; font-weight: 700;\">Select a section below to review your ROI</h3><p style=\"font-size: 16px;\">To calculate your return on investment, begin with the first section below. The information entered therein will automatically populate corresponding fields in the other sections. You will be able to move from section to section to add and/or adjust values to best reflect your organization and process. To return to this screen, click the ROI Dashboard button to the left.</p><hr><p style=\"font-size: 16px;\"><em>This ROI calculator is offered as a way of understanding potential benefits of Fusion Framework System and related software from Fusion Risk Management. No claim is made of specific accuracy or commitments to deliver any system at the cost or benefit levels portrayed. The calculated numbers are estimates of savings only and are not considered to be commitments from either Fusion Risk Management or the prospective user of Fusion's solutions.</em></p>"
+				}]
+			}]
+		},{
+			"attributes":{
+				"class":"col-lg-4"
+			},
+			"children":[{
+				"attributes":{
+					"class":"ibox float-e-margins"
+				},
+				"children":[{
+					"attributes":{
+						"class":"ibox-content equalize-1"
+					},
+					"children":[{
+						"attributes":{
+							"class":"row equalize-2"
+						},
+						"children": [{
+							"attributes":{
+								"class":"col-lg-10"
+							},
+							"children":[{
+								"html":"<h5><a class=\"smooth-scroll section-navigator\" href=\"#section2\">Your Company Profile - Current Costs</a></h5>"
+							}]
+						},{
+							"attributes": {
+								"class":"col-lg-2"
+							},
+							"children":[{
+								"html":"<span class=\"label label-success pull-right\">1 Year</span>"
+							}]
+						}]
+					},{
+						"html":"<h1 class=\"txt-right pod-total section-total\" style=\"font-weight: 700; color: #216C2A;\" calc-id=\"D49\" data-format=\"$0,0\">$0</h1><hr><div style=\"font-size: 14px;\"><span class=\"stat-percent font-bold text-success\" calc-id=\"B116\">4.72</span>FTEs without Fusion:</div>"
+					}]
+				}]
+			}]
+		},{
+			"attributes":{
+				"class":"col-lg-4"
+			},
+			"children":[{
+				"attributes":{
+					"class":"ibox float-e-margins"
+				},
+				"children":[{
+					"attributes":{
+						"class":"ibox-content equalize-1"
+					},
+					"children":[{
+						"attributes":{
+							"class":"row equalize-2"
+						},
+						"children": [{
+							"attributes":{
+								"class":"col-lg-10"
+							},
+							"children":[{
+								"html":"<h5><a class=\"smooth-scroll section-navigator\" href=\"#section3\">Program Efficiency - Projected Savings</a></h5>"
+							}]
+						},{
+							"attributes": {
+								"class":"col-lg-2"
+							},
+							"children":[{
+								"html":"<span class=\"label label-success pull-right\">1 Year</span>"
+							}]
+						}]
+					},{
+						"html":"<h1 class=\"txt-right pod-total section-total\" style=\"font-weight: 700; color: #216C2A;\" calc-id=\"G115\" data-format=\"$0,0\">$0</h1><hr><div style=\"font-size: 14px;\"><span class=\"stat-percent font-bold text-success\" calc-id=\"F113\"></span>FTEs freed up for growth with Fusion:</div>"
+					},{
+						"attributes":{
+							"class":"row conservative-slider"
+						},
+						"children": [{
+							"attributes":{
+								"class":"value-holder"
+							},
+							"children": [{
+								"html":"Conservative Factor: <span class=\"pull-right\" calc-id=\"CON1\"></span>"
+							},{
+								"attributes":{
+									"class":"row slider-padding"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-lg-12"
+									},
+									"children":[{
+										"type":"slider",
+										"step":5,
+										"attributes":{
+											"calc-id":"CON1"
+										}
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]
+			}]
+		},{
+			"attributes":{
+				"class":"col-lg-4"
+			},
+			"children":[{
+				"attributes":{
+					"class":"ibox float-e-margins"
+				},
+				"children":[{
+					"attributes":{
+						"class":"ibox-content equalize-1"
+					},
+					"children":[{
+						"attributes":{
+							"class":"row equalize-2"
+						},
+						"children": [{
+							"attributes":{
+								"class":"col-lg-10"
+							},
+							"children":[{
+								"html":"<h5><a class=\"smooth-scroll section-navigator\" href=\"#section4\">Cost Benefit Analysis</a></h5>"
+							}]
+						},{
+							"attributes": {
+								"class":"col-lg-2"
+							},
+							"children":[{
+								"html":"<span class=\"label label-success pull-right\">3 Years</span>"
+							}]
+						}]
+					},{
+						"html":"<h1 class=\"txt-right pod-total section-total\" style=\"font-weight: 700; color: #216C2A;\" data-format=\"$0,0\" calc-id=\"E131\">$0</h1><hr><div style=\"font-size: 14px;\"><p>Net three-year total of efficiencies gained from deploying Fusion Framework over current solution.</p></div>"
+					}]
+				}]
+			}]
+		},{
+			"attributes":{
+				"class":"col-lg-4"
+			},
+			"children":[{
+				"attributes":{
+					"class":"ibox float-e-margins"
+				},
+				"children":[{
+					"attributes":{
+						"class":"ibox-content equalize-1"
+					},
+					"children":[{
+						"attributes":{
+							"class":"row equalize-2"
+						},
+						"children": [{
+							"attributes":{
+								"class":"col-lg-12"
+							},
+							"children":[{
+								"html":"<h5><a class=\"smooth-scroll section-navigator\" href=\"#section5\">What's Possible</a></h5>"
+							}]
+						}]
+					},{
+						"html":"<hr><div style=\"font-size: 14px;\"><p>See what Fusion uniquely makes possible and rank the importance to your success.</p></div>"
+					}]
+				}]
+			}]
+		},{
+			"attributes":{
+				"class":"col-lg-4"
+			},
+			"children":[{
+				"attributes":{
+					"class":"ibox float-e-margins"
+				},
+				"children":[{
+					"attributes":{
+						"class":"ibox-content equalize-1"
+					},
+					"children":[{
+						"attributes":{
+							"class":"row equalize-2"
+						},
+						"children": [{
+							"attributes":{
+								"class":"col-lg-12"
+							},
+							"children":[{
+								"html":"<h5><a class=\"smooth-scroll section-navigator\" href=\"#section6\">Areas of Growth</a></h5>"
+							}]
+						}]
+					},{
+						"html":"<hr><div style=\"font-size: 14px;\"><p>See areas that Fusion customers are growing into and identify where you want your program to go next.</p></div>"
+					}]
+				}]
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom white-bg dashboard-header",
+			"style":"background-color: rgb(0,61,165); color: white;",
+			"id":"section2"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"html":"<h1 style=\"margin-bottom: 20px;\">Your Company Profile - Current Costs</h1>"
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom gray-bg dashboard-header",
+			"id":"AE2"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-md-12 col-sm-12 col-xs-12"
+			},
+			"children":[{
+				"attributes":{
+					"class":"row"
+				},
+				"children":[{
+					"attributes":{
+						"class":"col-lg-12 col-md-12 col-sm-12 col-xs-12"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox-content"
+						},
+						"children":[{
+							"attributes":{
+								"class":"form-horizontal"
+							},
+							"children":[{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"attributes":{
+										"class":"subsection-header underlined"
+									},
+									"children":[{
+										"html":"<h2 class=\"subsection\"><strong>Core Team</strong></h2>"
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Number of people involved in the Core Team of the program"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"input-group"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"calc-id":"A1"
+											}
+										},{
+											"attributes":{
+												"class":"input-group-addon right"
+											},
+											"tag":"span",
+											"children":[{
+												"tag":"i",
+												"attributes":{
+													"class":"fa fa-question-circle tooltipstered",
+													"title":"The number of people who spend a significant part of their day working on the program."
+												}
+											}]
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Average percent of time the Core Team is allocated to work on the program"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"input-group"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"calc-id":"A2"
+											}
+										},{
+											"attributes":{
+												"class":"input-group-addon right"
+											},
+											"tag":"span",
+											"children":[{
+												"tag":"i",
+												"attributes":{
+													"class":"fa fa-question-circle tooltipstered",
+													"title":"If the core team is dedicated to the program, enter 100%. If a portion of time is spent on other programs, deduct that percent. If the core team spends 25% of their time on other duties, enter 75% here."
+												}
+											}]
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Number of Core Team FTEs"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"input-group"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"disabled":"disabled",
+												"calc-id":"A3"
+											}
+										},{
+											"attributes":{
+												"class":"input-group-addon right output"
+											},
+											"tag":"span",
+											"children":[{
+												"tag":"i",
+												"attributes":{
+													"class":"fa fa-calculator tooltipstered",
+													"calculation-modal":"A3",
+													"title":"Click here to view the calculation breakdown"
+												}
+											},{
+												"tag":"i",
+												"attributes":{
+													"class":"fa fa-question-circle tooltipstered",
+													"style":"margin-left: 5px;",
+													"title":"This is a calculated field. It represents the number of full-time people that would be required to perform the program duties of all core team members combined."
+												}
+											}]
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Work Hours per Year"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"input-group"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"calc-id":"A4"
+											}
+										},{
+											"attributes":{
+												"class":"input-group-addon right"
+											},
+											"tag":"span",
+											"children":[{
+												"tag":"i",
+												"attributes":{
+													"class":"fa fa-question-circle tooltipstered",
+													"title":"Enter the number of hours in your organization's work year. Five days a week for 52 weeks a year is 2080. Removing two weeks of vacation would make this value 2000. This number is used to calculate the number of FTEs working on your program."
+												}
+											}]
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Average direct annual compensation PER employee (FTE)"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"input-group"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"calc-id":"A5"
+											}
+										},{
+											"attributes":{
+												"class":"input-group-addon right"
+											},
+											"tag":"span",
+											"children":[{
+												"tag":"i",
+												"attributes":{
+													"class":"fa fa-question-circle tooltipstered",
+													"title":"Enter the average salary for members of the core team (not including benefits)."
+												}
+											}]
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Benefits Load"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"input-group"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"calc-id":"A6"
+											}
+										},{
+											"attributes":{
+												"class":"input-group-addon right"
+											},
+											"tag":"span",
+											"children":[{
+												"tag":"i",
+												"attributes":{
+													"class":"fa fa-question-circle tooltipstered",
+													"title":"Enter your organization's benefits load percentage that should be added to the salary to come up with a loaded cost per employee. Typically, benefits add 20-35% to the cost of an employee."
+												}
+											}]
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Expected annual salary growth rate"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"input-group"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"calc-id":"A7"
+											}
+										},{
+											"attributes":{
+												"class":"input-group-addon right"
+											},
+											"tag":"span",
+											"children":[{
+												"tag":"i",
+												"attributes":{
+													"class":"fa fa-question-circle tooltipstered",
+													"title":"Enter the expected or typical annual salary increase percentage that should be added to calculations for years 2 and 3."
+												}
+											}]
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Core Team employee expenditure"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"input-group"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"disabled":"disabled",
+												"calc-id":"A8"
+											}
+										},{
+											"attributes":{
+												"class":"input-group-addon right output"
+											},
+											"tag":"span",
+											"children":[{
+												"tag":"i",
+												"attributes":{
+													"class":"fa fa-calculator tooltipstered",
+													"calculation-modal":"A8",
+													"title":"Click here to view the calculation breakdown"
+												}
+											},{
+												"tag":"i",
+												"attributes":{
+													"class":"fa fa-question-circle tooltipstered",
+													"style":"margin-left: 5px;",
+													"title":"Calculated field that represents the loaded salary cost of the core team's time spent working on the program."
+												}
+											}]
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"attributes":{
+										"class":"subsection-header underlined"
+									},
+									"children":[{
+										"html":"<h2 class=\"subsection\"><strong>Plan and Process Owners</strong></h2>"
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Approximate direct annual compensation of Plan and Process Owners"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"input-group"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"calc-id":"A5"
+											}
+										},{
+											"attributes":{
+												"class":"input-group-addon right"
+											},
+											"tag":"span",
+											"children":[{
+												"tag":"i",
+												"attributes":{
+													"class":"fa fa-question-circle tooltipstered",
+													"title":"Enter a number that represents the average annual salary for those departmental users who are responsible for business processes and resiliency plans. This defaults to the average salary entered for the Core Team, but it can be overridden."
+												}
+											}]
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Identify the activities your Plan and Process Owners participate in:"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"type":"checkbox",
+										"choices":[{
+											"text":"Define/Document Processes",
+											"calc-id":"A9"
+										},{
+											"text":"Create Impact Assessments",
+											"calc-id":"A10"
+										},{
+											"text":"Document Process Requirements and Dependencies",
+											"calc-id":"A11"
+										},{
+											"text":"Develop Plans",
+											"calc-id":"A12"
+										},{
+											"text":"Develop Recovery Strategies",
+											"calc-id":"A13"
+										},{
+											"text":"Educate Team on Plan",
+											"calc-id":"A14"
+										},{
+											"text":"Exercise Plan (and Team)",
+											"calc-id":"A15"
+										},{
+											"text":"Other",
+											"calc-id":"A16"
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group",
+									"id":"PLNPR1"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Other Plan and Process activities"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"tag":"textarea",
+										"attributes":{
+											"class":"form-control",
+											"style":"width: 100%; resize: vertical",
+											"rows":"4",
+											"calc-id":"A158"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Number of Plan and Process Owners involved in the program"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"input-group"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"calc-id":"A17"
+											}
+										},{
+											"attributes":{
+												"class":"input-group-addon right"
+											},
+											"tag":"span",
+											"children":[{
+												"tag":"i",
+												"attributes":{
+													"class":"fa fa-question-circle tooltipstered",
+													"title":"Enter the number of people that would be required to log into the system outside of the core team to enter process and planning information for their department. These are the users who are responsible for the accuracy of their information."
+												}
+											}]
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Amount of time each Plan and Process Owner spends working on the program (in hours) annually"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"input-group"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"calc-id":"A18"
+											}
+										},{
+											"attributes":{
+												"class":"input-group-addon right"
+											},
+											"tag":"span",
+											"children":[{
+												"tag":"i",
+												"attributes":{
+													"class":"fa fa-question-circle tooltipstered",
+													"title":"Based on the activities you identified above, enter the amount of time each year that each Plan/Process owner spends (on average) performing their assigned activities."
+												}
+											}]
+										},{
+											"attributes":{
+												"class":"input-group-addon right append"
+											},
+											"tag":"span",
+											"children":[{
+												"html":"hours"
+											}]
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Number of Plan and Process Owner FTEs"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"input-group"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"disabled":"disabled",
+												"calc-id":"A19"
+											}
+										},{
+											"attributes":{
+												"class":"input-group-addon right output"
+											},
+											"tag":"span",
+											"children":[{
+												"tag":"i",
+												"attributes":{
+													"class":"fa fa-calculator tooltipstered",
+													"calculation-modal":"A19",
+													"title":"Click here to view the calculation breakdown"
+												}
+											},{
+												"tag":"i",
+												"attributes":{
+													"class":"fa fa-question-circle tooltipstered",
+													"style":"margin-left: 5px;",
+													"title":"This is a calculated field. It represents the number of full-time people that would be required to perform the program duties of all plan and process owners combined."
+												}
+											}]
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Plan and Process Owners employee expenditure"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"input-group"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"disabled":"disabled",
+												"calc-id":"A20"
+											}
+										},{
+											"attributes":{
+												"class":"input-group-addon right output"
+											},
+											"tag":"span",
+											"children":[{
+												"tag":"i",
+												"attributes":{
+													"class":"fa fa-calculator tooltipstered",
+													"calculation-modal":"A20",
+													"title":"Click here to view the calculation breakdown"
+												}
+											},{
+												"tag":"i",
+												"attributes":{
+													"class":"fa fa-question-circle tooltipstered",
+													"style":"margin-left: 5px;",
+													"title":"This is a calculated field that indicates the annual loaded salary cost for the time spent on the program by Plan and Process owners."
+												}
+											}]
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"attributes":{
+										"class":"subsection-header underlined"
+									},
+									"children":[{
+										"html":"<h2 class=\"subsection\"><strong>Other Stakeholders</strong></h2>"
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Identify the activities your Other Stakeholders participate in:"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"type":"checkbox",
+										"choices":[{
+											"text":"Reviewing or Approving Information",
+											"calc-id":"A21"
+										},{
+											"text":"Providing Process Information (as SME)",
+											"calc-id":"A22"
+										},{
+											"text":"Providing Application Information (as SME)",
+											"calc-id":"A23"
+										},{
+											"text":"Providing Plan Information (as SME)",
+											"calc-id":"A24"
+										},{
+											"text":"Receiving Training on Plan",
+											"calc-id":"A25"
+										},{
+											"text":"Participating in Exercises (use plan)",
+											"calc-id":"A26"
+										},{
+											"text":"Remediating Plan Deficiencies",
+											"calc-id":"A27"
+										},{
+											"text":"Reporting Incidents",
+											"calc-id":"A28"
+										},{
+											"text":"Participating in Incidents",
+											"calc-id":"A29"
+										},{
+											"text":"Managing Contact Data",
+											"calc-id":"A30"
+										},{
+											"text":"Other",
+											"calc-id":"A31"
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group",
+									"id":"STKHLD1"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Other stakeholder activities"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"tag":"textarea",
+										"attributes":{
+											"class":"form-control",
+											"style":"width: 100%; resize: vertical",
+											"rows":"4",
+											"calc-id":"A108"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Number of Other Stakeholders involved in these activities across your organization"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"input-group"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"calc-id":"A32"
+											}
+										},{
+											"attributes":{
+												"class":"input-group-addon right"
+											},
+											"tag":"span",
+											"children":[{
+												"tag":"i",
+												"attributes":{
+													"class":"fa fa-question-circle tooltipstered",
+													"title":"Enter the number of people"
+												}
+											}]
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Amount of time each Other Stakeholder spends working on the program (in hours) annually"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"input-group"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"calc-id":"A33"
+											}
+										},{
+											"attributes":{
+												"class":"input-group-addon right"
+											},
+											"tag":"span",
+											"children":[{
+												"tag":"i",
+												"attributes":{
+													"class":"fa fa-question-circle tooltipstered",
+													"title":"Based on the activities you identified above, enter the amount of time each year that each other stakeholder spends (on average) performing their assigned activities."
+												}
+											}]
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Number of Other Stakeholder FTEs"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"input-group"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"disabled":"disabled",
+												"calc-id":"A34"
+											}
+										},{
+											"attributes":{
+												"class":"input-group-addon right output"
+											},
+											"tag":"span",
+											"children":[{
+												"tag":"i",
+												"attributes":{
+													"class":"fa fa-calculator tooltipstered",
+													"calculation-modal":"A34",
+													"title":"Click here to view the calculation breakdown"
+												}
+											},{
+												"tag":"i",
+												"attributes":{
+													"class":"fa fa-question-circle tooltipstered",
+													"style":"margin-left: 5px;",
+													"title":"This is a calculated field. It represents the number of full-time people that would be required to perform the program duties of all other stakeholders combined."
+												}
+											}]
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Other Stakeholders employee expenditure"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"input-group"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"disabled":"disabled",
+												"calc-id":"A35"
+											}
+										},{
+											"attributes":{
+												"class":"input-group-addon right output"
+											},
+											"tag":"span",
+											"children":[{
+												"tag":"i",
+												"attributes":{
+													"class":"fa fa-calculator tooltipstered",
+													"calculation-modal":"A35",
+													"title":"Click here to view the calculation breakdown"
+												}
+											},{
+												"tag":"i",
+												"attributes":{
+													"class":"fa fa-question-circle tooltipstered",
+													"style":"margin-left: 5px;",
+													"title":"This is a calculated field that indicates the annual loaded salary cost for the time spent on the program by Other Stakeholders."
+												}
+											}]
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"attributes":{
+										"class":"subsection-header underlined"
+									},
+									"children":[{
+										"html":"<h2 class=\"subsection\"><strong>Other Company Information</strong></h2>"
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Size of organization"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"input-group"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"calc-id":"A36"
+											}
+										},{
+											"attributes":{
+												"class":"input-group-addon right"
+											},
+											"tag":"span",
+											"children":[{
+												"tag":"i",
+												"attributes":{
+													"class":"fa fa-question-circle tooltipstered",
+													"title":"Number of employees in your organization (approximate number is acceptable)"
+												}
+											}]
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Industry"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"tag":"select",
+										"type":"select",
+										"attributes":{
+											"class":"form-control",
+											"calc-id":"A37"
+										},
+										"choices":[{
+											"text":"Agriculture",
+											"value":0
+										},{
+											"text":"Architecture & Construction",
+											"value":1
+										},{
+											"text":"Automotive",
+											"value":2
+										},{
+											"text":"Distribution",
+											"value":3
+										},{
+											"text":"Education",
+											"value":4
+										},{
+											"text":"Energy & Utilities",
+											"value":5
+										},{
+											"text":"Financial - Banks & CUs",
+											"value":6
+										},{
+											"text":"Financial - Services",
+											"value":7
+										},{
+											"text":"Government",
+											"value":8
+										},{
+											"text":"Healthcare Services",
+											"value":9
+										},{
+											"text":"Hospitality",
+											"value":10
+										},{
+											"text":"Insurance",
+											"value":11
+										},{
+											"text":"Legal",
+											"value":12
+										},{
+											"text":"Manufacturing",
+											"value":13
+										},{
+											"text":"Media & Entertainment",
+											"value":14
+										},{
+											"text":"Not for Profit",
+											"value":15
+										},{
+											"text":"Oil & Gas",
+											"value":16
+										},{
+											"text":"Pharma & BioTech",
+											"value":17
+										},{
+											"text":"Real Estate",
+											"value":18
+										},{
+											"text":"Retail",
+											"value":19
+										},{
+											"text":"Services",
+											"value":20
+										},{
+											"text":"Software",
+											"value":21
+										},{
+											"text":"Technology",
+											"value":22
+										},{
+											"text":"Telecom",
+											"value":23
+										},{
+											"text":"Transportation",
+											"value":24
+										},{
+											"text":"Wholesaler",
+											"value":25
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"What do you use for your BC/DR Software?"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"tag":"select",
+										"type":"select",
+										"attributes":{
+											"class":"form-control",
+											"calc-id":"A38"
+										},
+										"choices":[{
+											"text":"Archer",
+											"value":0
+										},{
+											"text":"Avalution Catalyst",
+											"value":1
+										},{
+											"text":"BC in the Cloud",
+											"value":2
+										},{
+											"text":"ClearView",
+											"value":3
+										},{
+											"text":"Continuity Logic",
+											"value":4
+										},{
+											"text":"COOP Systems",
+											"value":5
+										},{
+											"text":"Crisis Commander",
+											"value":6
+										},{
+											"text":"Daisy Group",
+											"value":7
+										},{
+											"text":"eBRP",
+											"value":8
+										},{
+											"text":"Factonomy Serket",
+											"value":9
+										},{
+											"text":"Fairchild Resiliency Systems",
+											"value":10
+										},{
+											"text":"Fusion Framework",
+											"value":11
+										},{
+											"text":"In-House Software",
+											"value":12
+										},{
+											"text":"Kuali Ready",
+											"value":13
+										},{
+											"text":"MetricStream",
+											"value":14
+										},{
+											"text":"MS Suite",
+											"value":15
+										},{
+											"text":"MS Word",
+											"value":16
+										},{
+											"text":"Paradigm Int'l Ops Planner",
+											"value":17
+										},{
+											"text":"Riskonnect",
+											"value":18
+										},{
+											"text":"RecoveryPlanner",
+											"value":19
+										},{
+											"text":"ServiceNow",
+											"value":20
+										},{
+											"text":"Strategic BCP ResilienceOne",
+											"value":21
+										},{
+											"text":"SunGard",
+											"value":22
+										},{
+											"text":"SunGard Assurance",
+											"value":23
+										},{
+											"text":"SunGard Paragon",
+											"value":24
+										},{
+											"text":"Virtual Corp. Sustainable Planner",
+											"value":25
+										},{
+											"text":"Other",
+											"value":26
+										},{
+											"text":"None",
+											"value":27
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"What is the annual cost of your BC/DR program software"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"input-group"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"calc-id":"A39"
+											}
+										},{
+											"attributes":{
+												"class":"input-group-addon right"
+											},
+											"tag":"span",
+											"children":[{
+												"tag":"i",
+												"attributes":{
+													"class":"fa fa-question-circle tooltipstered",
+													"title":"Enter your annual spend for software, support and services for your current BC/DR program."
+												}
+											}]
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"What do you use for your ITSM/CMDB software?"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"tag":"select",
+										"type":"select",
+										"attributes":{
+											"class":"form-control",
+											"calc-id":"A40"
+										},
+										"choices":[{
+											"text":"Axios Assyst",
+											"value":0
+										},{
+											"text":"BMC Remedy",
+											"value":1
+										},{
+											"text":"BMC RemedyForce",
+											"value":2
+										},{
+											"text":"CA Service Desk Manager",
+											"value":3
+										},{
+											"text":"Cherwell",
+											"value":4
+										},{
+											"text":"Easy Vista IT Service Manager",
+											"value":5
+										},{
+											"text":"Heat",
+											"value":6
+										},{
+											"text":"Hornbill Supportworks",
+											"value":7
+										},{
+											"text":"HP Service Manager",
+											"value":8
+										},{
+											"text":"IBM SmartCloud Control Desk",
+											"value":9
+										},{
+											"text":"Landdesk",
+											"value":10
+										},{
+											"text":"Microsoft System Center Service Manager",
+											"value":11
+										},{
+											"text":"Salesforce Cases",
+											"value":12
+										},{
+											"text":"ServiceNow",
+											"value":13
+										},{
+											"text":"Other",
+											"value":14
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"What do you use for your HR software?"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"tag":"select",
+										"type":"select",
+										"attributes":{
+											"class":"form-control",
+											"calc-id":"A41"
+										},
+										"choices":[{
+											"text":"ADP",
+											"value":0
+										},{
+											"text":"Ceridian",
+											"value":1
+										},{
+											"text":"Oracle",
+											"value":2
+										},{
+											"text":"Peoplesoft",
+											"value":3
+										},{
+											"text":"SAP",
+											"value":4
+										},{
+											"text":"Ultimate Software",
+											"value":5
+										},{
+											"text":"Workday",
+											"value":6
+										},{
+											"text":"Other",
+											"value":7
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"What do you use for your ENS software"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"tag":"select",
+										"type":"select",
+										"attributes":{
+											"class":"form-control",
+											"calc-id":"A42"
+										},
+										"choices":[{
+											"text":"Everbridge",
+											"value":0
+										},{
+											"text":"OnSolve MIR3",
+											"value":1
+										},{
+											"text":"OnSolve Send Word Now",
+											"value":2
+										},{
+											"text":"xMatters",
+											"value":3
+										},{
+											"text":"Other",
+											"value":4
+										},{
+											"text":"None",
+											"value":5
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"attributes":{
+										"class":"subsection-header underlined"
+									},
+									"children":[{
+										"html":"<h2 class=\"subsection\"><strong>Current Program - Cost Summary</strong></h2>"
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"fusion-table"
+								},
+								"children":[{
+									"type":"table",
+									"data": [
+										["Number of Participants","","","",""],
+										["Program hours per year per participant","","","",""],
+										["Total Program hours per year","","","",""],
+										["Full Time Equivalent resources (FTEs)","","","",""],
+										["Average Salary (incl benefits load)","","","",""],
+										["Total Salary Cost of Program","","","",""],
+										["Current Software Cost","","","",""],
+										["<strong>Total One-Year Cost of Current Program</strong>","","","",""]
+									],
+									"attributes": {
+										"B1": { "calc-id" : "A1" },
+										"B2": { "calc-id" : "A43" , "class" : "readonly" },
+										"B3": { "calc-id" : "A44" , "class" : "readonly" },
+										"B4": { "calc-id" : "A45" , "class" : "readonly" },
+										"B5": { "calc-id" : "A46" , "class" : "readonly" },
+										"B6": { "calc-id" : "A47" , "class" : "readonly" },
+										"C1": { "calc-id" : "A17" },
+										"C2": { "calc-id" : "A18" },
+										"C3": { "calc-id" : "B44" , "class" : "readonly" },
+										"C4": { "calc-id" : "B45" , "class" : "readonly" },
+										"C5": { "calc-id" : "A46" , "class" : "readonly" },
+										"C6": { "calc-id" : "B47" , "class" : "readonly" },
+										"D1": { "calc-id" : "A32" },
+										"D2": { "calc-id" : "A33" },
+										"D3": { "calc-id" : "C44" , "class" : "readonly" },
+										"D4": { "calc-id" : "C45" , "class" : "readonly" },
+										"D5": { "calc-id" : "A46" , "class" : "readonly" },
+										"D6": { "calc-id" : "C47" , "class" : "readonly" },
+										"E1": { "calc-id" : "D42" , "class" : "readonly" },
+										"E3": { "calc-id" : "D44" , "class" : "readonly" },
+										"E4": { "calc-id" : "D45" , "class" : "readonly" },
+										"E6": { "calc-id" : "D47" , "class" : "readonly" },
+										"E7": { "calc-id" : "A39" },
+										"E8": { "calc-id" : "D49" , "class" : "table-bold" }									
+									},
+									"columns": [{
+										"type": "html",
+										"title": "Current Cost Model Component",
+										"width": "40%",
+										"readOnly": true,
+										"align": {
+											"header": "left",
+											"cells": "left"
+										}
+									},{
+										"type": "html",
+										"title": "Core Team",
+										"width": "15%"
+									},{
+										"type": "html",
+										"title": "Plan and Process Owners",
+										"width": "15%"
+									},{
+										"type": "html",
+										"title": "Other Stakeholders",
+										"width": "15%"
+									},{
+										"type": "html",
+										"title": "Totals",
+										"width": "15%"
+									}],
+									"tableWidth": "100%",
+									"showRowNumbering": false								
+								}]
+							}]
+						}]
+					}]
+				}]
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom white-bg dashboard-header",
+			"style":"background-color: rgb(0,61,165); color: white;",
+			"id":"section3"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"html":"<h1 style=\"margin-bottom: 20px;\">Program Efficiency and Effectiveness</h1>"
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom gray-bg dashboard-header"
+		},
+		"children":[{
+			"attributes":{
+				"class":"row"
+			},
+			"children":[{
+				"attributes":{
+					"class":"col-lg-12 col-md-12 col-sm-12 col-xs-12"
+				},
+				"children":[{
+					"attributes":{
+						"class":"ibox float-e-margins"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox-content"
+						},
+						"children":[{
+							"attributes":{
+								"class":"form-horizontal"
+							},
+							"children":[{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"attributes":{
+										"class":"subsection-header underlined"
+									},
+									"children":[{
+										"html":"<h2 class=\"subsection\">Program Activity Analysis</h2>"
+									}]
+								}]
+							},{
+								"html":"<p style=\"font-size: 15px;\">Allocate the time your organization spends on key categories of your program. What amount of time is spent focusing on the following areas (total must equal 100%):</p>"
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Impact Analysis"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"input-group"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"calc-id":"A50"
+											}
+										},{
+											"attributes":{
+												"class":"input-group-addon right"
+											},
+											"tag":"span",
+											"children":[{
+												"tag":"i",
+												"attributes":{
+													"class":"fa fa-question-circle tooltipstered",
+													"title":"<strong>Impact Analysis</strong> includes defining business processes, performing tasks related to data collection for and documentation of business impact analyses, and prioritizing the most important business processes to focus on."
+												}
+											}]
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Planning"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"input-group"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"calc-id":"A51"
+											}
+										},{
+											"attributes":{
+												"class":"input-group-addon right"
+											},
+											"tag":"span",
+											"children":[{
+												"tag":"i",
+												"attributes":{
+													"class":"fa fa-question-circle tooltipstered",
+													"title":"<strong>Planning</strong> includes creating a documented approach to plan for events that could disrupt operations or have other negative impacts on the organization or its systems."
+												}
+											}]
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Management, Governance, & Compliance"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"input-group"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"calc-id":"A52"
+											}
+										},{
+											"attributes":{
+												"class":"input-group-addon right"
+											},
+											"tag":"span",
+											"children":[{
+												"tag":"i",
+												"attributes":{
+													"class":"fa fa-question-circle tooltipstered",
+													"title":"<strong>Management, Governance & Compliance</strong> includes overall program management using metrics, managing plan approvals, communicating with plan and process owners, monitoring for compliance to standards, and responding to external requests including audits"
+												}
+											}]
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Exercises and Incident Preparedness"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"input-group"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"calc-id":"A53"
+											}
+										},{
+											"attributes":{
+												"class":"input-group-addon right"
+											},
+											"tag":"span",
+											"children":[{
+												"tag":"i",
+												"attributes":{
+													"class":"fa fa-question-circle tooltipstered",
+													"title":"<strong>Exercises and Incident Preparedness</strong> includes planning and execution of exercises that will enhance the ability of the organization to actually respond when a real event occurs."
+												}
+											}]
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Other"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"input-group"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"disabled":"disabled",
+												"calc-id":"A54"
+											}
+										},{
+											"attributes":{
+												"class":"input-group-addon right output"
+											},
+											"tag":"span",
+											"children":[{
+												"tag":"i",
+												"attributes":{
+													"class":"fa fa-calculator tooltipstered",
+													"calculation-modal":"A54",
+													"title":"Click here to view the calculation breakdown"
+												}
+											},{
+												"tag":"i",
+												"attributes":{
+													"class":"fa fa-question-circle tooltipstered",
+													"style":"margin-left: 5px;",
+													"title":"If you have other areas that apply to your program but are not incorporated in the other categories, you can list them in the <strong>Other</strong> section below."
+												}
+											}]
+										}]
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom gray-bg dashboard-header",
+			"style":"background-color: rgb(65,182,230); color: white;"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"html":"<h1 style=\"margin-bottom: 20px;\">Impact Analysis <a href=\"https://www.theroishop.com/enterprise/3/company_files/550/files/Fusion%20Hyperlink%20Program%20Efficiency%20-%20Impact%20Analysis.pdf\" target=\"_blank\">Click to learn more</a><span class=\"pull-right\" calc-id=\"A50\" data-format=\"0,0.00%\">0%</span></h1>"
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom gray-bg dashboard-header"
+		},
+		"children":[{
+			"attributes":{
+				"class":"row"
+			},
+			"children":[{
+				"attributes":{
+					"class":"col-lg-12 col-md-12 col-sm-12 col-xs-12"
+				},
+				"children":[{
+					"attributes":{
+						"class":"ibox float-e-margins"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox-content"
+						},
+						"children":[{
+							"attributes":{
+								"class":"form-horizontal"
+							},
+							"children":[{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Check the areas your organization spends time on:"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"type":"checkbox",
+										"choices":[{
+											"text":"Scheduling Interviews",
+											"calc-id":"A55"
+										},{
+											"text":"Data Collection (interviews and response compilation)",
+											"calc-id":"A56"
+										},{
+											"text":"Data Collection (survey preparation, conduct survey and response interpretation)",
+											"calc-id":"A57"
+										},{
+											"text":"Initial Mapping of Dependencies",
+											"calc-id":"A58"
+										},{
+											"text":"Follow up Interviews for clarification",
+											"calc-id":"A59"
+										},{
+											"text":"Criticality & Impact Analysis (scoring, tiering, ranking)",
+											"calc-id":"A60"
+										},{
+											"text":"Gap Analysis",
+											"calc-id":"A61"
+										},{
+											"text":"Strategy Identification and Cost Analysis (understanding impacts)",
+											"calc-id":"A62"
+										},{
+											"text":"Regular Reporting (building spreadsheets, powerpoints, etc.)",
+											"calc-id":"A63"
+										},{
+											"text":"Ad hoc Reporting",
+											"calc-id":"A64"
+										},{
+											"text":"Ongoing Maintenance of BIA",
+											"calc-id":"A65"
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Fusion Gains - Impact Analysis (target 50%)"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"row"
+										},
+										"children":[{
+											"attributes":{
+												"class":"col-lg-6 input-slider"
+											},
+											"children":[{
+												"type":"slider",
+												"step":1,
+												"attributes":{
+													"calc-id":"A67"
+												}
+											}]
+										},{
+											"attributes":{
+												"class":"col-lg-6"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"slider-input form-control",
+													"calc-id":"A67"
+												}											
+											}]
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Annual Savings on Impact Analysis with Fusion"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"input-group"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"disabled":"disabled",
+												"calc-id":"A68"
+											}
+										},{
+											"attributes":{
+												"class":"input-group-addon right output"
+											},
+											"tag":"span",
+											"children":[{
+												"tag":"i",
+												"attributes":{
+													"class":"fa fa-calculator tooltipstered",
+													"calculation-modal":"A68",
+													"title":"Click here to view the calculation breakdown"
+												}
+											}]
+										}]
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom gray-bg dashboard-header",
+			"style":"background-color: rgb(65,182,230); color: white;"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"html":"<h1 style=\"margin-bottom: 20px;\">Planning <a href=\"https://www.theroishop.com/enterprise/3/company_files/550/files/Fusion%20Hyperlink%20Program%20Efficiency%20-%20Planning.pdf\" target=\"_blank\">Click to learn more</a><span class=\"pull-right\" calc-id=\"A51\" data-format=\"0,0.00%\">0%</span></h1>"
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom gray-bg dashboard-header"
+		},
+		"children":[{
+			"attributes":{
+				"class":"row"
+			},
+			"children":[{
+				"attributes":{
+					"class":"col-lg-12 col-md-12 col-sm-12 col-xs-12"
+				},
+				"children":[{
+					"attributes":{
+						"class":"ibox float-e-margins"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox-content"
+						},
+						"children":[{
+							"attributes":{
+								"class":"form-horizontal"
+							},
+							"children":[{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Check the areas your organization spends time on:"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"type":"checkbox",
+										"choices":[{
+											"text":"Creating Templates",
+											"calc-id":"A69"
+										},{
+											"text":"Plan Content Compilation",
+											"calc-id":"A70"
+										},{
+											"text":"Plan Maintenance",
+											"calc-id":"A71"
+										},{
+											"text":"Printing and Distributing Plans",
+											"calc-id":"A72"
+										},{
+											"text":"Maintaining Employees, Teams and Call Lists",
+											"calc-id":"A73"
+										},{
+											"text":"Maintenance Cycle Reminders (emails, interviews, etc.)",
+											"calc-id":"A74"
+										},{
+											"text":"Audit Preparation and Reporting",
+											"calc-id":"A75"
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Fusion Gains - Planning (target 60%)"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"row"
+										},
+										"children":[{
+											"attributes":{
+												"class":"col-lg-6 input-slider"
+											},
+											"children":[{
+												"type":"slider",
+												"step":1,
+												"attributes":{
+													"calc-id":"A77"
+												}
+											}]
+										},{
+											"attributes":{
+												"class":"col-lg-6"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"slider-input form-control",
+													"calc-id":"A77"
+												}											
+											}]
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Annual Savings on Planning with Fusion"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"input-group"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"disabled":"disabled",
+												"calc-id":"A78"
+											}
+										},{
+											"attributes":{
+												"class":"input-group-addon right output"
+											},
+											"tag":"span",
+											"children":[{
+												"tag":"i",
+												"attributes":{
+													"class":"fa fa-calculator tooltipstered",
+													"calculation-modal":"A78",
+													"title":"Click here to view the calculation breakdown"
+												}
+											}]
+										}]
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom gray-bg dashboard-header",
+			"style":"background-color: rgb(65,182,230); color: white;"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"html":"<h1 style=\"margin-bottom: 20px;\">Management, Governance, & Compliance <a href=\"https://www.theroishop.com/enterprise/3/company_files/550/files/Fusion%20Hyperlink%20Program%20Efficiency%20-%20Management%20Governance%20and%20Compliance.pdf\" target=\"_blank\">Click to learn more</a><span class=\"pull-right\" calc-id=\"A52\" data-format=\"0,0.00%\">0%</span></h1>"
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom gray-bg dashboard-header"
+		},
+		"children":[{
+			"attributes":{
+				"class":"row"
+			},
+			"children":[{
+				"attributes":{
+					"class":"col-lg-12 col-md-12 col-sm-12 col-xs-12"
+				},
+				"children":[{
+					"attributes":{
+						"class":"ibox float-e-margins"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox-content"
+						},
+						"children":[{
+							"attributes":{
+								"class":"form-horizontal"
+							},
+							"children":[{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Check the areas your organization spends time on:"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"type":"checkbox",
+										"choices":[{
+											"text":"Plan Reviews and Approvals",
+											"calc-id":"A79"
+										},{
+											"text":"Reporting and Dashboarding",
+											"calc-id":"A80"
+										},{
+											"text":"Compliance Monitoring",
+											"calc-id":"A81"
+										},{
+											"text":"Preparing and Responding to Audits",
+											"calc-id":"A82"
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Fusion Gains - Program Governance (target 65%)"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"row"
+										},
+										"children":[{
+											"attributes":{
+												"class":"col-lg-6 input-slider"
+											},
+											"children":[{
+												"type":"slider",
+												"step":1,
+												"attributes":{
+													"calc-id":"A84"
+												}
+											}]
+										},{
+											"attributes":{
+												"class":"col-lg-6"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"slider-input form-control",
+													"calc-id":"A84"
+												}											
+											}]
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Annual Savings on Management, Governance and Compliance with Fusion"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"input-group"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"disabled":"disabled",
+												"calc-id":"A85"
+											}
+										},{
+											"attributes":{
+												"class":"input-group-addon right output"
+											},
+											"tag":"span",
+											"children":[{
+												"tag":"i",
+												"attributes":{
+													"class":"fa fa-calculator tooltipstered",
+													"calculation-modal":"A85",
+													"title":"Click here to view the calculation breakdown"
+												}
+											}]
+										}]
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom gray-bg dashboard-header",
+			"style":"background-color: rgb(65,182,230); color: white;"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"html":"<h1 style=\"margin-bottom: 20px;\">Exercises and Incident Preparedness <a href=\"https://www.theroishop.com/enterprise/3/company_files/550/files/Fusion%20Hyperlink%20Program%20Efficency%20-%20Exercises%20and%20Incident%20Preparedness.pdf\" target=\"_blank\">Click to learn more</a><span class=\"pull-right\" calc-id=\"A53\" data-format=\"0,0.00%\">0%</span></h1>"
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom gray-bg dashboard-header"
+		},
+		"children":[{
+			"attributes":{
+				"class":"row"
+			},
+			"children":[{
+				"attributes":{
+					"class":"col-lg-12 col-md-12 col-sm-12 col-xs-12"
+				},
+				"children":[{
+					"attributes":{
+						"class":"ibox float-e-margins"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox-content"
+						},
+						"children":[{
+							"attributes":{
+								"class":"form-horizontal"
+							},
+							"children":[{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Check the areas your organization spends time on:"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"type":"checkbox",
+										"choices":[{
+											"text":"Planning and Preparation for Exercises",
+											"calc-id":"A86"
+										},{
+											"text":"Scheduling Exercises",
+											"calc-id":"A87"
+										},{
+											"text":"Training of Plan Owners",
+											"calc-id":"A88"
+										},{
+											"text":"Execution / Facilitation of Exercises",
+											"calc-id":"A89"
+										},{
+											"text":"Participation in Exercises",
+											"calc-id":"A90"
+										},{
+											"text":"Issue Tracking/Remediation",
+											"calc-id":"A91"
+										},{
+											"text":"After Action Reports",
+											"calc-id":"A92"
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Fusion Gains - Exercises and Incident Preparation (target 55%)"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"row"
+										},
+										"children":[{
+											"attributes":{
+												"class":"col-lg-6 input-slider"
+											},
+											"children":[{
+												"type":"slider",
+												"step":1,
+												"attributes":{
+													"calc-id":"A94"
+												}
+											}]
+										},{
+											"attributes":{
+												"class":"col-lg-6"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"slider-input form-control",
+													"calc-id":"A94"
+												}											
+											}]
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Annual Savings on Exercises and Incident Preparedness with Fusion"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"input-group"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"disabled":"disabled",
+												"calc-id":"A95"
+											}
+										},{
+											"attributes":{
+												"class":"input-group-addon right output"
+											},
+											"tag":"span",
+											"children":[{
+												"tag":"i",
+												"attributes":{
+													"class":"fa fa-calculator tooltipstered",
+													"calculation-modal":"A95",
+													"title":"Click here to view the calculation breakdown"
+												}
+											}]
+										}]
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom gray-bg dashboard-header",
+			"style":"background-color: rgb(65,182,230); color: white;"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"html":"<h1 style=\"margin-bottom: 20px;\">Other <a href=\"https://www.theroishop.com/enterprise/3/company_files/550/files/Fusion%20Hyperlink%20Program%20Efficiency%20-%20Other.pdf\" target=\"_blank\">Click to learn more</a><span class=\"pull-right\" calc-id=\"A54\" data-format=\"0,0.00%\">0%</span></h1>"
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom gray-bg dashboard-header"
+		},
+		"children":[{
+			"attributes":{
+				"class":"row"
+			},
+			"children":[{
+				"attributes":{
+					"class":"col-lg-12 col-md-12 col-sm-12 col-xs-12"
+				},
+				"children":[{
+					"attributes":{
+						"class":"ibox float-e-margins"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox-content"
+						},
+						"children":[{
+							"attributes":{
+								"class":"form-horizontal"
+							},
+							"children":[{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Check the areas your organization spends time on:"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"type":"checkbox",
+										"choices":[{
+											"text":"Facility Assessments",
+											"calc-id":"A96"
+										},{
+											"text":"Vendor Risk Assessments",
+											"calc-id":"A97"
+										},{
+											"text":"Supply Chain Risk Assessments",
+											"calc-id":"A98"
+										},{
+											"text":"Operational Risk Management",
+											"calc-id":"A99"
+										},{
+											"text":"Emergency Response",
+											"calc-id":"A100"
+										},{
+											"text":"Emergency Notification",
+											"calc-id":"A101"
+										},{
+											"text":"Cyber Security/Data Breach",
+											"calc-id":"A102"
+										},{
+											"text":"Data Integration",
+											"calc-id":"A103"
+										},{
+											"text":"Other",
+											"calc-id":"A104"
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Fusion Gains - Other Areas (target 30%)"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"row"
+										},
+										"children":[{
+											"attributes":{
+												"class":"col-lg-6 input-slider"
+											},
+											"children":[{
+												"type":"slider",
+												"step":1,
+												"attributes":{
+													"calc-id":"A105"
+												}
+											}]
+										},{
+											"attributes":{
+												"class":"col-lg-6"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"slider-input form-control",
+													"calc-id":"A105"
+												}											
+											}]
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Annual Savings on Other with Fusion"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"input-group"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"disabled":"disabled",
+												"calc-id":"A106"
+											}
+										},{
+											"attributes":{
+												"class":"input-group-addon right output"
+											},
+											"tag":"span",
+											"children":[{
+												"tag":"i",
+												"attributes":{
+													"class":"fa fa-calculator tooltipstered",
+													"calculation-modal":"A106",
+													"title":"Click here to view the calculation breakdown"
+												}
+											}]
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Please describe what other entails"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"tag":"textarea",
+										"attributes":{
+											"class":"form-control",
+											"style":"width: 100%; resize: vertical",
+											"rows":"4",
+											"calc-id":"A107"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"attributes":{
+										"class":"subsection-header underlined"
+									},
+									"children":[{
+										"html":"<h2 class=\"subsection\"><strong>Fusion Program Efficiency Summary</strong></h2>"
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"fusion-table"
+								},
+								"children":[{
+									"type":"table",
+									"data": [
+										["Impact Analysis","","","",""],
+										["Planning","","","",""],
+										["Program Management","","","",""],
+										["Exercises","","","",""],
+										["Other","","","",""],
+										["<strong>Totals</strong>","","","",""],
+										["Net Increase/(decrease) in Year 1 Software Cost","","","",""],
+										["<strong>Net Benefit of Fusion to Apply to Growth</strong>","","","",""]
+									],
+									"attributes": {
+										"B1": { "calc-id" : "A50", "data-format" : "0,0.00%" },
+										"B2": { "calc-id" : "A51", "data-format" : "0,0.00%" },
+										"B3": { "calc-id" : "A52", "data-format" : "0,0.00%" },
+										"B4": { "calc-id" : "A53", "data-format" : "0,0.00%" },
+										"B5": { "calc-id" : "A54", "data-format" : "0,0.00%" },
+										"B6": { "calc-id" : "B113", "class" : "table-bold" },
+										"C1": { "calc-id" : "C108" },
+										"C2": { "calc-id" : "C109" },
+										"C3": { "calc-id" : "C110" },
+										"C4": { "calc-id" : "C111" },
+										"C5": { "calc-id" : "C112" },
+										"C6": { "calc-id" : "C113" , "class" : "table-bold" },
+										"D1": { "calc-id" : "D108" },
+										"D2": { "calc-id" : "D109" },
+										"D3": { "calc-id" : "D110" },
+										"D4": { "calc-id" : "D111" },
+										"D5": { "calc-id" : "D112" },
+										"D6": { "calc-id" : "D113" , "class" : "table-bold" },
+										"E1": { "calc-id" : "E108" },
+										"E2": { "calc-id" : "E109" },
+										"E3": { "calc-id" : "E110" },
+										"E4": { "calc-id" : "E111" },
+										"E5": { "calc-id" : "E112" },
+										"E6": { "calc-id" : "E113" , "class" : "table-bold" },
+										"F1": { "calc-id" : "F108" },
+										"F2": { "calc-id" : "F109" },
+										"F3": { "calc-id" : "F110" },
+										"F4": { "calc-id" : "F111" },
+										"F5": { "calc-id" : "F112" },
+										"F6": { "calc-id" : "F113" , "class" : "table-bold" },
+										"G1": { "calc-id" : "G108" },
+										"G2": { "calc-id" : "G109" },
+										"G3": { "calc-id" : "G110" },
+										"G4": { "calc-id" : "G111" },
+										"G5": { "calc-id" : "G112" },
+										"G6": { "calc-id" : "G113" , "class" : "table-bold" },
+										"G7": { "calc-id" : "G114" },
+										"G8": { "calc-id" : "G115" , "class" : "table-bold" }									
+									},
+									"columns": [{
+										"type": "html",
+										"title": "Program Area",
+										"width": "28%",
+										"readOnly": true,
+										"align": {
+											"header": "left",
+											"cells": "left"
+										}
+									},{
+										"type": "html",
+										"title": "% of Current Program",
+										"readOnly": true,
+										"width": "12%"
+									},{
+										"type": "html",
+										"title": "Current Hours",
+										"readOnly": true,
+										"width": "12%"
+									},{
+										"type": "html",
+										"title": "Current FTEs",
+										"readOnly": true,
+										"width": "12%"
+									},{
+										"type": "html",
+										"title": "Possible Savings in Hours with Fusion",
+										"readOnly": true,
+										"width": "12%"
+									},{
+										"type": "html",
+										"title": "FTEs Freed up for Growth",
+										"readOnly": true,
+										"width": "12%"
+									},{
+										"type": "html",
+										"title": "Possible FTE Efficiency Gains with Fusion",
+										"readOnly": true,
+										"width": "12%"
+									}],
+									"tableWidth": "100%",
+									"showRowNumbering": false								
+								}]
+							}]
+						}]
+					}]
+				}]
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom gray-bg dashboard-header"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"attributes":{
+					"class": "row"
+				},
+				"children":[{
+					"attributes":{
+						"class":"col-md-12 col-sm-12 col-xs-12"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"ibox-content",
+								"style":"padding-left: 30px;"
+							},
+							"children":[{
+								"attributes":{
+									"class":"row bar-chart-container"
+								},
+								"children":[{
+									"type":"chart",
+									"attributes":{
+										"class":"bar-chart",
+										"style":"width: 100%;"
+									},
+									"chart":{
+										"type":"column",
+										"margin":75,
+										"animation":false
+									},
+									"title":{
+										"text":"Possible Savings with Fusion (by Program Area)"
+									},
+									"xAxis":{
+										"categories": ["Impact Analysis","Planning","Exercises","Program Management","Other"]
+									},
+									"yAxis": {
+										"min": 0,
+										"style": {
+											"color": "#333",
+											"fontWeight": "bold",
+											"fontSize": "12px",
+											"fontFamily": "Trebuchet MS, Verdana, sans-serif"
+										},				
+										"title": {
+											"text": "Annual Program Hours"
+										}
+									},
+									"tooltip": {
+										"headerFormat": "<span style=\"font-size:10px\">{point.key}</span><table>",
+										"pointFormat": "<tr><td style=\"color:{series.color};padding:0\">{series.name}: </td><td style=\"color:{series.color};padding:0;padding-left:10px;\"><b> {point.y:,.0f}</b></td></tr>",
+										"footerFormat": "</table>",
+										"shared": true,
+										"useHTML": true
+									},
+									"plotOptions": {
+										"column": {
+											"pointPadding": 0.2,
+											"borderWidth": 0
+										}
+									},
+									"series":[{
+										"name":"Current",
+										"type":"column",
+										"data":[0,0],
+										"color":"#72ABE2",
+										"equations":["C108","C109","C110","C111","C112"]
+									},{
+										"name":"With Fusion",
+										"type":"column",
+										"data":[0,0],
+										"color":"#2E8B57",
+										"equations":["H108","H109","H110","H111","H112"]
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom white-bg dashboard-header",
+			"style":"background-color: rgb(0,61,165); color: white;",
+			"id":"section4"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"html":"<h1 style=\"margin-bottom: 20px;\">Cost Benefit Analysis</h1>"
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom gray-bg dashboard-header"
+		},
+		"children":[{
+			"attributes":{
+				"class":"row"
+			},
+			"children":[{
+				"attributes":{
+					"class":"col-lg-12 col-md-12 col-sm-12 col-xs-12"
+				},
+				"children":[{
+					"attributes":{
+						"class":"ibox float-e-margins"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox-content"
+						},
+						"children":[{
+							"attributes":{
+								"class":"form-horizontal"
+							},
+							"children":[{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"attributes":{
+										"class":"subsection-header underlined"
+									},
+									"children":[{
+										"html":"<h2 class=\"subsection\"><strong>Savings with Fusion</strong></h2>"
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"fusion-table"
+								},
+								"children":[{
+									"type":"table",
+									"data": [
+										["FTEs without Fusion","","","",""],
+										["Average Salary (incl benefits load)","","","",""],
+										["Estimated FTE Cost - Current Program","","","",""],
+										["Estimated Cost of Current Software & Services","","","",""],
+										["<strong>Total Cost of Current Program</strong>","","","",""],
+										["&nbsp;","","","",""],
+										["<strong>Cost of Fusion Program (same scope)</strong>","","","",""],
+										["FTEs Freed Up for Growth (estimated)","","","",""],
+										["FTEs with Fusion (estimated)","","","",""],
+										["Average Salary (incl benefits load)","","","",""],
+										["Estimated FTE cost with Fusion","","","",""],
+										["Estimated Annual Cost of Fusion Software & Services","","","",""],
+										["Estimated One-Time Cost of Fusion Software & Services","","","",""],
+										["Estimated Cost of Fusion Program","","","",""],
+										["&nbsp;","","","",""],
+										["<strong>Estimated Benefit of Fusion Program</strong>","","","",""]
+									],
+									"attributes": {
+										"B1": { "calc-id" : "B116", "class" : "readonly" },
+										"B2": { "calc-id" : "A46", "class" : "readonly"  },
+										"B3": { "calc-id" : "B118", "class" : "readonly"  },
+										"B4": { "calc-id" : "A39" },
+										"B5": { "calc-id" : "B120", "class" : "table-bold readonly" },
+										"B8": { "calc-id" : "F113", "class" : "readonly"  },
+										"B9": { "calc-id" : "B124", "class" : "readonly"  },
+										"B10": { "calc-id" : "A46", "class" : "readonly"  },
+										"B11": { "calc-id" : "B126", "class" : "readonly"  },
+										"B12": { "calc-id" : "B127" },
+										"B13": { "calc-id" : "B128" },
+										"B14": { "calc-id" : "B129", "class" : "readonly"  },
+										"B16": { "calc-id" : "B131", "class" : "table-bold" },
+										"C1": { "calc-id" : "B116", "class" : "readonly"  },
+										"C2": { "calc-id" : "C117", "class" : "readonly"  },
+										"C3": { "calc-id" : "C118", "class" : "readonly"  },
+										"C4": { "calc-id" : "A39" },
+										"C5": { "calc-id" : "C120", "class" : "table-bold readonly" },
+										"C8": { "calc-id" : "F113" },
+										"C9": { "calc-id" : "B124", "class" : "readonly"  },
+										"C10": { "calc-id" : "C117", "class" : "readonly"  },
+										"C11": { "calc-id" : "C126", "class" : "readonly"  },
+										"C12": { "calc-id" : "C127" },
+										"C13": { "calc-id" : "C128" },
+										"C14": { "calc-id" : "C129", "class" : "readonly"  },
+										"C16": { "calc-id" : "C131", "class" : "table-bold" },
+										"D1": { "calc-id" : "B116", "class" : "readonly"  },
+										"D2": { "calc-id" : "D117", "class" : "readonly"  },
+										"D3": { "calc-id" : "D118", "class" : "readonly"  },
+										"D4": { "calc-id" : "A39" },
+										"D5": { "calc-id" : "D120", "class" : "table-bold readonly" },
+										"D8": { "calc-id" : "F113" },
+										"D9": { "calc-id" : "B124", "class" : "readonly"  },
+										"D10": { "calc-id" : "D117", "class" : "readonly"  },
+										"D11": { "calc-id" : "D126", "class" : "readonly"  },
+										"D12": { "calc-id" : "D127" },
+										"D13": { "calc-id" : "D128" },
+										"D14": { "calc-id" : "D129", "class" : "readonly"  },
+										"D16": { "calc-id" : "D131", "class" : "table-bold" },
+										"E3": { "calc-id" : "E118" },
+										"E4": { "calc-id" : "E119" },
+										"E5": { "calc-id" : "E120", "class" : "table-bold" },
+										"E11": { "calc-id" : "E126" },
+										"E12": { "calc-id" : "E127" },
+										"E13": { "calc-id" : "E128" },
+										"E14": { "calc-id" : "E129" },
+										"E16": { "calc-id" : "E131", "class" : "table-bold" }									
+									},
+									"columns": [{
+										"type": "html",
+										"title": "Cost of Current Program",
+										"width": "40%",
+										"readOnly": true,
+										"align": {
+											"header": "left",
+											"cells": "left"
+										}
+									},{
+										"type": "html",
+										"title": "Year 1",
+										"width": "15%"
+									},{
+										"type": "html",
+										"title": "Year 2",
+										"width": "15%"
+									},{
+										"type": "html",
+										"title": "Year 3",
+										"width": "15%"
+									},{
+										"type": "html",
+										"title": "Total",
+										"readOnly": true,
+										"width": "15%"
+									}],
+									"tableWidth": "100%",
+									"showRowNumbering": false								
+								}]
+							}]
+						}]
+					}]
+				}]
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom gray-bg dashboard-header"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"attributes":{
+					"class": "row"
+				},
+				"children":[{
+					"attributes":{
+						"class":"col-md-12 col-sm-12 col-xs-12"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"ibox-content",
+								"style":"padding-left: 30px;"
+							},
+							"children":[{
+								"attributes":{
+									"class":"row bar-chart-container"
+								},
+								"children":[{
+									"type":"chart",
+									"attributes":{
+										"class":"bar-chart",
+										"style":"width: 100%;"
+									},
+									"chart":{
+										"type":"column",
+										"margin":75,
+										"animation":false
+									},
+									"title":{
+										"text":"Cost Benefit Comparison"
+									},
+									"xAxis":{
+										"categories": ["Year 1","Year 2","Year 3"]
+									},
+									"yAxis": {
+										"min": 0,
+										"style": {
+											"color": "#333",
+											"fontWeight": "bold",
+											"fontSize": "12px",
+											"fontFamily": "Trebuchet MS, Verdana, sans-serif"
+										},				
+										"title": {
+											"text": ""
+										}
+									},
+									"tooltip": {
+										"headerFormat": "<span style=\"font-size:10px\">{point.key}</span><table>",
+										"pointFormat": "<tr><td style=\"color:{series.color};padding:0\">{series.name}: </td><td style=\"color:{series.color};padding:0;padding-left:10px;\"><b> {point.y:,.0f}</b></td></tr>",
+										"footerFormat": "</table>",
+										"shared": true,
+										"useHTML": true
+									},
+									"plotOptions": {
+										"column": {
+											"pointPadding": 0.2,
+											"borderWidth": 0
+										}
+									},
+									"series":[{
+										"name":"Current FTE + SW Cost",
+										"type":"column",
+										"data":[0,0],
+										"color":"#72ABE2",
+										"equations":["B120","C120","D120"]
+									},{
+										"name":"Fustion FTE + SW Cost",
+										"type":"column",
+										"data":[0,0],
+										"color":"#2E8B57",
+										"equations":["B129","C129","D129"]
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom white-bg dashboard-header",
+			"style":"background-color: rgb(0,61,165); color: white;",
+			"id":"section5"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"html":"<h1 style=\"margin-bottom: 20px;\">What's Possible</h1>"
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom gray-bg dashboard-header"
+		},
+		"children":[{
+			"attributes":{
+				"class":"row"
+			},
+			"children":[{
+				"attributes":{
+					"class":"col-lg-12 col-md-12 col-sm-12 col-xs-12"
+				},
+				"children":[{
+					"attributes":{
+						"class":"ibox float-e-margins"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox-content"
+						},
+						"children":[{
+							"attributes":{
+								"class":"form-horizontal"
+							},
+							"children":[{
+								"tag":"p",
+								"attributes":{
+									"style":"font-size: 18px;"
+								},
+								"children":[{
+									"html":"Prioritize what Fusion makes possible for you. On a scale of 1-5 what capabilities are most valuable to your program."
+								}]
+							},{
+								"attributes":{
+									"class":"row bottom-border",
+									"style":"background-color: rgb(61, 180, 234); color:white; margin-bottom: 10px;"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-lg-12"
+									},
+									"children":[{
+										"html":"<h3 style=\"margin-bottom: 5px;\">Establishing an Information Foundation <a style=\"color: blue;\" href=\"//www.theroishop.com/enterprise/3/company_files/550/files/Fusion Hyperlink whats possible Establishing an Information Foundation.pdf\" target=\"_blank\">Click to learn more</a></h3>"
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Manage and leverage data to drive program success."
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"type":"rating",
+										"attributes":{
+											"class":"starrr pull-right",
+											"importance":5,
+											"calc-id":"A159"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Map and explore dependencies between all business entities."
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"type":"rating",
+										"attributes":{
+											"class":"starrr pull-right",
+											"importance":5,
+											"calc-id":"A160"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Integrate data from external applications (ENS, ITSM, CMDB)."
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"type":"rating",
+										"attributes":{
+											"class":"starrr pull-right",
+											"importance":5,
+											"calc-id":"A161"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Clearly identify owner responsibilities for all data."
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"type":"rating",
+										"attributes":{
+											"class":"starrr pull-right",
+											"importance":5,
+											"calc-id":"A162"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Unprecedented flexibility to configure the system to address complex and evolving needs."
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"type":"rating",
+										"attributes":{
+											"class":"starrr pull-right",
+											"importance":5,
+											"calc-id":"A163"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"row bottom-border",
+									"style":"background-color: rgb(61, 180, 234); color:white; margin-bottom: 10px;"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-lg-12"
+									},
+									"children":[{
+										"html":"<h3 style=\"margin-bottom: 5px;\">Improving and Simplifying your Planning and Preparation <a style=\"color: blue;\" href=\"//www.https://www.theroishop.com/enterprise/3/company_files/550/files/Fusion%20Hyperlink%20whats%20possible%20Improving%20and%20Simplifying%20your%20Planning%20and%20Preparation.pdf\" target=\"_blank\">Click to learn more</a></h3>"
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Establish an effective and efficient plan management capability."
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"type":"rating",
+										"attributes":{
+											"class":"starrr pull-right",
+											"importance":5,
+											"calc-id":"A164"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Ensure plans are current, accurate, and actionable."
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"type":"rating",
+										"attributes":{
+											"class":"starrr pull-right",
+											"importance":5,
+											"calc-id":"A165"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Ensure standards are met while allowing for departmental flexibility"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"type":"rating",
+										"attributes":{
+											"class":"starrr pull-right",
+											"importance":5,
+											"calc-id":"A166"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Define sequence of activities to ensure plans are executed properly"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"type":"rating",
+										"attributes":{
+											"class":"starrr pull-right",
+											"importance":5,
+											"calc-id":"A167"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Automate the plan maintenance reminder process."
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"type":"rating",
+										"attributes":{
+											"class":"starrr pull-right",
+											"importance":5,
+											"calc-id":"A168"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Render plans in multiple formats to suit different purposes and audiences."
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"type":"rating",
+										"attributes":{
+											"class":"starrr pull-right",
+											"importance":5,
+											"calc-id":"A169"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"row bottom-border",
+									"style":"background-color: rgb(61, 180, 234); color:white; margin-bottom: 10px;"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-lg-12"
+									},
+									"children":[{
+										"html":"<h3 style=\"margin-bottom: 5px;\">Exercising Plans Efficiently and Enhancing Your Incident Management Capabilities <a style=\"color: blue;\" href=\"//https://www.theroishop.com/enterprise/3/company_files/550/files/Fusion%20Hyperlink%20whats%20possible%20Exercising%20Plans%20Efficiently%20and%20Enhancing%20your%20Incident%20Management%20Capabilities.pdf\" target=\"_blank\">Click to learn more</a></h3>"
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Reduce time spent planning and preparing exercises."
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"type":"rating",
+										"attributes":{
+											"class":"starrr pull-right",
+											"importance":5,
+											"calc-id":"A170"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Run more efficient exercises."
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"type":"rating",
+										"attributes":{
+											"class":"starrr pull-right",
+											"importance":5,
+											"calc-id":"A171"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Map organizational data and external situational intelligence to drive targeted responses."
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"type":"rating",
+										"attributes":{
+											"class":"starrr pull-right",
+											"importance":5,
+											"calc-id":"A172"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Build a focused response to an incident by selecting only the impacted plans and functions."
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"type":"rating",
+										"attributes":{
+											"class":"starrr pull-right",
+											"importance":5,
+											"calc-id":"A173"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Manage your activated plans from an interactive incident dashboard."
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"type":"rating",
+										"attributes":{
+											"class":"starrr pull-right",
+											"importance":5,
+											"calc-id":"A174"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Automate after action reporting and track plan remediation based on exercises."
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"type":"rating",
+										"attributes":{
+											"class":"starrr pull-right",
+											"importance":5,
+											"calc-id":"A175"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"row bottom-border",
+									"style":"background-color: rgb(61, 180, 234); color:white; margin-bottom: 10px;"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-lg-12"
+									},
+									"children":[{
+										"html":"<h3 style=\"margin-bottom: 5px;\">Engaging the Enterprise <a style=\"color: blue;\" href=\"//https://www.theroishop.com/enterprise/3/company_files/550/files/Fusion%20Hyperlink%20whats%20possible%20Engaging%20The%20Enterprise.pdf\" target=\"_blank\">Click to learn more</a></h3>"
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Provide mobile access to plans and information to improve outcomes."
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"type":"rating",
+										"attributes":{
+											"class":"starrr pull-right",
+											"importance":5,
+											"calc-id":"A176"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Enable employees to report situations from anywhere."
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"type":"rating",
+										"attributes":{
+											"class":"starrr pull-right",
+											"importance":5,
+											"calc-id":"A177"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Enable distributed users to approve plans and participate in exercises."
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"type":"rating",
+										"attributes":{
+											"class":"starrr pull-right",
+											"importance":5,
+											"calc-id":"A178"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Tailor the user experience to engage users with diverse requirements."
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"type":"rating",
+										"attributes":{
+											"class":"starrr pull-right",
+											"importance":5,
+											"calc-id":"A179"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"row bottom-border",
+									"style":"background-color: rgb(61, 180, 234); color:white; margin-bottom: 10px;"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-lg-12"
+									},
+									"children":[{
+										"html":"<h3 style=\"margin-bottom: 5px;\">Management, Governance and Compliance of Your Program <a style=\"color: blue;\" href=\"//https://www.theroishop.com/enterprise/3/company_files/550/files/Fusion%20Hyperlink%20whats%20possible%20Management,%20Governance%20and%20Compliance%20of%20Your%20Program.pdf\" target=\"_blank\">Click to learn more</a></h3>"
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Deliver reports and dashboards that provide invaluable insights."
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"type":"rating",
+										"attributes":{
+											"class":"starrr pull-right",
+											"importance":5,
+											"calc-id":"A180"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Efficiently package data analytics to support better decision making."
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"type":"rating",
+										"attributes":{
+											"class":"starrr pull-right",
+											"importance":5,
+											"calc-id":"A181"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Automatically manage your teams and contact information."
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"type":"rating",
+										"attributes":{
+											"class":"starrr pull-right",
+											"importance":5,
+											"calc-id":"A182"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Leverage automated Workflows and Alerts to drive currency and efficiency."
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"type":"rating",
+										"attributes":{
+											"class":"starrr pull-right",
+											"importance":5,
+											"calc-id":"A183"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Quickly respond to ad hoc queries from your executive team."
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"type":"rating",
+										"attributes":{
+											"class":"starrr pull-right",
+											"importance":5,
+											"calc-id":"A184"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"row bottom-border",
+									"style":"background-color: rgb(61, 180, 234); color:white; margin-bottom: 10px;"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-lg-12"
+									},
+									"children":[{
+										"html":"<h3 style=\"margin-bottom: 5px;\">Leveraging the Right Platform for Success <a style=\"color: blue;\" href=\"//https://www.theroishop.com/enterprise/3/company_files/550/files/Fusion%20Hyperlink%20whats%20possible%20Leveraging%20The%20Right%20Platform%20For%20Success.pdf\" target=\"_blank\">Click to learn more</a></h3>"
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Enterprise-grade security that meets the strictest compliance and regulatory obligations today and in the future."
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"type":"rating",
+										"attributes":{
+											"class":"starrr pull-right",
+											"importance":5,
+											"calc-id":"A190"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Control user access to data down to the field level to precisely tailor the user experience."
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"type":"rating",
+										"attributes":{
+											"class":"starrr pull-right",
+											"importance":5,
+											"calc-id":"A191"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Ability to scale your program to any size and number of users."
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"type":"rating",
+										"attributes":{
+											"class":"starrr pull-right",
+											"importance":5,
+											"calc-id":"A192"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Support multiple languages."
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"type":"rating",
+										"attributes":{
+											"class":"starrr pull-right",
+											"importance":5,
+											"calc-id":"A193"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Robust resiliency to increase the availability of your critical data when you need it most."
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"type":"rating",
+										"attributes":{
+											"class":"starrr pull-right",
+											"importance":5,
+											"calc-id":"A194"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Complete set of integration options to external data sources."
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"type":"rating",
+										"attributes":{
+											"class":"starrr pull-right",
+											"importance":5,
+											"calc-id":"A195"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Rich encryption capabilities to secure your most valuable and confidential information."
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"type":"rating",
+										"attributes":{
+											"class":"starrr pull-right",
+											"importance":5,
+											"calc-id":"A196"
+										}
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom gray-bg dashboard-header"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"attributes":{
+					"class": "row"
+				},
+				"children":[{
+					"attributes":{
+						"class":"col-md-12 col-sm-12 col-xs-12"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"ibox-content",
+								"style":"padding-left: 30px;"
+							},
+							"children":[{
+								"attributes":{
+									"class":"row bar-chart-container"
+								},
+								"children":[{
+									"type":"chart",
+									"attributes":{
+										"class":"bar-chart",
+										"style":"width: 100%;"
+									},
+									"chart":{
+										"type":"column",
+										"margin":75,
+										"animation":false
+									},
+									"title":{
+										"text":"Count of Fusion Possibilities by Your Priorities"
+									},
+									"xAxis":{
+										"categories": ["1","2","3","4","5"]
+									},
+									"yAxis": {
+										"min": 0,
+										"style": {
+											"color": "#333",
+											"fontWeight": "bold",
+											"fontSize": "12px",
+											"fontFamily": "Trebuchet MS, Verdana, sans-serif"
+										},				
+										"title": {
+											"text": "Total Count"
+										}
+									},
+									"tooltip": {
+										"headerFormat": "<span style=\"font-size:10px\">{point.key}</span><table>",
+										"pointFormat": "<tr><td style=\"color:{series.color};padding:0\">{series.name}: </td><td style=\"color:{series.color};padding:0;padding-left:10px;\"><b> {point.y:,.0f}</b></td></tr>",
+										"footerFormat": "</table>",
+										"shared": true,
+										"useHTML": true
+									},
+									"plotOptions": {
+										"column": {
+											"pointPadding": 0.2,
+											"borderWidth": 0
+										}
+									},
+									"series":[{
+										"name":"Rating",
+										"type":"column",
+										"data":[0,0],
+										"color":"#72ABE2",
+										"equations":["A185","A186","A187","A188","A189"]
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom white-bg dashboard-header",
+			"style":"background-color: rgb(0,61,165); color: white;",
+			"id":"section6"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"html":"<h1 style=\"margin-bottom: 20px;\">Your Roadmap and Areas of Growth</h1>"
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom gray-bg dashboard-header"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-md-12 col-sm-12 col-xs-12"
+			},
+			"children":[{
+				"attributes":{
+					"class":"row"
+				},
+				"children":[{
+					"attributes":{
+						"class":"col-lg-12 col-md-12 col-sm-12 col-xs-12"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox-content"
+						},
+						"children":[{
+							"attributes":{
+								"class":"form-horizontal"
+							},
+							"children":[{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Where are the opportunities to grow your program geographically and departmentally to benefit your organization"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"tag":"textarea",
+										"attributes":{
+											"class":"form-control",
+											"style":"width: 100%; resize: vertical",
+											"rows":"4",
+											"calc-id":"A132"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"What percent of your organization is not currently covered by your program"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"tag":"input",
+										"attributes":{
+											"class":"form-control",
+											"calc-id":"A133"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-8 col-md-8 col-sm-8"
+									},
+									"children":[{
+										"html":"Select what other roadmap areas would you like to grow your program into with time Fusion gives back:"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"type":"checkbox",
+										"choices":[{
+											"text":"Risk Management -- Integrated/Operational Risk",
+											"calc-id":"A134"
+										},{
+											"text":"Risk Management -- Third Party",
+											"calc-id":"A135"
+										},{
+											"text":"Risk Management -- Facility/Site",
+											"calc-id":"A136"
+										},{
+											"text":"Risk Management -- Policy and Guidance",
+											"calc-id":"A137"
+										},{
+											"text":"Risk Management -- Environment, Health & Safety",
+											"calc-id":"A138"
+										},{
+											"text":"Risk Management -- Regulatory Compliance",
+											"calc-id":"A139"
+										},{
+											"text":"Impact Assessment -- BIA",
+											"calc-id":"A140"
+										},{
+											"text":"Impact Assessment -- Dependency Mapping",
+											"calc-id":"A141"
+										},{
+											"text":"Impact Assessment -- SIA/TIA",
+											"calc-id":"A142"
+										},{
+											"text":"Planning -- Business Continuity",
+											"calc-id":"A143"
+										},{
+											"text":"Planning -- Alternate Workspace (people & technology)",
+											"calc-id":"A144"
+										},{
+											"text":"Planning -- IT DR / Service Continuity",
+											"calc-id":"A145"
+										},{
+											"text":"Planning -- IT DR Capacity Management",
+											"calc-id":"A146"
+										},{
+											"text":"Planning -- Critical Processing Period Identification",
+											"calc-id":"A147"
+										},{
+											"text":"Incident Management -- Situational Intelligence",
+											"calc-id":"A148"
+										},{
+											"text":"Incident Management -- Exercise and Simulation",
+											"calc-id":"A149"
+										},{
+											"text":"Incident Management -- Risk",
+											"calc-id":"A150"
+										},{
+											"text":"Incident Management -- Emergency Notifications",
+											"calc-id":"A151"
+										},{
+											"text":"Program Management -- BCM / IT DR / Risk Enhancements",
+											"calc-id":"A152"
+										},{
+											"text":"Program Management -- Standards Alignment",
+											"calc-id":"A153"
+										},{
+											"text":"Program Management -- Automation of Administrative Processes",
+											"calc-id":"A154"
+										},{
+											"text":"Integration -- CMDB",
+											"calc-id":"A155"
+										},{
+											"text":"Integration -- HR",
+											"calc-id":"A156"
+										},{
+											"text":"Other",
+											"calc-id":"A157"
+										}]
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]
+			}]
+		}]
+	}]
+}]

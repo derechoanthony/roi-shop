@@ -1,0 +1,30 @@
+@media screen and (max-device-width:320px){
+	.form-control,
+	.single-line {
+	  font-size: 12px;
+	}
+}
+
+@media (max-width: 1360px) {
+	.form-control,
+	.single-line {
+	  font-size: 11px;
+	}
+}
+
+td > div > input.form-control {
+	border: 0;
+}
+
+td > div > div > input.form-control, td > div > div > span.input-group-addon {
+	border: 0;
+	background: none;
+}
+
+td > div > div > input-group-addon.append {
+	background: none;
+}
+
+table.dataTable tbody td {
+	padding: 0;
+}

@@ -1,0 +1,2305 @@
+[{
+	"tag":"nav",
+	"attributes":{
+		"role":"navigation",
+		"class":"navbar-default navbar-static-side"
+	},
+	"children":[{
+		"attributes":{
+			"style":"overflow: hidden; width: auto; height: 100%;",
+			"class":"sidebar-collapse sidebar-navigation"
+		},
+		"children":[{
+			"tag":"ul",
+			"attributes":{
+				"id":"side-menu",
+				"class":"nav"
+			},
+			"children": [{
+				"tag":"li",
+				"attributes":{
+					"class":"nav-header"
+				},
+				"children":[{
+					"attributes":{
+						"class":"dropdown profile-element"
+					},
+					"children":[{
+						"tag":"span",
+						"children":[{
+							"html":"<img id=\"company_logo\" alt=\"image\" src=\"https://www.theroishop.com/company_specific_files/667/logo/logo.png\">"
+						}]
+					}]
+				}]
+			},{
+				"tag":"li",
+				"attributes":{
+					"class":"smooth-scroll"
+				},
+				"children":[{
+					"html":"<a href=\"#\"><i class=\"fa fa-calculator\"></i> <span class=\"nav-label\">ROI Sections</span><span class=\"fa arrow\"></span></a>"
+				},{
+					"tag":"ul",
+					"attributes":{
+						"class":"nav nav-second-level collapse in"
+					},
+					"children":[{
+						"html":"<li><a href=\"#section1\" class=\"section-navigator\">Dashboard</a></li>"
+					},{
+						"html":"<li><a href=\"#section2\" class=\"section-navigator\">Medical Cost Savings</a></li>"
+					},{
+						"html":"<li><a href=\"#section4\" class=\"section-navigator\">Assessment Time Savings</a></li>"
+					},{
+						"html":"<li><a href=\"#section5\" class=\"section-navigator\">Availability / Productivity</a></li>"
+					},{
+						"html":"<li><a href=\"#section6\" class=\"section-navigator\">Summary</a></li>"
+					}]
+				}]
+			},{
+				"tag":"li",
+				"children":[{
+					"html":"<a href=\"../../dashboard\"><i class=\"fa fa-globe\"></i> <span class=\"nav-label\">My ROIs</span></a>"
+				}]
+			}]
+		}]
+	}]
+},{
+	"attributes": {
+		"class": "white-bg",
+		"id":"page-wrapper"
+	},
+	"children":[{
+		"attributes":{
+			"class":"row border-bottom white-bg dashboard-header",
+			"id":"section1"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"html": "<h1 style=\"margin-bottom: 20px\">ROI Dashboard | 5 Year Projection <span class=\"pull-right pod-total section-total grand-total txt-money\" calc-id=\"D9\">$0</span></h1>"
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom gray-bg dashboard-header"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"attributes":{
+					"class":"ibox-content"
+				},
+				"children":[{
+					"html":"<h3 style=\"font-size: 18px; font-weight: 700;\">Select a section below to review your ROI</h3><p style=\"font-size: 16px;\">To calculate your return on investment, begin with the first section below. The information entered therein will automatically populate corresponding fields in the other sections. You will be able to move from section to section to add and/or adjust values to best reflect your organization and process. To return to this screen, click the ROI Dashboard button to the left.</p></div>"
+				}]
+			}]
+		},{
+			"attributes":{
+				"class":"col-lg-3"
+			},
+			"children":[{
+				"attributes":{
+					"class":"widget white-bg"
+				},
+				"children":[{
+					"attributes":{
+						"class":"p-m row equalize-pod-height"
+					},
+					"children":[{
+						"attributes":{
+							"class":"row"
+						},
+						"children": [{
+							"html":"<div class=\"col-lg-10\"><h2 class=\"font-bold no-margins pod-header\"><a href=\"#section2\" class=\"smooth-scroll section-navigator\">Medical Cost Savings</a></h2></div><div class=\"col-lg-2\"><span class=\"label label-success pull-right\">5 Year</span></div>"
+						}]
+					},{
+						"html":"<h1 class=\"txt-right pod-total section-total txt-money\" calc-id=\"B1\">$0</h1>"
+					},{
+						"attributes":{
+							"class":"row conservative-slider"
+						},
+						"children": [{
+							"attributes":{
+								"class":"value-holder"
+							},
+							"children": [{
+								"html":"Conservative Factor: <span class=\"pull-right\" calc-id=\"C1\"></span>"
+							},{
+								"attributes":{
+									"class":"row slider-padding"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-lg-12"
+									},
+									"children":[{
+										"type":"slider",
+										"step":5,
+										"attributes":{
+											"calc-id":"C1"
+										}
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]
+			}]
+		},{
+			"attributes":{
+				"class":"col-lg-3"
+			},
+			"children":[{
+				"attributes":{
+					"class":"widget white-bg"
+				},
+				"children":[{
+					"attributes":{
+						"class":"p-m row equalize-pod-height"
+					},
+					"children":[{
+						"attributes":{
+							"class":"row"
+						},
+						"children": [{
+							"html":"<div class=\"col-lg-10\"><h2 class=\"font-bold no-margins pod-header\"><a href=\"#section4\" class=\"smooth-scroll section-navigator\">Assessment Time Savings</a></h2></div><div class=\"col-lg-2\"><span class=\"label label-success pull-right\">5 Year</span></div>"
+						}]
+					},{
+						"html":"<h1 class=\"txt-right pod-total section-total txt-money\" calc-id=\"B9\">$0</h1>"
+					},{
+						"attributes":{
+							"class":"row conservative-slider"
+						},
+						"children": [{
+							"attributes":{
+								"class":"value-holder"
+							},
+							"children": [{
+								"html":"Conservative Factor: <span class=\"pull-right\" calc-id=\"C3\"></span>"
+							},{
+								"attributes":{
+									"class":"row slider-padding"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-lg-12"
+									},
+									"children":[{
+										"type":"slider",
+										"step":5,
+										"attributes":{
+											"calc-id":"C3"
+										}
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]
+			}]
+		},{
+			"attributes":{
+				"class":"col-lg-3"
+			},
+			"children":[{
+				"attributes":{
+					"class":"widget white-bg"
+				},
+				"children":[{
+					"attributes":{
+						"class":"p-m row equalize-pod-height"
+					},
+					"children":[{
+						"attributes":{
+							"class":"row"
+						},
+						"children": [{
+							"html":"<div class=\"col-lg-10\"><h2 class=\"font-bold no-margins pod-header\"><a href=\"#section5\" class=\"smooth-scroll section-navigator\">Availability / Productivity</a></h2></div><div class=\"col-lg-2\"><span class=\"label label-success pull-right\">5 Year</span></div>"
+						}]
+					},{
+						"html":"<h1 class=\"txt-right pod-total section-total txt-money\" calc-id=\"B12\">$0</h1>"
+					},{
+						"attributes":{
+							"class":"row conservative-slider"
+						},
+						"children": [{
+							"attributes":{
+								"class":"value-holder"
+							},
+							"children": [{
+								"html":"Conservative Factor: <span class=\"pull-right\" calc-id=\"C4\"></span>"
+							},{
+								"attributes":{
+									"class":"row slider-padding"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-lg-12"
+									},
+									"children":[{
+										"type":"slider",
+										"step":5,
+										"attributes":{
+											"calc-id":"C4"
+										}
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]
+			}]
+		},{
+			"attributes":{
+				"class":"col-lg-3"
+			},
+			"children":[{
+				"attributes":{
+					"class":"widget white-bg"
+				},
+				"children":[{
+					"attributes":{
+						"class":"p-m row equalize-pod-height"
+					},
+					"children":[{
+						"attributes":{
+							"class":"row"
+						},
+						"children": [{
+							"html":"<div class=\"col-lg-10\"><h2 class=\"font-bold no-margins pod-header\"><a href=\"#section6\" class=\"smooth-scroll section-navigator\">Summary</a></h2></div><div class=\"col-lg-2\"><span class=\"label label-success pull-right\">5 Year</span></div>"
+						}]
+					},{
+						"html":"<h1 class=\"txt-right pod-total section-total txt-money\" calc-id=\"D9\">$0</h1>"
+					}]
+				}]
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom white-bg dashboard-header",
+			"id":"section2"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"html":"<h1 style=\"margin-bottom: 20px;\">Claim Payments<span class=\"pull-right pod-total section-total grand-total txt-money\" calc-id=\"B1\">$0</span></h1>"
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom gray-bg dashboard-header"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"attributes":{
+					"class":"row"
+				},
+				"children":[{
+					"attributes":{
+						"class":"col-md-12 col-sm-12 col-xs-12"
+					},
+					"children": [{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"ibox-title"
+							},
+							"children":[{
+								"html":"<h5>Claim Payments</h5>"
+							}]
+						},{
+							"attributes":{
+								"class":"ibox-content"
+							},
+							"children":[{
+								"attributes":{
+									"class":"row"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-md-12 section-write-up"
+									},
+									"children":[{
+										"html":"<p class=\"caption-text\" style=\"font-size: 18px;\">Sparta Science has a proven track record of reducing insurance claims related to musculoskeletal health.</p><hr>"
+									},{
+										"type":"revolver",
+										"children":[{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>We finally have a way to functionally validate our rehab throughout our patient populations with objective measures for the workforce that we treat.  This information is priceless when determining if they're ready to return to work!<p></p>- Chad Arcenaux, Owner and ATC, UnLock Training (training 10,000+)</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>We can look at different parameters in Sparta and see the profiles that place a person in risk.  We have the ability then to put in place a program to appropriately minimize that risk.<p></p>- Dr. Brian Sennett MD Head Physician and Orthopedic Surgeon, University of Pennsylvania<p>"
+											}]
+										}]
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]		
+			}]
+		},{
+			"attributes":{
+				"class":"col-md-12 col-sm-12 col-xs-12"
+			},
+			"children":[{
+				"attributes":{
+					"class":"row"
+				},
+				"children":[{
+					"attributes":{
+						"class":"col-lg-9 col-md-9 col-sm-12 col-xs-12"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox-content"
+						},
+						"children":[{
+							"attributes":{
+								"class":"form-horizontal"
+							},
+							"children":[{
+								"attributes":{
+									"class":"subsection-header underlined",
+									"style":"margin: 15px 0 15px 0"
+								},
+								"children":[{
+									"html":"<h2>Projected Medical Cost Savings</h2>"
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Recordable Injuries</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"tag":"input",
+										"attributes":{
+											"class":"form-control",
+											"calc-id":"A2"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Cost per Injury (use $7,800 - unless they have their cost info)</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"tag":"input",
+										"attributes":{
+											"class":"form-control",
+											"calc-id":"A3"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Current medical costs</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"input-group"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"calc-id":"A4",
+												"class":"form-control",
+												"disabled":"disabled"
+											}
+										},{
+											"attributes":{
+												"class":"input-group-addon right helper output"
+											},
+											"tag":"span",
+											"children":[{
+												"tag":"i",
+												"attributes":{
+													"class":"fa fa-calculator tooltipstered",
+													"calculation-modal":"A4",
+													"title":"Click here to view the calculation breakdown"
+												}
+											}]
+										}]
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">% reduction with the use of Sparta Science Solution (typcially 10 - 50%)</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"tag":"input",
+										"attributes":{
+											"class":"form-control",
+											"calc-id":"A5"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Projected Medical Cost Annual Savings With Sparta</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"attributes":{
+											"class":"input-group"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"calc-id":"A6",
+												"class":"form-control",
+												"disabled":"disabled"
+											}
+										},{
+											"attributes":{
+												"class":"input-group-addon right helper output"
+											},
+											"tag":"span",
+											"children":[{
+												"tag":"i",
+												"attributes":{
+													"class":"fa fa-calculator tooltipstered",
+													"calculation-modal":"A6",
+													"title":"Click here to view the calculation breakdown"
+												}
+											}]
+										}]
+									}]
+								}]
+							}]
+						}]				
+					}]
+				},{
+					"attributes":{
+						"class":"col-lg-3 col-md-3 col-sm-12 col-xs-12"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"ibox-title"
+							},
+							"children":[{
+								"html":"<h5 class=\"col-lg-12\">Baseline Totals</h5>"
+							}]
+						},{
+							"attributes":{
+								"class":"faq-item"
+							},
+							"children":[{
+								"attributes":{
+									"class":"row"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-lg-8 col-md-12"
+									},
+									"children":[{
+										"html":"<a class=\"faq-question collapsed\">Medical Cost Savings</a>"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-12"
+									},
+									"children":[{
+										"html":"<div class=\"pull-right\"><span class=\"section-total txt-money\" calc-id=\"B1\">$0</span></div>"
+									}]
+								},{
+									"attributes":{
+										"class":"row"
+									},
+									"children":[{
+										"attributes":{
+											"class":"col-lg-12 annual-totals"
+										},
+										"children":[{
+											"attributes":{
+												"class":"panel-collapse faq-answer"
+											},
+											"children":[{
+												"tag":"ul",
+												"children":[{
+													"tag":"li",
+													"children":[{
+														"html":"Year 1: <span class=\"pull-right section-total txt-money\" calc-id=\"B2\">$0</span>"
+													}]
+												},{
+													"tag":"li",
+													"children":[{
+														"html":"Year 2: <span class=\"pull-right section-total txt-money\" calc-id=\"B3\">$0</span>"
+													}]
+												},{
+													"tag":"li",
+													"children":[{
+														"html":"Year 3: <span class=\"pull-right section-total txt-money\" calc-id=\"B13\">$0</span>"
+													}]
+												},{
+													"tag":"li",
+													"children":[{
+														"html":"Year 4: <span class=\"pull-right section-total txt-money\" calc-id=\"B17\">$0</span>"
+													}]
+												},{
+													"tag":"li",
+													"children":[{
+														"html":"Year 5: <span class=\"pull-right section-total txt-money\" calc-id=\"B18\">$0</span>"
+													}]
+												},{
+													"html":"<hr class=\"calculation-divider\">"
+												},{
+													"tag":"li",
+													"children":[{
+														"html":"Section Total:<span class=\"pull-right section-total txt-money\" calc-id=\"B1\">$0</span>"
+													}]
+												}]	
+											},{
+												"attributes":{
+													"class":"value-holder",
+													"style":"padding-top: 10px;"
+												},
+												"children":[{
+													"html":"Conservative Factor: <span class=\"pull-right\" calc-id=\"C1\">0%</span>"
+												},{
+													"attributes":{
+														"class":"row",
+														"style":"padding-top: 10px;"
+													},
+													"children":[{
+														"attributes":{
+															"class":"col-lg-12"
+														},
+														"children":[{
+															"type":"slider",
+															"step":5,
+															"attributes":{
+																"calc-id":"C1"
+															}
+														}]
+													}]
+												}]
+											}]
+										}]
+									}]
+								}]
+							}]
+						}]					
+					},{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"faq-item"
+							},
+							"children":[{
+								"html":"Implementation Period: <span class=\"pull-right\"><span calc-id=\"I1\"></span> months</span>"
+							},{
+								"attributes":{
+									"class":"row",
+									"style":"padding-top: 15px;"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-lg-12"
+									},
+									"children":[{
+										"type":"slider",
+										"attributes":{
+											"calc-id":"I1"
+										},
+										"min": 0,
+										"max": 60
+									}]
+								}]
+							}]						
+						}]					
+					}]
+				}]
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom white-bg dashboard-header",
+			"id":"section4"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"html":"<h1 style=\"margin-bottom: 20px;\">Assessment Time Savings <span class=\"pull-right pod-total section-total grand-total txt-money\" calc-id=\"B9\"></span></h1>"
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom gray-bg dashboard-header"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"attributes":{
+					"class":"row"
+				},
+				"children":[{
+					"attributes":{
+						"class":"col-md-12 col-sm-12 col-xs-12"
+					},
+					"children": [{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"ibox-title"
+							},
+							"children":[{
+								"html":"<h5>Assessment Time Savings</h5>"
+							}]
+						},{
+							"attributes":{
+								"class":"ibox-content"
+							},
+							"children":[{
+								"attributes":{
+									"class":"row"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-md-12 section-write-up"
+									},
+									"children":[{
+										"html":"<p class=\"caption-text\" style=\"font-size: 18px;\">How much time does it take to assess your workforce's current MSK health? How often are you assessing? Sparta Science provides an objective diagnostic tool that can assess an employee's MSK health in 90 seconds. This can be done on a monthly or quarterly basis to stay current, and the workers are provided with a corrective plan to improve their results on their own time</p><hr>"
+									},{
+										"type":"revolver",
+										"children":[{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>We finally have a way to functionally validate our rehab throughout our patient populations with objective measures for the workforce that we treat.  This information is priceless when determining if they're ready to return to work!<p></p>- Chad Arcenaux, Owner and ATC, UnLock Training (training 10,000+)</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>We can look at different parameters in Sparta and see the profiles that place a person in risk.  We have the ability then to put in place a program to appropriately minimize that risk.<p></p>- Dr. Brian Sennett MD Head Physician and Orthopedic Surgeon, University of Pennsylvania<p>"
+											}]
+										}]
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]		
+			}]
+		},{
+			"attributes":{
+				"class":"col-md-12 col-sm-12 col-xs-12"
+			},
+			"children":[{
+				"attributes":{
+					"class":"row"
+				},
+				"children":[{
+					"attributes":{
+						"class":"col-lg-9 col-md-9 col-sm-12 col-xs-12"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox-content"
+						},
+						"children":[{
+							"attributes":{
+								"class":"form-horizontal"
+							},
+							"children":[{
+								"attributes":{
+									"class":"subsection-header underlined",
+									"style":"margin: 15px 0 15px 0"
+								},
+								"children":[{
+									"html":"<h2>Current State - Time Required For Assessments</h2>"
+								}]
+							},{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Number of employee assessments conducted annually</label>"
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+                                    },
+                                    "children":[{
+                                        "tag":"input",
+                                        "attributes":{
+                                            "class":"form-control",
+                                            "calc-id":"A20"
+                                        }
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Minutes needed to conduct each assessment</label>"
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+                                    },
+                                    "children":[{
+										"tag":"input",
+										"attributes":{
+											"calc-id":"A21",
+											"class":"form-control"
+										}
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "html":"<label class=\"control-label col-lg-7 col-md-7 col-sm-7\">Annual hours spent on assessments (based on 2 people per assessment)</label>"
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+                                    },
+                                    "children":[{
+                                        "attributes":{
+                                            "class":"input-group"
+                                        },
+                                        "children":[{
+                                            "tag":"input",
+                                            "attributes":{
+                                                "calc-id":"A22",
+                                                "class":"form-control",
+                                                "disabled":"disabled"
+                                            }
+                                        },{
+                                            "attributes":{
+                                                "class":"input-group-addon right helper output"
+                                            },
+                                            "tag":"span",
+                                            "children":[{
+                                                "tag":"i",
+                                                "attributes":{
+                                                    "class":"fa fa-calculator tooltipstered",
+                                                    "calculation-modal":"A22",
+                                                    "title":"Click here to view the calculation breakdown"
+                                                }
+                                            }]
+                                        }]
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Average hourly rate of employee being assessed</label>"
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+                                    },
+                                    "children":[{
+										"tag":"input",
+										"attributes":{
+											"calc-id":"A23",
+											"class":"form-control"
+										}
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Average hourly rate of employee that conducts the assessment</label>"
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+                                    },
+                                    "children":[{
+										"tag":"input",
+										"attributes":{
+											"calc-id":"A24",
+											"class":"form-control"
+										}
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "html":"<label class=\"control-label col-lg-7 col-md-7 col-sm-7\">Annual Cost of Assessments</label>"
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+                                    },
+                                    "children":[{
+                                        "attributes":{
+                                            "class":"input-group"
+                                        },
+                                        "children":[{
+                                            "tag":"input",
+                                            "attributes":{
+                                                "calc-id":"A25",
+                                                "class":"form-control",
+                                                "disabled":"disabled"
+                                            }
+                                        },{
+                                            "attributes":{
+                                                "class":"input-group-addon right helper output"
+                                            },
+                                            "tag":"span",
+                                            "children":[{
+                                                "tag":"i",
+                                                "attributes":{
+                                                    "class":"fa fa-calculator tooltipstered",
+                                                    "calculation-modal":"A25",
+                                                    "title":"Click here to view the calculation breakdown"
+                                                }
+                                            }]
+                                        }]
+                                    }]
+                                }]
+                            },{
+								"attributes":{
+									"class":"subsection-header underlined",
+									"style":"margin: 15px 0 15px 0"
+								},
+								"children":[{
+									"html":"<h2>Future Cost of Assessments</h2>"
+								}]
+							},{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Number of employee assessments conducted annually</label>"
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+                                    },
+                                    "children":[{
+                                        "tag":"input",
+                                        "attributes":{
+                                            "class":"form-control",
+                                            "calc-id":"A20"
+                                        }
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Minutes needed to conduct each assessment with Sparta</label>"
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+                                    },
+                                    "children":[{
+										"tag":"input",
+										"attributes":{
+											"calc-id":"A26",
+											"class":"form-control"
+										}
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Annual hours spent on assessments (based on 2 people per assessment)</label>"
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+                                    },
+                                    "children":[{
+                                        "attributes":{
+                                            "class":"input-group"
+                                        },
+                                        "children":[{
+                                            "tag":"input",
+                                            "attributes":{
+                                                "calc-id":"A27",
+                                                "class":"form-control",
+                                                "disabled":"disabled"
+                                            }
+                                        },{
+                                            "attributes":{
+                                                "class":"input-group-addon right helper output"
+                                            },
+                                            "tag":"span",
+                                            "children":[{
+                                                "tag":"i",
+                                                "attributes":{
+                                                    "class":"fa fa-calculator tooltipstered",
+                                                    "calculation-modal":"A27",
+                                                    "title":"Click here to view the calculation breakdown"
+                                                }
+                                            }]
+                                        }]
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Annual hours saved with sparta</label>"
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+                                    },
+                                    "children":[{
+                                        "attributes":{
+                                            "class":"input-group"
+                                        },
+                                        "children":[{
+                                            "tag":"input",
+                                            "attributes":{
+                                                "calc-id":"A28",
+                                                "class":"form-control",
+                                                "disabled":"disabled"
+                                            }
+                                        },{
+                                            "attributes":{
+                                                "class":"input-group-addon right helper output"
+                                            },
+                                            "tag":"span",
+                                            "children":[{
+                                                "tag":"i",
+                                                "attributes":{
+                                                    "class":"fa fa-calculator tooltipstered",
+                                                    "calculation-modal":"A28",
+                                                    "title":"Click here to view the calculation breakdown"
+                                                }
+                                            }]
+                                        }]
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Annual Cost Savings With Sparta</label>"
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+                                    },
+                                    "children":[{
+                                        "attributes":{
+                                            "class":"input-group"
+                                        },
+                                        "children":[{
+                                            "tag":"input",
+                                            "attributes":{
+                                                "calc-id":"A29",
+                                                "class":"form-control",
+                                                "disabled":"disabled"
+                                            }
+                                        },{
+                                            "attributes":{
+                                                "class":"input-group-addon right helper output"
+                                            },
+                                            "tag":"span",
+                                            "children":[{
+                                                "tag":"i",
+                                                "attributes":{
+                                                    "class":"fa fa-calculator tooltipstered",
+                                                    "calculation-modal":"A29",
+                                                    "title":"Click here to view the calculation breakdown"
+                                                }
+                                            }]
+                                        }]
+                                    }]
+                                }]
+                            },{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"tag":"label",
+									"attributes":{
+										"class":"control-label col-lg-7 col-md-7 col-sm-7"
+									},
+									"children":[{
+										"html":"What benefits would your organization realize if we could save your employees <span calc-id=\"A28\"></span> hours which equate to <span calc-id=\"A30\"></span> weeks of time?"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"tag":"textarea",
+										"attributes":{
+											"class":"form-control",
+											"style":"width: 100%; resize: vertical",
+											"rows":"4",
+											"calc-id":"A31"
+										}
+									}]
+								}]
+							}]
+						}]				
+					}]
+				},{
+					"attributes":{
+						"class":"col-lg-3 col-md-3 col-sm-12 col-xs-12"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"ibox-title"
+							},
+							"children":[{
+								"html":"<h5 class=\"col-lg-12\">Baseline Totals</h5>"
+							}]
+						},{
+							"attributes":{
+								"class":"faq-item"
+							},
+							"children":[{
+								"attributes":{
+									"class":"row"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-lg-8 col-md-12"
+									},
+									"children":[{
+										"html":"<a class=\"faq-question collapsed\">Assessment Time Savings</a>"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-12"
+									},
+									"children":[{
+										"html":"<div class=\"pull-right\"><span class=\"section-total txt-money\" calc-id=\"B9\"></span></div>"
+									}]
+								},{
+									"attributes":{
+										"class":"row"
+									},
+									"children":[{
+										"attributes":{
+											"class":"col-lg-12 annual-totals"
+										},
+										"children":[{
+											"attributes":{
+												"class":"panel-collapse faq-answer"
+											},
+											"children":[{
+												"tag":"ul",
+												"children":[{
+													"tag":"li",
+													"children":[{
+														"html":"Year 1: <span class=\"pull-right section-total txt-money\" calc-id=\"B7\">$0</span>"
+													}]
+												},{
+													"tag":"li",
+													"children":[{
+														"html":"Year 2: <span class=\"pull-right section-total txt-money\" calc-id=\"B8\">$0</span>"
+													}]
+												},{
+													"tag":"li",
+													"children":[{
+														"html":"Year 3: <span class=\"pull-right section-total txt-money\" calc-id=\"B15\">$0</span>"
+													}]
+												},{
+													"tag":"li",
+													"children":[{
+														"html":"Year 4: <span class=\"pull-right section-total txt-money\" calc-id=\"B21\">$0</span>"
+													}]
+												},{
+													"tag":"li",
+													"children":[{
+														"html":"Year 5: <span class=\"pull-right section-total txt-money\" calc-id=\"B22\">$0</span>"
+													}]
+												},{
+													"html":"<hr class=\"calculation-divider\">"
+												},{
+													"tag":"li",
+													"children":[{
+														"html":"Section Total:<span class=\"pull-right section-total txt-money\" calc-id=\"B9\">$0</span>"
+													}]
+												}]	
+											},{
+												"attributes":{
+													"class":"value-holder",
+													"style":"padding-top: 10px;"
+												},
+												"children":[{
+													"html":"Conservative Factor: <span class=\"pull-right\" calc-id=\"C3\">0%</span>"
+												},{
+													"attributes":{
+														"class":"row",
+														"style":"padding-top: 10px;"
+													},
+													"children":[{
+														"attributes":{
+															"class":"col-lg-12"
+														},
+														"children":[{
+															"type":"slider",
+															"step":5,
+															"attributes":{
+																"calc-id":"C3"
+															}
+														}]
+													}]
+												}]
+											}]
+										}]
+									}]
+								}]
+							}]
+						}]					
+					},{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"faq-item"
+							},
+							"children":[{
+								"html":"Implementation Period: <span class=\"pull-right\"><span calc-id=\"I1\"></span> months</span>"
+							},{
+								"attributes":{
+									"class":"row",
+									"style":"padding-top: 15px;"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-lg-12"
+									},
+									"children":[{
+										"type":"slider",
+										"attributes":{
+											"calc-id":"I1"
+										},
+										"min": 0,
+										"max": 60
+									}]
+								}]
+							}]						
+						}]					
+					}]
+				}]
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom white-bg dashboard-header",
+			"id":"section5"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"html":"<h1 style=\"margin-bottom: 20px;\">Availibility / Productivity <span class=\"pull-right pod-total section-total grand-total txt-money\" calc-id=\"B12\"></span></h1>"
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom gray-bg dashboard-header"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"attributes":{
+					"class":"row"
+				},
+				"children":[{
+					"attributes":{
+						"class":"col-md-12 col-sm-12 col-xs-12"
+					},
+					"children": [{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"ibox-title"
+							},
+							"children":[{
+								"html":"<h5>Availibility / Productivity</h5>"
+							}]
+						},{
+							"attributes":{
+								"class":"ibox-content"
+							},
+							"children":[{
+								"attributes":{
+									"class":"row"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-md-12 section-write-up"
+									},
+									"children":[{
+										"html":"<p class=\"caption-text\" style=\"font-size: 18px;\">The best ability is availability. When your employees are healthy and feeling great, they get more done in less time. Additionally, there is no need to pay overtime to workers that are already overexerted covering for someone else that is out because of an injury.</p><hr>"
+									},{
+										"type":"revolver",
+										"children":[{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>We finally have a way to functionally validate our rehab throughout our patient populations with objective measures for the workforce that we treat.  This information is priceless when determining if they're ready to return to work!<p></p>- Chad Arcenaux, Owner and ATC, UnLock Training (training 10,000+)</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>We can look at different parameters in Sparta and see the profiles that place a person in risk.  We have the ability then to put in place a program to appropriately minimize that risk.<p></p>- Dr. Brian Sennett MD Head Physician and Orthopedic Surgeon, University of Pennsylvania<p>"
+											}]
+										}]
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]		
+			}]
+		},{
+			"attributes":{
+				"class":"col-md-12 col-sm-12 col-xs-12"
+			},
+			"children":[{
+				"attributes":{
+					"class":"row"
+				},
+				"children":[{
+					"attributes":{
+						"class":"col-lg-9 col-md-9 col-sm-12 col-xs-12"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox-content"
+						},
+						"children":[{
+							"attributes":{
+								"class":"form-horizontal"
+							},
+							"children":[{
+								"attributes":{
+									"class":"subsection-header underlined",
+									"style":"margin: 15px 0 15px 0"
+								},
+								"children":[{
+									"html":"<h2>Current State</h2>"
+								}]
+							},{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Estimated number of employees that get injured on the job annually</label>"
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+                                    },
+                                    "children":[{
+                                        "tag":"input",
+                                        "attributes":{
+                                            "class":"form-control",
+                                            "calc-id":"A32"
+                                        }
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Average number of days missed due to injury (typically 10 - <a href=\"https://www.boneandjointburden.org/fourth-edition/id2/lost-work-days#:~:text=More%20than%2035%20million%20adults,totaling%20nearly%20364%20million%20days\" target=\"_blank\">read case study</a>)</label>"
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+                                    },
+                                    "children":[{
+										"tag":"input",
+										"attributes":{
+											"calc-id":"A33",
+											"class":"form-control"
+										}
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "html":"<label class=\"control-label col-lg-7 col-md-7 col-sm-7\">Annual days missed due to injury</label>"
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+                                    },
+                                    "children":[{
+                                        "attributes":{
+                                            "class":"input-group"
+                                        },
+                                        "children":[{
+                                            "tag":"input",
+                                            "attributes":{
+                                                "calc-id":"A34",
+                                                "class":"form-control",
+                                                "disabled":"disabled"
+                                            }
+                                        },{
+                                            "attributes":{
+                                                "class":"input-group-addon right helper output"
+                                            },
+                                            "tag":"span",
+                                            "children":[{
+                                                "tag":"i",
+                                                "attributes":{
+                                                    "class":"fa fa-calculator tooltipstered",
+                                                    "calculation-modal":"A34",
+                                                    "title":"Click here to view the calculation breakdown"
+                                                }
+                                            }]
+                                        }]
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Estimated cost per day to cover postion (read study)</label>"
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+                                    },
+                                    "children":[{
+										"tag":"input",
+										"attributes":{
+											"calc-id":"A35",
+											"class":"form-control"
+										}
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "html":"<label class=\"control-label col-lg-7 col-md-7 col-sm-7\">Current Cost of Missed Time Due To Injuries</label>"
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+                                    },
+                                    "children":[{
+                                        "attributes":{
+                                            "class":"input-group"
+                                        },
+                                        "children":[{
+                                            "tag":"input",
+                                            "attributes":{
+                                                "calc-id":"A36",
+                                                "class":"form-control",
+                                                "disabled":"disabled"
+                                            }
+                                        },{
+                                            "attributes":{
+                                                "class":"input-group-addon right helper output"
+                                            },
+                                            "tag":"span",
+                                            "children":[{
+                                                "tag":"i",
+                                                "attributes":{
+                                                    "class":"fa fa-calculator tooltipstered",
+                                                    "calculation-modal":"A36",
+                                                    "title":"Click here to view the calculation breakdown"
+                                                }
+                                            }]
+                                        }]
+                                    }]
+                                }]
+                            },{
+								"attributes":{
+									"class":"subsection-header underlined",
+									"style":"margin: 15px 0 15px 0"
+								},
+								"children":[{
+									"html":"<h2>Future State With Sparta</h2>"
+								}]
+							},{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "html":"<label class=\"control-label col-lg-7 col-md-7 col-sm-7\">Annual days missed due to injury</label>"
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+                                    },
+                                    "children":[{
+                                        "attributes":{
+                                            "class":"input-group"
+                                        },
+                                        "children":[{
+                                            "tag":"input",
+                                            "attributes":{
+                                                "calc-id":"A34",
+                                                "class":"form-control",
+                                                "disabled":"disabled"
+                                            }
+                                        },{
+                                            "attributes":{
+                                                "class":"input-group-addon right helper output"
+                                            },
+                                            "tag":"span",
+                                            "children":[{
+                                                "tag":"i",
+                                                "attributes":{
+                                                    "class":"fa fa-calculator tooltipstered",
+                                                    "calculation-modal":"A34",
+                                                    "title":"Click here to view the calculation breakdown"
+                                                }
+                                            }]
+                                        }]
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">% reduction of days missed with Sparta Technology (typically 10 - 15% reduction)</label>"
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+                                    },
+                                    "children":[{
+                                        "tag":"input",
+                                        "attributes":{
+                                            "class":"form-control",
+                                            "calc-id":"A37"
+                                        }
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Reduction in missed days due to injury</label>"
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+                                    },
+                                    "children":[{
+                                        "attributes":{
+                                            "class":"input-group"
+                                        },
+                                        "children":[{
+                                            "tag":"input",
+                                            "attributes":{
+                                                "calc-id":"A38",
+                                                "class":"form-control",
+                                                "disabled":"disabled"
+                                            }
+                                        },{
+                                            "attributes":{
+                                                "class":"input-group-addon right helper output"
+                                            },
+                                            "tag":"span",
+                                            "children":[{
+                                                "tag":"i",
+                                                "attributes":{
+                                                    "class":"fa fa-calculator tooltipstered",
+                                                    "calculation-modal":"A38",
+                                                    "title":"Click here to view the calculation breakdown"
+                                                }
+                                            }]
+                                        }]
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Annual savings with sparta</label>"
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+                                    },
+                                    "children":[{
+                                        "attributes":{
+                                            "class":"input-group"
+                                        },
+                                        "children":[{
+                                            "tag":"input",
+                                            "attributes":{
+                                                "calc-id":"A39",
+                                                "class":"form-control",
+                                                "disabled":"disabled"
+                                            }
+                                        },{
+                                            "attributes":{
+                                                "class":"input-group-addon right helper output"
+                                            },
+                                            "tag":"span",
+                                            "children":[{
+                                                "tag":"i",
+                                                "attributes":{
+                                                    "class":"fa fa-calculator tooltipstered",
+                                                    "calculation-modal":"A39",
+                                                    "title":"Click here to view the calculation breakdown"
+                                                }
+                                            }]
+                                        }]
+                                    }]
+                                }]
+                            }]
+						}]				
+					}]
+				},{
+					"attributes":{
+						"class":"col-lg-3 col-md-3 col-sm-12 col-xs-12"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"ibox-title"
+							},
+							"children":[{
+								"html":"<h5 class=\"col-lg-12\">Baseline Totals</h5>"
+							}]
+						},{
+							"attributes":{
+								"class":"faq-item"
+							},
+							"children":[{
+								"attributes":{
+									"class":"row"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-lg-8 col-md-12"
+									},
+									"children":[{
+										"html":"<a class=\"faq-question collapsed\">Availability / Productivity</a>"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-12"
+									},
+									"children":[{
+										"html":"<div class=\"pull-right\"><span class=\"section-total txt-money\" calc-id=\"B16\"></span></div>"
+									}]
+								},{
+									"attributes":{
+										"class":"row"
+									},
+									"children":[{
+										"attributes":{
+											"class":"col-lg-12 annual-totals"
+										},
+										"children":[{
+											"attributes":{
+												"class":"panel-collapse faq-answer"
+											},
+											"children":[{
+												"tag":"ul",
+												"children":[{
+													"tag":"li",
+													"children":[{
+														"html":"Year 1: <span class=\"pull-right section-total txt-money\" calc-id=\"B10\">$0</span>"
+													}]
+												},{
+													"tag":"li",
+													"children":[{
+														"html":"Year 2: <span class=\"pull-right section-total txt-money\" calc-id=\"B11\">$0</span>"
+													}]
+												},{
+													"tag":"li",
+													"children":[{
+														"html":"Year 3: <span class=\"pull-right section-total txt-money\" calc-id=\"B16\">$0</span>"
+													}]
+												},{
+													"tag":"li",
+													"children":[{
+														"html":"Year 4: <span class=\"pull-right section-total txt-money\" calc-id=\"B19\">$0</span>"
+													}]
+												},{
+													"tag":"li",
+													"children":[{
+														"html":"Year 5: <span class=\"pull-right section-total txt-money\" calc-id=\"B20\">$0</span>"
+													}]
+												},{
+													"html":"<hr class=\"calculation-divider\">"
+												},{
+													"tag":"li",
+													"children":[{
+														"html":"Section Total:<span class=\"pull-right section-total txt-money\" calc-id=\"B12\">$0</span>"
+													}]
+												}]	
+											},{
+												"attributes":{
+													"class":"value-holder",
+													"style":"padding-top: 10px;"
+												},
+												"children":[{
+													"html":"Conservative Factor: <span class=\"pull-right\" calc-id=\"C4\">0%</span>"
+												},{
+													"attributes":{
+														"class":"row",
+														"style":"padding-top: 10px;"
+													},
+													"children":[{
+														"attributes":{
+															"class":"col-lg-12"
+														},
+														"children":[{
+															"type":"slider",
+															"step":5,
+															"attributes":{
+																"calc-id":"C4"
+															}
+														}]
+													}]
+												}]
+											}]
+										}]
+									}]
+								}]
+							}]
+						}]					
+					},{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"faq-item"
+							},
+							"children":[{
+								"html":"Implementation Period: <span class=\"pull-right\"><span calc-id=\"I1\"></span> months</span>"
+							},{
+								"attributes":{
+									"class":"row",
+									"style":"padding-top: 15px;"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-lg-12"
+									},
+									"children":[{
+										"type":"slider",
+										"attributes":{
+											"calc-id":"I1"
+										},
+										"min": 0,
+										"max": 60
+									}]
+								}]
+							}]						
+						}]					
+					}]
+				}]
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom white-bg dashboard-header",
+			"id":"section6"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"html":"<h1 style=\"margin-bottom: 20px;\">Savings Summary<span class=\"pull-right pod-total section-total grand-total txt-money\" calc-id=\"D9\">$0</span></h1>"
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom gray-bg dashboard-header"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"attributes":{
+					"class":"row"
+				},
+				"children":[{
+					"attributes":{
+						"class":"col-md-12 col-sm-12 col-xs-12"
+					},
+					"children": [{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"ibox-title"
+							},
+							"children":[{
+								"html":"<h5>Summary</h5>"
+							}]
+						},{
+							"attributes":{
+								"class":"ibox-content"
+							},
+							"children":[{
+								"attributes":{
+									"class":"row"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-md-12 section-write-up"
+									},
+									"children":[{
+										"html":"<p class=\"caption-text\" style=\"font-size: 18px;\">The table below represents a summary of the possible ROI you can expect by category and by year based on data supplied. You can adjust the ROI output to reflect implementation based on expected timelines.Note your calculated % return and projected payback period above.<br/><br/>Return on Investment is calculated by dividing the total net profit by the total cost. Payback Period calculates the time in months it takes your savings to equal that of your cost, including the implementation period.</p><hr>"
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]		
+			}]
+		},{
+			"attributes":{
+				"class":"col-md-12 col-sm-12 col-xs-12"
+			},
+			"children":[{
+				"attributes":{
+					"class":"row"
+				},
+				"children":[{
+					"attributes":{
+						"class":"col-lg-9 col-md-9 col-sm-12 col-xs-12"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox-content"
+						},
+						"children":[{
+							"attributes":{
+								"class":"form-horizontal"
+							},
+							"children":[{
+								"attributes":{
+									"class":"subsection-header underlined"
+								},
+								"children":[{
+									"html":"<h2>Costs</h2>"
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Implementation Cost</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"tag":"input",
+										"attributes":{
+											"class":"form-control",
+											"calc-id":"D1"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Subscription - Year 1</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"tag":"input",
+										"attributes":{
+											"class":"form-control",
+											"calc-id":"D2"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Subscription - Year 2</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"tag":"input",
+										"attributes":{
+											"class":"form-control",
+											"calc-id":"D3"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Subscription - Year 3</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"tag":"input",
+										"attributes":{
+											"class":"form-control",
+											"calc-id":"D11"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Subscription - Year 4</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"tag":"input",
+										"attributes":{
+											"class":"form-control",
+											"calc-id":"D13"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Subscription - Year 5</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"tag":"input",
+										"attributes":{
+											"class":"form-control",
+											"calc-id":"D14"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"ibox-content"
+								},
+								"children":[{
+									"attributes":{
+										"class":"table-responsive",
+										"style":"border: 2px solid #ddd;"
+									},
+									"children":[{
+										"tag":"table",
+										"attributes":{
+											"class":"table table-hover",
+											"style":"margin-bottom: 0;"
+										},
+										"children":[{
+											"tag":"thead",
+											"children":[{
+												"tag":"tr",
+												"children":[{
+													"html":"<th></th>"
+												},{
+													"html":"<th>Year 1</th>"
+												},{
+													"html":"<th>Year 2</th>"
+												},{
+													"html":"<th>Year 3</th>"
+												},{
+													"html":"<th>Year 4</th>"
+												},{
+													"html":"<th>Year 5</th>"
+												},{
+													"html":"<th>Total</th>"
+												}]
+											}]
+										},{
+											"tag":"tbody",
+											"children":[{
+												"tag":"tr",
+												"attributes":{
+													"class":"value-holder"
+												},
+												"children":[{
+													"html":"<th><a class=\"table-scroll smooth-scroll\" href=\"#section2\">Claims Payment</a></th>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"B2\"></td>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"B3\"></td>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"B13\"></td>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"B17\"></td>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"B18\"></td>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"B1\"></td>"
+												}]
+											},{
+												"tag":"tr",
+												"attributes":{
+													"class":"value-holder"
+												},
+												"children":[{
+													"html":"<th><a class=\"table-scroll smooth-scroll\" href=\"#section4\">Assessment Time Savings</a></th>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"B7\"></td>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"B8\"></td>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"B15\"></td>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"B19\"></td>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"B20\"></td>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"B9\"></td>"
+												}]
+											},{
+												"tag":"tr",
+												"attributes":{
+													"class":"value-holder"
+												},
+												"children":[{
+													"html":"<th><a class=\"table-scroll smooth-scroll\" href=\"#section5\">Availibility / Productivity</a></th>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"B10\"></td>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"B11\"></td>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"B16\"></td>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"B21\"></td>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"B22\"></td>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"B12\"></td>"
+												}]
+											},{
+												"tag":"tr",
+												"attributes":{
+													"class":"value-holder"
+												},
+												"children":[{
+													"html":"<th>Cost</th>"
+												},{
+													"html":"<td class=\"txt-removed\" calc-id=\"D4\"></td>"
+												},{
+													"html":"<td class=\"txt-removed\" calc-id=\"D5\"></td>"
+												},{
+													"html":"<td class=\"txt-removed\" calc-id=\"D11\"></td>"
+												},{
+													"html":"<td class=\"txt-removed\" calc-id=\"D13\"></td>"
+												},{
+													"html":"<td class=\"txt-removed\" calc-id=\"D14\"></td>"
+												},{
+													"html":"<td class=\"txt-removed\" calc-id=\"D6\"></td>"
+												}]
+											},{
+												"tag":"tr",
+												"attributes":{
+													"class":"value-holder"
+												},
+												"children":[{
+													"html":"<th>Total</th>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"D7\"></td>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"D8\"></td>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"D12\"></td>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"D15\"></td>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"D16\"></td>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"D9\"></td>"
+												}]
+											}]
+										}]
+									}]
+								}]
+							}]
+						}]
+					}]
+				},{
+					"attributes":{
+						"class":"col-lg-3 col-md-3 col-sm-12 col-xs-12"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"ibox-title"
+							},
+							"children":[{
+								"html":"<h5 class=\"col-lg-12\">ROI Statistics</h5>"
+							}]
+						},{
+							"attributes":{
+								"class":"faq-item"
+							},
+							"children":[{
+								"attributes":{
+									"class":"row"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-lg-8 col-md-12"
+									},
+									"children":[{
+										"html":"<a class=\"faq-question collapsed\">Return on Investment</a>"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-12"
+									},
+									"children":[{
+										"html":"<div class=\"pull-right\"><span class=\"section-total txt-money\" calc-id=\"R1\">0</span></div>"
+									}]
+								}]
+							}]
+						},{
+							"attributes":{
+								"class":"faq-item"
+							},
+							"children":[{
+								"attributes":{
+									"class":"row"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-lg-8 col-md-12"
+									},
+									"children":[{
+										"html":"<a class=\"faq-question collapsed\">Payback Period</a>"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-12"
+									},
+									"children":[{
+										"html":"<div class=\"pull-right\"><span class=\"section-total txt-money\"><span calc-id=\"P1\">0</span> months</span></div>"
+									}]
+								}]
+							}]
+						}]					
+					},{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"faq-item"
+							},
+							"children":[{
+								"html":"Implementation Period: <span class=\"pull-right\"><span calc-id=\"I1\"></span> months</span>"
+							},{
+								"attributes":{
+									"class":"row",
+									"style":"padding-top: 15px;"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-lg-12"
+									},
+									"children":[{
+										"type":"slider",
+										"attributes":{
+											"calc-id":"I1"
+										},
+										"min": 0,
+										"max": 60
+									}]
+								}]
+							}]						
+						}]					
+					}]
+				}]
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom gray-bg dashboard-header"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"attributes":{
+					"class": "row"
+				},
+				"children":[{
+					"attributes":{
+						"class":"col-md-12 col-sm-12 col-xs-12"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"ibox-content",
+								"style":"padding-left: 30px;"
+							},
+							"children":[{
+								"attributes":{
+									"class":"row bar-chart-container"
+								},
+								"children":[{
+									"type":"chart",
+									"attributes":{
+										"class":"bar-chart",
+										"style":"width: 100%;"
+									},
+									"chart":{
+										"type":"column",
+										"margin":75,
+										"animation":false
+									},
+									"title":{
+										"text":"Your Potential Return on Investment"
+									},
+									"xAxis":{
+										"categories": ["Year 1","Year 2","Year 3","Year 4","Year 5"]
+									},
+									"yAxis": {
+										"min": 0,
+										"style": {
+											"color": "#333",
+											"fontWeight": "bold",
+											"fontSize": "12px",
+											"fontFamily": "Trebuchet MS, Verdana, sans-serif"
+										},				
+										"title": {
+											"text": "Money"
+										}
+									},
+									"tooltip": {
+										"headerFormat": "<span style=\"font-size:10px\">{point.key}</span><table>",
+										"pointFormat": "<tr><td style=\"color:{series.color};padding:0\">{series.name}: </td><td style=\"color:{series.color};padding:0;padding-left:10px;\"><b> {point.y:,.0f}</b></td></tr>",
+										"footerFormat": "</table>",
+										"shared": true,
+										"useHTML": true
+									},
+									"plotOptions": {
+										"column": {
+											"pointPadding": 0.2,
+											"borderWidth": 0
+										}
+									},
+									"series":[{
+										"name":"Medical Cost Savings",
+										"type":"column",
+										"data":[0,0],
+										"color":"#72ABE2",
+										"equations":["B2","B3","B13","B17","B18"]
+									},{
+										"name":"Assessment Time Savings",
+										"type":"column",
+										"data":[0,0],
+										"color":"#6EEB37",
+										"equations":["B7","B8","B15","B19","B20"]
+									},{
+										"name":"Availibility / Productivity",
+										"type":"column",
+										"data":[0,0],
+										"color":"#45A44E",
+										"equations":["B10","B11","B16","B21","B22"]
+									},{
+										"name":"Cost",
+										"type":"column",
+										"data":[0,0],
+										"color":"rgb(235, 54, 54)",
+										"equations":["D4","D5","D11","D13","D14"]
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]
+			}]
+		}]
+	}]
+}]

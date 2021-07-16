@@ -1,0 +1,534 @@
+
+  
+  @page {
+		margin-top: 75px;
+		margin-bottom: 1cm;
+		margin-left: 1cm;
+		margin-right: 1cm;
+		footer: html_letterfooter2;
+		//background-image: url("http://www.theroishop.com/webapps/assets/customwb/10013/img/pdf_back1.png");
+        
+	}
+
+@page page1 {
+		margin-top: 0.85cm;
+		margin-bottom: 1cm;
+		margin-left: 0.5cm;
+		margin-right: 0cm;
+		//footer: html_letterfooter2;
+		background-image: url("http://www.theroishop.com/enterprise/company_specific_files/491/img/document-cover.png");
+        background-image-resize: 6;
+	}
+
+@page page2 {
+		margin-top: 50px;
+		margin-bottom: 1cm;
+		margin-left: 1cm;
+		margin-right: 1cm;
+		footer: html_letterfooter2;
+		background-image: url("http://www.theroishop.com/enterprise/company_specific_files/491/img/page2back.png");
+        background-image-resize: 6;
+        
+	}
+@page page3 {
+		margin-top: 50px;
+		margin-bottom: 1cm;
+		margin-left: 1cm;
+		margin-right: 1cm;
+		footer: html_letterfooter2;
+		background-image: url("http://www.theroishop.com/enterprise/company_specific_files/491/img/page3back1.png");
+        //background-image-resize: 6;
+        
+	}
+
+@page page4 {
+		margin-top: 50px;
+		margin-bottom: 1cm;
+		margin-left: 1cm;
+		margin-right: 1cm;
+		footer: html_letterfooter2;
+		background-image: url("http://www.theroishop.com/enterprise/company_specific_files/491/img/page4back.png");
+        //background-image-resize: 6;
+        
+	}
+
+	.pdfcontent {
+    padding-left: 40px;
+    padding-right: 40px; 
+    }
+
+  .pdfcontent h2 {
+   color: #56565A;
+   font-size: 18px;
+   margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .pdfcontent h3 {
+    color: #56565A;
+    font-size: 16px;
+    margin-top: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .pdfcontent p {
+   font-size: 14px;
+    padding-bottom: 3px;
+    color: #56565A;
+    padding-left:0px;
+   
+  }
+
+	.page
+        {
+            height:297mm;
+            width:210mm;
+            //page-break-after:always;
+        }
+
+	.page1 {
+    		height:297mm;
+            width:210mm;
+            //page-break-before:always;
+          page: page1;
+    }
+ 
+ 	.page2
+        {
+            height:297mm;
+            width:210mm;
+            //page-break-before:always;
+          page: page2;
+        }
+
+	.page3
+        {
+            height:297mm;
+            width:210mm;
+            //page-break-after:always;
+          page: page3;
+        }
+ 
+ .page4
+        {
+            height:297mm;
+            width:210mm;
+            //page-break-after:always;
+          page: page4;
+        }
+
+	.maintitle {
+    font-size: 45px;
+    color: #FFFFFF;
+    letter-spacing: 4px;
+    font-weight: normal;
+    padding-bottom: 0px;
+     margin-bottom: 0px;
+    margin-left: 15px;
+      padding-left: 15px;
+    }
+
+	.mainsubtitle {
+     margin-top: 0px;
+      padding-top: 0px;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-left: 15px;
+      padding-left: 15px;
+    }
+
+	h3.fontbullets {
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: normal;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    margin: 20px;
+    }
+
+	p.salesrep {
+      text-align: right;
+      padding-bottom: 5px;
+      color: #FFFFFF;
+      font-size: 12px;
+    }
+
+	p.frontfooter {
+    font-size: 8px;
+    color: #FBB25C;
+    text-align: left;
+    }
+
+	h1.page2title {
+    font-size: 50px;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    font-weight: normal;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    }
+
+	p.page2subtitle {
+    margin-top: 25px;
+    margin-left: 0px;
+    padding-left: 0px;
+    text-align: left;
+    }
+
+
+	#quotetable {
+      //width: 800px;
+      background-color:#FFFFFF;
+      color: #000000;
+      margin-top: 30px;
+      padding-top: 10px;
+      padding-bottom: 5px;
+	}
+
+    #quotetable td {
+	padding: 5px;
+	padding-bottom: 0px;
+	}
+    
+    #quotetable td.greyback {
+	background-color:#DDDCDB;
+	}
+
+    p.quotedname {
+    font-size: 10px;
+     margin-bottom: 0px;
+    }
+    
+    p.savingstable {
+    text-align: center;
+      background-color: #FFFFFF;
+    }
+    
+    #graphtable td {
+	padding: 0px;
+	}
+
+    #savingstable td, th {
+	padding: 5px;
+	font-weight: normal;
+	}
+    
+    #savingstable th.bottom, #savingstable td.bottom {
+	border-bottom: 1px solid #F68D2C;
+	}
+    
+    #savingstable th.right, #savingstable td.right {
+	border-right: 1px solid #F68D2C;
+	}
+    
+    #savingstable th.center, td.center {
+		text-align: center
+	}
+    
+    #savingstable th.firstrow {
+		padding-left: 20px;
+	}
+    
+    h1.footermaintext {
+    	color: #FFFFFF;
+        font-size: 24px;
+      text-align: center;
+      padding-top: 15px;
+      margin-bottom: 5px;
+    	}
+    
+	h3.fottersubtext {
+    	color: #FFFFFF;
+        font-size: 14px;
+      text-align: center;
+      padding-top: 0px;
+      font-weight: normal;
+    	}
+
+	p.upperpadding {
+    	padding-top: 10px;
+    	}
+
+	p.leftjust {
+    	padding-left: 0px;
+    }
+
+	td.orangeborder {
+    	border-bottom: 1px solid #F68D2C;
+    }
+
+	h1.maintitles {
+    padding-bottom: 10px;
+    font-size: 20px;
+    text-align: left;
+    color: #F68D2C;
+    font-weight: normal;
+    }
+    
+	#grey1 {
+	margin-top: 15px;
+	}
+    
+    #grey2 {
+	margin-top: 10px;
+	margin-bottom: 0px
+    padding-bottom: 0px;
+	}
+
+    .bluetext {
+    color: #41B3EF;
+    }
+    
+	table.greytable td {
+    padding: 10px;
+    padding-right: 2px;
+    }
+
+	table.greytable p {
+    padding: 10px;
+    padding-right: 2px;
+    }
+
+	#rhythymtable td.greyback {
+	background-color: #E6E7E8;
+	}
+
+    #rhythymsubtable td {
+	padding: 10px;
+	}
+    
+    h1.resources {
+    text-align: center;
+    font-size: 24px;
+    }
+
+	p.resources {
+    text-align: center;
+    }
+    
+    #logos td {
+	padding: 15px;
+	}
+    
+    #finalfooter {
+	margin-top: 150px;
+	}
+    
+    #finalfooter td.logo {
+	font-size: 8px;
+	color: #949083;
+    padding: 5px;
+	}
+    
+    #finalfooter td.contact {
+	font-size: 14px;
+	color: #FFFFFF;
+    padding: 5px;
+	}
+    
+	.strong {
+    font-weight: bold;
+    }
+
+	.logo {
+      margin: 20px;
+    padding: 15px;
+    }
+
+	.h2toptitle {
+    font-size: 20px;
+      color: #72BF44;
+    }
+
+	.subh3 {
+      font-weight: normal;
+      font-style: italic;
+    }
+
+	.toptable {
+    width: 2200px;
+    //border: 1px solid #F57E20;
+    }
+
+	.toptable th{
+    background-color:#FFFFFF;
+    font-size: 11px;
+     color: #000000;
+     text-align:center;
+      padding: 0px;
+      padding-bottom: 5px;
+    }
+
+	.whitelink a {
+     color: #000000;
+    }
+
+	.toptable td {
+    background-color: #FDE5D2;
+    font-size: 12px;
+    color: #56565A;
+    border: 1px solid #F57E20;
+    //padding: 10px;
+      vertical-align: top;
+     text-align:center; 
+    }
+
+	#logotable {
+    width: 100%;
+	text-align: center;
+	}
+    
+    #logotable td {
+	padding: 20px;
+	}
+
+	#greytable {
+    width: 100%;
+    background-color: #DCDCDC;
+    color: #666666;
+    text-align: center;
+	vertical-align: top;
+	}
+    #greytable td{
+    padding-top: 10px;
+    background-color: #DCDCDC;
+    color: #666666;
+    border-right: 4px solid #FFFFFF;
+    border-left: 4px solid #FFFFFF;
+    text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+	}
+    
+     #greytable td.bottom{
+     padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 18px;
+	font-weight: lighter;
+	}
+    
+   
+    
+    
+    
+
+
+    ul {
+    list-style: disc outside none; 
+    margin-left: 0; 
+    padding-left: 10px;
+}
+li {
+    padding-left: 10px;
+}
+    
+
+    
+	
+
+    
+    .strong {
+	font-weight: bold;
+	}
+
+	#table6 {
+	padding-top: 50px;
+	}
+
+	#table6 td, h3 {
+	color: #56565A;
+    font-size: 16px;
+    margin-top: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+	}
+
+    #table6 td, p{
+    font-size: 15px;
+    font-weight: normal;
+    padding-bottom: 3px;
+    color: #56565A;
+}
+
+    #table7 td, p{
+    font-size: 15px;
+    font-weight: normal;
+    padding-bottom: 3px;
+    color: #56565A;
+    padding-left: 20px;
+}
+    
+	#table8 {
+	 border: 1px solid #000000;
+     
+}
+
+	#table8 th {
+	-webkit-transform: rotate(-90deg); 
+                -moz-transform: rotate(-90deg);
+}
+
+	#table8 td {
+	background-color: #FFFFFF;
+    border: 1px solid #000000;
+    text-align: left;
+	padding: 8px;
+	}
+	
+  .whitetext p{
+   color: #FFFFFF; 
+  }
+
+	.shadow{
+   background: rgba(225,225,10,0.55);
+      border-radius: 6px;
+   margin: 3px;
+      padding: 3px;
+    }
+
+  .totalbox {
+   background-color:  #FFFFFF;
+   //-webkit-box-shadow: 0 0 10px #efa63e; 
+    //-moz-box-shadow: 0 0 10px #efa63e; 
+   // box-shadow: -0 -0 10px 2px #efa63e;
+   color: #000000; 
+   border-radius: 3px;
+   text-align: center; 
+    
+  }
+
+	.totalbox .title{
+      font-size: 10px;
+      font-weight: bold;
+      margin: 5px;
+      text-align: center;
+      color: #efa63e;
+    }
+
+		.totalbox .total{
+      background-color: #FFFFFF;
+      font-size: 25px;
+      font-weight: bold;
+      margin: 5px;
+      text-align: center;
+    }
+
+
+    .footer {
+      color: #000000;
+      padding-bottom: 0px;
+      margin-bottom: 0px;
+      
+    }
+
+	.footer h4{
+     padding: 10px;
+      padding-top:15px;
+      font-size: 8px;
+    }

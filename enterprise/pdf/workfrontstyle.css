@@ -1,0 +1,26 @@
+body {
+background: linear-gradient(left, rgb(210,210,210), #f0f2ff);
+color: black;
+font-family: proxima;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+.linearicon {
+	font-family: linearicon;
+}
+.company-name {
+	font-family: fontawesome;
+}
+.point-highlight {
+	padding: 0 15px 15px 15px;
+	width: 375px;
+	background: #f5821f;
+	color: #000;
+	border-radius: 15px;
+}
+.right {
+	float: right;
+	text-align: right;
+}

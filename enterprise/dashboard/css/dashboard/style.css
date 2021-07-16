@@ -1,0 +1,20 @@
+.no-access {
+	cursor: not-allowed;
+	background-color: rgb(235,235,235);
+}
+
+.loader {
+    border: 2px solid #f3f3f3; /* Light grey */
+    border-top: 2px solid #000; /* Blue */
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    animation: spin 2s linear infinite;
+	float: left;
+	margin: 0 10px 0 0;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

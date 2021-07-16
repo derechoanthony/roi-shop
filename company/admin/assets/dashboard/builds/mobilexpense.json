@@ -1,0 +1,3871 @@
+[{
+	"tag":"nav",
+	"attributes":{
+		"role":"navigation",
+		"class":"navbar-default navbar-static-side"
+	},
+	"children":[{
+		"attributes":{
+			"style":"overflow: hidden; width: auto; height: 100%;",
+			"class":"sidebar-collapse sidebar-navigation"
+		},
+		"children":[{
+			"tag":"ul",
+			"attributes":{
+				"id":"side-menu",
+				"class":"nav"
+			},
+			"children": [{
+				"tag":"li",
+				"attributes":{
+					"class":"nav-header"
+				},
+				"children":[{
+					"attributes":{
+						"class":"dropdown profile-element"
+					},
+					"children":[{
+						"tag":"span",
+						"children":[{
+							"html":"<img id=\"company_logo\" alt=\"image\" src=\"https://www.theroishop.com/company_specific_files/661/logo/logo.png\">"
+						}]
+					}]
+				}]
+			},{
+				"tag":"li",
+				"attributes":{
+					"class":"smooth-scroll"
+				},
+				"children":[{
+					"html":"<a href=\"#\"><i class=\"fa fa-calculator\"></i> <span class=\"nav-label\">ROI Sections</span><span class=\"fa arrow\"></span></a>"
+				},{
+					"tag":"ul",
+					"attributes":{
+						"class":"nav nav-second-level collapse in"
+					},
+					"children":[{
+						"html":"<li><a href=\"#section1\" class=\"section-navigator\">Dashboard</a></li>"
+					},{
+						"html":"<li><a href=\"#section2\" class=\"section-navigator\">Business User Efficiency</a></li>"
+					},{
+						"html":"<li><a href=\"#section3\" class=\"section-navigator\">Process Efficiency Savings</a></li>"
+					},{
+						"html":"<li><a href=\"#section4\" class=\"section-navigator\">Foreign VAT Recovery</a></li>"
+					},{
+						"html":"<li><a href=\"#section5\" class=\"section-navigator\">Fraud / Error Reduction</a></li>"
+					},{
+						"html":"<li><a href=\"#section6\" class=\"section-navigator\">Going Digital / Paper Savings</a></li>"
+					},{
+						"html":"<li><a href=\"#section7\" class=\"section-navigator\">Summary (-costs)</a></li>"
+					}]
+				}]
+			},{
+				"tag":"li",
+				"children":[{
+					"html":"<a href=\"../../dashboard\"><i class=\"fa fa-globe\"></i> <span class=\"nav-label\">My ROIs</span></a>"
+				}]
+			}]
+		}]
+	}]
+},{
+	"attributes": {
+		"class": "white-bg",
+		"id":"page-wrapper"
+	},
+	"children":[{
+		"attributes":{
+			"class":"row border-bottom white-bg dashboard-header",
+			"id":"section1"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"html": "<h1 style=\"margin-bottom: 20px\">ROI Dashboard | 3 Year Projection <span class=\"pull-right pod-total section-total grand-total txt-money\" calc-id=\"SD7\">$0</span></h1>"
+			}]
+		}]
+    },{
+		"attributes":{
+			"class":"row border-bottom gray-bg dashboard-header"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"attributes":{
+					"class":"ibox-content"
+				},
+				"children":[{
+					"html":"<h3 style=\"font-size: 18px; font-weight: 700;\">Select a section below to review your ROI</h3><p style=\"font-size: 16px;\">To calculate your return on investment, begin with the first section below. The information entered therein will automatically populate corresponding fields in the other sections. You will be able to move from section to section to add and/or adjust values to best reflect your organization and process. To return to this screen, click the ROI Dashboard button to the left.</p></div>"
+				}]
+			}]
+		},{
+			"attributes":{
+				"class":"col-lg-3"
+			},
+			"children":[{
+				"attributes":{
+					"class":"widget white-bg"
+				},
+				"children":[{
+					"attributes":{
+						"class":"p-m row equalize-pod-height"
+					},
+					"children":[{
+						"attributes":{
+							"class":"row"
+						},
+						"children": [{
+							"html":"<h2 class=\"col-lg-10 font-bold no-margins pod-header\"><a href=\"#section2\" class=\"smooth-scroll section-navigator\">Business User Efficiency</a></h2>"
+						}]
+					},{
+						"html":"<h1 class=\"txt-right pod-total section-total txt-money\" calc-id=\"SD1\">$0</h1>"
+					},{
+						"attributes":{
+							"class":"row conservative-slider"
+						},
+						"children": [{
+							"attributes":{
+								"class":"value-holder"
+							},
+							"children": [{
+								"html":"Conservative Factor: <span class=\"pull-right\" calc-id=\"CON1\"></span>"
+							},{
+								"attributes":{
+									"class":"row slider-padding"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-lg-12"
+									},
+									"children":[{
+										"type":"slider",
+										"step":5,
+										"attributes":{
+											"calc-id":"CON1"
+										}
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]
+			}]
+		},{
+			"attributes":{
+				"class":"col-lg-3"
+			},
+			"children":[{
+				"attributes":{
+					"class":"widget white-bg"
+				},
+				"children":[{
+					"attributes":{
+						"class":"p-m row equalize-pod-height"
+					},
+					"children":[{
+						"attributes":{
+							"class":"row"
+						},
+						"children": [{
+							"html":"<h2 class=\"col-lg-10 font-bold no-margins pod-header\"><a href=\"#section3\" class=\"smooth-scroll section-navigator\">Process Efficiency Savings</a></h2>"
+						}]
+					},{
+						"html":"<h1 class=\"txt-right pod-total section-total txt-money\" calc-id=\"SD2\">$0</h1>"
+					},{
+						"attributes":{
+							"class":"row conservative-slider"
+						},
+						"children": [{
+							"attributes":{
+								"class":"value-holder"
+							},
+							"children": [{
+								"html":"Conservative Factor: <span class=\"pull-right\" calc-id=\"CON2\"></span>"
+							},{
+								"attributes":{
+									"class":"row slider-padding"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-lg-12"
+									},
+									"children":[{
+										"type":"slider",
+										"step":5,
+										"attributes":{
+											"calc-id":"CON2"
+										}
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]
+			}]
+		},{
+			"attributes":{
+				"class":"col-lg-3"
+			},
+			"children":[{
+				"attributes":{
+					"class":"widget white-bg"
+				},
+				"children":[{
+					"attributes":{
+						"class":"p-m row equalize-pod-height"
+					},
+					"children":[{
+						"attributes":{
+							"class":"row"
+						},
+						"children": [{
+							"html":"<h2 class=\"col-lg-10 font-bold no-margins pod-header\"><a href=\"#section4\" class=\"smooth-scroll section-navigator\">Foreign VAT Recovery</a></h2>"
+						}]
+					},{
+						"html":"<h1 class=\"txt-right pod-total section-total txt-money\" calc-id=\"SD3\">$0</h1>"
+					},{
+						"attributes":{
+							"class":"row conservative-slider"
+						},
+						"children": [{
+							"attributes":{
+								"class":"value-holder"
+							},
+							"children": [{
+								"html":"Conservative Factor: <span class=\"pull-right\" calc-id=\"CON3\"></span>"
+							},{
+								"attributes":{
+									"class":"row slider-padding"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-lg-12"
+									},
+									"children":[{
+										"type":"slider",
+										"step":5,
+										"attributes":{
+											"calc-id":"CON3"
+										}
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]
+			}]
+		},{
+			"attributes":{
+				"class":"col-lg-3"
+			},
+			"children":[{
+				"attributes":{
+					"class":"widget white-bg"
+				},
+				"children":[{
+					"attributes":{
+						"class":"p-m row equalize-pod-height"
+					},
+					"children":[{
+						"attributes":{
+							"class":"row"
+						},
+						"children": [{
+							"html":"<h2 class=\"col-lg-10 font-bold no-margins pod-header\"><a href=\"#section5\" class=\"smooth-scroll section-navigator\">Fraud / Error Reduction</a></h2>"
+						}]
+					},{
+						"html":"<h1 class=\"txt-right pod-total section-total txt-money\" calc-id=\"SD4\">$0</h1>"
+					},{
+						"attributes":{
+							"class":"row conservative-slider"
+						},
+						"children": [{
+							"attributes":{
+								"class":"value-holder"
+							},
+							"children": [{
+								"html":"Conservative Factor: <span class=\"pull-right\" calc-id=\"CON4\"></span>"
+							},{
+								"attributes":{
+									"class":"row slider-padding"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-lg-12"
+									},
+									"children":[{
+										"type":"slider",
+										"step":5,
+										"attributes":{
+											"calc-id":"CON4"
+										}
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]
+			}]
+		},{
+			"attributes":{
+				"class":"col-lg-3"
+			},
+			"children":[{
+				"attributes":{
+					"class":"widget white-bg"
+				},
+				"children":[{
+					"attributes":{
+						"class":"p-m row equalize-pod-height"
+					},
+					"children":[{
+						"attributes":{
+							"class":"row"
+						},
+						"children": [{
+							"html":"<h2 class=\"col-lg-10 font-bold no-margins pod-header\"><a href=\"#section6\" class=\"smooth-scroll section-navigator\">Going Digital / Paper Savings</a></h2>"
+						}]
+					},{
+						"html":"<h1 class=\"txt-right pod-total section-total txt-money\" calc-id=\"SD5\">$0</h1>"
+					},{
+						"attributes":{
+							"class":"row conservative-slider"
+						},
+						"children": [{
+							"attributes":{
+								"class":"value-holder"
+							},
+							"children": [{
+								"html":"Conservative Factor: <span class=\"pull-right\" calc-id=\"CON5\"></span>"
+							},{
+								"attributes":{
+									"class":"row slider-padding"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-lg-12"
+									},
+									"children":[{
+										"type":"slider",
+										"step":5,
+										"attributes":{
+											"calc-id":"CON5"
+										}
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]
+			}]
+		},{
+			"attributes":{
+				"class":"col-lg-3"
+			},
+			"children":[{
+				"attributes":{
+					"class":"widget white-bg"
+				},
+				"children":[{
+					"attributes":{
+						"class":"p-m row equalize-pod-height"
+					},
+					"children":[{
+						"attributes":{
+							"class":"row"
+						},
+						"children": [{
+							"html":"<h2 class=\"col-lg-10 font-bold no-margins pod-header\"><a href=\"#section7\" class=\"smooth-scroll section-navigator\">Summary</a></h2>"
+						}]
+					},{
+						"html":"<h1 class=\"txt-right pod-total section-total txt-money\" calc-id=\"SD7\">$0</h1>"
+					}]
+				}]
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom white-bg dashboard-header",
+			"id":"section2"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"html":"<h1 style=\"margin-bottom: 20px;\">Business User Efficiency<span class=\"pull-right pod-total section-total grand-total txt-money\" calc-id=\"SD1\">$0</span></h1>"
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom gray-bg dashboard-header"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"attributes":{
+					"class":"row"
+				},
+				"children":[{
+					"attributes":{
+						"class":"col-md-12 col-sm-12 col-xs-12"
+					},
+					"children": [{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"ibox-title"
+							},
+							"children":[{
+								"html":"<h5>Business User Efficiency</h5>"
+							}]
+						},{
+							"attributes":{
+								"class":"ibox-content"
+							},
+							"children":[{
+								"attributes":{
+									"class":"row"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-md-7 section-write-up"
+									},
+									"children":[{
+										"html":"<p class=\"caption-text\" style=\"font-size: 18px;\">Users quickly and easily capture and declare expenses on the go by taking a picture of their receipts with their smartphone or tablet. Our multilingual solution also works from browsers, always offering user guidance to ensure the most carefree experience for both travellers and approvers.</p><hr>"
+									},{
+										"type":"revolver",
+										"children":[{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>MobileXpense is a very user-friendly and intuitive solution which has helped reduce the time I spend entering expenses. In particular, the mobile app allows me to scan documents easily and auto-fills the relevant fields. I also appreciate the use of SpendController which automates back-office controls on policy and compliance.</p><p>- Francois Gilles, Project Coordinator - UCB Pharma</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>MobileXpense's project team was very flexible which made for a great collaboration. What we appreciate the most is that our colleagues can submit reports from anywhere, at any time, and will quickly receive an approval within the app.</p><p>- Alice Oana Doicila, SR Account - Roche</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>MobileXpense have provided great user and customer experience for us. We consider ourselves to be a demanding customer and our needs have always been met with great warmth and care from the team. This really appeals to us.</p><p>- Hansa Murugan, Operations Team Leader - SD Worx</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>MobileXpense has almost become an invisible system for us. We hardly need to pay attention to it and yet it works to everyone's satisfaction.</p><p>- Henrik Ahtela, Finance Systems</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>All in all, we have achieved 1M&euro; in savings on a 9M&euro; travel spend. The simplified administration represents 25% of this. The rest is down to spend management - it's key and represents about 75% of the savings we've achieved so far thanks to MobileXpense.</p><p>- Michel Weber, Manager Shared Service Centres</p>"
+											}]
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"col-md-5"
+									},
+									"children":[{
+										"type":"video",
+										"src":"//www.youtube.com/embed/HXima53JcrA"
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]		
+			}]
+		},{
+			"attributes":{
+				"class":"col-md-12 col-sm-12 col-xs-12"
+			},
+			"children":[{
+				"attributes":{
+					"class":"row"
+				},
+				"children":[{
+					"attributes":{
+						"class":"col-lg-9 col-md-9 col-sm-12 col-xs-12"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox-content"
+						},
+						"children":[{
+							"attributes":{
+								"class":"form-horizontal"
+							},
+							"children":[{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "attributes":{
+                                        "class":"subsection-header underlined"
+                                    },
+                                    "children":[{
+                                        "html":"<h2 class=\"subsection\"><strong>Current State - Time Spent on Creating Expense Reports</strong></h2>"
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "tag":"label",
+                                    "attributes":{
+                                        "class":"control-label col-lg-8 col-md-8 col-sm-8"
+                                    },
+                                    "children":[{
+                                        "html":"Number of expense reports submitted per month"
+                                    }]
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+                                    },
+                                    "children":[{
+                                        "tag":"input",
+                                        "attributes":{
+                                            "class":"form-control",
+                                            "calc-id":"A1"
+                                        }
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "tag":"label",
+                                    "attributes":{
+                                        "class":"control-label col-lg-8 col-md-8 col-sm-8"
+                                    },
+                                    "children":[{
+                                        "html":"Annual expense reports submitted"
+                                    }]
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+                                    },
+                                    "children":[{
+                                        "attributes":{
+                                            "class":"input-group"
+                                        },
+                                        "children":[{
+                                            "tag":"input",
+                                            "attributes":{
+                                                "class":"form-control",
+                                                "disabled":"disabled",
+                                                "calc-id":"A2"
+                                            }
+                                        },{
+                                            "attributes":{
+                                                "class":"input-group-addon right output"
+                                            },
+                                            "tag":"span",
+                                            "children":[{
+                                                "tag":"i",
+                                                "attributes":{
+                                                    "class":"fa fa-calculator tooltipstered",
+                                                    "calculation-modal":"A2",
+                                                    "title":"Click here to view the calculation breakdown"
+                                                }
+                                            }]
+                                        }]
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "tag":"label",
+                                    "attributes":{
+                                        "class":"control-label col-lg-8 col-md-8 col-sm-8"
+                                    },
+                                    "children":[{
+                                        "html":"Minutes to create an expense report (typically 20 - 45 minutes)"
+                                    }]
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+                                    },
+                                    "children":[{
+                                        "tag":"input",
+                                        "attributes":{
+                                            "class":"form-control",
+                                            "calc-id":"A3"
+                                        }
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "tag":"label",
+                                    "attributes":{
+                                        "class":"control-label col-lg-8 col-md-8 col-sm-8"
+                                    },
+                                    "children":[{
+                                        "html":"Annual hours creating expense reports"
+                                    }]
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+                                    },
+                                    "children":[{
+                                        "attributes":{
+                                            "class":"input-group"
+                                        },
+                                        "children":[{
+                                            "tag":"input",
+                                            "attributes":{
+                                                "class":"form-control",
+                                                "disabled":"disabled",
+                                                "calc-id":"A4"
+                                            }
+                                        },{
+                                            "attributes":{
+                                                "class":"input-group-addon right output"
+                                            },
+                                            "tag":"span",
+                                            "children":[{
+                                                "tag":"i",
+                                                "attributes":{
+                                                    "class":"fa fa-calculator tooltipstered",
+                                                    "calculation-modal":"A4",
+                                                    "title":"Click here to view the calculation breakdown"
+                                                }
+                                            }]
+                                        }]
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "tag":"label",
+                                    "attributes":{
+                                        "class":"control-label col-lg-8 col-md-8 col-sm-8"
+                                    },
+                                    "children":[{
+                                        "html":"% or expense reports returned for corrections"
+                                    }]
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+                                    },
+                                    "children":[{
+                                        "tag":"input",
+                                        "attributes":{
+                                            "class":"form-control",
+                                            "calc-id":"A5"
+                                        }
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "tag":"label",
+                                    "attributes":{
+                                        "class":"control-label col-lg-8 col-md-8 col-sm-8"
+                                    },
+                                    "children":[{
+                                        "html":"Number of expense reports that need to be corrected"
+                                    }]
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+                                    },
+                                    "children":[{
+                                        "attributes":{
+                                            "class":"input-group"
+                                        },
+                                        "children":[{
+                                            "tag":"input",
+                                            "attributes":{
+                                                "class":"form-control",
+                                                "disabled":"disabled",
+                                                "calc-id":"A6"
+                                            }
+                                        },{
+                                            "attributes":{
+                                                "class":"input-group-addon right output"
+                                            },
+                                            "tag":"span",
+                                            "children":[{
+                                                "tag":"i",
+                                                "attributes":{
+                                                    "class":"fa fa-calculator tooltipstered",
+                                                    "calculation-modal":"A6",
+                                                    "title":"Click here to view the calculation breakdown"
+                                                }
+                                            }]
+                                        }]
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "tag":"label",
+                                    "attributes":{
+                                        "class":"control-label col-lg-8 col-md-8 col-sm-8"
+                                    },
+                                    "children":[{
+                                        "html":"Estimated minutes to correct each expense report"
+                                    }]
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+                                    },
+                                    "children":[{
+                                        "tag":"input",
+                                        "attributes":{
+                                            "class":"form-control",
+                                            "calc-id":"A7"
+                                        }
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "tag":"label",
+                                    "attributes":{
+                                        "class":"control-label col-lg-8 col-md-8 col-sm-8"
+                                    },
+                                    "children":[{
+                                        "html":"Annual hours spent correcting expense reports"
+                                    }]
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+                                    },
+                                    "children":[{
+                                        "attributes":{
+                                            "class":"input-group"
+                                        },
+                                        "children":[{
+                                            "tag":"input",
+                                            "attributes":{
+                                                "class":"form-control",
+                                                "disabled":"disabled",
+                                                "calc-id":"A8"
+                                            }
+                                        },{
+                                            "attributes":{
+                                                "class":"input-group-addon right output"
+                                            },
+                                            "tag":"span",
+                                            "children":[{
+                                                "tag":"i",
+                                                "attributes":{
+                                                    "class":"fa fa-calculator tooltipstered",
+                                                    "calculation-modal":"A8",
+                                                    "title":"Click here to view the calculation breakdown"
+                                                }
+                                            }]
+                                        }]
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "tag":"label",
+                                    "attributes":{
+                                        "class":"control-label col-lg-8 col-md-8 col-sm-8"
+                                    },
+                                    "children":[{
+                                        "html":"Total hours spent creating and correcting expense reports in current state"
+                                    }]
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+                                    },
+                                    "children":[{
+                                        "attributes":{
+                                            "class":"input-group"
+                                        },
+                                        "children":[{
+                                            "tag":"input",
+                                            "attributes":{
+                                                "class":"form-control",
+                                                "disabled":"disabled",
+                                                "calc-id":"A9"
+                                            }
+                                        },{
+                                            "attributes":{
+                                                "class":"input-group-addon right output"
+                                            },
+                                            "tag":"span",
+                                            "children":[{
+                                                "tag":"i",
+                                                "attributes":{
+                                                    "class":"fa fa-calculator tooltipstered",
+                                                    "calculation-modal":"A9",
+                                                    "title":"Click here to view the calculation breakdown"
+                                                }
+                                            }]
+                                        }]
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "attributes":{
+                                        "class":"subsection-header underlined"
+                                    },
+                                    "children":[{
+                                        "html":"<h2 class=\"subsection\"><strong>Future State With MobileXpense</strong></h2>"
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "tag":"label",
+                                    "attributes":{
+                                        "class":"control-label col-lg-8 col-md-8 col-sm-8"
+                                    },
+                                    "children":[{
+                                        "html":"% Time savings creating and correcting expense reports with MobileXpense (typically 40 - 60%)"
+                                    }]
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+                                    },
+                                    "children":[{
+                                        "attributes":{
+                                            "class":"input-group"
+                                        },
+                                        "children":[{
+                                            "tag":"input",
+                                            "attributes":{
+                                                "class":"form-control",
+                                                "calc-id":"A10"
+                                            }
+                                        },{
+                                            "attributes":{
+                                                "class":"input-group-addon right"
+                                            },
+                                            "tag":"span",
+                                            "children":[{
+                                                "tag":"i",
+                                                "attributes":{
+                                                    "class":"fa fa-question-circle tooltipstered",
+                                                    "title":"Take into consideration that MobileXpense will greatly reduce the number of corrections needed by forcing the correct information to be included at creation"
+                                                }
+                                            }]
+                                        }]
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "tag":"label",
+                                    "attributes":{
+                                        "class":"control-label col-lg-8 col-md-8 col-sm-8"
+                                    },
+                                    "children":[{
+                                        "html":"Projected hours saved"
+                                    }]
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+                                    },
+                                    "children":[{
+                                        "attributes":{
+                                            "class":"input-group"
+                                        },
+                                        "children":[{
+                                            "tag":"input",
+                                            "attributes":{
+                                                "class":"form-control",
+                                                "disabled":"disabled",
+                                                "calc-id":"A11"
+                                            }
+                                        },{
+                                            "attributes":{
+                                                "class":"input-group-addon right output"
+                                            },
+                                            "tag":"span",
+                                            "children":[{
+                                                "tag":"i",
+                                                "attributes":{
+                                                    "class":"fa fa-calculator tooltipstered",
+                                                    "calculation-modal":"A11",
+                                                    "title":"Click here to view the calculation breakdown"
+                                                }
+                                            }]
+                                        }]
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "tag":"label",
+                                    "attributes":{
+                                        "class":"control-label col-lg-8 col-md-8 col-sm-8"
+                                    },
+                                    "children":[{
+                                        "html":"Average annual loaded salary cost of an employee submitting expense reports (typical 50k-70k&euro;)"
+                                    }]
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+                                    },
+                                    "children":[{
+                                        "tag":"input",
+                                        "attributes":{
+                                            "class":"form-control",
+                                            "calc-id":"A12"
+                                        }
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "tag":"label",
+                                    "attributes":{
+                                        "class":"control-label col-lg-8 col-md-8 col-sm-8"
+                                    },
+                                    "children":[{
+                                        "html":"Hourly rate (based on 1,750 hours)"
+                                    }]
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+                                    },
+                                    "children":[{
+                                        "attributes":{
+                                            "class":"input-group"
+                                        },
+                                        "children":[{
+                                            "tag":"input",
+                                            "attributes":{
+                                                "class":"form-control",
+                                                "disabled":"disabled",
+                                                "calc-id":"A13"
+                                            }
+                                        },{
+                                            "attributes":{
+                                                "class":"input-group-addon right output"
+                                            },
+                                            "tag":"span",
+                                            "children":[{
+                                                "tag":"i",
+                                                "attributes":{
+                                                    "style":"margin-right: 5px;",
+                                                    "class":"fa fa-question-circle tooltipstered",
+                                                    "title":"Take into consideration that MobileXpense will greatly reduce the number of corrections needed by forcing the correct information to be included at creation"
+                                                }
+                                            },{
+                                                "tag":"i",
+                                                "attributes":{
+                                                    "class":"fa fa-calculator tooltipstered",
+                                                    "calculation-modal":"A13",
+                                                    "title":"Click here to view the calculation breakdown"
+                                                }
+                                            }]
+                                        }]
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "tag":"label",
+                                    "attributes":{
+                                        "class":"control-label col-lg-8 col-md-8 col-sm-8"
+                                    },
+                                    "children":[{
+                                        "html":"Current cost of creating expense reports"
+                                    }]
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+                                    },
+                                    "children":[{
+                                        "attributes":{
+                                            "class":"input-group"
+                                        },
+                                        "children":[{
+                                            "tag":"input",
+                                            "attributes":{
+                                                "class":"form-control",
+                                                "disabled":"disabled",
+                                                "calc-id":"A14"
+                                            }
+                                        },{
+                                            "attributes":{
+                                                "class":"input-group-addon right output"
+                                            },
+                                            "tag":"span",
+                                            "children":[{
+                                                "tag":"i",
+                                                "attributes":{
+                                                    "class":"fa fa-calculator tooltipstered",
+                                                    "calculation-modal":"A14",
+                                                    "title":"Click here to view the calculation breakdown"
+                                                }
+                                            }]
+                                        }]
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "tag":"label",
+                                    "attributes":{
+                                        "class":"control-label col-lg-8 col-md-8 col-sm-8"
+                                    },
+                                    "children":[{
+                                        "html":"Business User Productivity Benefits"
+                                    }]
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+                                    },
+                                    "children":[{
+                                        "attributes":{
+                                            "class":"input-group"
+                                        },
+                                        "children":[{
+                                            "tag":"input",
+                                            "attributes":{
+                                                "class":"form-control",
+                                                "disabled":"disabled",
+                                                "calc-id":"A15"
+                                            }
+                                        },{
+                                            "attributes":{
+                                                "class":"input-group-addon right output"
+                                            },
+                                            "tag":"span",
+                                            "children":[{
+                                                "tag":"i",
+                                                "attributes":{
+                                                    "class":"fa fa-calculator tooltipstered",
+                                                    "calculation-modal":"A15",
+                                                    "title":"Click here to view the calculation breakdown"
+                                                }
+                                            }]
+                                        }]
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "tag":"label",
+                                    "attributes":{
+                                        "class":"control-label col-lg-8 col-md-8 col-sm-8"
+                                    },
+                                    "children":[{
+                                        "html":"What benefits would your users realize if you can save them <span calc-id=\"A11\"></span> hours, which equates to <span calc-id=\"AA11\"></span> weeks of time?"
+                                    }]
+                                },{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"tag":"textarea",
+										"attributes":{
+											"class":"form-control",
+											"style":"width: 100%; resize: vertical",
+											"rows":"4",
+											"calc-id":"A16"
+										}
+									}]
+								}]
+                            }]
+						}]
+					}]
+				},{
+					"attributes":{
+						"class":"col-lg-3 col-md-3 col-sm-12 col-xs-12"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"ibox-title"
+							},
+							"children":[{
+								"html":"<h5 class=\"col-lg-12\">Baseline Totals</h5>"
+							}]
+						},{
+							"attributes":{
+								"class":"faq-item"
+							},
+							"children":[{
+								"attributes":{
+									"class":"row"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-lg-8 col-md-12"
+									},
+									"children":[{
+										"html":"<a class=\"faq-question collapsed\">Business User Efficiency</a>"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-12"
+									},
+									"children":[{
+										"html":"<div class=\"pull-right\"><span class=\"section-total txt-money\" calc-id=\"SD1\">$0</span></div>"
+									}]
+								},{
+									"attributes":{
+										"class":"row"
+									},
+									"children":[{
+										"attributes":{
+											"class":"col-lg-12 annual-totals"
+										},
+										"children":[{
+											"attributes":{
+												"class":"panel-collapse faq-answer"
+											},
+											"children":[{
+                                                "html":"<ul><li>Year 1: <span class=\"pull-right section-total txt-money\" calc-id=\"SA1\">$0</span></li><li>Year 2: <span class=\"pull-right section-total txt-money\" calc-id=\"SB1\">$0</span></li><li>Year 3: <span class=\"pull-right section-total txt-money\" calc-id=\"SC1\">$0</span></li><hr class=\"calculation-divider\"><li>Section Total:<span class=\"pull-right section-total txt-money\" calc-id=\"SD1\">$0</span></li></ul>"
+											},{
+												"attributes":{
+													"class":"value-holder",
+													"style":"padding-top: 10px;"
+												},
+												"children":[{
+													"html":"Conservative Factor: <span class=\"pull-right\" calc-id=\"CON1\">0%</span>"
+												},{
+													"attributes":{
+														"class":"row",
+														"style":"padding-top: 10px;"
+													},
+													"children":[{
+														"attributes":{
+															"class":"col-lg-12"
+														},
+														"children":[{
+															"type":"slider",
+															"step":5,
+															"attributes":{
+																"calc-id":"CON1"
+															}
+														}]
+													}]
+												}]
+											}]
+										}]
+									}]
+								}]
+							}]
+						}]					
+					},{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"faq-item"
+							},
+							"children":[{
+								"html":"Implementation Period: <span class=\"pull-right\"><span calc-id=\"IMP1\"></span> months</span>"
+							},{
+								"attributes":{
+									"class":"row",
+									"style":"padding-top: 15px;"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-lg-12"
+									},
+									"children":[{
+										"type":"slider",
+										"attributes":{
+											"calc-id":"IMP1"
+										},
+										"min": 0,
+										"max": 36
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom white-bg dashboard-header",
+			"id":"section3"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"html":"<h1 style=\"margin-bottom: 20px;\">Business User Efficiency<span class=\"pull-right pod-total section-total grand-total txt-money\" calc-id=\"SD1\">$0</span></h1>"
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom gray-bg dashboard-header"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"attributes":{
+					"class":"row"
+				},
+				"children":[{
+					"attributes":{
+						"class":"col-md-12 col-sm-12 col-xs-12"
+					},
+					"children": [{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"ibox-title"
+							},
+							"children":[{
+								"html":"<h5>Process Efficiency Savings</h5>"
+							}]
+						},{
+							"attributes":{
+								"class":"ibox-content"
+							},
+							"children":[{
+								"attributes":{
+									"class":"row"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-md-12 section-write-up"
+									},
+									"children":[{
+										"html":"<p class=\"caption-text\" style=\"font-size: 18px;\">MobileXpense allows for optimised processing thanks to its automated business and compliance controls and its smooth integration with payroll and ERP systems.</p><hr>"
+									},{
+										"type":"revolver",
+										"children":[{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>MobileXpense is a very user-friendly and intuitive solution which has helped reduce the time I spend entering expenses. In particular, the mobile app allows me to scan documents easily and auto-fills the relevant fields. I also appreciate the use of SpendController which automates back-office controls on policy and compliance.</p><p>- Francois Gilles, Project Coordinator - UCB Pharma</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>MobileXpense's project team was very flexible which made for a great collaboration. What we appreciate the most is that our colleagues can submit reports from anywhere, at any time, and will quickly receive an approval within the app.</p><p>- Alice Oana Doicila, SR Account - Roche</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>MobileXpense have provided great user and customer experience for us. We consider ourselves to be a demanding customer and our needs have always been met with great warmth and care from the team. This really appeals to us.</p><p>- Hansa Murugan, Operations Team Leader - SD Worx</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>MobileXpense has almost become an invisible system for us. We hardly need to pay attention to it and yet it works to everyone's satisfaction.</p><p>- Henrik Ahtela, Finance Systems</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>All in all, we have achieved 1M&euro; in savings on a 9M&euro; travel spend. The simplified administration represents 25% of this. The rest is down to spend management - it's key and represents about 75% of the savings we've achieved so far thanks to MobileXpense.</p><p>- Michel Weber, Manager Shared Service Centres</p>"
+											}]
+										}]
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]		
+			}]
+		},{
+			"attributes":{
+				"class":"col-md-12 col-sm-12 col-xs-12"
+			},
+			"children":[{
+				"attributes":{
+					"class":"row"
+				},
+				"children":[{
+					"attributes":{
+						"class":"col-lg-9 col-md-9 col-sm-12 col-xs-12"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox-content"
+						},
+						"children":[{
+							"attributes":{
+								"class":"form-horizontal"
+							},
+							"children":[{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "attributes":{
+                                        "class":"subsection-header underlined"
+                                    },
+                                    "children":[{
+                                        "html":"<h2 class=\"subsection\"><strong>Current State - Expense Review and Control Process</strong></h2>"
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "tag":"label",
+                                    "attributes":{
+                                        "class":"control-label col-lg-8 col-md-8 col-sm-8"
+                                    },
+                                    "children":[{
+                                        "html":"Annual expense reports submitted"
+                                    }]
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+                                    },
+                                    "children":[{
+                                        "attributes":{
+                                            "class":"input-group"
+                                        },
+                                        "children":[{
+                                            "tag":"input",
+                                            "attributes":{
+                                                "class":"form-control",
+                                                "disabled":"disabled",
+                                                "calc-id":"A2"
+                                            }
+                                        },{
+                                            "attributes":{
+                                                "class":"input-group-addon right output"
+                                            },
+                                            "tag":"span",
+                                            "children":[{
+                                                "tag":"i",
+                                                "attributes":{
+                                                    "class":"fa fa-calculator tooltipstered",
+                                                    "calculation-modal":"A2",
+                                                    "title":"Click here to view the calculation breakdown"
+                                                }
+                                            }]
+                                        }]
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "tag":"label",
+                                    "attributes":{
+                                        "class":"control-label col-lg-8 col-md-8 col-sm-8"
+                                    },
+                                    "children":[{
+                                        "html":"% of ER currently manually checked - As Is"
+                                    }]
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+                                    },
+                                    "children":[{
+                                        "tag":"input",
+                                        "attributes":{
+                                            "class":"form-control",
+                                            "calc-id":"A17"
+                                        }
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "tag":"label",
+                                    "attributes":{
+                                        "class":"control-label col-lg-8 col-md-8 col-sm-8"
+                                    },
+                                    "children":[{
+                                        "html":"Expense reports checked"
+                                    }]
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+                                    },
+                                    "children":[{
+                                        "attributes":{
+                                            "class":"input-group"
+                                        },
+                                        "children":[{
+                                            "tag":"input",
+                                            "attributes":{
+                                                "class":"form-control",
+                                                "disabled":"disabled",
+                                                "calc-id":"A18"
+                                            }
+                                        },{
+                                            "attributes":{
+                                                "class":"input-group-addon right output"
+                                            },
+                                            "tag":"span",
+                                            "children":[{
+                                                "tag":"i",
+                                                "attributes":{
+                                                    "class":"fa fa-calculator tooltipstered",
+                                                    "calculation-modal":"A18",
+                                                    "title":"Click here to view the calculation breakdown"
+                                                }
+                                            }]
+                                        }]
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "tag":"label",
+                                    "attributes":{
+                                        "class":"control-label col-lg-8 col-md-8 col-sm-8"
+                                    },
+                                    "children":[{
+                                        "html":"Average minutes to check and process an ER (please included reworks and the time to enter data into accounting system)"
+                                    }]
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+                                    },
+                                    "children":[{
+                                        "tag":"input",
+                                        "attributes":{
+                                            "class":"form-control",
+                                            "calc-id":"A19"
+                                        }
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "tag":"label",
+                                    "attributes":{
+                                        "class":"control-label col-lg-8 col-md-8 col-sm-8"
+                                    },
+                                    "children":[{
+                                        "html":"Annual hours spent checking and processing ERs"
+                                    }]
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+                                    },
+                                    "children":[{
+                                        "attributes":{
+                                            "class":"input-group"
+                                        },
+                                        "children":[{
+                                            "tag":"input",
+                                            "attributes":{
+                                                "class":"form-control",
+                                                "disabled":"disabled",
+                                                "calc-id":"A20"
+                                            }
+                                        },{
+                                            "attributes":{
+                                                "class":"input-group-addon right output"
+                                            },
+                                            "tag":"span",
+                                            "children":[{
+                                                "tag":"i",
+                                                "attributes":{
+                                                    "class":"fa fa-calculator tooltipstered",
+                                                    "calculation-modal":"A20",
+                                                    "title":"Click here to view the calculation breakdown"
+                                                }
+                                            }]
+                                        }]
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "tag":"label",
+                                    "attributes":{
+                                        "class":"control-label col-lg-8 col-md-8 col-sm-8"
+                                    },
+                                    "children":[{
+                                        "html":"Average annual salary of an expense controller"
+                                    }]
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+                                    },
+                                    "children":[{
+                                        "tag":"input",
+                                        "attributes":{
+                                            "class":"form-control",
+                                            "calc-id":"A21"
+                                        }
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "tag":"label",
+                                    "attributes":{
+                                        "class":"control-label col-lg-8 col-md-8 col-sm-8"
+                                    },
+                                    "children":[{
+                                        "html":"Hourly rate (based on 1,750 hours)"
+                                    }]
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+                                    },
+                                    "children":[{
+                                        "attributes":{
+                                            "class":"input-group"
+                                        },
+                                        "children":[{
+                                            "tag":"input",
+                                            "attributes":{
+                                                "class":"form-control",
+                                                "disabled":"disabled",
+                                                "calc-id":"A22"
+                                            }
+                                        },{
+                                            "attributes":{
+                                                "class":"input-group-addon right output"
+                                            },
+                                            "tag":"span",
+                                            "children":[{
+                                                "tag":"i",
+                                                "attributes":{
+                                                    "class":"fa fa-calculator tooltipstered",
+                                                    "calculation-modal":"A22",
+                                                    "title":"Click here to view the calculation breakdown"
+                                                }
+                                            }]
+                                        }]
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "tag":"label",
+                                    "attributes":{
+                                        "class":"control-label col-lg-8 col-md-8 col-sm-8"
+                                    },
+                                    "children":[{
+                                        "html":"Current Cost To Review and Process ER Manually"
+                                    }]
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+                                    },
+                                    "children":[{
+                                        "attributes":{
+                                            "class":"input-group"
+                                        },
+                                        "children":[{
+                                            "tag":"input",
+                                            "attributes":{
+                                                "class":"form-control",
+                                                "disabled":"disabled",
+                                                "calc-id":"A23"
+                                            }
+                                        },{
+                                            "attributes":{
+                                                "class":"input-group-addon right output"
+                                            },
+                                            "tag":"span",
+                                            "children":[{
+                                                "tag":"i",
+                                                "attributes":{
+                                                    "class":"fa fa-calculator tooltipstered",
+                                                    "calculation-modal":"A23",
+                                                    "title":"Click here to view the calculation breakdown"
+                                                }
+                                            }]
+                                        }]
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "attributes":{
+                                        "class":"subsection-header underlined"
+                                    },
+                                    "children":[{
+                                        "html":"<h2 class=\"subsection\"><strong>Future State With MobileXpense</strong></h2>"
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "tag":"label",
+                                    "attributes":{
+                                        "class":"control-label col-lg-8 col-md-8 col-sm-8"
+                                    },
+                                    "children":[{
+                                        "html":"Annual expense reports submitted"
+                                    }]
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+                                    },
+                                    "children":[{
+                                        "attributes":{
+                                            "class":"input-group"
+                                        },
+                                        "children":[{
+                                            "tag":"input",
+                                            "attributes":{
+                                                "class":"form-control",
+                                                "disabled":"disabled",
+                                                "calc-id":"A2"
+                                            }
+                                        },{
+                                            "attributes":{
+                                                "class":"input-group-addon right output"
+                                            },
+                                            "tag":"span",
+                                            "children":[{
+                                                "tag":"i",
+                                                "attributes":{
+                                                    "class":"fa fa-calculator tooltipstered",
+                                                    "calculation-modal":"A2",
+                                                    "title":"Click here to view the calculation breakdown"
+                                                }
+                                            }]
+                                        }]
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "tag":"label",
+                                    "attributes":{
+                                        "class":"control-label col-lg-8 col-md-8 col-sm-8"
+                                    },
+                                    "children":[{
+                                        "html":"% of ER to be checked -With MobileXpense"
+                                    }]
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+                                    },
+                                    "children":[{
+                                        "tag":"input",
+                                        "attributes":{
+                                            "class":"form-control",
+                                            "calc-id":"A24"
+                                        }
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "tag":"label",
+                                    "attributes":{
+                                        "class":"control-label col-lg-8 col-md-8 col-sm-8"
+                                    },
+                                    "children":[{
+                                        "html":"Expense reports checked and processed with MobileXpense"
+                                    }]
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+                                    },
+                                    "children":[{
+                                        "attributes":{
+                                            "class":"input-group"
+                                        },
+                                        "children":[{
+                                            "tag":"input",
+                                            "attributes":{
+                                                "class":"form-control",
+                                                "disabled":"disabled",
+                                                "calc-id":"A25"
+                                            }
+                                        },{
+                                            "attributes":{
+                                                "class":"input-group-addon right output"
+                                            },
+                                            "tag":"span",
+                                            "children":[{
+                                                "tag":"i",
+                                                "attributes":{
+                                                    "class":"fa fa-calculator tooltipstered",
+                                                    "calculation-modal":"A25",
+                                                    "title":"Click here to view the calculation breakdown"
+                                                }
+                                            }]
+                                        }]
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "tag":"label",
+                                    "attributes":{
+                                        "class":"control-label col-lg-8 col-md-8 col-sm-8"
+                                    },
+                                    "children":[{
+                                        "html":"% of time saved to check a single report with MobileXpense (typically 50 - 90% reduction of time)"
+                                    }]
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+                                    },
+                                    "children":[{
+                                        "tag":"input",
+                                        "attributes":{
+                                            "class":"form-control",
+                                            "calc-id":"A26"
+                                        }
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "tag":"label",
+                                    "attributes":{
+                                        "class":"control-label col-lg-8 col-md-8 col-sm-8"
+                                    },
+                                    "children":[{
+                                        "html":"Minutes to check and process with MobileXpense"
+                                    }]
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+                                    },
+                                    "children":[{
+                                        "attributes":{
+                                            "class":"input-group"
+                                        },
+                                        "children":[{
+                                            "tag":"input",
+                                            "attributes":{
+                                                "class":"form-control",
+                                                "disabled":"disabled",
+                                                "calc-id":"A27"
+                                            }
+                                        },{
+                                            "attributes":{
+                                                "class":"input-group-addon right output"
+                                            },
+                                            "tag":"span",
+                                            "children":[{
+                                                "tag":"i",
+                                                "attributes":{
+                                                    "class":"fa fa-calculator tooltipstered",
+                                                    "calculation-modal":"A27",
+                                                    "title":"Click here to view the calculation breakdown"
+                                                }
+                                            }]
+                                        }]
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "tag":"label",
+                                    "attributes":{
+                                        "class":"control-label col-lg-8 col-md-8 col-sm-8"
+                                    },
+                                    "children":[{
+                                        "html":"Hours saved"
+                                    }]
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+                                    },
+                                    "children":[{
+                                        "attributes":{
+                                            "class":"input-group"
+                                        },
+                                        "children":[{
+                                            "tag":"input",
+                                            "attributes":{
+                                                "class":"form-control",
+                                                "disabled":"disabled",
+                                                "calc-id":"A28"
+                                            }
+                                        },{
+                                            "attributes":{
+                                                "class":"input-group-addon right output"
+                                            },
+                                            "tag":"span",
+                                            "children":[{
+                                                "tag":"i",
+                                                "attributes":{
+                                                    "class":"fa fa-calculator tooltipstered",
+                                                    "calculation-modal":"A28",
+                                                    "title":"Click here to view the calculation breakdown"
+                                                }
+                                            }]
+                                        }]
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "tag":"label",
+                                    "attributes":{
+                                        "class":"control-label col-lg-8 col-md-8 col-sm-8"
+                                    },
+                                    "children":[{
+                                        "html":"Expense Review and Control Savings With MobileXpense"
+                                    }]
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+                                    },
+                                    "children":[{
+                                        "attributes":{
+                                            "class":"input-group"
+                                        },
+                                        "children":[{
+                                            "tag":"input",
+                                            "attributes":{
+                                                "class":"form-control",
+                                                "disabled":"disabled",
+                                                "calc-id":"A29"
+                                            }
+                                        },{
+                                            "attributes":{
+                                                "class":"input-group-addon right output"
+                                            },
+                                            "tag":"span",
+                                            "children":[{
+                                                "tag":"i",
+                                                "attributes":{
+                                                    "class":"fa fa-calculator tooltipstered",
+                                                    "calculation-modal":"A29",
+                                                    "title":"Click here to view the calculation breakdown"
+                                                }
+                                            }]
+                                        }]
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "tag":"label",
+                                    "attributes":{
+                                        "class":"control-label col-lg-8 col-md-8 col-sm-8"
+                                    },
+                                    "children":[{
+                                        "html":"What benefits would your approvers realize if you can save them <span calc-id=\"A28\"></span> hours, which equates to <span calc-id=\"AA28\"></span> weeks of time?"
+                                    }]
+                                },{
+									"attributes":{
+										"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+									},
+									"children":[{
+										"tag":"textarea",
+										"attributes":{
+											"class":"form-control",
+											"style":"width: 100%; resize: vertical",
+											"rows":"4",
+											"calc-id":"A30"
+										}
+									}]
+								}]
+                            }]
+						}]
+					}]
+				},{
+					"attributes":{
+						"class":"col-lg-3 col-md-3 col-sm-12 col-xs-12"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"ibox-title"
+							},
+							"children":[{
+								"html":"<h5 class=\"col-lg-12\">Baseline Totals</h5>"
+							}]
+						},{
+							"attributes":{
+								"class":"faq-item"
+							},
+							"children":[{
+								"attributes":{
+									"class":"row"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-lg-8 col-md-12"
+									},
+									"children":[{
+										"html":"<a class=\"faq-question collapsed\">Process Efficiency Savings</a>"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-12"
+									},
+									"children":[{
+										"html":"<div class=\"pull-right\"><span class=\"section-total txt-money\" calc-id=\"SD2\">$0</span></div>"
+									}]
+								},{
+									"attributes":{
+										"class":"row"
+									},
+									"children":[{
+										"attributes":{
+											"class":"col-lg-12 annual-totals"
+										},
+										"children":[{
+											"attributes":{
+												"class":"panel-collapse faq-answer"
+											},
+											"children":[{
+                                                "html":"<ul><li>Year 1: <span class=\"pull-right section-total txt-money\" calc-id=\"SA2\">$0</span></li><li>Year 2: <span class=\"pull-right section-total txt-money\" calc-id=\"SB2\">$0</span></li><li>Year 3: <span class=\"pull-right section-total txt-money\" calc-id=\"SC2\">$0</span></li><hr class=\"calculation-divider\"><li>Section Total:<span class=\"pull-right section-total txt-money\" calc-id=\"SD2\">$0</span></li></ul>"
+											},{
+												"attributes":{
+													"class":"value-holder",
+													"style":"padding-top: 10px;"
+												},
+												"children":[{
+													"html":"Conservative Factor: <span class=\"pull-right\" calc-id=\"CON2\">0%</span>"
+												},{
+													"attributes":{
+														"class":"row",
+														"style":"padding-top: 10px;"
+													},
+													"children":[{
+														"attributes":{
+															"class":"col-lg-12"
+														},
+														"children":[{
+															"type":"slider",
+															"step":5,
+															"attributes":{
+																"calc-id":"CON2"
+															}
+														}]
+													}]
+												}]
+											}]
+										}]
+									}]
+								}]
+							}]
+						}]					
+					},{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"faq-item"
+							},
+							"children":[{
+								"html":"Implementation Period: <span class=\"pull-right\"><span calc-id=\"IMP1\"></span> months</span>"
+							},{
+								"attributes":{
+									"class":"row",
+									"style":"padding-top: 15px;"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-lg-12"
+									},
+									"children":[{
+										"type":"slider",
+										"attributes":{
+											"calc-id":"IMP1"
+										},
+										"min": 0,
+										"max": 36
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom white-bg dashboard-header",
+			"id":"section4"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"html":"<h1 style=\"margin-bottom: 20px;\">Foreign VAT Recovery<span class=\"pull-right pod-total section-total grand-total txt-money\" calc-id=\"SD3\">$0</span></h1>"
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom gray-bg dashboard-header"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"attributes":{
+					"class":"row"
+				},
+				"children":[{
+					"attributes":{
+						"class":"col-md-12 col-sm-12 col-xs-12"
+					},
+					"children": [{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"ibox-title"
+							},
+							"children":[{
+								"html":"<h5>Foreign VAT Recovery</h5>"
+							}]
+						},{
+							"attributes":{
+								"class":"ibox-content"
+							},
+							"children":[{
+								"attributes":{
+									"class":"row"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-md-12 section-write-up"
+									},
+									"children":[{
+										"html":"<p class=\"caption-text\" style=\"font-size: 18px;\">Integrated foreign VAT recovery allows you to effortlessly put money back into your bottom line and increase your profitability. Accuracy and compliance are guaranteed in a hands-off process where everything is taken care of for you by the recovery agent.</p><hr>"
+									},{
+										"type":"revolver",
+										"children":[{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>MobileXpense is a very user-friendly and intuitive solution which has helped reduce the time I spend entering expenses. In particular, the mobile app allows me to scan documents easily and auto-fills the relevant fields. I also appreciate the use of SpendController which automates back-office controls on policy and compliance.</p><p>- Francois Gilles, Project Coordinator - UCB Pharma</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>MobileXpense's project team was very flexible which made for a great collaboration. What we appreciate the most is that our colleagues can submit reports from anywhere, at any time, and will quickly receive an approval within the app.</p><p>- Alice Oana Doicila, SR Account - Roche</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>MobileXpense have provided great user and customer experience for us. We consider ourselves to be a demanding customer and our needs have always been met with great warmth and care from the team. This really appeals to us.</p><p>- Hansa Murugan, Operations Team Leader - SD Worx</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>MobileXpense has almost become an invisible system for us. We hardly need to pay attention to it and yet it works to everyone's satisfaction.</p><p>- Henrik Ahtela, Finance Systems</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>All in all, we have achieved 1M&euro; in savings on a 9M&euro; travel spend. The simplified administration represents 25% of this. The rest is down to spend management - it's key and represents about 75% of the savings we've achieved so far thanks to MobileXpense.</p><p>- Michel Weber, Manager Shared Service Centres</p>"
+											}]
+										}]
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]		
+			}]
+		},{
+			"attributes":{
+				"class":"col-md-12 col-sm-12 col-xs-12"
+			},
+			"children":[{
+				"attributes":{
+					"class":"row"
+				},
+				"children":[{
+					"attributes":{
+						"class":"col-lg-9 col-md-9 col-sm-12 col-xs-12"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox-content"
+						},
+						"children":[{
+							"attributes":{
+								"class":"form-horizontal"
+							},
+							"children":[{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "attributes":{
+                                        "class":"subsection-header underlined"
+                                    },
+                                    "children":[{
+                                        "html":"<h2 class=\"subsection\"><strong>Potential Foreign VAT Recovery (excluding local)</strong></h2>"
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "tag":"label",
+                                    "attributes":{
+                                        "class":"control-label col-lg-8 col-md-8 col-sm-8"
+                                    },
+                                    "children":[{
+                                        "html":"Eligible Travel and Expense spend for VAT recovery"
+                                    }]
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+                                    },
+                                    "children":[{
+                                        "attributes":{
+                                            "class":"input-group"
+                                        },
+                                        "children":[{
+                                            "tag":"input",
+                                            "attributes":{
+                                                "class":"form-control",
+                                                "calc-id":"A31"
+                                            }
+                                        },{
+                                            "attributes":{
+                                                "class":"input-group-addon right"
+                                            },
+                                            "tag":"span",
+                                            "children":[{
+                                                "tag":"i",
+                                                "attributes":{
+                                                    "class":"fa fa-question-circle tooltipstered",
+                                                    "title":"Take into consideration that MobileXpense will greatly reduce the number of corrections needed by forcing the correct information to be included at creation"
+                                                }
+                                            }]
+                                        }]
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "tag":"label",
+                                    "attributes":{
+                                        "class":"control-label col-lg-8 col-md-8 col-sm-8"
+                                    },
+                                    "children":[{
+                                        "html":"% of International travel w / VAT (year)"
+                                    }]
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+                                    },
+                                    "children":[{
+                                        "tag":"input",
+                                        "attributes":{
+                                            "class":"form-control",
+                                            "calc-id":"A32"
+                                        }
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "tag":"label",
+                                    "attributes":{
+                                        "class":"control-label col-lg-8 col-md-8 col-sm-8"
+                                    },
+                                    "children":[{
+                                        "html":"International travel spend with VAT"
+                                    }]
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+                                    },
+                                    "children":[{
+                                        "attributes":{
+                                            "class":"input-group"
+                                        },
+                                        "children":[{
+                                            "tag":"input",
+                                            "attributes":{
+                                                "class":"form-control",
+                                                "disabled":"disabled",
+                                                "calc-id":"A33"
+                                            }
+                                        },{
+                                            "attributes":{
+                                                "class":"input-group-addon right output"
+                                            },
+                                            "tag":"span",
+                                            "children":[{
+                                                "tag":"i",
+                                                "attributes":{
+                                                    "class":"fa fa-calculator tooltipstered",
+                                                    "calculation-modal":"A33",
+                                                    "title":"Click here to view the calculation breakdown"
+                                                }
+                                            }]
+                                        }]
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "tag":"label",
+                                    "attributes":{
+                                        "class":"control-label col-lg-8 col-md-8 col-sm-8"
+                                    },
+                                    "children":[{
+                                        "html":"Average VAT rate (typically 10-15%)"
+                                    }]
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+                                    },
+                                    "children":[{
+                                        "tag":"input",
+                                        "attributes":{
+                                            "class":"form-control",
+                                            "calc-id":"A34"
+                                        }
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "tag":"label",
+                                    "attributes":{
+                                        "class":"control-label col-lg-8 col-md-8 col-sm-8"
+                                    },
+                                    "children":[{
+                                        "html":"Potential VAT Recovery (year)"
+                                    }]
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+                                    },
+                                    "children":[{
+                                        "attributes":{
+                                            "class":"input-group"
+                                        },
+                                        "children":[{
+                                            "tag":"input",
+                                            "attributes":{
+                                                "class":"form-control",
+                                                "disabled":"disabled",
+                                                "calc-id":"A35"
+                                            }
+                                        },{
+                                            "attributes":{
+                                                "class":"input-group-addon right output"
+                                            },
+                                            "tag":"span",
+                                            "children":[{
+                                                "tag":"i",
+                                                "attributes":{
+                                                    "class":"fa fa-calculator tooltipstered",
+                                                    "calculation-modal":"A35",
+                                                    "title":"Click here to view the calculation breakdown"
+                                                }
+                                            }]
+                                        }]
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "tag":"label",
+                                    "attributes":{
+                                        "class":"control-label col-lg-8 col-md-8 col-sm-8"
+                                    },
+                                    "children":[{
+                                        "html":"Recoverable VAT rate (typically 40-60%)"
+                                    }]
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+                                    },
+                                    "children":[{
+                                        "tag":"input",
+                                        "attributes":{
+                                            "class":"form-control",
+                                            "calc-id":"A36"
+                                        }
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "tag":"label",
+                                    "attributes":{
+                                        "class":"control-label col-lg-8 col-md-8 col-sm-8"
+                                    },
+                                    "children":[{
+                                        "html":"Realistic VAT Recovery (/year)"
+                                    }]
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+                                    },
+                                    "children":[{
+                                        "attributes":{
+                                            "class":"input-group"
+                                        },
+                                        "children":[{
+                                            "tag":"input",
+                                            "attributes":{
+                                                "class":"form-control",
+                                                "disabled":"disabled",
+                                                "calc-id":"A37"
+                                            }
+                                        },{
+                                            "attributes":{
+                                                "class":"input-group-addon right output"
+                                            },
+                                            "tag":"span",
+                                            "children":[{
+                                                "tag":"i",
+                                                "attributes":{
+                                                    "class":"fa fa-calculator tooltipstered",
+                                                    "calculation-modal":"A37",
+                                                    "title":"Click here to view the calculation breakdown"
+                                                }
+                                            }]
+                                        }]
+                                    }]
+                                }]
+                            }]
+						}]
+					}]
+				},{
+					"attributes":{
+						"class":"col-lg-3 col-md-3 col-sm-12 col-xs-12"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"ibox-title"
+							},
+							"children":[{
+								"html":"<h5 class=\"col-lg-12\">Baseline Totals</h5>"
+							}]
+						},{
+							"attributes":{
+								"class":"faq-item"
+							},
+							"children":[{
+								"attributes":{
+									"class":"row"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-lg-8 col-md-12"
+									},
+									"children":[{
+										"html":"<a class=\"faq-question collapsed\">Foreign VAT Recovery</a>"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-12"
+									},
+									"children":[{
+										"html":"<div class=\"pull-right\"><span class=\"section-total txt-money\" calc-id=\"SD3\">$0</span></div>"
+									}]
+								},{
+									"attributes":{
+										"class":"row"
+									},
+									"children":[{
+										"attributes":{
+											"class":"col-lg-12 annual-totals"
+										},
+										"children":[{
+											"attributes":{
+												"class":"panel-collapse faq-answer"
+											},
+											"children":[{
+                                                "html":"<ul><li>Year 1: <span class=\"pull-right section-total txt-money\" calc-id=\"SA3\">$0</span></li><li>Year 2: <span class=\"pull-right section-total txt-money\" calc-id=\"SB3\">$0</span></li><li>Year 3: <span class=\"pull-right section-total txt-money\" calc-id=\"SC3\">$0</span></li><hr class=\"calculation-divider\"><li>Section Total:<span class=\"pull-right section-total txt-money\" calc-id=\"SD3\">$0</span></li></ul>"
+											},{
+												"attributes":{
+													"class":"value-holder",
+													"style":"padding-top: 10px;"
+												},
+												"children":[{
+													"html":"Conservative Factor: <span class=\"pull-right\" calc-id=\"CON3\">0%</span>"
+												},{
+													"attributes":{
+														"class":"row",
+														"style":"padding-top: 10px;"
+													},
+													"children":[{
+														"attributes":{
+															"class":"col-lg-12"
+														},
+														"children":[{
+															"type":"slider",
+															"step":5,
+															"attributes":{
+																"calc-id":"CON3"
+															}
+														}]
+													}]
+												}]
+											}]
+										}]
+									}]
+								}]
+							}]
+						}]					
+					},{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"faq-item"
+							},
+							"children":[{
+								"html":"Implementation Period: <span class=\"pull-right\"><span calc-id=\"IMP1\"></span> months</span>"
+							},{
+								"attributes":{
+									"class":"row",
+									"style":"padding-top: 15px;"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-lg-12"
+									},
+									"children":[{
+										"type":"slider",
+										"attributes":{
+											"calc-id":"IMP1"
+										},
+										"min": 0,
+										"max": 36
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom white-bg dashboard-header",
+			"id":"section5"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"html":"<h1 style=\"margin-bottom: 20px;\">Fraud / Error Reduction<span class=\"pull-right pod-total section-total grand-total txt-money\" calc-id=\"SD4\">$0</span></h1>"
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom gray-bg dashboard-header"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"attributes":{
+					"class":"row"
+				},
+				"children":[{
+					"attributes":{
+						"class":"col-md-12 col-sm-12 col-xs-12"
+					},
+					"children": [{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"ibox-title"
+							},
+							"children":[{
+								"html":"<h5>Fraud / Error Reduction</h5>"
+							}]
+						},{
+							"attributes":{
+								"class":"ibox-content"
+							},
+							"children":[{
+								"attributes":{
+									"class":"row"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-md-12 section-write-up"
+									},
+									"children":[{
+										"html":"<p class=\"caption-text\" style=\"font-size: 18px;\">Automated controls identify and eliminate error and attempted fraud before they even take place, reducing unnecessary cash out.</p><hr>"
+									},{
+										"type":"revolver",
+										"children":[{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>MobileXpense is a very user-friendly and intuitive solution which has helped reduce the time I spend entering expenses. In particular, the mobile app allows me to scan documents easily and auto-fills the relevant fields. I also appreciate the use of SpendController which automates back-office controls on policy and compliance.</p><p>- Francois Gilles, Project Coordinator - UCB Pharma</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>MobileXpense's project team was very flexible which made for a great collaboration. What we appreciate the most is that our colleagues can submit reports from anywhere, at any time, and will quickly receive an approval within the app.</p><p>- Alice Oana Doicila, SR Account - Roche</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>MobileXpense have provided great user and customer experience for us. We consider ourselves to be a demanding customer and our needs have always been met with great warmth and care from the team. This really appeals to us.</p><p>- Hansa Murugan, Operations Team Leader - SD Worx</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>MobileXpense has almost become an invisible system for us. We hardly need to pay attention to it and yet it works to everyone's satisfaction.</p><p>- Henrik Ahtela, Finance Systems</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>All in all, we have achieved 1M&euro; in savings on a 9M&euro; travel spend. The simplified administration represents 25% of this. The rest is down to spend management - it's key and represents about 75% of the savings we've achieved so far thanks to MobileXpense.</p><p>- Michel Weber, Manager Shared Service Centres</p>"
+											}]
+										}]
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]		
+			}]
+		},{
+			"attributes":{
+				"class":"col-md-12 col-sm-12 col-xs-12"
+			},
+			"children":[{
+				"attributes":{
+					"class":"row"
+				},
+				"children":[{
+					"attributes":{
+						"class":"col-lg-9 col-md-9 col-sm-12 col-xs-12"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox-content"
+						},
+						"children":[{
+							"attributes":{
+								"class":"form-horizontal"
+							},
+							"children":[{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "attributes":{
+                                        "class":"subsection-header underlined"
+                                    },
+                                    "children":[{
+                                        "html":"<h2 class=\"subsection\"><strong>Policy Enforcement and Error Reduction</strong></h2>"
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "tag":"label",
+                                    "attributes":{
+                                        "class":"control-label col-lg-8 col-md-8 col-sm-8"
+                                    },
+                                    "children":[{
+                                        "html":"Annual travel and expense spend"
+                                    }]
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+                                    },
+                                    "children":[{
+                                        "tag":"input",
+                                        "attributes":{
+                                            "class":"form-control",
+                                            "calc-id":"A38"
+                                        }
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "tag":"label",
+                                    "attributes":{
+                                        "class":"control-label col-lg-8 col-md-8 col-sm-8"
+                                    },
+                                    "children":[{
+                                        "html":"Out of policy and fraud recurrence (typically 2 - 6%)"
+                                    }]
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+                                    },
+                                    "children":[{
+                                        "tag":"input",
+                                        "attributes":{
+                                            "class":"form-control",
+                                            "calc-id":"A39"
+                                        }
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "tag":"label",
+                                    "attributes":{
+                                        "class":"control-label col-lg-8 col-md-8 col-sm-8"
+                                    },
+                                    "children":[{
+                                        "html":"Estimated out of policy and fraud spend"
+                                    }]
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+                                    },
+                                    "children":[{
+                                        "attributes":{
+                                            "class":"input-group"
+                                        },
+                                        "children":[{
+                                            "tag":"input",
+                                            "attributes":{
+                                                "class":"form-control",
+                                                "disabled":"disabled",
+                                                "calc-id":"A40"
+                                            }
+                                        },{
+                                            "attributes":{
+                                                "class":"input-group-addon right output"
+                                            },
+                                            "tag":"span",
+                                            "children":[{
+                                                "tag":"i",
+                                                "attributes":{
+                                                    "class":"fa fa-calculator tooltipstered",
+                                                    "calculation-modal":"A40",
+                                                    "title":"Click here to view the calculation breakdown"
+                                                }
+                                            }]
+                                        }]
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "tag":"label",
+                                    "attributes":{
+                                        "class":"control-label col-lg-8 col-md-8 col-sm-8"
+                                    },
+                                    "children":[{
+                                        "html":"Decrease in out of policy and error spend with MXP ( typically 40 - 60%)"
+                                    }]
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+                                    },
+                                    "children":[{
+                                        "tag":"input",
+                                        "attributes":{
+                                            "class":"form-control",
+                                            "calc-id":"A41"
+                                        }
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "tag":"label",
+                                    "attributes":{
+                                        "class":"control-label col-lg-8 col-md-8 col-sm-8"
+                                    },
+                                    "children":[{
+                                        "html":"Policy Enforcement and Fraud Reduction Savings"
+                                    }]
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+                                    },
+                                    "children":[{
+                                        "attributes":{
+                                            "class":"input-group"
+                                        },
+                                        "children":[{
+                                            "tag":"input",
+                                            "attributes":{
+                                                "class":"form-control",
+                                                "disabled":"disabled",
+                                                "calc-id":"A42"
+                                            }
+                                        },{
+                                            "attributes":{
+                                                "class":"input-group-addon right output"
+                                            },
+                                            "tag":"span",
+                                            "children":[{
+                                                "tag":"i",
+                                                "attributes":{
+                                                    "class":"fa fa-calculator tooltipstered",
+                                                    "calculation-modal":"A42",
+                                                    "title":"Click here to view the calculation breakdown"
+                                                }
+                                            }]
+                                        }]
+                                    }]
+                                }]
+                            }]
+						}]
+					}]
+				},{
+					"attributes":{
+						"class":"col-lg-3 col-md-3 col-sm-12 col-xs-12"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"ibox-title"
+							},
+							"children":[{
+								"html":"<h5 class=\"col-lg-12\">Baseline Totals</h5>"
+							}]
+						},{
+							"attributes":{
+								"class":"faq-item"
+							},
+							"children":[{
+								"attributes":{
+									"class":"row"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-lg-8 col-md-12"
+									},
+									"children":[{
+										"html":"<a class=\"faq-question collapsed\">Fraud / Error Reduction</a>"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-12"
+									},
+									"children":[{
+										"html":"<div class=\"pull-right\"><span class=\"section-total txt-money\" calc-id=\"SD4\">$0</span></div>"
+									}]
+								},{
+									"attributes":{
+										"class":"row"
+									},
+									"children":[{
+										"attributes":{
+											"class":"col-lg-12 annual-totals"
+										},
+										"children":[{
+											"attributes":{
+												"class":"panel-collapse faq-answer"
+											},
+											"children":[{
+                                                "html":"<ul><li>Year 1: <span class=\"pull-right section-total txt-money\" calc-id=\"SA4\">$0</span></li><li>Year 2: <span class=\"pull-right section-total txt-money\" calc-id=\"SB4\">$0</span></li><li>Year 3: <span class=\"pull-right section-total txt-money\" calc-id=\"SC4\">$0</span></li><hr class=\"calculation-divider\"><li>Section Total:<span class=\"pull-right section-total txt-money\" calc-id=\"SD4\">$0</span></li></ul>"
+											},{
+												"attributes":{
+													"class":"value-holder",
+													"style":"padding-top: 10px;"
+												},
+												"children":[{
+													"html":"Conservative Factor: <span class=\"pull-right\" calc-id=\"CON4\">0%</span>"
+												},{
+													"attributes":{
+														"class":"row",
+														"style":"padding-top: 10px;"
+													},
+													"children":[{
+														"attributes":{
+															"class":"col-lg-12"
+														},
+														"children":[{
+															"type":"slider",
+															"step":5,
+															"attributes":{
+																"calc-id":"CON4"
+															}
+														}]
+													}]
+												}]
+											}]
+										}]
+									}]
+								}]
+							}]
+						}]					
+					},{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"faq-item"
+							},
+							"children":[{
+								"html":"Implementation Period: <span class=\"pull-right\"><span calc-id=\"IMP1\"></span> months</span>"
+							},{
+								"attributes":{
+									"class":"row",
+									"style":"padding-top: 15px;"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-lg-12"
+									},
+									"children":[{
+										"type":"slider",
+										"attributes":{
+											"calc-id":"IMP1"
+										},
+										"min": 0,
+										"max": 36
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom white-bg dashboard-header",
+			"id":"section6"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"html":"<h1 style=\"margin-bottom: 20px;\">Going Digital / Paper Savings<span class=\"pull-right pod-total section-total grand-total txt-money\" calc-id=\"SD5\">$0</span></h1>"
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom gray-bg dashboard-header"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"attributes":{
+					"class":"row"
+				},
+				"children":[{
+					"attributes":{
+						"class":"col-md-12 col-sm-12 col-xs-12"
+					},
+					"children": [{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"ibox-title"
+							},
+							"children":[{
+								"html":"<h5>Going Digital / Paper Savings</h5>"
+							}]
+						},{
+							"attributes":{
+								"class":"ibox-content"
+							},
+							"children":[{
+								"attributes":{
+									"class":"row"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-md-12 section-write-up"
+									},
+									"children":[{
+										"html":"<p class=\"caption-text\" style=\"font-size: 18px;\">With digital data and receipt collection, gone are the days of paper receipts getting lost or crumpled beyond recognition. Receipts can be saved and stored securely and examined time and again, also as part of a paperless tax process where allowed.</p><hr>"
+									},{
+										"type":"revolver",
+										"children":[{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>MobileXpense is a very user-friendly and intuitive solution which has helped reduce the time I spend entering expenses. In particular, the mobile app allows me to scan documents easily and auto-fills the relevant fields. I also appreciate the use of SpendController which automates back-office controls on policy and compliance.</p><p>- Francois Gilles, Project Coordinator - UCB Pharma</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>MobileXpense's project team was very flexible which made for a great collaboration. What we appreciate the most is that our colleagues can submit reports from anywhere, at any time, and will quickly receive an approval within the app.</p><p>- Alice Oana Doicila, SR Account - Roche</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>MobileXpense have provided great user and customer experience for us. We consider ourselves to be a demanding customer and our needs have always been met with great warmth and care from the team. This really appeals to us.</p><p>- Hansa Murugan, Operations Team Leader - SD Worx</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>MobileXpense has almost become an invisible system for us. We hardly need to pay attention to it and yet it works to everyone's satisfaction.</p><p>- Henrik Ahtela, Finance Systems</p>"
+											}]
+										},{
+											"tag":"blockquote",
+											"children":[{
+												"html":"<p>All in all, we have achieved 1M&euro; in savings on a 9M&euro; travel spend. The simplified administration represents 25% of this. The rest is down to spend management - it's key and represents about 75% of the savings we've achieved so far thanks to MobileXpense.</p><p>- Michel Weber, Manager Shared Service Centres</p>"
+											}]
+										}]
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]		
+			}]
+		},{
+			"attributes":{
+				"class":"col-md-12 col-sm-12 col-xs-12"
+			},
+			"children":[{
+				"attributes":{
+					"class":"row"
+				},
+				"children":[{
+					"attributes":{
+						"class":"col-lg-9 col-md-9 col-sm-12 col-xs-12"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox-content"
+						},
+						"children":[{
+							"attributes":{
+								"class":"form-horizontal"
+							},
+							"children":[{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "attributes":{
+                                        "class":"subsection-header underlined"
+                                    },
+                                    "children":[{
+                                        "html":"<h2 class=\"subsection\"><strong>Digital Transformation - Going Paperless With MOBILEXPENSE Digital Signature Service</strong></h2>"
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "tag":"label",
+                                    "attributes":{
+                                        "class":"control-label col-lg-8 col-md-8 col-sm-8"
+                                    },
+                                    "children":[{
+                                        "html":"Annual Expense reports filed"
+                                    }]
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+                                    },
+                                    "children":[{
+                                        "attributes":{
+                                            "class":"input-group"
+                                        },
+                                        "children":[{
+                                            "tag":"input",
+                                            "attributes":{
+                                                "class":"form-control",
+                                                "disabled":"disabled",
+                                                "calc-id":"A2"
+                                            }
+                                        },{
+                                            "attributes":{
+                                                "class":"input-group-addon right output"
+                                            },
+                                            "tag":"span",
+                                            "children":[{
+                                                "tag":"i",
+                                                "attributes":{
+                                                    "class":"fa fa-calculator tooltipstered",
+                                                    "calculation-modal":"A2",
+                                                    "title":"Click here to view the calculation breakdown"
+                                                }
+                                            }]
+                                        }]
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "tag":"label",
+                                    "attributes":{
+                                        "class":"control-label col-lg-8 col-md-8 col-sm-8"
+                                    },
+                                    "children":[{
+                                        "html":"Digital archiving savings (see tool tip)"
+                                    }]
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+                                    },
+                                    "children":[{
+                                        "attributes":{
+                                            "class":"input-group"
+                                        },
+                                        "children":[{
+                                            "tag":"input",
+                                            "attributes":{
+                                                "class":"form-control",
+                                                "calc-id":"A44"
+                                            }
+                                        },{
+                                            "attributes":{
+                                                "class":"input-group-addon right"
+                                            },
+                                            "tag":"span",
+                                            "children":[{
+                                                "tag":"i",
+                                                "attributes":{
+                                                    "class":"fa fa-question-circle tooltipstered",
+                                                    "title":"**Independent analyst research show savings of digital (vs phyiscal archiving) of 1,4&euro;"
+                                                }
+                                            }]
+                                        }]
+                                    }]
+                                }]
+                            },{
+                                "attributes":{
+                                    "class":"form-group"
+                                },
+                                "children":[{
+                                    "tag":"label",
+                                    "attributes":{
+                                        "class":"control-label col-lg-8 col-md-8 col-sm-8"
+                                    },
+                                    "children":[{
+                                        "html":"Going Paperless Savings"
+                                    }]
+                                },{
+                                    "attributes":{
+                                        "class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+                                    },
+                                    "children":[{
+                                        "attributes":{
+                                            "class":"input-group"
+                                        },
+                                        "children":[{
+                                            "tag":"input",
+                                            "attributes":{
+                                                "class":"form-control",
+                                                "disabled":"disabled",
+                                                "calc-id":"A45"
+                                            }
+                                        },{
+                                            "attributes":{
+                                                "class":"input-group-addon right output"
+                                            },
+                                            "tag":"span",
+                                            "children":[{
+                                                "tag":"i",
+                                                "attributes":{
+                                                    "class":"fa fa-calculator tooltipstered",
+                                                    "calculation-modal":"A45",
+                                                    "title":"Click here to view the calculation breakdown"
+                                                }
+                                            }]
+                                        }]
+                                    }]
+                                }]
+                            }]
+						}]
+					}]
+				},{
+					"attributes":{
+						"class":"col-lg-3 col-md-3 col-sm-12 col-xs-12"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"ibox-title"
+							},
+							"children":[{
+								"html":"<h5 class=\"col-lg-12\">Baseline Totals</h5>"
+							}]
+						},{
+							"attributes":{
+								"class":"faq-item"
+							},
+							"children":[{
+								"attributes":{
+									"class":"row"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-lg-8 col-md-12"
+									},
+									"children":[{
+										"html":"<a class=\"faq-question collapsed\">Going Digital / Paper Savings</a>"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-12"
+									},
+									"children":[{
+										"html":"<div class=\"pull-right\"><span class=\"section-total txt-money\" calc-id=\"SD5\">$0</span></div>"
+									}]
+								},{
+									"attributes":{
+										"class":"row"
+									},
+									"children":[{
+										"attributes":{
+											"class":"col-lg-12 annual-totals"
+										},
+										"children":[{
+											"attributes":{
+												"class":"panel-collapse faq-answer"
+											},
+											"children":[{
+                                                "html":"<ul><li>Year 1: <span class=\"pull-right section-total txt-money\" calc-id=\"SA5\">$0</span></li><li>Year 2: <span class=\"pull-right section-total txt-money\" calc-id=\"SB5\">$0</span></li><li>Year 3: <span class=\"pull-right section-total txt-money\" calc-id=\"SC5\">$0</span></li><hr class=\"calculation-divider\"><li>Section Total:<span class=\"pull-right section-total txt-money\" calc-id=\"SD5\">$0</span></li></ul>"
+											},{
+												"attributes":{
+													"class":"value-holder",
+													"style":"padding-top: 10px;"
+												},
+												"children":[{
+													"html":"Conservative Factor: <span class=\"pull-right\" calc-id=\"CON5\">0%</span>"
+												},{
+													"attributes":{
+														"class":"row",
+														"style":"padding-top: 10px;"
+													},
+													"children":[{
+														"attributes":{
+															"class":"col-lg-12"
+														},
+														"children":[{
+															"type":"slider",
+															"step":5,
+															"attributes":{
+																"calc-id":"CON5"
+															}
+														}]
+													}]
+												}]
+											}]
+										}]
+									}]
+								}]
+							}]
+						}]					
+					},{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"faq-item"
+							},
+							"children":[{
+								"html":"Implementation Period: <span class=\"pull-right\"><span calc-id=\"IMP1\"></span> months</span>"
+							},{
+								"attributes":{
+									"class":"row",
+									"style":"padding-top: 15px;"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-lg-12"
+									},
+									"children":[{
+										"type":"slider",
+										"attributes":{
+											"calc-id":"IMP1"
+										},
+										"min": 0,
+										"max": 36
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom white-bg dashboard-header",
+			"id":"section7"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"html":"<h1 style=\"margin-bottom: 20px;\">Summary<span class=\"pull-right pod-total section-total grand-total txt-money\" calc-id=\"SD7\">$0</span></h1>"
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom gray-bg dashboard-header"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"attributes":{
+					"class":"row"
+				},
+				"children":[{
+					"attributes":{
+						"class":"col-md-12 col-sm-12 col-xs-12"
+					},
+					"children": [{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"ibox-title"
+							},
+							"children":[{
+								"html":"<h5>Summary</h5>"
+							}]
+						},{
+							"attributes":{
+								"class":"ibox-content"
+							},
+							"children":[{
+								"attributes":{
+									"class":"row"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-md-12 section-write-up"
+									},
+									"children":[{
+										"html":"<p class=\"caption-text\" style=\"font-size: 18px;\">The table below represents a summary of the ROI you can expect by category and by year. Note the implementation slider located on the right. You can adjust the ROI output to reflect ramp time as you implement. Also, not the expected Net Present Value, your calculated % return and projected payback period above.<br/><br/>Net Present Value is calculated using a 2% inflation rate. Return on Investment is calculated by dividing the total net profit by the total cost. Payback Period calculates the time in months it takes your savings to equal that of your cost, including the implementation period.<br/><br/>Implementation Period is calculated by taking Total savings over the 3 year period (ignoring implementation period) / 36 months to get the monthly savings. Divide total costs by the monthly savings then add the implementation period.</p><hr>"
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]		
+			}]
+		},{
+			"attributes":{
+				"class":"col-md-12 col-sm-12 col-xs-12"
+			},
+			"children":[{
+				"attributes":{
+					"class":"row"
+				},
+				"children":[{
+					"attributes":{
+						"class":"col-lg-9 col-md-9 col-sm-12 col-xs-12"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox-content"
+						},
+						"children":[{
+							"attributes":{
+								"class":"form-horizontal"
+							},
+							"children":[{
+								"attributes":{
+									"class":"subsection-header underlined"
+								},
+								"children":[{
+									"html":"<h2>Costs</h2>"
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Implementation Cost</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"tag":"input",
+										"attributes":{
+											"class":"form-control",
+											"calc-id":"C1"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Subscription - Year 1</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"tag":"input",
+										"attributes":{
+											"class":"form-control",
+											"calc-id":"C2"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Subscription - Year 2</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"tag":"input",
+										"attributes":{
+											"class":"form-control",
+											"calc-id":"C3"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"form-group"
+								},
+								"children":[{
+									"html":"<label class=\"control-label  col-lg-7 col-md-7 col-sm-7\">Subscription - Year 3</label>"
+								},{
+									"attributes":{
+										"class":"col-lg-5 col-md-5 col-sm-5 input-holder"
+									},
+									"children":[{
+										"tag":"input",
+										"attributes":{
+											"class":"form-control",
+											"calc-id":"C4"
+										}
+									}]
+								}]
+							},{
+								"attributes":{
+									"class":"ibox-content"
+								},
+								"children":[{
+									"attributes":{
+										"class":"table-responsive",
+										"style":"border: 2px solid #ddd;"
+									},
+									"children":[{
+										"tag":"table",
+										"attributes":{
+											"class":"table table-hover",
+											"style":"margin-bottom: 0;"
+										},
+										"children":[{
+											"tag":"thead",
+											"children":[{
+												"tag":"tr",
+												"children":[{
+													"html":"<th></th>"
+												},{
+													"html":"<th>Year 1</th>"
+												},{
+													"html":"<th>Year 2</th>"
+												},{
+													"html":"<th>Year 3</th>"
+												},{
+													"html":"<th>Total</th>"
+												}]
+											}]
+										},{
+											"tag":"tbody",
+											"children":[{
+												"tag":"tr",
+												"attributes":{
+													"class":"value-holder"
+												},
+												"children":[{
+													"html":"<th><a class=\"table-scroll smooth-scroll\" href=\"#section2\">Business User Efficiency</a></th>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"SA1\"></td>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"SB1\"></td>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"SC1\"></td>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"SD1\"></td>"
+												}]
+											},{
+												"tag":"tr",
+												"attributes":{
+													"class":"value-holder"
+												},
+												"children":[{
+													"html":"<th><a class=\"table-scroll smooth-scroll\" href=\"#section3\">Process Efficiency Savings</a></th>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"SA2\"></td>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"SB2\"></td>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"SC2\"></td>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"SD2\"></td>"
+												}]
+											},{
+												"tag":"tr",
+												"attributes":{
+													"class":"value-holder"
+												},
+												"children":[{
+													"html":"<th><a class=\"table-scroll smooth-scroll\" href=\"#section4\">Foreign VAT Recovery</a></th>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"SA3\"></td>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"SB3\"></td>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"SC3\"></td>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"SD3\"></td>"
+												}]
+											},{
+												"tag":"tr",
+												"attributes":{
+													"class":"value-holder"
+												},
+												"children":[{
+													"html":"<th><a class=\"table-scroll smooth-scroll\" href=\"#section5\">Fraud / Error Reduction</a></th>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"SA4\"></td>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"SB4\"></td>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"SC4\"></td>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"SD4\"></td>"
+												}]
+											},{
+												"tag":"tr",
+												"attributes":{
+													"class":"value-holder"
+												},
+												"children":[{
+													"html":"<th><a class=\"table-scroll smooth-scroll\" href=\"#section6\">Going Digital / Paper Savings</a></th>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"SA5\"></td>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"SB5\"></td>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"SC5\"></td>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"SD5\"></td>"
+												}]
+											},{
+												"tag":"tr",
+												"attributes":{
+													"class":"value-holder"
+												},
+												"children":[{
+													"html":"<th>Total Net Savings</th>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"SA8\"></td>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"SB8\"></td>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"SC8\"></td>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"SD8\"></td>"
+												}]
+											},{
+												"tag":"tr",
+												"attributes":{
+													"class":"value-holder"
+												},
+												"children":[{
+													"html":"<th>Cost</th>"
+												},{
+													"html":"<td class=\"txt-removed\" calc-id=\"SA6\"></td>"
+												},{
+													"html":"<td class=\"txt-removed\" calc-id=\"SB6\"></td>"
+												},{
+													"html":"<td class=\"txt-removed\" calc-id=\"SC6\"></td>"
+												},{
+													"html":"<td class=\"txt-removed\" calc-id=\"SD6\"></td>"
+												}]
+											},{
+												"tag":"tr",
+												"attributes":{
+													"class":"value-holder"
+												},
+												"children":[{
+													"html":"<th>Total</th>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"SA7\"></td>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"SB7\"></td>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"SC7\"></td>"
+												},{
+													"html":"<td class=\"txt-money\" calc-id=\"SD7\"></td>"
+												}]
+											}]
+										}]
+									}]
+								}]
+							}]
+						}]
+					}]
+				},{
+					"attributes":{
+						"class":"col-lg-3 col-md-3 col-sm-12 col-xs-12"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"ibox-title"
+							},
+							"children":[{
+								"html":"<h5 class=\"col-lg-12\">ROI Statistics</h5>"
+							}]
+						},{
+							"attributes":{
+								"class":"faq-item"
+							},
+							"children":[{
+								"attributes":{
+									"class":"row"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-lg-8 col-md-12"
+									},
+									"children":[{
+										"html":"<a class=\"faq-question collapsed\">Return on Investment</a>"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-12"
+									},
+									"children":[{
+										"html":"<div class=\"pull-right\"><span class=\"section-total txt-money\" calc-id=\"R1\">0</span></div>"
+									}]
+								}]
+							}]
+						},{
+							"attributes":{
+								"class":"faq-item"
+							},
+							"children":[{
+								"attributes":{
+									"class":"row"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-lg-8 col-md-12"
+									},
+									"children":[{
+										"html":"<a class=\"faq-question collapsed\">Net Present Value</a>"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-12"
+									},
+									"children":[{
+										"html":"<div class=\"pull-right\"><span class=\"section-total txt-money\" calc-id=\"N1\">0</span></div>"
+									}]
+								}]
+							}]
+						},{
+							"attributes":{
+								"class":"faq-item"
+							},
+							"children":[{
+								"attributes":{
+									"class":"row"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-lg-8 col-md-12"
+									},
+									"children":[{
+										"html":"<a class=\"faq-question collapsed\">Payback Period</a>"
+									}]
+								},{
+									"attributes":{
+										"class":"col-lg-4 col-md-12"
+									},
+									"children":[{
+										"html":"<div class=\"pull-right\"><span class=\"section-total txt-money\"><span calc-id=\"P1\">0</span> months</span></div>"
+									}]
+								}]
+							}]
+						}]					
+					},{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"faq-item"
+							},
+							"children":[{
+								"html":"Implementation Period: <span class=\"pull-right\"><span calc-id=\"IMP1\"></span> months</span>"
+							},{
+								"attributes":{
+									"class":"row",
+									"style":"padding-top: 15px;"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-lg-12"
+									},
+									"children":[{
+										"type":"slider",
+										"attributes":{
+											"calc-id":"IMP1"
+										},
+										"min": 0,
+										"max": 36
+									}]
+								}]
+							}]						
+						}]					
+					}]
+				}]
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom gray-bg dashboard-header"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"attributes":{
+					"class": "row"
+				},
+				"children":[{
+					"attributes":{
+						"class":"col-md-12 col-sm-12 col-xs-12"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"ibox-content",
+								"style":"padding-left: 30px;"
+							},
+							"children":[{
+								"attributes":{
+									"class":"row bar-chart-container"
+								},
+								"children":[{
+									"type":"chart",
+									"attributes":{
+										"class":"bar-chart",
+										"style":"width: 100%;"
+									},
+									"chart":{
+										"type":"column",
+										"margin":75,
+										"animation":false
+									},
+									"title":{
+										"text":"Your Potential Return on Investment"
+									},
+									"xAxis":{
+										"categories": ["Year 1","Year 2","Year 3"]
+									},
+									"yAxis": {
+										"min": 0,
+										"style": {
+											"color": "#333",
+											"fontWeight": "bold",
+											"fontSize": "12px",
+											"fontFamily": "Trebuchet MS, Verdana, sans-serif"
+										},				
+										"title": {
+											"text": "Money"
+										}
+									},
+									"tooltip": {
+										"headerFormat": "<span style=\"font-size:10px\">{point.key}</span><table>",
+										"pointFormat": "<tr><td style=\"color:{series.color};padding:0\">{series.name}: </td><td style=\"color:{series.color};padding:0;padding-left:10px;\"><b> {point.y:,.0f}</b></td></tr>",
+										"footerFormat": "</table>",
+										"shared": true,
+										"useHTML": true
+									},
+									"plotOptions": {
+										"column": {
+											"pointPadding": 0.2,
+											"borderWidth": 0
+										}
+									},
+									"series":[{
+										"name":"Business User Efficiency",
+										"type":"column",
+										"data":[0,0],
+										"color":"#72ABE2",
+										"equations":["SA1","SB1","SC1"]
+									},{
+										"name":"Process Efficiency Savings",
+										"type":"column",
+										"data":[0,0],
+										"color":"#2E8B57",
+										"equations":["SA2","SB2","SC2"]
+									},{
+										"name":"Foreign VAT Recovery",
+										"type":"column",
+										"data":[0,0],
+										"color":"#7DDA6A",
+										"equations":["SA3","SB3","SC3"]
+									},{
+										"name":"Fraud / Error Reduction",
+										"type":"column",
+										"data":[0,0],
+										"color":"#EC9851",
+										"equations":["SA4","SB4","SC4"]
+									},{
+										"name":"Going Digital / Paper Savings",
+										"type":"column",
+										"data":[0,0],
+										"color":"#D345A8",
+										"equations":["SA5","SB5","SC5"]
+									},{
+										"name":"Cost",
+										"type":"column",
+										"data":[0,0],
+										"color":"rgb(235, 54, 54)",
+										"equations":["C1","C2","C3"]
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]
+			}]
+		}]
+	}]
+}]

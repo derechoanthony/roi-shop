@@ -1,0 +1,5898 @@
+[{
+	"tag":"nav",
+	"attributes":{
+		"role":"navigation",
+		"class":"navbar-default navbar-static-side"
+	},
+	"children":[{
+		"attributes":{
+			"style":"overflow: hidden; width: auto; height: 100%;",
+			"class":"sidebar-collapse sidebar-navigation"
+		},
+		"children":[{
+			"tag":"ul",
+			"attributes":{
+				"id":"side-menu",
+				"class":"nav"
+			},
+			"children": [{
+				"tag":"li",
+				"attributes":{
+					"class":"nav-header"
+				},
+				"children":[{
+					"attributes":{
+						"class":"dropdown profile-element"
+					},
+					"children":[{
+						"tag":"span",
+						"children":[{
+							"html":"<img id=\"company_logo\" alt=\"image\" src=\"https://www.theroishop.com/company_specific_files/666/logo/logo.png\">"
+						}]
+					}]
+				}]
+			},{
+				"tag":"li",
+				"attributes":{
+					"class":"smooth-scroll"
+				},
+				"children":[{
+					"html":"<a href=\"#\"><i class=\"fa fa-calculator\"></i> <span class=\"nav-label\">ROI Sections</span><span class=\"fa arrow\"></span></a>"
+				},{
+					"tag":"ul",
+					"attributes":{
+						"class":"nav nav-second-level collapse in"
+					},
+					"children":[{
+						"html":"<li><a href=\"#section1\" class=\"section-navigator\">Dashboard</a></li>"
+					},{
+						"html":"<li><a href=\"#section2\" class=\"section-navigator\">Data Protection Efficiency</a></li>"
+					},{
+						"html":"<li><a href=\"#section3\" class=\"section-navigator\">Operational Efficiency</a></li>"
+					},{
+						"html":"<li><a href=\"#section4\" class=\"section-navigator\">Risk & Compliance</a></li>"
+					},{
+						"html":"<li><a href=\"#section5\" class=\"section-navigator\">Benefits Summary</a></li>"
+					}]
+				}]
+			},{
+				"tag":"li",
+				"attributes":{
+					"class":"smooth-scroll"
+				},
+				"children":[{
+					"html":"<a href=\"#\"><i class=\"fa fa-calculator\"></i> <span class=\"nav-label\">Reports</span><span class=\"fa arrow\"></span></a>"
+				},{
+					"tag":"ul",
+					"attributes":{
+						"class":"nav nav-second-level collapse in"
+					},
+					"children":[{
+						"html":"<li class=\"smooth-scroll\"><a class=\"renderPdf\" reportId=\"3\">Create PDF</a></li>"
+					}]
+				}]
+			},{
+				"tag":"li",
+				"children":[{
+					"html":"<a href=\"../../dashboard\"><i class=\"fa fa-globe\"></i> <span class=\"nav-label\">My ROIs</span></a>"
+				}]
+			}]
+		}]
+	}]
+},{
+	"attributes": {
+		"class": "white-bg",
+		"id":"page-wrapper"
+	},
+	"children":[{
+		"attributes":{
+			"class":"row border-bottom white-bg dashboard-header",
+			"id":"section1"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"html": "<h1 style=\"margin-bottom: 20px\">Dashboard</h1>"
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom gray-bg dashboard-header"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12",
+				"style":"padding-bottom: 25px;"
+			},
+			"children":[{
+				"attributes":{
+					"class":"ibox-content"
+				},
+				"children":[{
+					"html":"<h3 style=\"display: none; font-size: 18px; font-weight: 700;\">Questions before you start the ROI</h3>"
+				},{
+					"attributes":{
+						"class":"form-group",
+						"style":"display: none;"
+					},
+					"children":[{
+						"tag":"label",
+						"attributes":{
+							"class":"control-label col-lg-8 col-md-8 col-sm-8"
+						},
+						"children":[{
+							"html":"Include File Shares?"
+						}]
+					},{
+						"attributes":{
+							"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+						},
+						"children":[{
+							"tag":"select",
+							"type":"select",
+							"attributes":{
+								"class":"form-control",
+								"calc-id":"A1"
+							},
+							"choices":[{
+								"text":"Select an Option",
+								"value":0
+							},{
+								"text":"Yes",
+								"value":1
+							},{
+								"text":"No",
+								"value":2
+							}]
+						}]
+					}]
+				},{
+					"attributes":{
+						"class":"form-group",
+						"style":"display: none;"
+					},
+					"children":[{
+						"tag":"label",
+						"attributes":{
+							"class":"control-label col-lg-8 col-md-8 col-sm-8"
+						},
+						"children":[{
+							"html":"Notes"
+						}]
+					},{
+						"attributes":{
+							"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+						},
+						"children":[{
+							"tag":"textarea",
+							"attributes":{
+								"class":"form-control",
+								"style":"width: 100%; resize: vertical",
+								"rows":"4",
+								"calc-id":"A2"
+							}
+						}]
+					}]
+				},{
+					"html":"<h3 style=\"font-size: 18px; font-weight: 700;\">Select a Value Bucket below to begin your calculation</h3><p style=\"font-size: 16px;\">To calculate the benefit of an investment in Cohesity, begin with the first section below. The information entered therein will automatically populate corresponding fields in the other sections. You will be able to move from section to section to add and/or adjust values to best reflect your organization and process. To return to this screen, click the ROI Dashboard button to the left.</p><hr><p>* Please email <a href=\"mailto:cic-feedback@cohesity.com\">cic-feedback@cohesity.com</a> will any questions or concerns about this ROI."
+				}]
+			}]
+		},{
+			"attributes":{
+				"class":"col-lg-4"
+			},
+			"children":[{
+				"attributes":{
+                    "class":"ibox float-e-margins smooth-scroll section-navigator",
+                    "href":"#section2"
+				},
+				"children":[{
+					"attributes":{
+						"class":"ibox-content equalize-1"
+					},
+					"children":[{
+						"attributes":{
+							"class":"row equalize-2"
+						},
+						"children": [{
+							"attributes":{
+								"class":"col-lg-10"
+							},
+							"children":[{
+								"html":"<h5><a class=\"smooth-scroll section-navigator\" href=\"#section2\">Data Protection Efficiency</a></h5>"
+							}]
+						},{
+							"attributes": {
+								"class":"col-lg-2"
+							},
+							"children":[{
+								"html":"<span class=\"label label-success pull-right\"><span calc-id=\"A6\"></span> Year</span>"
+							}]
+						}]
+					},{
+						"html":"<h1 class=\"txt-right pod-total section-total\" style=\"font-weight: 700; color: #216C2A;\" calc-id=\"D68\" data-format=\"$0,0\">$0</h1><hr>"
+					},{
+						"type":"toggle",
+						"tag":"button",
+						"attributes":{
+							"calc-id":"INC1",
+							"class":"btn btn-block",
+							"type":"button"
+						},
+						"states":[{
+							"value":0,
+							"class":"btn-danger",
+							"text":"<i class=\"fa fa-times\"></i> Excluded"
+						},{
+							"value":1,
+							"class":"btn-primary",
+							"text":"<i class=\"fa fa-check\"></i> Included"
+						}]
+					}]
+				}]
+			}]
+		},{
+			"attributes":{
+				"class":"col-lg-4"
+			},
+			"children":[{
+				"attributes":{
+					"class":"ibox float-e-margins"
+				},
+				"children":[{
+					"attributes":{
+						"class":"ibox-content equalize-1"
+					},
+					"children":[{
+						"attributes":{
+							"class":"row equalize-2"
+						},
+						"children": [{
+							"attributes":{
+								"class":"col-lg-10"
+							},
+							"children":[{
+								"html":"<h5><a class=\"smooth-scroll section-navigator\" href=\"#section3\">Operational Efficiency</a></h5>"
+							}]
+						},{
+							"attributes": {
+								"class":"col-lg-2"
+							},
+							"children":[{
+								"html":"<span class=\"label label-success pull-right\"><span calc-id=\"A6\"></span> Year</span>"
+							}]
+						}]
+					},{
+						"html":"<h1 class=\"txt-right pod-total section-total\" style=\"font-weight: 700; color: #216C2A;\" calc-id=\"D69\" data-format=\"$0,0\">$0</h1><hr>"
+					},{
+						"type":"toggle",
+						"tag":"button",
+						"attributes":{
+							"calc-id":"INC2",
+							"class":"btn btn-block",
+							"type":"button"
+						},
+						"states":[{
+							"value":0,
+							"class":"btn-danger",
+							"text":"<i class=\"fa fa-times\"></i> Excluded"
+						},{
+							"value":1,
+							"class":"btn-primary",
+							"text":"<i class=\"fa fa-check\"></i> Included"
+						}]
+					}]
+				}]
+			}]
+		},{
+			"attributes":{
+				"class":"col-lg-4"
+			},
+			"children":[{
+				"attributes":{
+					"class":"ibox float-e-margins"
+				},
+				"children":[{
+					"attributes":{
+						"class":"ibox-content equalize-1"
+					},
+					"children":[{
+						"attributes":{
+							"class":"row equalize-2"
+						},
+						"children": [{
+							"attributes":{
+								"class":"col-lg-10"
+							},
+							"children":[{
+								"html":"<h5><a class=\"smooth-scroll section-navigator\" href=\"#section4\">Risk & Compliance</a></h5>"
+							}]
+						},{
+							"attributes": {
+								"class":"col-lg-2"
+							},
+							"children":[{
+								"html":"<span class=\"label label-success pull-right\"><span calc-id=\"A6\"></span> Year</span>"
+							}]
+						}]
+					},{
+						"html":"<h1 class=\"txt-right pod-total section-total\" style=\"font-weight: 700; color: #216C2A;\" calc-id=\"D70\" data-format=\"$0,0\">$0</h1><hr>"
+					},{
+						"type":"toggle",
+						"tag":"button",
+						"attributes":{
+							"calc-id":"INC3",
+							"class":"btn btn-block",
+							"type":"button"
+						},
+						"states":[{
+							"value":0,
+							"class":"btn-danger",
+							"text":"<i class=\"fa fa-times\"></i> Excluded"
+						},{
+							"value":1,
+							"class":"btn-primary",
+							"text":"<i class=\"fa fa-check\"></i> Included"
+						}]
+					}]
+				}]
+			}]
+		},{
+			"attributes":{
+				"class":"col-lg-4"
+			},
+			"children":[{
+				"attributes":{
+					"class":"ibox float-e-margins"
+				},
+				"children":[{
+					"attributes":{
+						"class":"ibox-content equalize-1"
+					},
+					"children":[{
+						"attributes":{
+							"class":"row equalize-2"
+						},
+						"children": [{
+							"attributes":{
+								"class":"col-lg-10"
+							},
+							"children":[{
+								"html":"<h5><a class=\"smooth-scroll section-navigator\" href=\"#section5\">Benefits Summary</a></h5>"
+							}]
+						},{
+							"attributes": {
+								"class":"col-lg-2"
+							},
+							"children":[{
+								"html":"<span class=\"label label-success pull-right\"><span calc-id=\"A6\"></span> Year</span>"
+							}]
+						}]
+					},{
+						"html":"<h1 class=\"txt-right pod-total section-total\" style=\"font-weight: 700; color: #216C2A;\" calc-id=\"D71\" data-format=\"$0,0\">$0</h1><hr>"
+					}]
+				}]
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom white-bg dashboard-header",
+			"id":"section2"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"html":"<h1 style=\"margin-bottom: 20px;\">Data Protection Efficiency</h1>"
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom gray-bg dashboard-header"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-md-12 col-sm-12 col-xs-12"
+			},
+			"children":[{
+				"attributes":{
+					"class":"row"
+				},
+				"children":[{
+					"attributes":{
+						"class":"col-lg-12 col-md-12 col-sm-12 col-xs-12"
+					},
+					"children":[{
+						"attributes":{
+							"class": "ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"ibox-content",
+								"style":"padding-left: 30px;"
+							},
+							"children":[{
+								"attributes":{
+									"class":"row"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-md-12 section-writeup"
+									},
+									"children":[{
+										"html":"<p class=\"caption-text\">Tools such as deduplication and compression have helped organizations consume less space. Cohesity builds on these tools and implements the technology differently than traditional vendors. As a result, the same amount of data requires less space to be stored on Cohesity DataPlatform.</p>"
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]
+			}]
+		},{
+			"attributes":{
+				"class":"col-md-12 col-sm-12 col-xs-12"
+			},
+			"children":[{
+				"attributes":{
+					"class":"row"
+				},
+				"children":[{
+					"attributes":{
+						"class":"col-lg-12 col-md-12 col-sm-12 col-xs-12"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"ibox-content",
+								"style":"border-top: none;"
+							},
+							"children":[{
+								"attributes":{
+									"class":"form-horizontal"
+								},
+								"children":[{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"attributes":{
+											"class":"subsection-header underlined"
+										},
+										"children":[{
+											"html":"<h2 class=\"subsection\"><strong>Current Environment</strong></h2>"
+										}]
+									}]
+								},{
+									"tag":"input",
+									"attributes":{
+										"class":"form-control",
+										"style":"border: none; padding: 0; margin-bottom: 10px; font-size: 16px; font-weight: 700; height: 22px;",
+										"calc-id":"A66"
+									}
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"How many front-end (source) TBs are you currently protecting in <span calc-id=\"A66\"></span>?"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"attributes":{
+												"class":"input-group"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"calc-id":"A3"
+												}
+											},{
+												"attributes":{
+													"class":"input-group-addon right"
+												},
+												"tag":"span",
+												"children":[{
+													"tag":"i",
+													"attributes":{
+														"class":"fa fa-question-circle tooltipstered",
+														"title":"Front-end TBs, also commonly referred to as a \"source TBs\" are the total amount of data to be ingested by Cohesity for the purpose of backups. This is commonly the source input TBs used in our web-sizing tool and drives our Cost per Protected TB benefit."
+													}
+												}]
+											}]
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"How many back-end TBs are you currently storing in <span calc-id=\"A66\"></span>?"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"attributes":{
+												"class":"input-group"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"calc-id":"A4"
+												}
+											},{
+												"attributes":{
+													"class":"input-group-addon right"
+												},
+												"tag":"span",
+												"children":[{
+													"tag":"i",
+													"attributes":{
+														"class":"fa fa-question-circle tooltipstered",
+														"title":"Back-end TBs are the amount of stored TBs in the customer's current environment after deduplicaton and compression. This drives our storage efficiency gains."
+													}
+												}]
+											}]
+										}]
+									}]
+								},{
+									"tag":"input",
+									"attributes":{
+										"class":"form-control",
+										"style":"border: none; padding: 0; margin-bottom: 10px; font-size: 16px; font-weight: 700; height: 22px;",
+										"calc-id":"A67"
+									}
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"How many front-end (source) TBs are you currently protecting in <span calc-id=\"A67\"></span> (if any)?"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"attributes":{
+												"class":"input-group"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"calc-id":"A49"
+												}
+											},{
+												"attributes":{
+													"class":"input-group-addon right"
+												},
+												"tag":"span",
+												"children":[{
+													"tag":"i",
+													"attributes":{
+														"class":"fa fa-question-circle tooltipstered",
+														"title":"This datacenter is commonly used to account for any additional DR software or additional front-end TBs where source data is protected in multiple datacenters"
+													}
+												}]
+											}]
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"How many back-end TBs are you currently storing in <span calc-id=\"A67\"></span> (if any)?"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"attributes":{
+												"class":"input-group"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"calc-id":"A50"
+												}
+											},{
+												"attributes":{
+													"class":"input-group-addon right"
+												},
+												"tag":"span",
+												"children":[{
+													"tag":"i",
+													"attributes":{
+														"class":"fa fa-question-circle tooltipstered",
+														"title":"It is not uncommon for customers to have different retention periods for different datacenters. Use this field to account for any additional retention copies being stored."
+													}
+												}]
+											}]
+										}]
+									}]
+								},{
+									"html":"<h2 style=\"font-size: 16px; font-weight: 700; padding: 0; margin: 0 0 10px 0; height: 22px;\">ADDITIONAL QUESTIONS</h2>"
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"How many years do you want to analyze over?"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"calc-id":"A6"
+											}
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"What is your Annual Growth Rate %?"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"calc-id":"A5"
+											}
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"What % of your data is VMs, Home Directories and other data that deduplicates well"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"attributes":{
+												"class":"input-group"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"calc-id":"A7"
+												}
+											},{
+												"attributes":{
+													"class":"input-group-addon right"
+												},
+												"tag":"span",
+												"children":[{
+													"tag":"i",
+													"attributes":{
+														"class":"fa fa-question-circle tooltipstered",
+														"title":"This data is used to drive our deduplication efficiency. Data such as databases do NOT deduplicate well, but other data like VMs and user Home Directories do. Estimate the % of back-end TBs that should deduplicate well."
+													}
+												}]
+											}]
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"What % of your data is compressed video and image files"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"attributes":{
+												"class":"input-group"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"calc-id":"A8"
+												}
+											},{
+												"attributes":{
+													"class":"input-group-addon right"
+												},
+												"tag":"span",
+												"children":[{
+													"tag":"i",
+													"attributes":{
+														"class":"fa fa-question-circle tooltipstered",
+														"title":"This data is used to drive our compression efficiency. Data such as compressed video and image files typically do NOT compress well. Data such as databases however typically compress very well, as long as they are not pre-compressed or encrypted by the source prior to backup. Estimate the % of back-end TBs that will NOT compress well."
+													}
+												}]
+											}]
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"attributes":{
+											"class":"subsection-header underlined"
+										},
+										"children":[{
+											"html":"<h2 class=\"subsection\"><strong><span calc-id=\"A66\"></span> Analysis</strong></h2>"
+										}]
+									}]
+								},{
+									"tag":"table",
+									"attributes":{
+										"class":"data-table"
+									},
+									"children":[{
+										"tag":"colgroup",
+										"children":[{
+											"tag":"col",
+											"attributes":{
+												"width":"33%"
+											}
+										},{
+											"tag":"col",
+											"attributes":{
+												"width":"16%"
+											}
+										},{
+											"tag":"col",
+											"attributes":{
+												"width":"16%"
+											}
+										},{
+											"tag":"col",
+											"attributes":{
+												"width":"16%"
+											}
+										},{
+											"tag":"col",
+											"attributes":{
+												"width":"16%"
+											}
+										}]
+									},{
+										"tag":"thead",
+										"children":[{
+											"tag":"tr",
+											"children":[{
+												"tag":"th",
+												"children": [{
+													"html":"<h2 style=\"margin: 0; line-height: 24px; font-size: 1.25em; font-weight: 600; color: #4d627b; text-align: right;\">DATA PROTECTION SOFTWARE</h2>"
+												}]
+											},{
+												"tag":"th",
+												"children":[{
+													"tag":"select",
+													"type":"select",
+													"attributes":{
+														"class":"form-control",
+														"calc-id":"A9"
+													},
+													"customClass":"chosen-no-border",
+													"choices":[{
+														"text":"Select current solution",
+														"value":0
+													},{
+														"text":"Avamar",
+														"value":1
+													},{
+														"text":"Commvault",
+														"value":2
+													},{
+														"text":"IDPA",
+														"value":3
+													},{
+														"text":"Networker",
+														"value":4
+													},{
+														"text":"Rubrik",
+														"value":5
+													},{
+														"text":"TSM",
+														"value":6
+													},{
+														"text":"Veeam",
+														"value":7
+													},{
+														"text":"Veritas",
+														"value":8
+													}]
+												}]
+											},{
+												"tag":"th",
+												"children":[{
+													"html":"<h2 style=\"margin: 0; line-height: 24px; font-size: 1.25em; font-weight: 600; color: #4d627b\"><center>Cohesity DataProtect</center></h2>"
+												}]
+											},{
+												"tag":"th",
+												"children":[{
+													"tag":"select",
+													"type":"select",
+													"attributes":{
+														"class":"form-control",
+														"calc-id":"C9"
+													},
+													"customClass":"chosen-no-border",
+													"choices":[{
+														"text":"Select Competitor 1",
+														"value":0
+													},{
+														"text":"Avamar",
+														"value":1
+													},{
+														"text":"Commvault",
+														"value":2
+													},{
+														"text":"IDPA",
+														"value":3
+													},{
+														"text":"Networker",
+														"value":4
+													},{
+														"text":"Rubrik",
+														"value":5
+													},{
+														"text":"TSM",
+														"value":6
+													},{
+														"text":"Veeam",
+														"value":7
+													},{
+														"text":"Veritas",
+														"value":8
+													}]
+												}]
+											},{
+												"tag":"th",
+												"children":[{
+													"tag":"select",
+													"type":"select",
+													"attributes":{
+														"class":"form-control",
+														"calc-id":"D9"
+													},
+													"customClass":"chosen-no-border",
+													"choices":[{
+														"text":"Select Competitor 2",
+														"value":0
+													},{
+														"text":"Avamar",
+														"value":1
+													},{
+														"text":"Commvault",
+														"value":2
+													},{
+														"text":"IDPA",
+														"value":3
+													},{
+														"text":"Networker",
+														"value":4
+													},{
+														"text":"Rubrik",
+														"value":5
+													},{
+														"text":"TSM",
+														"value":6
+													},{
+														"text":"Veeam",
+														"value":7
+													},{
+														"text":"Veritas",
+														"value":8
+													}]
+												}]
+											}]
+										}]
+									},{
+										"tag":"tbody",
+										"children":[{
+											"tag":"tr",
+											"children":[{
+												"tag":"td",
+												"children":[{
+													"html":"<p style=\"margin: 0; text-align: right;\">Total software cost</p>"
+												}]
+											},{
+												"tag":"td",
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"calc-id":"A10"
+													}
+												}]
+											},{
+												"tag":"td",
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"calc-id":"B10"
+													}
+												}]
+											},{
+												"tag":"td",
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"calc-id":"C10"
+													}
+												}]
+											},{
+												"tag":"td",
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"calc-id":"D10"
+													}
+												}]
+											}]
+										},{
+											"tag":"tr",
+											"children":[{
+												"tag":"td",
+												"children":[{
+													"html":"<p style=\"margin: 0; text-align: right;\">Total hardware cost (media/master servers and proxies)</p>"
+												}]
+											},{
+												"tag":"td",
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"calc-id":"A11"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"B11"
+													}
+												}]
+											},{
+												"tag":"td",
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"calc-id":"C11"
+													}
+												}]
+											},{
+												"tag":"td",
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"calc-id":"D11"
+													}
+												}]
+											}]
+										}]
+									}]
+								},{
+									"html":"<hr/>"
+								},{
+									"tag":"table",
+									"attributes":{
+										"class":"data-table"
+									},
+									"children":[{
+										"tag":"colgroup",
+										"children":[{
+											"tag":"col",
+											"attributes":{
+												"width":"33%"
+											}
+										},{
+											"tag":"col",
+											"attributes":{
+												"width":"16%"
+											}
+										},{
+											"tag":"col",
+											"attributes":{
+												"width":"16%"
+											}
+										},{
+											"tag":"col",
+											"attributes":{
+												"width":"16%"
+											}
+										},{
+											"tag":"col",
+											"attributes":{
+												"width":"16%"
+											}
+										}]
+									},{
+										"tag":"thead",
+										"children":[{
+											"tag":"tr",
+											"children":[{
+												"tag":"th",
+												"children": [{
+													"html":"<h2 style=\"margin: 0; line-height: 24px; font-size: 1.25em; font-weight: 600; color: #4d627b; text-align: right;\">TARGET STORAGE</h2>"
+												}]
+											},{
+												"tag":"th",
+												"children":[{
+													"html":"<div id=\"SELECT1\"><h2 style=\"margin: 0; line-height: 24px; font-size: 1.25em; font-weight: 600; color: #4d627b\"><center>Select Current Solution</center></h2></div>"
+												},{
+													"attributes":{
+														"id":"AVAMAR1"
+													},
+													"children":[{
+														"tag":"select",
+														"type":"select",
+														"attributes":{
+															"class":"form-control",
+															"calc-id":"A12"
+														},
+														"customClass":"chosen-no-border",
+														"choices":[{
+															"text":"Data Domain",
+															"value":0
+														}]
+													}]
+												},{
+													"attributes":{
+														"id":"COMMVAULT1"
+													},
+													"children":[{
+														"tag":"select",
+														"type":"select",
+														"attributes":{
+															"class":"form-control",
+															"calc-id":"A12"
+														},
+														"customClass":"chosen-no-border",
+														"choices":[{
+															"text":"Commvault",
+															"value":0
+														},{
+															"text":"Data Domain",
+															"value":1
+														},{
+															"text":"Generic Storage",
+															"value":2
+														}]
+													}]
+												},{
+													"attributes":{
+														"id":"IDPA1"
+													},
+													"children":[{
+														"tag":"select",
+														"type":"select",
+														"attributes":{
+															"class":"form-control",
+															"calc-id":"A12"
+														},
+														"customClass":"chosen-no-border",
+														"choices":[{
+															"text":"IDPA",
+															"value":0
+														}]
+													}]
+												},{
+													"attributes":{
+														"id":"DOMAIN1"
+													},
+													"children":[{
+														"tag":"select",
+														"type":"select",
+														"attributes":{
+															"class":"form-control",
+															"calc-id":"A12"
+														},
+														"customClass":"chosen-no-border",
+														"choices":[{
+															"text":"Data Domain",
+															"value":0
+														},{
+															"text":"Generic Storage",
+															"value":1
+														}]
+													}]
+												},{
+													"attributes":{
+														"id":"RUBRIK1"
+													},
+													"children":[{
+														"tag":"select",
+														"type":"select",
+														"attributes":{
+															"class":"form-control",
+															"calc-id":"A12"
+														},
+														"customClass":"chosen-no-border",
+														"choices":[{
+															"text":"Rubrik",
+															"value":0
+														}]
+													}]
+												},{
+													"attributes":{
+														"id":"TSM1"
+													},
+													"children":[{
+														"tag":"select",
+														"type":"select",
+														"attributes":{
+															"class":"form-control",
+															"calc-id":"A12"
+														},
+														"customClass":"chosen-no-border",
+														"choices":[{
+															"text":"Data Domain",
+															"value":0
+														},{
+															"text":"Generic Storage",
+															"value":1
+														}]
+													}]
+												},{
+													"attributes":{
+														"id":"VEEAM1"
+													},
+													"children":[{
+														"tag":"select",
+														"type":"select",
+														"attributes":{
+															"class":"form-control",
+															"calc-id":"A12"
+														},
+														"customClass":"chosen-no-border",
+														"choices":[{
+															"text":"DataDomain",
+															"value":0
+														},{
+															"text":"Exagrid",
+															"value":1
+														},{
+															"text":"Generic Storage",
+															"value":2
+														}]
+													}]
+												},{
+													"attributes":{
+														"id":"VERITAS1"
+													},
+													"children":[{
+														"tag":"select",
+														"type":"select",
+														"attributes":{
+															"class":"form-control",
+															"calc-id":"A12"
+														},
+														"customClass":"chosen-no-border",
+														"choices":[{
+															"text":"Veritas",
+															"value":0
+														},{
+															"text":"Data Domain",
+															"value":1
+														},{
+															"text":"Generic Storage",
+															"value":2
+														}]
+													}]
+												}]
+											},{
+												"tag":"th",
+												"children":[{
+													"html":"<h2 style=\"margin: 0; line-height: 24px; font-size: 1.25em; font-weight: 600; color: #4d627b\"><center>Cohesity DataPlatform</center></h2>"
+												}]
+											},{
+												"tag":"th",
+												"children":[{
+													"html":"<div id=\"SELECT2\"><h2 style=\"margin: 0; line-height: 24px; font-size: 1.25em; font-weight: 600; color: #4d627b\"><center>Select Competitor 1</center></h2></div>"
+												},{
+													"attributes":{
+														"id":"AVAMAR2"
+													},
+													"children":[{
+														"tag":"select",
+														"type":"select",
+														"attributes":{
+															"class":"form-control",
+															"calc-id":"C12"
+														},
+														"customClass":"chosen-no-border",
+														"choices":[{
+															"text":"Data Domain",
+															"value":0
+														}]
+													}]
+												},{
+													"attributes":{
+														"id":"COMMVAULT2"
+													},
+													"children":[{
+														"tag":"select",
+														"type":"select",
+														"attributes":{
+															"class":"form-control",
+															"calc-id":"C12"
+														},
+														"customClass":"chosen-no-border",
+														"choices":[{
+															"text":"Commvault",
+															"value":0
+														},{
+															"text":"Data Domain",
+															"value":1
+														},{
+															"text":"Generic Storage",
+															"value":2
+														}]
+													}]
+												},{
+													"attributes":{
+														"id":"IDPA2"
+													},
+													"children":[{
+														"tag":"select",
+														"type":"select",
+														"attributes":{
+															"class":"form-control",
+															"calc-id":"C12"
+														},
+														"customClass":"chosen-no-border",
+														"choices":[{
+															"text":"IDPA",
+															"value":0
+														}]
+													}]
+												},{
+													"attributes":{
+														"id":"DOMAIN2"
+													},
+													"children":[{
+														"tag":"select",
+														"type":"select",
+														"attributes":{
+															"class":"form-control",
+															"calc-id":"C12"
+														},
+														"customClass":"chosen-no-border",
+														"choices":[{
+															"text":"Data Domain",
+															"value":0
+														},{
+															"text":"Generic Storage",
+															"value":1
+														}]
+													}]
+												},{
+													"attributes":{
+														"id":"RUBRIK2"
+													},
+													"children":[{
+														"tag":"select",
+														"type":"select",
+														"attributes":{
+															"class":"form-control",
+															"calc-id":"C12"
+														},
+														"customClass":"chosen-no-border",
+														"choices":[{
+															"text":"Rubrik",
+															"value":0
+														}]
+													}]
+												},{
+													"attributes":{
+														"id":"TSM2"
+													},
+													"children":[{
+														"tag":"select",
+														"type":"select",
+														"attributes":{
+															"class":"form-control",
+															"calc-id":"C12"
+														},
+														"customClass":"chosen-no-border",
+														"choices":[{
+															"text":"Data Domain",
+															"value":0
+														},{
+															"text":"Generic Storage",
+															"value":1
+														}]
+													}]
+												},{
+													"attributes":{
+														"id":"VEEAM2"
+													},
+													"children":[{
+														"tag":"select",
+														"type":"select",
+														"attributes":{
+															"class":"form-control",
+															"calc-id":"C12"
+														},
+														"customClass":"chosen-no-border",
+														"choices":[{
+															"text":"DataDomain",
+															"value":0
+														},{
+															"text":"Exagrid",
+															"value":1
+														},{
+															"text":"Generic Storage",
+															"value":2
+														}]
+													}]
+												},{
+													"attributes":{
+														"id":"VERITAS2"
+													},
+													"children":[{
+														"tag":"select",
+														"type":"select",
+														"attributes":{
+															"class":"form-control",
+															"calc-id":"C12"
+														},
+														"customClass":"chosen-no-border",
+														"choices":[{
+															"text":"Veritas",
+															"value":0
+														},{
+															"text":"Data Domain",
+															"value":1
+														},{
+															"text":"Generic Storage",
+															"value":2
+														}]
+													}]
+												}]
+											},{
+												"tag":"th",
+												"children":[{
+													"html":"<div id=\"SELECT3\"><h2 style=\"margin: 0; line-height: 24px; font-size: 1.25em; font-weight: 600; color: #4d627b\"><center>Select Competitor 2</center></h2></div>"
+												},{
+													"attributes":{
+														"id":"AVAMAR3"
+													},
+													"children":[{
+														"tag":"select",
+														"type":"select",
+														"attributes":{
+															"class":"form-control",
+															"calc-id":"D12"
+														},
+														"customClass":"chosen-no-border",
+														"choices":[{
+															"text":"Data Domain",
+															"value":0
+														}]
+													}]
+												},{
+													"attributes":{
+														"id":"COMMVAULT3"
+													},
+													"children":[{
+														"tag":"select",
+														"type":"select",
+														"attributes":{
+															"class":"form-control",
+															"calc-id":"D12"
+														},
+														"customClass":"chosen-no-border",
+														"choices":[{
+															"text":"Commvault",
+															"value":0
+														},{
+															"text":"Data Domain",
+															"value":1
+														},{
+															"text":"Generic Storage",
+															"value":2
+														}]
+													}]
+												},{
+													"attributes":{
+														"id":"IDPA3"
+													},
+													"children":[{
+														"tag":"select",
+														"type":"select",
+														"attributes":{
+															"class":"form-control",
+															"calc-id":"D12"
+														},
+														"customClass":"chosen-no-border",
+														"choices":[{
+															"text":"IDPA",
+															"value":0
+														}]
+													}]
+												},{
+													"attributes":{
+														"id":"DOMAIN3"
+													},
+													"children":[{
+														"tag":"select",
+														"type":"select",
+														"attributes":{
+															"class":"form-control",
+															"calc-id":"D12"
+														},
+														"customClass":"chosen-no-border",
+														"choices":[{
+															"text":"Data Domain",
+															"value":0
+														},{
+															"text":"Generic Storage",
+															"value":1
+														}]
+													}]
+												},{
+													"attributes":{
+														"id":"RUBRIK3"
+													},
+													"children":[{
+														"tag":"select",
+														"type":"select",
+														"attributes":{
+															"class":"form-control",
+															"calc-id":"D12"
+														},
+														"customClass":"chosen-no-border",
+														"choices":[{
+															"text":"Rubrik",
+															"value":0
+														}]
+													}]
+												},{
+													"attributes":{
+														"id":"TSM3"
+													},
+													"children":[{
+														"tag":"select",
+														"type":"select",
+														"attributes":{
+															"class":"form-control",
+															"calc-id":"D12"
+														},
+														"customClass":"chosen-no-border",
+														"choices":[{
+															"text":"Data Domain",
+															"value":0
+														},{
+															"text":"Generic Storage",
+															"value":1
+														}]
+													}]
+												},{
+													"attributes":{
+														"id":"VEEAM3"
+													},
+													"children":[{
+														"tag":"select",
+														"type":"select",
+														"attributes":{
+															"class":"form-control",
+															"calc-id":"D12"
+														},
+														"customClass":"chosen-no-border",
+														"choices":[{
+															"text":"DataDomain",
+															"value":0
+														},{
+															"text":"Exagrid",
+															"value":1
+														},{
+															"text":"Generic Storage",
+															"value":2
+														}]
+													}]
+												},{
+													"attributes":{
+														"id":"VERITAS3"
+													},
+													"children":[{
+														"tag":"select",
+														"type":"select",
+														"attributes":{
+															"class":"form-control",
+															"calc-id":"D12"
+														},
+														"customClass":"chosen-no-border",
+														"choices":[{
+															"text":"Veritas",
+															"value":0
+														},{
+															"text":"Data Domain",
+															"value":1
+														},{
+															"text":"Generic Storage",
+															"value":2
+														}]
+													}]
+												}]
+											}]
+										}]
+									},{
+										"tag":"tbody",
+										"children":[{
+											"tag":"tr",
+											"children":[{
+												"tag":"td",
+												"children":[{
+													"html":"<p style=\"margin: 0; text-align: right;\">Total software cost</p>"
+												}]
+											},{
+												"tag":"td",
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"calc-id":"A13"
+													}
+												}]
+											},{
+												"tag":"td",
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"calc-id":"B13"
+													}
+												}]
+											},{
+												"tag":"td",
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"calc-id":"C13"
+													}
+												}]
+											},{
+												"tag":"td",
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"calc-id":"D13"
+													}
+												}]
+											}]
+										},{
+											"tag":"tr",
+											"children":[{
+												"tag":"td",
+												"children":[{
+													"html":"<p style=\"margin: 0; text-align: right;\">Total hardware cost (storage appliances, storage nodes, etc)</p>"
+												}]
+											},{
+												"tag":"td",
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"calc-id":"A14"
+													}
+												}]
+											},{
+												"tag":"td",
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"calc-id":"B14"
+													}
+												}]
+											},{
+												"tag":"td",
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"calc-id":"C14"
+													}
+												}]
+											},{
+												"tag":"td",
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"calc-id":"D14"
+													}
+												}]
+											}]
+										},{
+											"tag":"tr",
+											"children":[{
+												"tag":"td",
+												"children":[{
+													"html":"<p style=\"margin: 0; text-align: right;\">Total front-end data estimate (based on annual growth rate)</p>"
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"A15"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"B15"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"C15"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"D15"
+													}
+												}]
+											}]
+										},{
+											"tag":"tr",
+											"children":[{
+												"tag":"td",
+												"children":[{
+													"html":"<p style=\"margin: 0; text-align: right;\">Total back-end storage estimate (based on annual growth rate)</p>"
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"A16"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"B16"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"C16"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"D16"
+													}
+												}]
+											}]
+										},{
+											"tag":"tr",
+											"children":[{
+												"tag":"td",
+												"children":[{
+													"html":"<p style=\"margin: 0; text-align: right;\">Estimated <span calc-id=\"A6\"></span>-year cost for the <span calc-id=\"A66\"></span> Environment</p>"
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"A17"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"B17"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"C17"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"D17"
+													}
+												}]
+											}]
+										},{
+											"tag":"tr",
+											"children":[{
+												"tag":"td",
+												"children":[{
+													"html":"<p style=\"margin: 0; text-align: right;\">Estimated cost per protected TB</p>"
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"A18"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"B18"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"C18"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"D18"
+													}
+												}]
+											}]
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"attributes":{
+											"class":"subsection-header underlined"
+										},
+										"children":[{
+											"html":"<h2 class=\"subsection\"><strong><span calc-id=\"A67\"></span> Analysis</strong></h2>"
+										}]
+									}]
+								},{
+									"tag":"table",
+									"attributes":{
+										"class":"data-table"
+									},
+									"children":[{
+										"tag":"colgroup",
+										"children":[{
+											"tag":"col",
+											"attributes":{
+												"width":"33%"
+											}
+										},{
+											"tag":"col",
+											"attributes":{
+												"width":"16%"
+											}
+										},{
+											"tag":"col",
+											"attributes":{
+												"width":"16%"
+											}
+										},{
+											"tag":"col",
+											"attributes":{
+												"width":"16%"
+											}
+										},{
+											"tag":"col",
+											"attributes":{
+												"width":"16%"
+											}
+										}]
+									},{
+										"tag":"thead",
+										"children":[{
+											"tag":"tr",
+											"children":[{
+												"tag":"th",
+												"children": [{
+													"html":"<h2 style=\"margin: 0; line-height: 24px; font-size: 1.25em; font-weight: 600; color: #4d627b; text-align: right;\">DATA PROTECTION SOFTWARE</h2>"
+												}]
+											},{
+												"tag":"th",
+												"children":[{
+													"html":"<center><h2 calc-id=\"A19\" style=\"margin: 0; line-height: 24px; font-size: 1.25em; font-weight: 600; color: #4d627b\">&nbsp;</h2></center>"
+												}]
+											},{
+												"tag":"th",
+												"children":[{
+													"html":"<h2 style=\"margin: 0; line-height: 24px; font-size: 1.25em; font-weight: 600; color: #4d627b\"><center>Cohesity DataProtect</center></h2>"
+												}]
+											},{
+												"tag":"th",
+												"children":[{
+													"html":"<center><h2 calc-id=\"C19\" style=\"margin: 0; line-height: 24px; font-size: 1.25em; font-weight: 600; color: #4d627b\">&nbsp;</h2></center>"
+												}]
+											},{
+												"tag":"th",
+												"children":[{
+													"html":"<center><h2 calc-id=\"D19\" style=\"margin: 0; line-height: 24px; font-size: 1.25em; font-weight: 600; color: #4d627b\">&nbsp;</h2></center>"
+												}]
+											}]
+										}]
+									},{
+										"tag":"tbody",
+										"children":[{
+											"tag":"tr",
+											"children":[{
+												"tag":"td",
+												"children":[{
+													"html":"<p style=\"margin: 0; text-align: right;\">Total software cost</p>"
+												}]
+											},{
+												"tag":"td",
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"calc-id":"A20"
+													}
+												}]
+											},{
+												"tag":"td",
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"calc-id":"B20"
+													}
+												}]
+											},{
+												"tag":"td",
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"calc-id":"C20"
+													}
+												}]
+											},{
+												"tag":"td",
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"calc-id":"D20"
+													}
+												}]
+											}]
+										},{
+											"tag":"tr",
+											"children":[{
+												"tag":"td",
+												"children":[{
+													"html":"<p style=\"margin: 0; text-align: right;\">Total hardware cost (media/master servers and proxies)</p>"
+												}]
+											},{
+												"tag":"td",
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"calc-id":"A21"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"B21"
+													}
+												}]
+											},{
+												"tag":"td",
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"calc-id":"C21"
+													}
+												}]
+											},{
+												"tag":"td",
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"calc-id":"D21"
+													}
+												}]
+											}]
+										}]
+									}]
+								},{
+									"html":"<hr/>"
+								},{
+									"tag":"table",
+									"attributes":{
+										"class":"data-table"
+									},
+									"children":[{
+										"tag":"colgroup",
+										"children":[{
+											"tag":"col",
+											"attributes":{
+												"width":"33%"
+											}
+										},{
+											"tag":"col",
+											"attributes":{
+												"width":"16%"
+											}
+										},{
+											"tag":"col",
+											"attributes":{
+												"width":"16%"
+											}
+										},{
+											"tag":"col",
+											"attributes":{
+												"width":"16%"
+											}
+										},{
+											"tag":"col",
+											"attributes":{
+												"width":"16%"
+											}
+										}]
+									},{
+										"tag":"thead",
+										"children":[{
+											"tag":"tr",
+											"children":[{
+												"tag":"th",
+												"children": [{
+													"html":"<h2 style=\"margin: 0; line-height: 24px; font-size: 1.25em; font-weight: 600; color: #4d627b; text-align: right;\">TARGET STORAGE</h2>"
+												}]
+											},{
+												"tag":"th",
+												"children":[{
+													"html":"<center><h2 calc-id=\"A23\" style=\"margin: 0; line-height: 24px; font-size: 1.25em; font-weight: 600; color: #4d627b\">&nbsp;</h2></center>"
+												}]
+											},{
+												"tag":"th",
+												"children":[{
+													"html":"<h2 style=\"margin: 0; line-height: 24px; font-size: 1.25em; font-weight: 600; color: #4d627b\"><center>Cohesity DataPlatform</center></h2>"
+												}]
+											},{
+												"tag":"th",
+												"children":[{
+													"html":"<center><h2 calc-id=\"C23\" style=\"margin: 0; line-height: 24px; font-size: 1.25em; font-weight: 600; color: #4d627b\">&nbsp;</h2></center>"
+												}]
+											},{
+												"tag":"th",
+												"children":[{
+													"html":"<center><h2 calc-id=\"D23\" style=\"margin: 0; line-height: 24px; font-size: 1.25em; font-weight: 600; color: #4d627b\">&nbsp;</h2></center>"
+												}]
+											}]
+										}]
+									},{
+										"tag":"tbody",
+										"children":[{
+											"tag":"tr",
+											"children":[{
+												"tag":"td",
+												"children":[{
+													"html":"<p style=\"margin: 0; text-align: right;\">Total software cost</p>"
+												}]
+											},{
+												"tag":"td",
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"calc-id":"A22"
+													}
+												}]
+											},{
+												"tag":"td",
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"calc-id":"B22"
+													}
+												}]
+											},{
+												"tag":"td",
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"calc-id":"C22"
+													}
+												}]
+											},{
+												"tag":"td",
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"calc-id":"D22"
+													}
+												}]
+											}]
+										},{
+											"tag":"tr",
+											"children":[{
+												"tag":"td",
+												"children":[{
+													"html":"<p style=\"margin: 0; text-align: right;\">Total hardware cost (storage appliances, storage nodes, etc)</p>"
+												}]
+											},{
+												"tag":"td",
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"calc-id":"A24"
+													}
+												}]
+											},{
+												"tag":"td",
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"calc-id":"B24"
+													}
+												}]
+											},{
+												"tag":"td",
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"calc-id":"C24"
+													}
+												}]
+											},{
+												"tag":"td",
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"calc-id":"D24"
+													}
+												}]
+											}]
+										},{
+											"tag":"tr",
+											"children":[{
+												"tag":"td",
+												"children":[{
+													"html":"<p style=\"margin: 0; text-align: right;\">Total front-end data estimate (based on annual growth rate)</p>"
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"A25"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"B25"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"C25"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"D25"
+													}
+												}]
+											}]
+										},{
+											"tag":"tr",
+											"children":[{
+												"tag":"td",
+												"children":[{
+													"html":"<p style=\"margin: 0; text-align: right;\">Total back-end storage estimate (based on annual growth rate)</p>"
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"A26"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"B26"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"C26"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"D26"
+													}
+												}]
+											}]
+										},{
+											"tag":"tr",
+											"children":[{
+												"tag":"td",
+												"children":[{
+													"html":"<p style=\"margin: 0; text-align: right;\">Estimated <span calc-id=\"A6\"></span>-year cost for the <span calc-id=\"A67\"></span> Environment</p>"
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"A27"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"B27"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"C27"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"D27"
+													}
+												}]
+											}]
+										},{
+											"tag":"tr",
+											"children":[{
+												"tag":"td",
+												"children":[{
+													"html":"<p style=\"margin: 0; text-align: right;\">Estimated cost per protected TB</p>"
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"A28"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"B28"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"C28"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"D28"
+													}
+												}]
+											}]
+										},{
+											"tag":"tr",
+											"children":[{
+												"tag":"td",
+												"children":[{
+													"html":"&nbsp;"
+												}]
+											},{
+												"tag":"td",
+												"children":[{
+													"html":"&nbsp;"
+												}]
+											},{
+												"tag":"td",
+												"children":[{
+													"html":"&nbsp;"
+												}]
+											},{
+												"tag":"td",
+												"children":[{
+													"html":"&nbsp;"
+												}]
+											},{
+												"tag":"td",
+												"children":[{
+													"html":"&nbsp;"
+												}]
+											}]
+										},{
+											"tag":"tr",
+											"children":[{
+												"tag":"td",
+												"children":[{
+													"html":"<p style=\"margin: 0; text-align: right;\"><strong>Estimated <span calc-id=\"A6\"></span>-year cost for Data Protection</strong></p>"
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"A29"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"B29"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"C29"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"D29"
+													}
+												}]
+											}]
+										},{
+											"tag":"tr",
+											"children":[{
+												"tag":"td",
+												"children":[{
+													"html":"<p style=\"margin: 0; text-align: right;\"><strong>Estimated cost per protected TB</strong></p>"
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"A30"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"B30"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"C30"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"D30"
+													}
+												}]
+											}]
+										},{
+											"tag":"tr",
+											"children":[{
+												"tag":"td",
+												"children":[{
+													"html":"&nbsp;"
+												}]
+											},{
+												"tag":"td",
+												"children":[{
+													"html":"&nbsp;"
+												}]
+											},{
+												"tag":"td",
+												"children":[{
+													"html":"&nbsp;"
+												}]
+											},{
+												"tag":"td",
+												"children":[{
+													"html":"&nbsp;"
+												}]
+											},{
+												"tag":"td",
+												"children":[{
+													"html":"&nbsp;"
+												}]
+											}]
+										},{
+											"tag":"tr",
+											"children":[{
+												"tag":"td",
+												"children":[{
+													"html":"<p style=\"margin: 0; text-align: right;\"><strong>Total Data Protection Efficiency Benefit</strong></p>"
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"A31"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"B31"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"C31"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"D31"
+													}
+												}]
+											}]
+										}]
+									}]
+								},{
+									"html":"<hr/>"
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"Data Protection Conservative Factor"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"attributes":{
+												"class":"row"
+											},
+											"children":[{
+												"attributes":{
+													"class":"col-lg-6 input-slider"
+												},
+												"children":[{
+													"type":"slider",
+													"step":1,
+													"attributes":{
+														"calc-id":"CON1"
+													}
+												}]
+											},{
+												"attributes":{
+													"class":"col-lg-6"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"slider-input form-control",
+														"calc-id":"CON1"
+													}											
+												}]
+											}]
+										}]
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]
+			}]
+		},{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"attributes":{
+					"class": "row"
+				},
+				"children":[{
+					"attributes":{
+						"class":"col-md-6 col-sm-6 col-xs-6"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"ibox-content",
+								"style":"padding-left: 30px;"
+							},
+							"children":[{
+								"attributes":{
+									"class":"row bar-chart-container"
+								},
+								"children":[{
+									"type":"chart",
+									"attributes":{
+										"class":"bar-chart",
+										"style":"width: 100%;"
+									},
+									"currencyFormat" : "($0,0 a)",
+									"chart":{
+										"type":"column",
+										"margin":75,
+										"animation":false
+									},
+									"title":{
+										"text":"Data Protection Efficiency"
+									},
+									"subtitle":{
+										"text":"Total Cost over Analysis Period"
+									},
+									"xAxis":{
+										"categories": [{"equation":"A19"},"Cohesity",{"equation":"C19"},{"equation":"D19"}]
+									},
+									"yAxis": {
+										"style": {
+											"color": "#333",
+											"fontWeight": "bold",
+											"fontSize": "12px",
+											"fontFamily": "Trebuchet MS, Verdana, sans-serif"
+										},				
+										"title": {
+											"text": "Total Cost"
+										},
+										"stackLabels": {
+											"enabled": true,
+											"align":"center"
+										}
+									},
+									"tooltip": {
+										"headerFormat": "<span style=\"font-size:10px\">{point.key}</span><table>",
+										"pointFormat": "<tr><td style=\"color:{series.color};padding:0\">{series.name}: </td><td style=\"color:{series.color};padding:0;padding-left:10px;\"><b> {point.y:,.0f}</b></td></tr>",
+										"footerFormat": "</table>",
+										"shared": true,
+										"useHTML": true
+									},
+									"plotOptions": {
+										"column": {
+											"stacking":"normal",
+											"pointPadding": 0.2,
+											"borderWidth": 0
+										}
+									},
+									"series":[{
+										"name":"Solutions",
+										"type":"column",
+										"data":[0,0],
+										"color":"#5BC500",
+										"equations":["A29","B29","C29","D29"]
+									}]
+								}]
+							}]
+						}]
+					}]
+				},{
+					"attributes":{
+						"class":"col-md-6 col-sm-6 col-xs-6"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"ibox-content",
+								"style":"padding-left: 30px;"
+							},
+							"children":[{
+								"attributes":{
+									"class":"row bar-chart-container"
+								},
+								"children":[{
+									"type":"chart",
+									"attributes":{
+										"class":"bar-chart",
+										"style":"width: 100%;"
+									},
+									"chart":{
+										"type":"column",
+										"margin":75,
+										"animation":false
+									},
+									"title":{
+										"text":"Data Protection Efficiency"
+									},
+									"subtitle":{
+										"text":"Total Storage Projected over Analysis Period"
+									},
+									"xAxis":{
+										"categories": [{"equation":"A19"},"Cohesity",{"equation":"C19"},{"equation":"D19"}]
+									},
+									"yAxis": {			
+										"title": {
+											"text": "Target Storage (TBs)"
+										},
+										"stackLabels": {
+											"enabled": true,
+											"align":"center"
+										}
+									},
+									"tooltip": {
+										"headerFormat": "<span style=\"font-size:10px\">{point.key}</span><table>",
+										"pointFormat": "<tr><td style=\"color:{series.color};padding:0\">{series.name}: </td><td style=\"color:{series.color};padding:0;padding-left:10px;\"><b> {point.y:,.0f}</b></td></tr>",
+										"footerFormat": "</table>",
+										"shared": true,
+										"useHTML": true
+									},
+									"plotOptions": {
+										"column": {
+											"stacking":"normal",
+											"pointPadding": 0.2,
+											"borderWidth": 0
+										}
+									},
+									"series":[{
+										"name":"Solutions",
+										"type":"column",
+										"data":[0,0],
+										"color":"#132531",
+										"equations":["A86","B86","C86","D86"]
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom white-bg dashboard-header",
+			"id":"section3"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"html":"<h1 style=\"margin-bottom: 20px;\">Operational Efficiency</h1>"
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom gray-bg dashboard-header"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-md-12 col-sm-12 col-xs-12"
+			},
+			"children":[{
+				"attributes":{
+					"class":"row"
+				},
+				"children":[{
+					"attributes":{
+						"class":"col-lg-12 col-md-12 col-sm-12 col-xs-12"
+					},
+					"children":[{
+						"attributes":{
+							"class": "ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"ibox-content",
+								"style":"padding-left: 30px;"
+							},
+							"children":[{
+								"attributes":{
+									"class":"row"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-md-12 section-writeup"
+									},
+									"children":[{
+										"html":"<p class=\"caption-text\">Operational efficiency is compromised by the need to manage multiple proprietary systems with different UIs, where each may require specialist administrators. Cohesity simplifies operations through the use of easy and intuitive policy administration through a single pane of glass providing a plug-and-play experience for managing daily operations.</p>"
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]
+			}]
+		},{
+			"attributes":{
+				"class":"col-md-12 col-sm-12 col-xs-12"
+			},
+			"children":[{
+				"attributes":{
+					"class":"row"
+				},
+				"children":[{
+					"attributes":{
+						"class":"col-lg-12 col-md-12 col-sm-12 col-xs-12"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"ibox-content",
+								"style":"border-top: none;"
+							},
+							"children":[{
+								"attributes":{
+									"class":"form-horizontal"
+								},
+								"children":[{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"attributes":{
+											"class":"subsection-header underlined"
+										},
+										"children":[{
+											"html":"<h2 class=\"subsection\"><strong>Labor Cost Metrics</strong></h2>"
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"Number of employees managing your current solution"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"calc-id":"A32"
+											}
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"Average salary per FTE"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"calc-id":"A33"
+											}
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"Salary load factor(%) (Cost of benefits, etc. Typically 30-35%)"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"calc-id":"A34"
+											}
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"Total salary cost of FTEs managing current solution"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"attributes":{
+												"class":"input-group"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"disabled":"disabled",
+													"calc-id":"A35"
+												}
+											},{
+												"attributes":{
+													"class":"input-group-addon right output"
+												},
+												"tag":"span",
+												"children":[{
+													"tag":"i",
+													"attributes":{
+														"class":"fa fa-calculator tooltipstered",
+														"calculation-modal":"A35",
+														"title":"Click here to view the calculation breakdown"
+													}
+												}]
+											}]
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"FTE Total Available Hours (based on 2,080 working hours / year / FTE)"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"attributes":{
+												"class":"input-group"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"disabled":"disabled",
+													"calc-id":"A36"
+												}
+											},{
+												"attributes":{
+													"class":"input-group-addon right output"
+												},
+												"tag":"span",
+												"children":[{
+													"tag":"i",
+													"attributes":{
+														"class":"fa fa-calculator tooltipstered",
+														"calculation-modal":"A36",
+														"title":"Click here to view the calculation breakdown"
+													}
+												}]
+											}]
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"<span>What % of available hours are spent on tasks not related to managing the solution (other projects, corporate activities, other...)</span>"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"calc-id":"A37"
+											}
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"Total hours spent on managing existing solution"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"attributes":{
+												"class":"input-group"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"disabled":"disabled",
+													"calc-id":"A38"
+												}
+											},{
+												"attributes":{
+													"class":"input-group-addon right output"
+												},
+												"tag":"span",
+												"children":[{
+													"tag":"i",
+													"attributes":{
+														"class":"fa fa-calculator tooltipstered",
+														"calculation-modal":"A38",
+														"title":"Click here to view the calculation breakdown"
+													}
+												}]
+											}]
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"attributes":{
+											"class":"subsection-header underlined"
+										},
+										"children":[{
+											"html":"<h2 class=\"subsection\"><strong>Resource Allocation for Operations</strong></h2>"
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"What % of the <span calc-id=\"A38\"></span> hours are spent on Operations"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"attributes":{
+												"class":"input-group"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"calc-id":"A39"
+												}
+											},{
+												"attributes":{
+													"class":"input-group-addon right"
+												},
+												"tag":"span",
+												"children":[{
+													"tag":"i",
+													"attributes":{
+														"class":"fa fa-question-circle tooltipstered",
+														"title":"Operations accounts for common tasks such as: agent-related activities, proxy server setup and management, backup management, recovery management, and more. This is currently estimated at 50% and will be updated based on market research from Forrester. This number can be adjusted based on customer feedback."
+													}
+												}]
+											}]
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"What % of the <span calc-id=\"A38\"></span> hours are spent on Troubleshooting"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"attributes":{
+												"class":"input-group"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"calc-id":"A40"
+												}
+											},{
+												"attributes":{
+													"class":"input-group-addon right"
+												},
+												"tag":"span",
+												"children":[{
+													"tag":"i",
+													"attributes":{
+														"class":"fa fa-question-circle tooltipstered",
+														"title":"Troubleshooting accounts for tasks such as: failed backups, support engagement, elimination of log silos (master, media and storage logs), and more. This is currently estimated at 30% and will be updated based on market research from Forrester. This number can be adjusted based on customer feedback"
+													}
+												}]
+											}]
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"What % of the <span calc-id=\"A38\"></span> hours are spent on Legal & Compliance"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"attributes":{
+												"class":"input-group"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"disabled":"disabled",
+													"calc-id":"A41"
+												}
+											},{
+												"attributes":{
+													"class":"input-group-addon right output"
+												},
+												"tag":"span",
+												"children":[{
+													"tag":"i",
+													"attributes":{
+														"class":"fa fa-question-circle tooltipstered",
+														"style":"margin-right: 5px;",
+														"title":"Legal & Compliance accounts for tasks such as: global search, global content scanning, simplified legal hold, vulnerability scanning and more. This is calculated and the remainder of time leftover after Operations and Troubleshooting is accounted for."
+													}
+												},{
+													"tag":"i",
+													"attributes":{
+														"class":"fa fa-calculator tooltipstered",
+														"calculation-modal":"A41",
+														"title":"Click here to view the calculation breakdown"
+													}
+												}]
+											}]
+										}]
+									}]
+								},{
+									"tag":"table",
+									"attributes":{
+										"class":"data-table"
+									},
+									"children":[{
+										"tag":"colgroup",
+										"children":[{
+											"tag":"col",
+											"attributes":{
+												"width":"33%"
+											}
+										},{
+											"tag":"col",
+											"attributes":{
+												"width":"16%"
+											}
+										},{
+											"tag":"col",
+											"attributes":{
+												"width":"16%"
+											}
+										},{
+											"tag":"col",
+											"attributes":{
+												"width":"16%"
+											}
+										},{
+											"tag":"col",
+											"attributes":{
+												"width":"16%"
+											}
+										}]
+									},{
+										"tag":"thead",
+										"children":[{
+											"tag":"tr",
+											"children":[{
+												"tag":"th",
+												"children": [{
+													"html":"<h2 style=\"margin: 0; line-height: 24px; font-size: 1.25em; font-weight: 600; color: #4d627b; text-align: right;\">FTE Hours Gained</h2>"
+												}]
+											},{
+												"tag":"th",
+												"children":[{
+													"html":"<h2 style=\"margin: 0; line-height: 24px; font-size: 1.25em; font-weight: 600; color: #4d627b\"><center><span calc-id=\"A19\"></span> / <span calc-id=\"A23\"></span></center></h2>"
+												}]
+											},{
+												"tag":"th",
+												"children":[{
+													"html":"<h2 style=\"margin: 0; line-height: 24px; font-size: 1.25em; font-weight: 600; color: #4d627b\"><center>Cohesity</center></h2>"
+												}]
+											},{
+												"tag":"th",
+												"children":[{
+													"html":"<h2 style=\"margin: 0; line-height: 24px; font-size: 1.25em; font-weight: 600; color: #4d627b\"><center><span calc-id=\"C19\"></span> / <span calc-id=\"C23\"></span></center></h2>"
+												}]
+											},{
+												"tag":"th",
+												"children":[{
+													"html":"<h2 style=\"margin: 0; line-height: 24px; font-size: 1.25em; font-weight: 600; color: #4d627b\"><center><span calc-id=\"D19\"></span> / <span calc-id=\"D23\"></span></center></h2>"
+												}]
+											}]
+										}]
+									},{
+										"tag":"tbody",
+										"children":[{
+											"tag":"tr",
+											"children":[{
+												"tag":"td",
+												"children":[{
+													"html":"<p style=\"margin: 0; text-align: right;\">Hours spent on Operations</p>"
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"A42"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"B42"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"C42"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"D42"
+													}
+												}]
+											}]
+										},{
+											"tag":"tr",
+											"children":[{
+												"tag":"td",
+												"children":[{
+													"html":"<p style=\"margin: 0; text-align: right;\">Hours spent on Troubleshooting</p>"
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"A43"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"B43"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"C43"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"D43"
+													}
+												}]
+											}]
+										},{
+											"tag":"tr",
+											"children":[{
+												"tag":"td",
+												"children":[{
+													"html":"<p style=\"margin: 0; text-align: right;\">Hours spent on Legal & Compliance</p>"
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"A44"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"B44"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"C44"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"D44"
+													}
+												}]
+											}]
+										},{
+											"tag":"tr",
+											"children":[{
+												"tag":"td",
+												"children":[{
+													"html":"<p style=\"margin: 0; text-align: right;\">Hours Required</p>"
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"A45"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"B45"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"C45"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"D45"
+													}
+												}]
+											}]
+										},{
+											"tag":"tr",
+											"children":[{
+												"tag":"td",
+												"children":[{
+													"html":"<p style=\"margin: 0; text-align: right;\">Annual Hours Gained</p>"
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"A46"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"B46"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"C46"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"D46"
+													}
+												}]
+											}]
+										},{
+											"tag":"tr",
+											"children":[{
+												"tag":"td",
+												"children":[{
+													"html":"<p style=\"margin: 0; text-align: right;\">Total Hours Gained</p>"
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"A47"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"B47"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"C47"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"D47"
+													}
+												}]
+											}]
+										},{
+											"tag":"tr",
+											"children":[{
+												"tag":"td",
+												"children":[{
+													"html":"<p style=\"margin: 0; text-align: right;\"><strong>Total Operational Efficiency Benefit</strong></p>"
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"A48"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"B48"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"C48"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"D48"
+													}
+												}]
+											}]
+										}]
+									}]
+								},{
+									"html":"<hr/>"
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"Operational Efficiency Conservative Factor"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"attributes":{
+												"class":"row"
+											},
+											"children":[{
+												"attributes":{
+													"class":"col-lg-6 input-slider"
+												},
+												"children":[{
+													"type":"slider",
+													"step":1,
+													"attributes":{
+														"calc-id":"CON2"
+													}
+												}]
+											},{
+												"attributes":{
+													"class":"col-lg-6"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"slider-input form-control",
+														"calc-id":"CON2"
+													}											
+												}]
+											}]
+										}]
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]
+			}]
+		},{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"attributes":{
+					"class": "row"
+				},
+				"children":[{
+					"attributes":{
+						"class":"col-md-6 col-sm-6 col-xs-6"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"ibox-content",
+								"style":"padding-left: 30px;"
+							},
+							"children":[{
+								"attributes":{
+									"class":"row bar-chart-container"
+								},
+								"children":[{
+									"type":"chart",
+									"attributes":{
+										"class":"bar-chart",
+										"style":"width: 100%;"
+									},
+									"currencyFormat" : "($0,0 a)",
+									"chart":{
+										"type":"column",
+										"margin":75,
+										"animation":false
+									},
+									"title":{
+										"text":"Operational Efficiency"
+									},
+									"subtitle":{
+										"text":"Total Benefit over Analysis Period"
+									},
+									"xAxis":{
+										"categories": [{"equation":"A19"},"Cohesity",{"equation":"C19"},{"equation":"D19"}]
+									},
+									"yAxis": [{
+										"style": {
+											"color": "#333",
+											"fontWeight": "bold",
+											"fontSize": "12px",
+											"fontFamily": "Trebuchet MS, Verdana, sans-serif"
+										},				
+										"title": {
+											"text": "Total Benefit"
+										},
+										"stackLabels": {
+											"enabled": true,
+											"align":"center"
+										}
+									}],
+									"tooltip": {
+										"headerFormat": "<span style=\"font-size:10px\">{point.key}</span><table>",
+										"pointFormat": "<tr><td style=\"color:{series.color};padding:0\">{series.name}: </td><td style=\"color:{series.color};padding:0;padding-left:10px;\"><b> {point.y:,.0f}</b></td></tr>",
+										"footerFormat": "</table>",
+										"shared": true,
+										"useHTML": true
+									},
+									"plotOptions": {
+										"column": {
+											"stacking":"normal",
+											"pointPadding": 0.2,
+											"borderWidth": 0
+										}
+									},
+									"series":[{
+										"name":"Solutions",
+										"type":"column",
+										"data":[0,0],
+										"color":"#FF6900",
+										"equations":["A48","B48","C48","D48"]
+									}]
+								}]
+							}]
+						}]
+					}]
+				},{
+					"attributes":{
+						"class":"col-md-6 col-sm-6 col-xs-6"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"ibox-content",
+								"style":"padding-left: 30px;"
+							},
+							"children":[{
+								"attributes":{
+									"class":"row bar-chart-container"
+								},
+								"children":[{
+									"type":"chart",
+									"attributes":{
+										"class":"bar-chart",
+										"style":"width: 100%;"
+									},
+									"chart":{
+										"type":"column",
+										"margin":75,
+										"animation":false
+									},
+									"title":{
+										"text":"Operational Efficiency"
+									},
+									"subtitle":{
+										"text":"Total Hours Gained over Analysis Period"
+									},
+									"xAxis":{
+										"categories": [{"equation":"A19"},"Cohesity",{"equation":"C19"},{"equation":"D19"}]
+									},
+									"yAxis": [{
+										"style": {
+											"color": "#333",
+											"fontWeight": "bold",
+											"fontSize": "12px",
+											"fontFamily": "Trebuchet MS, Verdana, sans-serif"
+										},
+										"stackLabels": {
+											"enabled": true,
+											"align":"center"
+										},			
+										"title": {
+											"text": "Hours"
+										}
+									}],
+									"tooltip": {
+										"headerFormat": "<span style=\"font-size:10px\">{point.key}</span><table>",
+										"pointFormat": "<tr><td style=\"color:{series.color};padding:0\">{series.name}: </td><td style=\"color:{series.color};padding:0;padding-left:10px;\"><b> {point.y:,.0f}</b></td></tr>",
+										"footerFormat": "</table>",
+										"shared": true,
+										"useHTML": true
+									},
+									"plotOptions": {
+										"column": {
+											"stacking":"normal",
+											"pointPadding": 0.2,
+											"borderWidth": 0
+										}
+									},
+									"series":[{
+										"name":"Total Hours Gained",
+										"type":"column",
+										"data":[0,0],
+										"color":"#132531",
+										"tooltip":{
+											"valueSuffix":" hours"
+										},
+										"equations":["A47","B47","C47","D47"]
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom white-bg dashboard-header",
+			"id":"section4"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"html":"<h1 style=\"margin-bottom: 20px;\">Risk & Compliance</h1>"
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom gray-bg dashboard-header"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-md-12 col-sm-12 col-xs-12"
+			},
+			"children":[{
+				"attributes":{
+					"class":"row"
+				},
+				"children":[{
+					"attributes":{
+						"class":"col-lg-12 col-md-12 col-sm-12 col-xs-12"
+					},
+					"children":[{
+						"attributes":{
+							"class": "ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"ibox-content",
+								"style":"padding-left: 30px;"
+							},
+							"children":[{
+								"attributes":{
+									"class":"row"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-md-12 section-writeup"
+									},
+									"children":[{
+										"html":"<p class=\"caption-text\">Cohesity takes a multi-layered security approach to prevent, detect, and analyze threats. Customers can take advantage of native cybersecurity features such as Immutable file system, software encryption, over the wire encryption, multi-factor authentication, DataLock (WORM) to protect their data. In addition, Cohesity DataPlatform is capable of conducting user and behavior analytics for security and compliance reasons.</p>"
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]
+			}]
+		},{
+			"attributes":{
+				"class":"col-md-12 col-sm-12 col-xs-12"
+			},
+			"children":[{
+				"attributes":{
+					"class":"row"
+				},
+				"children":[{
+					"attributes":{
+						"class":"col-lg-12 col-md-12 col-sm-12 col-xs-12"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"ibox-content",
+								"style":"border-top: none;"
+							},
+							"children":[{
+								"attributes":{
+									"class":"form-horizontal"
+								},
+								"children":[{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"attributes":{
+											"class":"subsection-header underlined"
+										},
+										"children":[{
+											"html":"<h2 class=\"subsection\"><strong>Ransomware</strong></h2>"
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"How much do you expect to pay for the ransom? (Avg ransom = $84,000)"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"attributes":{
+												"class":"input-group"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"calc-id":"A51"
+												}
+											},{
+												"attributes":{
+													"class":"input-group-addon right"
+												},
+												"tag":"span",
+												"children":[{
+													"tag":"i",
+													"attributes":{
+														"class":"fa fa-question-circle tooltipstered",
+														"title":"<a href=\"https://www.coveware.com/blog/2020/1/22/ransomware-costs-double-in-q4-as-ryuk-sodinokibi-proliferate\" target=\"_blank\">Click Here</a>"
+													}
+												}]
+											}]
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"What is your estimated cost of downtime per day? (revenue loss, employee productivity loss, brand/reputation risk, etc)"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"attributes":{
+												"class":"input-group"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"calc-id":"A52"
+												}
+											},{
+												"attributes":{
+													"class":"input-group-addon right"
+												},
+												"tag":"span",
+												"children":[{
+													"tag":"i",
+													"attributes":{
+														"class":"fa fa-question-circle tooltipstered",
+														"title":"<a href=\"https://www.the20.com/blog/the-cost-of-it-downtime/\" target=\"_blank\">Click Here</a>"
+													}
+												}]
+											}]
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"How long do you expect you will be down if you pay the ransom? (Avg outage = 7 days)"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"attributes":{
+												"class":"input-group"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"calc-id":"A53"
+												}
+											},{
+												"attributes":{
+													"class":"input-group-addon right"
+												},
+												"tag":"span",
+												"children":[{
+													"tag":"i",
+													"attributes":{
+														"class":"fa fa-question-circle tooltipstered",
+														"title":"<a href=\"https://reprints.forrester.com/#/assets/2/1666/RES154595/reports\" target=\"_blank\">Click Here</a>"
+													}
+												}]
+											}]
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"Cost of recovery via ransomware payments and decryption"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"attributes":{
+												"class":"input-group"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"disabled":"disabled",
+													"calc-id":"A56"
+												}
+											},{
+												"attributes":{
+													"class":"input-group-addon right output"
+												},
+												"tag":"span",
+												"children":[{
+													"tag":"i",
+													"attributes":{
+														"class":"fa fa-calculator tooltipstered",
+														"calculation-modal":"A56",
+														"title":"Click here to view the calculation breakdown"
+													}
+												}]
+											}]
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"How long do you expect you will be down if you restore using your current backup solution?"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"calc-id":"A54"
+											}
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"What is the risk that your current backup implementation will be unusable for recovery?"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"attributes":{
+												"class":"input-group"
+											},
+											"children":[{
+												"tag":"input",
+												"attributes":{
+													"class":"form-control",
+													"calc-id":"A55"
+												}
+											},{
+												"attributes":{
+													"class":"input-group-addon right"
+												},
+												"tag":"span",
+												"children":[{
+													"tag":"i",
+													"attributes":{
+														"class":"fa fa-question-circle tooltipstered",
+														"title":"Is the customer currently using WORM technology and/or multi-factor authentication? Are the backups running on a Windows OS which is more susceptible to vulnerabilities? These all impact their ability to recover data from the existing backup implementation."
+													}
+												}]
+											}]
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"How likely do you think it is that you will be impacted by Ransomware in the next <span calc-id=\"A6\"></span> years"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"tag":"input",
+											"attributes":{
+												"class":"form-control",
+												"calc-id":"A65"
+											}
+										}]
+									}]
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"attributes":{
+											"class":"subsection-header underlined"
+										},
+										"children":[{
+											"html":"<h2 class=\"subsection\"><strong>Business Benefit</strong></h2>"
+										}]
+									}]
+								},{
+									"tag":"table",
+									"attributes":{
+										"class":"data-table"
+									},
+									"children":[{
+										"tag":"colgroup",
+										"children":[{
+											"tag":"col",
+											"attributes":{
+												"width":"33%"
+											}
+										},{
+											"tag":"col",
+											"attributes":{
+												"width":"16%"
+											}
+										},{
+											"tag":"col",
+											"attributes":{
+												"width":"16%"
+											}
+										},{
+											"tag":"col",
+											"attributes":{
+												"width":"16%"
+											}
+										},{
+											"tag":"col",
+											"attributes":{
+												"width":"16%"
+											}
+										}]
+									},{
+										"tag":"thead",
+										"children":[{
+											"tag":"tr",
+											"children":[{
+												"tag":"th",
+												"children": [{
+													"html":"<h2 style=\"margin: 0; line-height: 24px; font-size: 1.25em; font-weight: 600; color: #4d627b; text-align: right;\">Impact from Ransomware</h2>"
+												}]
+											},{
+												"tag":"th",
+												"children":[{
+													"html":"<h2 style=\"margin: 0; line-height: 24px; font-size: 1.25em; font-weight: 600; color: #4d627b\"><center><span calc-id=\"A19\"></span> / <span calc-id=\"A23\"></span></center></h2>"
+												}]
+											},{
+												"tag":"th",
+												"children":[{
+													"html":"<h2 style=\"margin: 0; line-height: 24px; font-size: 1.25em; font-weight: 600; color: #4d627b\"><center>Cohesity</center></h2>"
+												}]
+											},{
+												"tag":"th",
+												"children":[{
+													"html":"<h2 style=\"margin: 0; line-height: 24px; font-size: 1.25em; font-weight: 600; color: #4d627b\"><center><span calc-id=\"C19\"></span> / <span calc-id=\"C23\"></span></center></h2>"
+												}]
+											},{
+												"tag":"th",
+												"children":[{
+													"html":"<h2 style=\"margin: 0; line-height: 24px; font-size: 1.25em; font-weight: 600; color: #4d627b\"><center><span calc-id=\"D19\"></span> / <span calc-id=\"D23\"></span></center></h2>"
+												}]
+											}]
+										}]
+									},{
+										"tag":"tbody",
+										"children":[{
+											"tag":"tr",
+											"children":[{
+												"tag":"td",
+												"children":[{
+													"html":"<p style=\"margin: 0; text-align: right;\">Improvement in recovery time</p>"
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"A57"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"B57"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"C57"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"D57"
+													}
+												}]
+											}]
+										},{
+											"tag":"tr",
+											"children":[{
+												"tag":"td",
+												"children":[{
+													"html":"<p style=\"margin: 0; text-align: right;\">Improvement in ability to recover</p>"
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"A58"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"B58"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"C58"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"D58"
+													}
+												}]
+											}]
+										},{
+											"tag":"tr",
+											"children":[{
+												"tag":"td",
+												"children":[{
+													"html":"<p style=\"margin: 0; text-align: right;\">Estimated time to recover (in days)</p>"
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"A59"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"B59"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"C59"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"D59"
+													}
+												}]
+											}]
+										},{
+											"tag":"tr",
+											"attributes":{
+												"style": "display: none;"
+											},
+											"children":[{
+												"tag":"td",
+												"children":[{
+													"html":"<p style=\"margin: 0; text-align: right;\">Estimated risk in being unable to recover</p>"
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"A60"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"B60"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"C60"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"D60"
+													}
+												}]
+											}]
+										},{
+											"tag":"tr",
+											"children":[{
+												"tag":"td",
+												"children":[{
+													"html":"<p style=\"margin: 0; text-align: right;\">Downtime cost of recovery using backup</p>"
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"A61"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"B61"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"C61"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"D61"
+													}
+												}]
+											}]
+										},{
+											"tag":"tr",
+											"attributes":{
+												"style": "display: none;"
+											},
+											"children":[{
+												"tag":"td",
+												"children":[{
+													"html":"<p style=\"margin: 0; text-align: right;\">Average total impact of ransomware attack</p>"
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"A62"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"B62"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"C62"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"D62"
+													}
+												}]
+											}]
+										},{
+											"tag":"tr",
+											"children":[{
+												"tag":"td",
+												"children":[{
+													"html":"<p style=\"margin: 0; text-align: right;\">Projected impact from ransomware over the next <span calc-id=\"A6\"></span> years</p>"
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"A63"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"B63"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"C63"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"D63"
+													}
+												}]
+											}]
+										},{
+											"tag":"tr",
+											"children":[{
+												"tag":"td",
+												"children":[{
+													"html":"<p style=\"margin: 0; text-align: right;\"><strong>Total Benefit from Ransomware Recovery Improvements</strong></p>"
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"A64"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"B64"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"C64"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"D64"
+													}
+												}]
+											}]
+										}]
+									}]
+								},{
+									"html":"<hr/>"
+								},{
+									"attributes":{
+										"class":"form-group"
+									},
+									"children":[{
+										"tag":"label",
+										"attributes":{
+											"class":"control-label col-lg-8 col-md-8 col-sm-8"
+										},
+										"children":[{
+											"html":"Risk and Compliance Conservative Factor"
+										}]
+									},{
+										"attributes":{
+											"class":"col-lg-4 col-md-4 col-sm-4 input-holder"
+										},
+										"children":[{
+											"attributes":{
+												"class":"row"
+											},
+											"children":[{
+												"attributes":{
+													"class":"col-lg-6 input-slider"
+												},
+												"children":[{
+													"type":"slider",
+													"step":1,
+													"attributes":{
+														"calc-id":"CON3"
+													}
+												}]
+											},{
+												"attributes":{
+													"class":"col-lg-6"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"slider-input form-control",
+														"calc-id":"CON3"
+													}											
+												}]
+											}]
+										}]
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]
+			}]
+		},{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"attributes":{
+					"class": "row"
+				},
+				"children":[{
+					"attributes":{
+						"class":"col-md-12 col-sm-12 col-xs-12"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"ibox-content",
+								"style":"padding-left: 30px;"
+							},
+							"children":[{
+								"attributes":{
+									"class":"row bar-chart-container"
+								},
+								"children":[{
+									"type":"chart",
+									"attributes":{
+										"class":"bar-chart",
+										"style":"width: 100%;"
+									},
+									"currencyFormat" : "($0,0 a)",
+									"chart":{
+										"type":"column",
+										"margin":75,
+										"animation":false
+									},
+									"title":{
+										"text":"Risk & Compliance"
+									},
+									"subtitle":{
+										"text":"Total Impact Reduction over Analysis Period"
+									},
+									"xAxis":{
+										"categories": [{"equation":"A19"},"Cohesity",{"equation":"C19"},{"equation":"D19"}]
+									},
+									"yAxis": [{
+										"style": {
+											"color": "#333",
+											"fontWeight": "bold",
+											"fontSize": "12px",
+											"fontFamily": "Trebuchet MS, Verdana, sans-serif"
+										},				
+										"title": {
+											"text": "Impact Reduction Benefit"
+										},
+										"stackLabels": {
+											"enabled": true,
+											"align":"center"
+										}
+									}],
+									"tooltip": {
+										"headerFormat": "<span style=\"font-size:10px\">{point.key}</span><table>",
+										"pointFormat": "<tr><td style=\"color:{series.color};padding:0\">{series.name}: </td><td style=\"color:{series.color};padding:0;padding-left:10px;\"><b> {point.y:,.0f}</b></td></tr>",
+										"footerFormat": "</table>",
+										"shared": true,
+										"useHTML": true
+									},
+									"plotOptions": {
+										"column": {
+											"stacking":"normal",
+											"pointPadding": 0.2,
+											"borderWidth": 0
+										}
+									},
+									"series":[{
+										"name":"Solutions",
+										"type":"column",
+										"data":[0,0],
+										"color":"#FF6900",
+										"equations":["A63","B63","C63","D63"]
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom white-bg dashboard-header",
+			"id":"section5"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"html":"<h1 style=\"margin-bottom: 20px;\">Summary<span class=\"pull-right pod-total section-total grand-total txt-money\" calc-id=\"D71\">$0</span></h1>"
+			}]
+		}]
+	},{
+		"attributes":{
+			"class":"row border-bottom gray-bg dashboard-header"
+		},
+		"children":[{
+			"attributes":{
+				"class":"col-lg-12"
+			},
+			"children":[{
+				"attributes":{
+					"class":"row"
+				},
+				"children":[{
+					"attributes":{
+						"class":"col-md-12 col-sm-12 col-xs-12"
+					},
+					"children": [{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"ibox-title"
+							},
+							"children":[{
+								"html":"<h5>Summary</h5>"
+							}]
+						},{
+							"attributes":{
+								"class":"ibox-content"
+							},
+							"children":[{
+								"attributes":{
+									"class":"row"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-md-12 section-write-up"
+									},
+									"children":[{
+										"html":"<p class=\"caption-text\" style=\"font-size: 18px;\">The table below represents a summary of the possible ROI you can expect by category and by year based on data supplied. You can adjust the ROI output to reflect implementation based on expected timelines.</p><hr>"
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]		
+			}]
+		},{
+			"attributes":{
+				"class":"col-md-12 col-sm-12 col-xs-12"
+			},
+			"children":[{
+				"attributes":{
+					"class":"row"
+				},
+				"children":[{
+					"attributes":{
+						"class":"col-lg-9 col-md-9 col-sm-12 col-xs-12"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox-content"
+						},
+						"children":[{
+							"attributes":{
+								"class":"form-horizontal"
+							},
+							"children":[{
+								"attributes":{
+									"class":"ibox-content"
+								},
+								"children":[{
+									"tag":"table",
+									"attributes":{
+										"class":"data-table"
+									},
+									"children":[{
+										"tag":"colgroup",
+										"children":[{
+											"tag":"col",
+											"attributes":{
+												"width":"22%"
+											}
+										},{
+											"tag":"col",
+											"attributes":{
+												"width":"13%"
+											}
+										},{
+											"tag":"col",
+											"attributes":{
+												"width":"13%"
+											}
+										},{
+											"tag":"col",
+											"attributes":{
+												"width":"13%"
+											}
+										},{
+											"tag":"col",
+											"attributes":{
+												"width":"13%"
+											}
+										},{
+											"tag":"col",
+											"attributes":{
+												"width":"13%"
+											}
+										},{
+											"tag":"col",
+											"attributes":{
+												"width":"13%"
+											}
+										}]
+									},{
+										"tag":"thead",
+										"children":[{
+											"tag":"tr",
+											"children":[{
+												"tag":"th",
+												"children": [{
+													"html":"<h2 style=\"margin: 0; line-height: 24px; font-size: 1em; font-weight: 600; color: #4d627b; text-align: right;\">Cohesity Solution Benefits</h2>"
+												}]
+											},{
+												"tag":"th",
+												"children":[{
+													"html":"<h2 style=\"margin: 0; line-height: 24px; font-size: 1em; font-weight: 600; color: #4d627b\"><center>Year 1</center></h2>"
+												}]
+											},{
+												"tag":"th",
+												"children":[{
+													"html":"<h2 style=\"margin: 0; line-height: 24px; font-size: 1em; font-weight: 600; color: #4d627b\"><center>Year 2</center></h2>"
+												}]
+											},{
+												"tag":"th",
+												"children":[{
+													"html":"<h2 style=\"margin: 0; line-height: 24px; font-size: 1em; font-weight: 600; color: #4d627b\"><center>Year 3</center></h2>"
+												}]
+											},{
+												"tag":"th",
+												"children":[{
+													"html":"<h2 style=\"margin: 0; line-height: 24px; font-size: 1em; font-weight: 600; color: #4d627b\"><center>Year 4</center></h2>"
+												}]
+											},{
+												"tag":"th",
+												"children":[{
+													"html":"<h2 style=\"margin: 0; line-height: 24px; font-size: 1em; font-weight: 600; color: #4d627b\"><center>Year 5</center></h2>"
+												}]
+											},{
+												"tag":"th",
+												"children":[{
+													"html":"<h2 style=\"margin: 0; line-height: 24px; font-size: 1em; font-weight: 600; color: #4d627b\"><center>Total</center></h2>"
+												}]
+											}]
+										}]
+									},{
+										"tag":"tbody",
+										"children":[{
+											"tag":"tr",
+											"children":[{
+												"tag":"td",
+												"children":[{
+													"html":"<p style=\"margin: 0; text-align: right;\">Data Protection Efficiency</p>"
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"A68"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"B68"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"C68"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"E68"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"F68"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"D68"
+													}
+												}]
+											}]
+										},{
+											"tag":"tr",
+											"children":[{
+												"tag":"td",
+												"children":[{
+													"html":"<p style=\"margin: 0; text-align: right;\">Operational Efficiency</p>"
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"A69"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"B69"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"C69"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"E69"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"F69"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"D69"
+													}
+												}]
+											}]
+										},{
+											"tag":"tr",
+											"children":[{
+												"tag":"td",
+												"children":[{
+													"html":"<p style=\"margin: 0; text-align: right;\">Risk and Compliance</p>"
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"A70"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"B70"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"C70"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"E70"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"F70"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"D70"
+													}
+												}]
+											}]
+										},{
+											"tag":"tr",
+											"children":[{
+												"tag":"td",
+												"children":[{
+													"html":"<p style=\"margin: 0; text-align: right;\"><strong>Total Benefit</strong></p>"
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"A71"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"B71"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"C71"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"E71"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"F71"
+													}
+												}]
+											},{
+												"tag":"td",
+												"attributes":{
+													"style":"background-color: rgb(238,238,238)"
+												},
+												"children":[{
+													"tag":"input",
+													"attributes":{
+														"class":"form-control",
+														"style":"border: none;",
+														"disabled":"disabled",
+														"calc-id":"D71"
+													}
+												}]
+											}]
+										}]
+									}]
+								}]
+							}]
+						}]
+					}]
+				},{
+					"attributes":{
+						"class":"col-lg-3 col-md-3 col-sm-12 col-xs-12"
+					},
+					"children":[{
+						"attributes":{
+							"class":"ibox float-e-margins"
+						},
+						"children":[{
+							"attributes":{
+								"class":"faq-item"
+							},
+							"children":[{
+								"html":"Implementation Period: <span class=\"pull-right\"><span calc-id=\"IMP1\"></span> months</span>"
+							},{
+								"attributes":{
+									"class":"row",
+									"style":"padding-top: 15px;"
+								},
+								"children":[{
+									"attributes":{
+										"class":"col-lg-12"
+									},
+									"children":[{
+										"type":"slider",
+										"attributes":{
+											"calc-id":"IMP1"
+										},
+										"min": 0,
+										"max": 60
+									}]
+								}]
+							}]
+						}]
+					}]
+				}]
+			}]
+		}]
+	}]
+}]
