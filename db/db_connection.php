@@ -6,7 +6,7 @@
 	
 	$host		= 'localhost';
 	$username	= 'root';
-	$password	= '';
+	$password	= '$3rVerus1..';
 	$database	= 'roit';
 
 	try {
@@ -17,7 +17,7 @@
 		
 		$host		= 'localhost';
 		$username	= 'root';
-		$password	= '';
+		$password	= '$3rVerus1..';
 		$database	= 'roi';
 		
 		try {
